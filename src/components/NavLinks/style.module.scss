@@ -12,6 +12,7 @@
   font-size: 18px;
   line-height: 22.5px;
   font-weight: 600;
+  min-width: fit-content;
   &--active,
   &:hover {
     color: $white;

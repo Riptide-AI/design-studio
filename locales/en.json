@@ -1,8 +1,12 @@
-{
+{"navigation" : {
   "home": "Home",
   "services": "Services",
   "contacts": "Contacts",
   "portfolio": "Portfolio",
   "aboutUs": "About Us",
   "partnership": "Partnership"
+},
+"buttons": {
+  "contactUs": "Contact Us"
+}
 }
