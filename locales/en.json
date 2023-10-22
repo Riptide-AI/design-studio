@@ -1,5 +1,8 @@
 {
   "home": "Home",
   "services": "Services",
-  "contacts": "Contacts"
+  "contacts": "Contacts",
+  "portfolio": "Portfolio",
+  "aboutUs": "About Us",
+  "partnership": "Partnership"
 }

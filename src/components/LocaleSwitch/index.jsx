@@ -1,6 +1,6 @@
 import { useTranslation } from 'react-i18next';
 
-export const LocaleSwitch = ()=> {
+export const LocaleSwitch = () => {
   const { t, i18n } = useTranslation();
 
   const changeLanguage = (lng) => {
@@ -13,5 +13,4 @@ export const LocaleSwitch = ()=> {
       <button onClick={() => changeLanguage('ua')}>Українська</button>
     </div>
   );
-}
-
+};

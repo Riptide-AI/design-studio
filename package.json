@@ -8,7 +8,7 @@
     "start": "next start",
     "lint": "eslint .",
     "lint:fix": "eslint . --fix ",
-    "prettier": "prettier --write \"**/*.{js,jsx}\""
+    "prettier": "prettier --write \"**/*.{js,jsx,scss,css}\""
   },
   "dependencies": {
     "i18next": "^23.6.0",

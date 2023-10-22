@@ -1,9 +1,11 @@
 import { LocaleSwitch } from '@/components/LocaleSwitch';
-import { useTranslation } from 'react-i18next';
+import { HeroBanner } from '@/features/HeroBanner';
 
 export default function Home() {
-  const { t } = useTranslation();
-
-  return <div>{t('home')}
-  <LocaleSwitch/></div>;
-}LocaleSwitch
+  return (
+    <>
+      <HeroBanner />
+      <LocaleSwitch />
+    </>
+  );
+}
