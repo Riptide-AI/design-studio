@@ -13,7 +13,11 @@ export const Tabs = ({ items }) => {
   return (
     <div className={styles.tabs_container}>
       {items.map((tab, index) => (
-        <div key={index} className={clsx(styles.tab, { [styles.active]: activeTab === index })} style={{borderWidth :  activeTab  === index + 1 && "0px"  }}>
+        <div
+          key={index}
+          className={clsx(styles.tab, { [styles.active]: activeTab === index })}
+          style={{ borderWidth: activeTab === index + 1 && '0px' }}
+        >
           <div className={styles.tab_header} onClick={() => toggleTab(index)}>
             {tab.tabName}
             <Image

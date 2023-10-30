@@ -9,7 +9,10 @@ export const AboutUsSection = () => {
       <section className={styles.about_us}>
         <div className={styles.about_us__content}>
           <h3 className={styles.about_us__title}>{aboutUs.title}</h3>
-          <div className={styles.about_us__desc} dangerouslySetInnerHTML= {{__html: aboutUs.desc}}/>
+          <div
+            className={styles.about_us__desc}
+            dangerouslySetInnerHTML={{ __html: aboutUs.desc }}
+          />
         </div>
         <div className={styles.about_us__image}>
           <Image src={aboutUs.image} fill="true" />
