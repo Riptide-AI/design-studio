@@ -10,8 +10,7 @@ export const InfiniteSlider = ({ list }) => {
           src={item.src}
           alt={item.alt}
           // sizes={`${item.src.dimensions.width / 2}px`}
-          layout="fill"
-          // objectFit="contain"
+          fill='true'
         />
       </div>
     ));

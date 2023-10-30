@@ -3,7 +3,7 @@ import { useState } from 'react';
 import clsx from 'clsx';
 import Image from 'next/image';
 export const Tabs = ({ items }) => {
-  const [activeTab, setActiveTab] = useState(null);
+  const [activeTab, setActiveTab] = useState(0);
 
   const toggleTab = (index) => {
     setActiveTab(activeTab === index ? null : index);
@@ -13,7 +13,7 @@ export const Tabs = ({ items }) => {
   return (
     <div className={styles.tabs_container}>
       {items.map((tab, index) => (
-        <div key={index} className={clsx(styles.tab, { [styles.active]: activeTab === index })}>
+        <div key={index} className={clsx(styles.tab, { [styles.active]: activeTab === index })} style={{borderWidth :  activeTab  === index + 1 && "0px"  }}>
           <div className={styles.tab_header} onClick={() => toggleTab(index)}>
             {tab.tabName}
             <Image
