@@ -19,7 +19,7 @@ export const Navbar = () => {
           </div>
           <NavLinks links={navigation} />
           <LocaleSwitch />
-          <CustomButton title={t('buttons.contactUs')} />
+          <CustomButton title={t('buttons.contactUs')} stylesClassName={styles.navbar__btn} />
         </div>
       </ContentWrapper>
     </header>

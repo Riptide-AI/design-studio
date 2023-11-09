@@ -1,8 +1,7 @@
 @import '@/styles/vars.scss';
 
 .button {
-  width: 160px;
-  height: 48px;
+  padding: 12px 32px;
   border-radius: 90px;
   background-color: $bright-blue;
   color: $white;
@@ -13,7 +12,6 @@
   font-weight: 600;
   display: flex;
   align-items: center;
-  margin-left: 80px;
   cursor: pointer;
   &:hover {
     background-color: $bright-blue-hover;

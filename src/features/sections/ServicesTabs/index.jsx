@@ -12,7 +12,7 @@ export const ServicesTabs = () => {
             <Image src="/img/services-tabs.png" fill="true" />
           </div>
           <div className={styles.services__desc}>
-            <h4 className={styles.services__title}>Послуги</h4>
+            <h3 className={styles.services__title}>Послуги</h3>
             <div className={styles.services__tabs}>
               <Tabs items={servicesTabs} />
             </div>

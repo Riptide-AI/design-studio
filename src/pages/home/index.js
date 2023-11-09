@@ -1,7 +1,8 @@
-import { LocaleSwitch } from '@/components/LocaleSwitch';
-import { AboutUsSection } from '@/features/AboutUsSection';
-import { HeroBanner } from '@/features/HeroBanner';
-import { ServicesTabs } from '@/features/ServicesTabs';
+import { AboutUsSection } from '@/features/sections/AboutUsSection';
+import { BusinessShowCase } from '@/features/sections/BusinessShowCase';
+import { HeroBanner } from '@/features/sections/HeroBanner';
+import { HowItWorks } from '@/features/sections/HowItWorks';
+import { ServicesTabs } from '@/features/sections/ServicesTabs';
 
 export default function Home() {
   return (
@@ -9,6 +10,8 @@ export default function Home() {
       <HeroBanner />
       <ServicesTabs />
       <AboutUsSection />
+      <BusinessShowCase />
+      <HowItWorks />
     </>
   );
 }

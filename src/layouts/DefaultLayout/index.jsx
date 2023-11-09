@@ -1,5 +1,5 @@
-import { Footer } from '@/features/Footer';
-import { Navbar } from '@/features/Navbar';
+import { Footer } from '@/features/sections/Footer';
+import { Navbar } from '@/features/sections/Navbar';
 import styles from './style.module.scss';
 
 export const DefaultLayout = ({ children }) => {
