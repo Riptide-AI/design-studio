@@ -9,7 +9,6 @@ export const InfiniteSlider = ({ list }) => {
         <Image
           src={item.src}
           alt={item.alt}
-          // sizes={`${item.src.dimensions.width / 2}px`}
           fill="true"
           
         />

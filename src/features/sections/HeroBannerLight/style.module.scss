@@ -1,0 +1,31 @@
+@import '@/styles/vars.scss';
+.wrapper {
+  width: 100%;
+}
+.hero {
+  margin-top: 170px;
+  height: 700px;
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  width: 100%;
+  &__title,
+  &__desc {
+    font-family: $main-font;
+  }
+  &__title {
+    font-size: 56px;
+    line-height: 70px;
+    font-weight: 600;
+    color: $white;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+  }
+  &__desc {
+    font-size: 16px;
+    line-height: 24px;
+    color: $dark-grey;
+    max-width: 500px;
+    font-weight: 400;
+  }
+}

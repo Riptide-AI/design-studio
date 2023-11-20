@@ -1,0 +1,25 @@
+@import '@/styles/vars.scss';
+
+.work-together {
+  margin-top: 170px;
+  display: flex;
+  justify-content: space-between;
+  font-family: $main-font;
+  width: 100%;
+  &__content {
+    max-width: 500px;
+    width: 100%;
+  }
+  &__title {
+    font-size: 56px;
+    line-height: 125%;
+    margin-bottom: 20px;
+    color: $white;
+  }
+  &__desc {
+    font-size: 16px;
+    line-height: 150%;
+    color: $dark-grey;
+
+  }
+}

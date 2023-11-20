@@ -1,0 +1,51 @@
+@import '@/styles/vars.scss';
+
+.technologies {
+  margin-top: 140px;
+  width: 100%;
+  &__title {
+    font-family: $main-font;
+    font-size: 40px;
+    line-height: 125%;
+    font-weight: 600;
+    color: $white;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  &__desc {
+    font-family: $main-font;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: $dark-grey;
+    margin: 0 auto 40px;
+    text-align: center;
+    max-width: 665px;
+  }
+  &__list {
+    display: grid;
+    gap: 28px 40px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+  }
+  &__item {
+    padding: 12px;
+    border: 1px solid $bright-blue;
+    border-radius: 5px;
+    &_title {
+      margin-bottom: 8px;
+      font-family: $main-font;
+      font-size: 18px;
+      font-weight: 600;
+      line-height: 125%;
+      color: $white;
+    }
+    &_desc {
+      font-family: $main-font;
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 150%;
+      color: $dark-grey;
+    }
+  }
+}

@@ -3,7 +3,7 @@ import { useForm } from 'react-hook-form';
 import { CustomButton } from '../CustomButton';
 import { contactUs } from '@/data/homepage';
 
-export const ContactForm = () => {
+export const ContactForm = ({variant}) => {
   const { register, handleSubmit } = useForm();
   const onSubmit = (data) => console.log(data);
 
@@ -16,7 +16,7 @@ export const ContactForm = () => {
       <input {...register('email')}className={styles.form__input} placeholder={contactUs.email}/>
       <label htmlFor="desc" className={styles.form__label}>{contactUs.desc} </label>
       <input {...register('desc')} id={'desc'} className={styles.form__input} placeholder={contactUs.descPlaceholder}/>
-      <CustomButton title={contactUs.btn} type="submit" stylesClassName={styles.form__btn} />
+      <CustomButton title={contactUs.btn} type="submit" stylesClassName={variant ? styles[`${variant}-btn`] : styles.form__btn} />
     </form>
   );
 };

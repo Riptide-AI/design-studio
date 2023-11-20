@@ -5,7 +5,7 @@ import { howitworks } from '@/data/homepage';
 import Image from 'next/image';
 import { useState } from 'react';
 
-export const HowItWorks = () => {
+export const HowItWorks = ({ hideBtn }) => {
   const [currentBlockId, setCurrentBlockId] = useState(null);
   const handleSwitch = (id) => {
     id === currentBlockId ? setCurrentBlockId(null) : setCurrentBlockId(id);
@@ -19,7 +19,7 @@ export const HowItWorks = () => {
             <div className={styles.howitworks__card} key={index}>
               <div className={styles.howitworks__card__content}>
                 <div className={styles.howitworks__card__icon}>
-                  <Image src={item.icon} height={100} width={100}  alt=""/>
+                  <Image src={item.icon} height={100} width={100} alt="" placeholder="empty" />
                 </div>
               </div>
               <CustomButton
@@ -32,8 +32,10 @@ export const HowItWorks = () => {
         </div>
         {currentBlockId !== null ? (
           <div className={styles.howitworks__desc}> {howitworks[currentBlockId].desc}</div>
-        ) : (
+        ) : !hideBtn ? (
           <CustomButton title="Замовити веб-сайт" stylesClassName={styles.howitworks__btn} />
+        ) : (
+          <></>
         )}
       </div>
     </ContentWrapper>
