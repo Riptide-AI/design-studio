@@ -16,6 +16,7 @@
   }
   &__cards {
     display: flex;
+    margin: 0 auto;
   }
   &__card {
     width: 232px;
@@ -23,13 +24,42 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    &:last-child {
+      .howitworks__card__content {
+        &::before {
+          content: '';
+          position: absolute;
+          background-color: $bright-blue;
+          border-radius: 50%;
+          height: 20px;
+          width: 20px;
+          right: -10px;
+          top: 50%;
+          transform: translateY(-50%);
+        }
+      }
+    }
+
+    &__content {
+      position: relative;
+      &::after {
+        content: '';
+        position: absolute;
+        background-color: $bright-blue;
+        border-radius: 50%;
+        height: 20px;
+        width: 20px;
+        left: -10px;
+        top: 50%;
+        transform: translateY(-50%);
+      }
+    }
     &:nth-child(2n-1) {
       .howitworks__card__icon {
         &::after {
           bottom: 0;
           border-top: none;
           border-radius: 0 0 15px 15px;
-
         }
       }
     }
@@ -41,7 +71,8 @@
           border-bottom: none;
           box-sizing: border-box;
           border-radius: 15px 15px 0 0;
-          border-spacing: 5px;        }
+          border-spacing: 5px;
+        }
       }
     }
     &__icon {
@@ -61,7 +92,7 @@
       }
     }
     &__btn {
-      width: 100%;
+      width: calc(100% - 20px);
       margin-top: 24px;
       border-radius: 2px;
     }
@@ -69,5 +100,15 @@
   &__btn {
     width: fit-content;
     margin: 0 auto;
+  }
+  &__desc{
+    border: 1px solid $bright-blue;
+    width: calc(100% - 70px);
+    margin: 0 auto;
+    padding: 20px;
+    color: $dark-grey;
+    font-size: 16px;
+    line-height: 24px;
+    font-family: $main-font;
   }
 }

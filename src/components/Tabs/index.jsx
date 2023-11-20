@@ -7,7 +7,6 @@ export const Tabs = ({ items }) => {
 
   const toggleTab = (index) => {
     setActiveTab(activeTab === index ? null : index);
-    console.log(activeTab);
   };
 
   return (
@@ -16,7 +15,7 @@ export const Tabs = ({ items }) => {
         <div
           key={index}
           className={clsx(styles.tab, { [styles.active]: activeTab === index })}
-          style={{ borderWidth: activeTab === index + 1 && '0px' }}
+          style={{ borderWidth:  activeTab === index + 1 ? '0px': "1px" }}
         >
           <div className={styles.tab_header} onClick={() => toggleTab(index)}>
             {tab.tabName}
@@ -25,6 +24,7 @@ export const Tabs = ({ items }) => {
               height={40}
               width={40}
               className={clsx(styles.link__icon, { [styles.active]: activeTab === index })}
+              alt=""
             />
           </div>
           <div className={clsx(styles.tab_content, { [styles.open]: activeTab === index })}>

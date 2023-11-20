@@ -15,11 +15,11 @@ export const AboutUsSection = () => {
           />
         </div>
         <div className={styles.about_us__image}>
-          <Image src={aboutUs.image} fill="true" />
+          <Image src={aboutUs.image} fill="true"  alt=""/>
         </div>
         <div className={styles.about_us__cards_list}>
-          {aboutUs.cards.map((card) => (
-            <div className={styles.about_us__card}>
+          {aboutUs.cards.map((card, index) => (
+            <div className={styles.about_us__card} key={index}>
               <div className={styles.about_us__card_counter}>{card.counter}</div>
               <div className={styles.about_us__card_desc}>{card.desc}</div>
             </div>

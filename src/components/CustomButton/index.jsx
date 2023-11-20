@@ -1,9 +1,13 @@
 import styles from './style.module.scss';
 
-export const CustomButton = ({ title, action, stylesClassName }) => {
+export const CustomButton = ({ title, action, type, stylesClassName }) => {
   return (
-    <div role="button" className={`${stylesClassName} ${styles.button}`}>
+    <button
+      type={type ? type : 'button'}
+      className={`${stylesClassName} ${styles.button}`}
+      onClick={action}
+    >
       {title}
-    </div>
+    </button>
   );
 };

@@ -11,6 +11,7 @@ export const InfiniteSlider = ({ list }) => {
           alt={item.alt}
           // sizes={`${item.src.dimensions.width / 2}px`}
           fill="true"
+          
         />
       </div>
     ));

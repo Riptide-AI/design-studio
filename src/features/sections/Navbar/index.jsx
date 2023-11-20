@@ -15,7 +15,7 @@ export const Navbar = () => {
       <ContentWrapper>
         <div className={styles['nav-wrapper']}>
           <div className={styles.logo}>
-            <Image src="/img/logo.png" alt="logo" layout="fill" objectFit="cover" />
+            <Image src="/img/logo.png" alt="logo" layout="fill" objectFit="cover"/>
           </div>
           <NavLinks links={navigation} />
           <LocaleSwitch />
