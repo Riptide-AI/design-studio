@@ -9,15 +9,14 @@ export const ContactForm = () => {
 
   return (
     <form onSubmit={handleSubmit(onSubmit)} className={styles.form}>
-      <input {...register('name')} />
-      <input {...register('phone')} />
-      <input {...register('email')} />
-      <input {...register('desc')} />
-      <CustomButton
-        title={contactUs.btn}
-        type="submit"
-        stylesClassName={styles['contact-us__btn']}
-      />
+      <div className={styles.form__personal}>
+        <input {...register('name')} className={styles.form__input} placeholder={contactUs.name}/>
+        <input {...register('phone')}  className={styles.form__input} placeholder={contactUs.phone}/>
+      </div>
+      <input {...register('email')}className={styles.form__input} placeholder={contactUs.email}/>
+      <label htmlFor="desc" className={styles.form__label}>{contactUs.desc} </label>
+      <input {...register('desc')} id={'desc'} className={styles.form__input} placeholder={contactUs.descPlaceholder}/>
+      <CustomButton title={contactUs.btn} type="submit" stylesClassName={styles.form__btn} />
     </form>
   );
 };

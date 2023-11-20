@@ -1,0 +1,36 @@
+@import '@/styles/vars.scss';
+
+.form{
+  display: flex;
+  flex-direction: column;
+  width: 600px;
+  &__input{
+    margin-bottom: 32px;
+    width: 100%;
+    height: 25px;
+    background-color: transparent;
+    outline: none;
+    border: none;
+    border-bottom: 2px solid $white;
+    font-size: 14px;
+    line-height: 120%;
+    color: $light-grey;
+    &::placeholder{
+      color: $dark-grey;
+    }
+  }
+  &__personal{
+    display: flex;
+    gap: 40px;
+    width: 100%;
+  }
+  &__label{
+    margin-bottom: 20px;
+    font-size: 16px;
+    line-height: 150%;
+    color: $light-grey;
+  }
+  &__btn{
+    margin: 60px auto 0;
+  }
+}

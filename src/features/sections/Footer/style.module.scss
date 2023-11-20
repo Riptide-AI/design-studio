@@ -1,0 +1,85 @@
+@import '@/styles/vars.scss';
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  padding: 48px 0;
+  width: 100%;
+  font-family: $main-font;
+  &__bg {
+    background-color: $pale-blue;
+    width: 100%;
+  }
+  &__content {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    font-size: 16px;
+    line-height: 150%;
+  }
+  &__info {
+    display: flex;
+    flex-direction: column;
+    max-width: 390px;
+    width: 100%;
+  }
+  &__nav {
+    display: flex;
+    margin-left: auto;
+    gap: 40px;
+  }
+  &__subLinks {
+    display: flex;
+    gap: 40px;
+    list-style-type: none;
+  }
+  &__links {
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+  }
+  &__link-item {
+    margin-bottom: 12px;
+    color: $white;
+    font-weight: 600px;
+    font-size: 18px;
+    line-height: 125%;
+    font-size: 16px;
+    line-height: 150%;
+  }
+  &__subLink-item {
+    margin-bottom: 12px;
+    color: $dark-grey;
+    &:hover {
+      color: $white;
+    }
+  }
+  &__logo {
+    width: 168px;
+    height: 38px;
+    position: relative;
+    cursor: pointer;
+    margin-bottom: 32px;
+  }
+  &__desc {
+    margin-bottom: 20px;
+    color: $dark-grey;
+  }
+  &__contacts {
+    color: $dark-grey;
+    margin-bottom: 6px;
+  }
+  &__socials {
+    display: flex;
+    margin: 120px auto 0;
+    gap: 30px;
+    height: 28px;
+  }
+  &__rights {
+    color: $dark-grey;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 16px;
+  }
+}
