@@ -1,0 +1,62 @@
+@import '@/styles/vars.scss';
+
+.about_us {
+  margin-top: 140px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+  &__content {
+    flex-basis: calc(50% - 20px);
+  }
+  &__title {
+    font-family: $main-font;
+    font-size: 56px;
+    line-height: 70px;
+    font-weight: 600;
+    color: $white;
+    margin-bottom: 20px;
+  }
+  &__desc {
+    font-family: $main-font;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: $dark-grey;
+  }
+  &__image {
+    flex-basis: calc(50% - 20px);
+    position: relative;
+    width: 100%;
+    max-width: 600px;
+    height: 256px;
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  &__cards_list {
+    display: flex;
+    gap: 32px;
+    width: 100%;
+  }
+  &__card {
+    flex-grow: 1;
+    padding: 40px;
+    background-color: $pale-blue;
+    border-radius: 20px;
+  }
+  &__card_counter {
+    font-family: $main-font;
+    font-weight: 600;
+    font-size: 56px;
+    line-height: 70px;
+    color: $white;
+    text-align: center;
+  }
+  &__card_desc {
+    font-family: $main-font;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: $dark-grey;
+    text-align: center;
+  }
+}

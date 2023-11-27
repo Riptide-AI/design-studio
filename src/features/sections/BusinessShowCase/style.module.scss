@@ -1,0 +1,20 @@
+@import '@/styles/vars.scss';
+
+.business {
+  margin-top: 140px;
+  width: 100%;
+  &__title {
+    text-align: center;
+    color: $white;
+    font-family: $main-font;
+    font-size: 40px;
+    line-height: 50px;
+    font-weight: 600;
+    margin-bottom: 80px;
+  }
+  &__cards {
+    display: flex;
+    gap: 40px;
+    justify-content: space-between;
+  }
+}

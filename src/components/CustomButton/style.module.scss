@@ -1,0 +1,20 @@
+@import '@/styles/vars.scss';
+
+.button {
+  padding: 12px 32px;
+  border-radius: 90px;
+  background-color: $bright-blue;
+  color: $white;
+  font-family: $main-font;
+  font-size: 18px;
+  line-height: 22.5px;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  &:hover {
+    background-color: $bright-blue-hover;
+  }
+}

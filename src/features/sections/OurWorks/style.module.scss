@@ -1,0 +1,45 @@
+@import '@/styles/vars.scss';
+
+.ourworks {
+  margin-top: 140px;
+  &__title {
+    text-align: center;
+    color: $white;
+    font-family: $main-font;
+    font-size: 24px;
+    line-height: 36px;
+  }
+  &__list {
+    margin: 40px 0;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+  }
+  &__item {
+    background-color: $pale-blue;
+    width: 387px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px 32px;
+    &__title {
+      color: $white;
+      margin-top: auto;
+      color: $white;
+      font-family: $main-font;
+      font-size: 18px;
+      line-height: 125%;
+      margin-bottom: 8px;
+    }
+    &__desc {
+      font-family: $main-font;
+      font-size: 18px;
+      line-height: 125%;
+      color: $dark-grey;
+    }
+  }
+  &__btn {
+    width: fit-content;
+    margin: 0 auto;
+  }
+}

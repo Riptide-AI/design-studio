@@ -1,0 +1,22 @@
+.navbar {
+  height: 48px;
+  position: absolute;
+  top: 32px;
+  z-index: 10;
+  width: 100%;
+  &__btn {
+    margin-left: 80px;
+  }
+}
+.logo {
+  width: 168px;
+  height: 38px;
+  position: relative;
+  cursor: pointer;
+}
+.nav-wrapper {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}

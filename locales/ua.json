@@ -1,0 +1,12 @@
+{"navigation" : {
+  "home": "Головна",
+  "services": "Послуги",
+  "contacts": "Контакти",
+  "portfolio": "Портфоліо",
+  "aboutUs": "Про нас",
+  "partnership": "Партнерство"
+},
+"buttons": {
+  "contactUs": "Зв’язатися"
+}
+}
