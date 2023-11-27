@@ -15,7 +15,7 @@ export const AboutUsSection = () => {
           />
         </div>
         <div className={styles.about_us__image}>
-          <Image src={aboutUs.image} fill="true"  alt="" placeholder = 'empty'/>
+          <Image src={aboutUs.image} fill="true" alt="" placeholder="empty" />
         </div>
         <div className={styles.about_us__cards_list}>
           {aboutUs.cards.map((card, index) => (

@@ -8,7 +8,7 @@ export const SupportTypes = ({ data }) => {
         <div className={styles.support_types__title}>{data.title}</div>
         <div className={styles.support_types__list}>
           {data.list.map((item, i) => (
-            <div className={styles.support_types__item}>
+            <div className={styles.support_types__item} key={`item-${i}`}>
               <div className={styles.support_types__item__order}>00{i + 1}</div>
               <div className={styles.support_types__item__title}>{item.title}</div>
               <div className={styles.support_types__item__desc}>{item.desc}</div>

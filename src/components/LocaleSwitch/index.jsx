@@ -5,14 +5,14 @@ import { useTranslation } from 'react-i18next';
 
 export const LocaleSwitch = () => {
   const [lang, setLang] = useState('ua');
-  const { t, i18n } = useTranslation();
+  const { i18n } = useTranslation();
 
   const changeLanguage = () => {
     lang === 'ua' ? setLang('en') : setLang('ua');
   };
   useEffect(() => {
     i18n.changeLanguage(lang);
-  }, [lang]);
+  }, [lang, i18n]);
 
   return (
     <Image

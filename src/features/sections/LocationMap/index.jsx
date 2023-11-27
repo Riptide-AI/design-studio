@@ -1,7 +1,6 @@
-
 import { useEffect } from 'react';
 import Head from 'next/head';
-import styles from "./style.module.scss"
+import styles from './style.module.scss';
 
 export const LocationMap = () => {
   const lvivCoordinates = { lat: 49.8397, lng: 24.0297 };
@@ -10,7 +9,7 @@ export const LocationMap = () => {
       const map = new window.google.maps.Map(document.getElementById('map'), {
         center: lvivCoordinates,
         zoom: 15,
-        disableDefaultUI: true, 
+        disableDefaultUI: true,
       });
       new window.google.maps.Marker({
         position: lvivCoordinates,
@@ -18,8 +17,7 @@ export const LocationMap = () => {
         title: 'Lviv',
       });
     }
-    
-  }, []);
+  }, [lvivCoordinates]);
 
   return (
     <div>
@@ -30,4 +28,3 @@ export const LocationMap = () => {
     </div>
   );
 };
-

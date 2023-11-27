@@ -8,16 +8,16 @@ import { OurWorks } from '@/features/sections/OurWorks';
 import { ContactUs } from '@/features/sections/ContactUs';
 
 export default function Home() {
-  return (
-    <>
-      <HeroBanner />
-      <ServicesTabs />
-      <AboutUsSection />
-      <BusinessShowCase />
-      <HowItWorks />
-      <BecomePartner/>
-      <OurWorks/>
-      <ContactUs/>
-    </>
-  );
+	return (
+		<>
+			<HeroBanner />
+			<ServicesTabs />
+			<AboutUsSection />
+			<BusinessShowCase />
+			<HowItWorks />
+			<BecomePartner />
+			<OurWorks />
+			<ContactUs />
+		</>
+	);
 }

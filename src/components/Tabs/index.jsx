@@ -15,7 +15,7 @@ export const Tabs = ({ items }) => {
         <div
           key={index}
           className={clsx(styles.tab, { [styles.active]: activeTab === index })}
-          style={{ borderWidth:  activeTab === index + 1 ? '0px': "1px" }}
+          style={{ borderWidth: activeTab === index + 1 ? '0px' : '1px' }}
         >
           <div className={styles.tab_header} onClick={() => toggleTab(index)}>
             {tab.tabName}

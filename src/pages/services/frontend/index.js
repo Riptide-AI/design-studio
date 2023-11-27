@@ -7,14 +7,14 @@ import { Workflow } from '@/features/sections/Workflow';
 import { SuccessBanner } from '@/features/sections/SuccessBanner';
 
 export default function Frontend() {
-  return (
-    <>
-      <HeroBannerLight data={heroBanner}/>
-      <Workflow/>
-      <BusinessShowCase/>
-      <SuccessBanner/>
-      <OurWorks/>
-      <ContactUs/>
-    </>
-  );
+	return (
+		<>
+			<HeroBannerLight data={heroBanner} />
+			<Workflow />
+			<BusinessShowCase />
+			<SuccessBanner />
+			<OurWorks />
+			<ContactUs />
+		</>
+	);
 }

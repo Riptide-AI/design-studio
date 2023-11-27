@@ -11,7 +11,7 @@ export const LetsWorkTogether = () => {
           <h3 className={styles['work-together__desc']}>{workTogether.desc}</h3>
         </div>
         <div className={styles['work-together__form']}>
-          <ContactForm variant='contacts'/>
+          <ContactForm variant="contacts" />
         </div>
       </div>
     </ContentWrapper>

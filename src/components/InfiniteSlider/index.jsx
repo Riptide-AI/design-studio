@@ -6,12 +6,7 @@ export const InfiniteSlider = ({ list }) => {
   const componentsList = useMemo(() => {
     return list.map((item, i) => (
       <div key={`image-${i}`} className={styles.logo}>
-        <Image
-          src={item.src}
-          alt={item.alt}
-          fill="true"
-          
-        />
+        <Image src={item.src} alt={item.alt} fill="true" />
       </div>
     ));
   }, [list]);

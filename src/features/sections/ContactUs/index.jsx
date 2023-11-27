@@ -9,7 +9,7 @@ export const ContactUs = () => {
       style={{
         background: `linear-gradient(0deg, rgba(18, 39, 60, 0.82) 0%, rgba(18, 39, 60, 0.82) 100%), url(${contactUs.bgImage}), lightgray 50% / cover no-repeat`,
         backgroundSize: '100% auto',
-        backgroundPosition: "center"
+        backgroundPosition: 'center',
       }}
     >
       <ContentWrapper>

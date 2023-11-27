@@ -53,11 +53,23 @@ export const Footer = () => {
             </div>
           </div>
           <div className={styles.footer__socials}>
-            <a href={footer.telegramLink} target='_blink'>
-              <Image src="/img/icons/telegram.svg" alt="logo" width={28} height={28} placeholder = 'empty'/>
+            <a href={footer.telegramLink} target="_blink">
+              <Image
+                src="/img/icons/telegram.svg"
+                alt="logo"
+                width={28}
+                height={28}
+                placeholder="empty"
+              />
             </a>
-            <a href={footer.instagramLink} target='_blink'>
-              <Image src="/img/icons/instagram.svg" alt="logo" width={28} height={28} placeholder = 'empty'/>
+            <a href={footer.instagramLink} target="_blink">
+              <Image
+                src="/img/icons/instagram.svg"
+                alt="logo"
+                width={28}
+                height={28}
+                placeholder="empty"
+              />
             </a>
           </div>
           <div className={styles.footer__rights}>{footer.rights}</div>
