@@ -6,10 +6,10 @@ export const BusinessShowCase = () => {
   return (
     <ContentWrapper>
       <section className={styles.business}>
-        <h3 className={styles.business__title}>Створюємо веб - сайти для різних типів бізнесу</h3>
+        <h3 className={styles.business__title}>{businessCards.title}</h3>
 
         <div className={styles.business__cards}>
-          {businessCards.map((item, index) => (
+          {businessCards.list.map((item, index) => (
             <BusinessCard card={item} key={index} />
           ))}
         </div>

@@ -48,3 +48,8 @@ export const technologies = {
     {title: "Database", desc:"MySQL | MongoDB | Maria DB |Postgre SQL"},
   ]
 }
+export const heroBanner = {
+  title: 'Послуги',
+  desc: 'Ми не просто створюємо сайти, ми надаємо повний комплекс маркетингових послуг',
+  bg: '/img/hero-banner-1.jpg',
+}
