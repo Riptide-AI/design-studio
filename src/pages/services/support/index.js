@@ -7,13 +7,13 @@ import { supportPackages } from '@/data/support';
 import { SecurityList } from '@/features/sections/SecurityList';
 
 export default function Support() {
-	return (
-		<>
-			<HeroBannerLight data={heroBanner} />
-			<SupportTypes data={supportTypes} />
-			<SupportTypes data={supportPackages} />
-			<SecurityList />
-			<ContactUs />
-		</>
-	);
+  return (
+    <>
+      <HeroBannerLight data={heroBanner} />
+      <SupportTypes data={supportTypes} />
+      <SupportTypes data={supportPackages} />
+      <SecurityList />
+      <ContactUs />
+    </>
+  );
 }

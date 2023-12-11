@@ -8,11 +8,20 @@
   font-family: $main-font;
 
   &__title {
-    margin-bottom: 40px;
     font-size: 40px;
     font-weight: 600;
     line-height: 125%;
     color: $white;
+    max-width: 800px;
+    text-align: center;
+  }
+  &__desc {
+    max-width: 800px;
+    color: $dark-grey;
+    text-align: center;
+    font-size: 16px;
+    line-height: 150%;
+    margin-top: 24px;
   }
   &__list {
     display: flex;
@@ -20,6 +29,7 @@
     overflow-x: auto;
     max-width: 1440px;
     padding: 0 100px;
+    margin-top: 40px;
     scrollbar-width: thin;
     scrollbar-color: transparent transparent;
     -ms-overflow-style: none;
