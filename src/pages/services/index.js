@@ -9,8 +9,8 @@ export default function Services() {
     <>
       <HeroBannerLight data={heroBanner} />
       <Offers />
-      <Banner />
       <Technologies />
+      <Banner />
       <ContactUs />
     </>
   );

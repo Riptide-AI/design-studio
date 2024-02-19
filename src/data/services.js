@@ -1,7 +1,7 @@
 export const offers = [
   {
     title: 'Розробка',
-    desc: 'Ми створюємо працездтні сайти, інтернет-магазини, і web-сервіси.',
+    desc: 'Наші фахівці мають великий досвід у створенні сучасних веб-сайтів, стильних онлайн-магазинів та інноваційних веб-сервісів.',
     offerName: 'WEB',
   },
   {
@@ -33,22 +33,30 @@ export const offers = [
 
 export const banner = {
   title: 'Чи вірите ви в найм професіоналів?',
-  desc: 'Ми маємо досвід у створенні індивідуальних програмних інженерних рішень із застосуванням різних технологій для досягнення стабільності та безпеки',
+  desc: 'Ми — команда із значним досвідом у розробці індивідуальних програмних інженерних рішень щодо веб-сайтів, використовуючи різноманітні технології. Наші експерти володіють різнобічним стеком, включаючи JavaScript, Python, PHP, та використовують фреймворки, такі як React, Django, Next.js та Laravel. Ми ставимо перед собою завдання забезпечити стабільність та продуктивність для кожного проєкту, використовуючи оптимізований код та передові техніки кешування, для того, щоб забезпечити швидке завантаження сторінок та ефективну роботу веб-сайтів.',
   image: '/img/banner-1.png',
 };
 
 export const technologies = {
-  title: 'Технології, у яких ми маємо досвід',
+  title: 'Технології',
   desc: 'Наша компанія має великий досвід у розробці спеціалізованих програмних інженерних рішень, використовуючи різноманітні технології для забезпечення надійності і безпеки.',
+  img: '/img/technologies.jpg',
   list: [
-    { title: 'Design', desc: 'Figma | Adobe PS | Adobe AE | Protopie' },
-    { title: 'Frontend', desc: 'HTML & CSS | Angular JS | React JS | Vue.js' },
-    { title: 'Backend', desc: 'PHP | Python | Java | Node.js' },
+    { title: 'Design', icon: '/img/icons/tech-1.svg', desc: 'Adobe PS | Adobe AE | Adobe XD | Figma | Zeplin | ProtoPie' },
+    { title: 'Frontend', icon: '/img/icons/tech-1.svg', desc: 'HTML & CSS | Angular.js | React.js | Vue.js | Next.js | jQuery | Svelte' },
+    { title: 'Backend', icon: '/img/icons/tech-1.svg', desc: 'PHP | Python| Rust | Java | Node.js | Ruby | С# | C++' },
+
+    { title: 'Database', icon: '/img/icons/tech-1.svg', desc: 'MongoDB | Oracle DB | Maria DB | MySQL| Postgre SQL' },
     {
       title: 'eCommerce and CMS',
-      desc: 'Magento | WordPress | CMS | eCommerce | Shopify | OpenСart | Wix',
+      icon: '/img/icons/tech-1.svg',
+      desc: 'Magento | Shopify | WordPress | OpenCart| Wix',
     },
-    { title: 'Database', desc: 'MySQL | MongoDB | Maria DB |Postgre SQL' },
+    {
+      title: 'Testing',
+      icon: '/img/icons/tech-1.svg',
+      desc: 'JUnit | Cypress | Postman |TestRail | Selenium',
+    },
   ],
 };
 export const heroBanner = {
