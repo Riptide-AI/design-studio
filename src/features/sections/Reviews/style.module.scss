@@ -1,0 +1,32 @@
+@import '@/styles/vars.scss';
+
+.reviews {
+  margin-top: 140px;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+
+  &__title {
+    font-size: 40px;
+    line-height: 125%;
+    font-weight: 600;
+    color: $white;
+    margin-bottom: 20px;
+    text-align: center;
+    font-family: Manrope;
+    margin-bottom: 12px;
+  }
+  &__desc {
+    font-family: Manrope;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 125%;
+    color: $dark-grey;
+    max-width: 680px;
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+}

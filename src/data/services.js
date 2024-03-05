@@ -42,19 +42,35 @@ export const technologies = {
   desc: 'Наша компанія має великий досвід у розробці спеціалізованих програмних інженерних рішень, використовуючи різноманітні технології для забезпечення надійності і безпеки.',
   img: '/img/technologies.jpg',
   list: [
-    { title: 'Design', icon: '/img/icons/tech-1.svg', desc: 'Adobe PS | Adobe AE | Adobe XD | Figma | Zeplin | ProtoPie' },
-    { title: 'Frontend', icon: '/img/icons/tech-1.svg', desc: 'HTML & CSS | Angular.js | React.js | Vue.js | Next.js | jQuery | Svelte' },
-    { title: 'Backend', icon: '/img/icons/tech-1.svg', desc: 'PHP | Python| Rust | Java | Node.js | Ruby | С# | C++' },
+    {
+      title: 'Design',
+      icon: '/img/icons/tech-1.svg',
+      desc: 'Adobe PS | Adobe AE | Adobe XD | Figma | Zeplin | ProtoPie',
+    },
+    {
+      title: 'Frontend',
+      icon: '/img/icons/tech-2.svg',
+      desc: 'HTML & CSS | Angular.js | React.js | Vue.js | Next.js | jQuery | Svelte',
+    },
+    {
+      title: 'Backend',
+      icon: '/img/icons/tech-3.svg',
+      desc: 'PHP | Python| Rust | Java | Node.js | Ruby | С# | C++',
+    },
 
-    { title: 'Database', icon: '/img/icons/tech-1.svg', desc: 'MongoDB | Oracle DB | Maria DB | MySQL| Postgre SQL' },
+    {
+      title: 'Database',
+      icon: '/img/icons/tech-4.svg',
+      desc: 'MongoDB | Oracle DB | Maria DB | MySQL| Postgre SQL',
+    },
     {
       title: 'eCommerce and CMS',
-      icon: '/img/icons/tech-1.svg',
+      icon: '/img/icons/tech-5.svg',
       desc: 'Magento | Shopify | WordPress | OpenCart| Wix',
     },
     {
       title: 'Testing',
-      icon: '/img/icons/tech-1.svg',
+      icon: '/img/icons/tech-6.svg',
       desc: 'JUnit | Cypress | Postman |TestRail | Selenium',
     },
   ],
@@ -63,4 +79,35 @@ export const heroBanner = {
   title: 'Послуги',
   desc: 'Ми не просто створюємо сайти, ми надаємо повний комплекс маркетингових послуг',
   bg: '/img/hero-banner-1.jpg',
+};
+
+export const reviews = {
+  title: 'Почуйте це від наших клієнтів',
+  desc: 'Від початку до підтримки – ми завжди поруч, готові радити та допомагати.\nВаш успіх – наш пріоритет.',
+  slides: [
+    {
+      title: 'Заголовок',
+      author: 'Павло Гук 1',
+      position: 'Менеджер компанії ',
+      content: 'Слайд 1',
+    },
+    {
+      title: 'Заголовок',
+      author: 'Павло Гук 2',
+      position: 'Менеджер компанії ',
+      content: 'Слайд 2',
+    },
+    {
+      title: 'Заголовок',
+      author: 'Павло Гук 3',
+      position: 'Менеджер компанії ',
+      content: 'Слайд 3',
+    },
+    {
+      title: 'Заголовок',
+      author: 'Павло Гук 4',
+      position: 'Менеджер компанії ',
+      content: 'Слайд 4',
+    },
+  ],
 };
