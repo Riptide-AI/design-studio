@@ -1,6 +1,6 @@
 export const heroBanner = {
-  title: 'SMM - просування',
-  bg: '/img/hero-banner-6.jfif',
+  title: 'Брендинг та дизайн',
+  bg: '/img/hero-banner-7.jfif',
 };
 export const supportTypes = {
   title: 'Процес розробки дизайну сайту',

@@ -23,7 +23,6 @@
     border-radius: 10px;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
     align-items: center;
     padding: 20px;
     background-position: center;
@@ -47,13 +46,13 @@
     font-size: 18px;
     line-height: 125%;
     position: relative;
-    margin-bottom: 12px;
+    margin-bottom: 18px;
     &::after {
       content: '';
       border-bottom: 2px solid $bright-blue;
       position: absolute;
       width: 100%;
-      bottom: -12px;
+      bottom: -8px;
       left: 50%;
       transform: translate(-50%);
     }
@@ -72,5 +71,6 @@
     font-size: 18px;
     line-height: 125%;
     width: fit-content;
+    margin-top: auto;
   }
 }
