@@ -5,11 +5,10 @@
   display: grid;
   gap: 40px;
   grid-template-columns: 2fr 1fr;
-
   font-family: $main-font;
   &__content {
     display: grid;
-    gap: 40px;
+
     grid-template-rows: 1fr;
     grid-template-columns: 1fr 1fr;
   }
@@ -17,26 +16,77 @@
     width: 100%;
     height: 100%;
     position: relative;
+    border-radius: 10px;
+    overflow: hidden;
   }
   &__title {
-    grid-column: span 2;
+    grid-column: span 3;
     font-size: 40px;
     font-weight: 600;
     line-height: 125%;
     color: $white;
+    text-align: center;
+    margin-bottom: 40px;
+    position: relative;
   }
   &__item {
     display: flex;
     flex-direction: column;
+    border-left: 2px solid $bright-blue;
+    padding-left: 20px;
+    padding-bottom: 40px;
+    &:nth-child(5),
+    &:nth-child(6) {
+      padding-bottom: 0;
+    }
+    &_marker {
+      position: absolute;
+      display: flex;
+      align-items: center;
+      left: -29px;
+      top: 10px;
+      &_dot_wrapper {
+        background-color: $dark-blue;
+      }
+      &_dot {
+        width: 16px;
+        height: 16px;
+        margin: 12px 0;
+        border: 1px solid $bright-blue;
+        border-radius: 50%;
+        position: relative;
+        &::after {
+          content: '';
+          position: absolute;
+          width: 10px;
+          height: 10px;
+          border-radius: 50%;
+          left: 50%;
+          top: 50%;
+          transform: translate(-50%, -50%);
+          background-color: $bright-blue;
+        }
+      }
+      &_underline {
+        width: 100px;
+        height: 2px;
+        background-color: $bright-blue;
+        border-radius: 10px;
+        margin-left: 12px;
+        z-index: 10;
+      }
+    }
     &_title {
       margin-top: 10px;
       font-size: 18px;
       font-weight: 600;
       line-height: 125%;
+      padding-bottom: 4px;
+      position: relative;
       color: $white;
     }
     &_desc {
-      margin-top: 18px;
+      margin-top: 6px;
       font-size: 16px;
       line-height: 150%;
       color: $dark-grey;

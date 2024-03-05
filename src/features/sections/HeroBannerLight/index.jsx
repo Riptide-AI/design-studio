@@ -14,7 +14,7 @@ export const HeroBannerLight = ({ data }) => {
       <ContentWrapper>
         <div className={styles.hero}>
           <h2 className={styles.hero__title}>{data.title}</h2>
-          <h3 className={styles.hero__desc}>{data.desc}</h3>
+          {/* <h3 className={styles.hero__desc}>{data.desc}</h3> */}
         </div>
       </ContentWrapper>
     </section>
