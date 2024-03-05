@@ -9,18 +9,15 @@ export const BecomePartner = () => {
         <h4 className={styles['become-partner__title']}>{becomePartner.title}</h4>
         <div className={styles['become-partner__programs']}>
           {becomePartner.list.map((item, index) => (
-            <div
-              className={styles['become-partner__program-item']}
-              style={{
-                background: `linear-gradient(0deg, rgba(18, 39, 60, 0.80) 0%, rgba(18, 39, 60, 0.80) 100%), url(${item.image}) lightgray 50% / contain no-repeat`,
-                backgroundSize: 'auto 100%',
-              }}
-              key={index}
-            >
+            <div className={styles['become-partner__program-item']} key={index}>
+              <div
+                className={styles['become-partner__program-image']}
+                style={{ backgroundImage: `url(${item.image})` }}
+              ></div>
               <div className={styles['become-partner__program-title']}>{item.title}</div>
               <div className={styles['become-partner__program-desc']}>{item.desc}</div>
               <CustomButton
-                title={item.title}
+                title={item.btn}
                 stylesClassName={styles['become-partner__program-btn']}
               />
             </div>

@@ -64,6 +64,7 @@ export const adsDetails = {
 };
 export const checks = {
   title: 'Для чого вашому бізнесу потрібна контекстна реклама?',
+  checkIcon: '/img/icons/check.png',
   list: [
     {
       title: 'Економічна ефективність',
