@@ -74,6 +74,10 @@
     cursor: pointer;
     top: 50%;
     transform: translateY(-50%);
+    transition: transform .3s ease;
+    &:hover{
+      transform: translateY(-50%) scale(1.3);
+    }
   }
   &__btn_prev {
     left: 0;

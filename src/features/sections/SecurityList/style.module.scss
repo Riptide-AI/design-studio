@@ -2,35 +2,49 @@
 .security {
   margin-top: 140px;
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  gap: 40px;
   font-family: $main-font;
+  &__content {
+    display: flex;
+    flex-direction: column;
+  }
   &__title {
     font-size: 40px;
     font-weight: 600;
     line-height: 125%;
     color: $white;
-    text-align: center;
   }
   &__desc {
-    margin-top: 16px;
+    margin-top: 12px;
     font-size: 16px;
     font-weight: 400;
     line-height: 150%;
     color: $dark-grey;
-    text-align: center;
   }
   &__list {
     display: flex;
-    margin-top: 40px;
+    margin-top: 24px;
     flex-direction: column;
+  }
+  &__image {
+    border-radius: 10px;
+    width: 100%;
+    flex-basis: 387px;
+    height: auto;
+    position: relative;
+    flex-grow: 1;
+    flex-shrink: 0;
+    overflow: hidden;
+    img {
+      width: auto  !important;
+      height: 100% !important;
+    }
   }
   &__item {
     display: grid;
     grid-template-columns: auto auto auto;
     position: relative;
-    margin-bottom: 40px;
-    gap: 12px 0;
+    margin-bottom: 16px;
     align-items: center;
     &::after {
       content: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='3' height='150' viewBox='0 0 3 150' fill='none'%3E%3Cpath d='M1.5 0V150' stroke='%232D8EEE' stroke-width='3' stroke-dasharray='6 6'/%3E%3C/svg%3E");
@@ -56,13 +70,15 @@
       grid-column: 2 / span 3;
       color: $dark-grey;
       font-size: 16px;
+      text-align: justify;
       font-weight: 400;
-      line-height: 150%;
+      line-height: 140%;
     }
     &__order {
       padding: 6px 11px;
       background-color: $bright-blue;
-      margin-right: 20px;
+      border-radius: 10px;
+      margin-right: 12px;
     }
     &__icon {
       z-index: 1;

@@ -7,19 +7,24 @@ export const SecurityList = () => {
   return (
     <ContentWrapper>
       <div className={styles.security}>
-        <div className={styles.security__title}>{securityList.title}</div>
-        <div className={styles.security__desc}>{securityList.desc}</div>
-        <div className={styles.security__list}>
-          {securityList.list.map((item, i) => (
-            <div className={styles.security__item} key={`security-item-${i}`}>
-              <div className={styles.security__item__order}>0{i + 1}</div>
-              <div className={styles.security__item__title}>{item.title}</div>
-              <div className={styles.security__item__desc}>{item.desc}</div>
-              <div className={styles.security__item__icon}>
-                <Image src={item.icon} alt="" height={32} width={32} />
+        <div className={styles.security__content}>
+          <div className={styles.security__title}>{securityList.title}</div>
+          <div className={styles.security__desc}>{securityList.desc}</div>
+          <div className={styles.security__list}>
+            {securityList.list.map((item, i) => (
+              <div className={styles.security__item} key={`security-item-${i}`}>
+                <div className={styles.security__item__order}>0{i + 1}</div>
+                <div className={styles.security__item__title}>{item.title}</div>
+                <div className={styles.security__item__desc}>{item.desc}</div>
+                <div className={styles.security__item__icon}>
+                  <Image src={item.icon} alt="" height={32} width={32} />
+                </div>
               </div>
-            </div>
-          ))}
+            ))}
+          </div>
+        </div>
+        <div className={styles.security__image}>
+          <Image src={securityList.image} alt="" fill="true" />
         </div>
       </div>
     </ContentWrapper>
