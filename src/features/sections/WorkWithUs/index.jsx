@@ -11,7 +11,7 @@ export const WorkWithUs = ({ data }) => {
           {data.list.map((item, i) => (
             <div className={styles.work_with_us__item} key={`item-${i}`}>
               <div className={styles.work_with_us__item__icon}>
-                <Image src={item.icon} width={56} height={56} />
+                <Image src={item.icon} width={56} height={56} alt="" />
               </div>
               <div className={styles.work_with_us__item__desc}>{item.desc}</div>
             </div>

@@ -28,7 +28,7 @@ export const PriceCards = ({ data }) => {
               <ul className={styles.price_cards__item__checks_list}>
                 {item.checks.map((check, i) => (
                   <li key={`check-${i}`} className={styles.price_cards__item__check_item}>
-                    <Image src={data.checkIcon} width={30} height={30} />
+                    <Image src={data.checkIcon} width={30} height={30} alt="" />
                     <span className={styles.price_cards__item__check_item__text}>
                       {check.content}
                     </span>

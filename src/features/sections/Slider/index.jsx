@@ -22,10 +22,10 @@ export const Slider = ({ slides }) => {
         <div className={styles.slider__slide__position}>{slides[currentSlide].position}</div>
       </div>
       <div role="button" onClick={goToPrevSlide} className={styles.slider__btn_prev}>
-        <Image src={'/img/icons/arrow-left.svg'} width={40} height={40}></Image>
+        <Image src={'/img/icons/arrow-left.svg'} width={40} height={40} alt="" />
       </div>
       <div role="button" onClick={goToNextSlide} className={styles.slider__btn_next}>
-        <Image src={'/img/icons/arrow-right.svg'} width={40} height={40}></Image>
+        <Image src={'/img/icons/arrow-right.svg'} width={40} height={40} alt="" />
       </div>
     </div>
   );

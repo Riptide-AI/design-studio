@@ -1,5 +1,5 @@
 import { HeroBannerLight } from '@/features/sections/HeroBannerLight';
-import { heroBanner, reviews, offers, priceCards, workwithus, securityList } from '@/data/store';
+import { heroBanner, reviews, offers, priceCards, workwithus } from '@/data/store';
 import { ContactUs } from '@/features/sections/ContactUs';
 import { Offers } from '@/features/sections/Offers';
 import { Reviews } from '@/features/sections/Reviews';

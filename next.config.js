@@ -1,8 +1,5 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  images: {
-    quality: 100,
-  },
   reactStrictMode: true,
   async redirects() {
     return [
