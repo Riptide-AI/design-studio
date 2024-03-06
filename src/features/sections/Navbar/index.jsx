@@ -25,8 +25,10 @@ export const Navbar = () => {
             />
           </div>
           <NavLinks links={navigation} />
+          <div className={styles.navbar__right}>
           <LocaleSwitch />
           <CustomButton title={t('buttons.contactUs')} stylesClassName={styles.navbar__btn} />
+          </div>
         </div>
       </ContentWrapper>
     </header>

@@ -1,7 +1,7 @@
 @import '@/styles/vars.scss';
 
 .become-partner {
-  margin-top: 140px;
+  margin: 140px auto 0;
 
   &__title {
     text-align: center;
@@ -37,7 +37,6 @@
     margin-bottom: 32px;
     background-size: cover;
     background-position: center;
-  
   }
   &__program-title {
     text-align: center;
