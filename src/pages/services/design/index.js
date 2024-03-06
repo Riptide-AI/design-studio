@@ -9,7 +9,7 @@ export default function Design() {
   return (
     <>
       <HeroBannerLight data={heroBanner} />
-      <SupportTypes data={supportTypes} alt/>
+      <SupportTypes data={supportTypes} alt cols={4}/>
       <SecurityList />
       <Reviews data={reviews} />
       <ContactUs />

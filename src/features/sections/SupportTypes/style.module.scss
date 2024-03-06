@@ -17,12 +17,10 @@
   }
   &__list {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: repeat(3, 1fr);
+    
     margin-top: 40px;
     gap: 32px 38px;
-    &.alt {
-      grid-auto-columns: 1fr;
-    }
   }
   &__image {
     width: 100%;
@@ -50,7 +48,7 @@
       grid-row: 1 / span 2;
     }
     &.alt {
-      grid-row: 1;
+      // grid-row: 1;
     }
     &__title {
       color: $white;
