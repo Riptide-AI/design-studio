@@ -17,20 +17,20 @@ export const footer = {
     {
       title: 'Послуги',
       list: [
-        { title: 'Розробка', link: '/services' },
-        { title: 'Дизайн', link: '/services' },
-        { title: 'Маркетинг', link: '/services' },
-        { title: 'Підтримка', link: '/services' },
+        { title: 'Розробка', link: '/services/frontend' },
+        { title: 'Дизайн', link: '/services/design' },
+        { title: 'Маркетинг', link: '/services/ads' },
+        { title: 'Підтримка', link: '/services/support' },
       ],
     },
     {
       title: 'Розробка',
       list: [
-        { title: 'Інтернет-магазин', link: '#' },
-        { title: 'Корпоративний сайт', link: '#' },
-        { title: 'Landing Page', link: '#' },
-        { title: 'Сайт-візитка', link: '#' },
-        { title: 'Сайт-квіз', link: '#' },
+        { title: 'Інтернет-магазин', link: '/services/store' },
+        { title: 'Корпоративний сайт', link: '/services/corporate' },
+        { title: 'Landing Page', link: '/services/landing' },
+        { title: 'Сайт-візитка', link: '/services/card' },
+        { title: 'Сайт-квіз', link: '/services/quiz' },
       ],
     },
     {

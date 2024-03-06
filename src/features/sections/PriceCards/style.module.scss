@@ -1,0 +1,124 @@
+@import '@/styles/vars.scss';
+
+.price_cards {
+  margin: 140px auto 0;
+  width: 100%;
+  font-family: Manrope;
+  &__title {
+    text-align: center;
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 125%;
+    color: $white;
+    margin: 0 auto 12px;
+  }
+  &__desc {
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 125%;
+    color: $dark-grey;
+    max-width: 850px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  &__list {
+    display: flex;
+    margin-top: 40px;
+    gap: 40px;
+    align-items: center;
+    justify-content: stretch;
+  }
+  &__item {
+    width: 386px;
+    border-radius: 10px;
+    padding: 20px 28px 32px;
+    display: flex;
+    flex-direction: column;
+
+    &:nth-child(2) {
+      .price_cards__item__size_type {
+        border: 1px solid $bright-blue;
+        color: $bright-blue;
+      }
+      .price_cards__item__price {
+        border-bottom: 1px solid $bright-blue;
+      }
+      .price_cards__item__checks_list {
+        border-top: 1px solid rgba($color: $bright-blue, $alpha: 0.25);
+      }
+    }
+
+    &__size_type {
+      padding: 10px 20px;
+      border-radius: 90px;
+      border: 1px solid $dark-blue;
+      color: $dark-blue;
+      width: fit-content;
+    }
+    &__title {
+      margin: 32px 0 4px;
+      font-size: 24px;
+      font-weight: 600;
+      line-height: 150%;
+      color: $pale-blue;
+    }
+    &__desc {
+      font-size: 16px;
+      line-height: 150%;
+      color: $pale-blue;
+      text-align: justify;
+    }
+    &__price {
+      color: $pale-blue;
+      margin: 24px 0;
+      font-size: 24px;
+      font-weight: 600;
+      line-height: 150%;
+      border-bottom: 1px solid $pale-blue;
+      width: fit-content;
+    }
+    &__btn,
+    &__btn_alt {
+      width: 100%;
+      padding: 12px 32px;
+      border-radius: 90px;
+    }
+    &__btn {
+      margin-bottom: 12px;
+      background-color: $pale-blue;
+      color: $white;
+      &:hover {
+        background-color: $pale-blue;
+      }
+    }
+    &__btn_alt {
+      background-color: transparent;
+      color: $pale-blue;
+      border: 1px solid $pale-blue;
+      margin-bottom: 32px;
+      &:hover {
+        background-color: transparent;
+      }
+    }
+    &__checks_list {
+      list-style: none;
+      padding-top: 20px;
+      display: flex;
+      flex-direction: column;
+      border-top: 1px solid rgba($color: $dark-blue, $alpha: 0.25);
+      gap: 12px;
+    }
+    &__check_item {
+      display: flex;
+      align-items: flex-start;
+      gap: 6px;
+
+      &__text {
+        color: $dark-blue;
+        text-align: justify;
+        font-size: 16px;
+        line-height: 140%;
+      }
+    }
+  }
+}

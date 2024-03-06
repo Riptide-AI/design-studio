@@ -1,15 +1,30 @@
 @import '@/styles/vars.scss';
-
-.offers {
+.offers_block {
+  width: 100%;
   margin-top: 140px;
+  display: flex;
+  flex-direction: column;
+}
+.offers_title {
+  text-align: center;
+  font-family: Manrope;
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 125%;
+  color: $white;
+}
+.offers {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr;
-  gap: 40px;
+  gap: 32px 40px;
   &__item {
     font-family: $main-font;
+    cursor: default;
     position: relative;
     padding-top: 70px;
+    display: flex;
+    flex-direction: column;
     &:hover {
       .arrow {
         width: 50%;
@@ -58,6 +73,7 @@
   width: 50px;
   border-radius: 1px;
   transition: width 0.3s ease-in;
+  margin-top: auto;
   &::after {
     position: absolute;
     right: 0;
