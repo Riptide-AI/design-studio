@@ -4,7 +4,9 @@
   list-style: none;
   gap: 40px;
   align-items: center;
-  margin: 0 40px;
+  justify-content: center;
+  margin: 0 50px;
+  width: 100%;
 }
 .link-item {
   color: $dark-grey;

@@ -4,7 +4,7 @@ export const heroBanner = {
 };
 export const checks = {
   title: 'Що вам дасть просування в соціальних мережах?',
-  checkIcon: "/img/icons/check-2.svg",
+  checkIcon: '/img/icons/check-2.svg',
   list: [
     {
       title: 'Впізнаваність компанії',

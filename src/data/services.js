@@ -17,7 +17,7 @@ export const offers = {
     },
     {
       title: 'Брендинг і дизайн',
-      desc: 'Візуальний досвід народжується в руках наших фахівців, які об\'єднують креативність та високу експертну майстерність в процесі дизайну.',
+      desc: "Візуальний досвід народжується в руках наших фахівців, які об'єднують креативність та високу експертну майстерність в процесі дизайну.",
       offerName: 'BRANDING',
     },
     {
@@ -35,7 +35,7 @@ export const offers = {
 
 export const banner = {
   title: 'Чи вірите ви в найм професіоналів?',
-  desc: 'Ми — команда із значним досвідом у розробці індивідуальних програмних інженерних рішень щодо веб-сайтів, використовуючи різноманітні технології. Наші експерти володіють різнобічним стеком, включаючи JavaScript, Python, PHP, та використовують фреймворки, такі як React, Django, Next.js та Laravel. Ми ставимо перед собою завдання забезпечити стабільність та продуктивність для кожного проєкту, використовуючи оптимізований код та передові техніки кешування, для того, щоб забезпечити швидке завантаження сторінок та ефективну роботу веб-сайтів.',
+  desc: 'Ми — команда із значним досвідом у розробці індивідуальних програмних інженерних рішень щодо веб-сайтів, використовуючи різноманітні технології. Наші експерти володіють різнобічним стеком, включаючи JavaScript, Python, PHP, та використовують фреймворки, такі як React, Django, Next.js та Laravel. Ми ставимо перед собою важливі завдання забезпечити стабільність та продуктивність для кожного проєкту, використовуючи оптимізований код та передові техніки кешування, для того, щоб забезпечити швидке завантаження сторінок та ефективну роботу веб-сайтів.',
   image: '/img/banner-1.png',
 };
 
@@ -47,7 +47,7 @@ export const technologies = {
     {
       title: 'Design',
       icon: '/img/icons/tech-1.svg',
-      desc: 'Adobe PS | Adobe AE | Adobe XD | Figma | Zeplin | ProtoPie',
+      desc: 'Adobe PS | Adobe AE | Adobe XD| Figma | Zeplin | ProtoPie',
     },
     {
       title: 'Frontend',
@@ -57,18 +57,18 @@ export const technologies = {
     {
       title: 'Backend',
       icon: '/img/icons/tech-3.svg',
-      desc: 'PHP | Python| Rust | Java | Node.js | Ruby | С# | C++',
+      desc: 'PHP | Python | Rust | Java | Node.js | Ruby | С# | C++',
     },
 
     {
       title: 'Database',
       icon: '/img/icons/tech-4.svg',
-      desc: 'MongoDB | Oracle DB | Maria DB | MySQL| Postgre SQL',
+      desc: 'MongoDB | Oracle DB | Maria DB | MySQL | Postgre SQL',
     },
     {
       title: 'eCommerce and CMS',
       icon: '/img/icons/tech-5.svg',
-      desc: 'Magento | Shopify | WordPress | OpenCart| Wix',
+      desc: 'Magento | Shopify | WordPress | OpenCart | Wix',
     },
     {
       title: 'Testing',
