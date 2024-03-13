@@ -14,7 +14,7 @@ export default function Support() {
       <SupportTypes data={supportTypes} />
       <SupportTypes data={supportPackages} />
       <SecurityList />
-      <Reviews data= {reviews}/>
+      <Reviews data={reviews} />
       <ContactUs />
     </>
   );

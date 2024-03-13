@@ -7,18 +7,24 @@
   font-family: $main-font;
   width: 100%;
   &__content {
-    max-width: 500px;
+    max-width: 480px;
     width: 100%;
   }
   &__title {
-    font-size: 56px;
-    line-height: 125%;
-    margin-bottom: 20px;
+    font-size: 40px;
+    line-height: 150%;
+    margin-bottom: 12px;
     color: $white;
   }
   &__desc {
     font-size: 16px;
     line-height: 150%;
     color: $dark-grey;
+    font-weight: 400;
+    text-align: justify;
+    i {
+      color: $white;
+      font-style: normal;
+    }
   }
 }

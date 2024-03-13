@@ -10,11 +10,12 @@
     font-size: 40px;
     line-height: 50px;
     font-weight: 600;
-    margin-bottom: 80px;
+    margin-bottom: 40px;
   }
   &__cards {
     display: flex;
     gap: 40px;
     justify-content: space-between;
+    overflow: hidden;
   }
 }

@@ -3,12 +3,11 @@
 .reasons {
   margin: 140px 0;
   display: grid;
-  gap: 40px;
   grid-template-columns: 2fr 1fr;
   font-family: $main-font;
   &__content {
     display: grid;
-
+    gap: 40px;
     grid-template-rows: 1fr;
     grid-template-columns: 1fr 1fr;
   }
@@ -18,6 +17,7 @@
     position: relative;
     border-radius: 10px;
     overflow: hidden;
+    margin-left: 40px;
   }
   &__title {
     grid-column: span 3;

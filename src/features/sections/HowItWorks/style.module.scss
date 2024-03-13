@@ -9,8 +9,8 @@
   &__title {
     color: $white;
     font-family: $main-font;
-    size: 24px;
-    line-height: 150%;
+    font-size: 40px;
+    line-height: 125%;
     font-weight: 600;
     text-align: center;
   }
@@ -103,12 +103,21 @@
   }
   &__desc {
     border: 1px solid $bright-blue;
-    width: calc(100% - 70px);
+    width: calc(100% - 100px);
     margin: 0 auto;
     padding: 20px;
     color: $dark-grey;
     font-size: 16px;
     line-height: 24px;
     font-family: $main-font;
+    position: relative;
+    // &::after{
+    //   content: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="1240" height="129" viewBox="0 0 1240 129" fill="none"><path d="M1239 27.0041V124C1239 126.209 1237.21 128 1235 128H5C2.79086 128 1 126.209 1 124V27.0041C1 24.795 2.79086 23.0041 5 23.0041H99.2181C101.456 23.0041 103.508 21.7589 104.541 19.7739L114.224 1.16627L123.907 19.7738C124.94 21.7589 126.992 23.0041 129.229 23.0041H1235C1237.21 23.0041 1239 24.795 1239 27.0041Z" stroke="#2D8EEE" stroke-width="2"/></svg>');
+    //   position: absolute;
+    //   width: 100%;
+    //   height: 100%;
+    //   top:0;
+    //   left: 0;
+    // }
   }
 }

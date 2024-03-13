@@ -18,8 +18,8 @@ export const ContactForm = ({ variant }) => {
         />
       </div>
       <input {...register('email')} className={styles.form__input} placeholder={contactUs.email} />
-      <label htmlFor="desc" className={styles.form__label}>
-        {contactUs.desc}{' '}
+      <label htmlFor="desc" className={variant ? styles.form__label__alt : styles.form__label}>
+        {contactUs.desc}
       </label>
       <input
         {...register('desc')}

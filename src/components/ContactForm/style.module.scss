@@ -29,6 +29,13 @@
     font-size: 16px;
     line-height: 150%;
     color: $light-grey;
+    &__alt {
+      font-size: 18px;
+      color: $white;
+      font-weight: 600;
+      line-height: 125%;
+      margin-bottom: 20px;
+    }
   }
   &__btn {
     margin: 60px auto 0;

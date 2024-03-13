@@ -5,7 +5,7 @@ export const CheckList = ({ data }) => {
   return (
     <ContentWrapper>
       <div className={styles.check}>
-        <div  className={styles.check__title}>{data.title}</div>
+        <div className={styles.check__title}>{data.title}</div>
         <div className={styles.check__list}>
           {data.list.map((item) => (
             <div className={styles.check__item} key={item.title} data-check={data.checkIcon}>

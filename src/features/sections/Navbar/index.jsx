@@ -1,6 +1,6 @@
-import { ContentWrapper } from '@/components/ContentWrapper';
 import styles from './style.module.scss';
 import Image from 'next/image';
+import Link from 'next/link';
 import { NavLinks } from '@/components/NavLinks';
 import { navigation } from '@/data/navigation';
 import { LocaleSwitch } from '@/components/LocaleSwitch';
@@ -12,8 +12,8 @@ export const Navbar = () => {
 
   return (
     <header className={styles.navbar}>
-      <ContentWrapper>
-        <div className={styles['nav-wrapper']}>
+      <div className={styles['nav-wrapper']}>
+        <Link href="/home">
           <div className={styles.logo}>
             <Image
               src="/img/logo.png"
@@ -24,13 +24,13 @@ export const Navbar = () => {
               placeholder="empty"
             />
           </div>
-          <NavLinks links={navigation} />
-          <div className={styles.navbar__right}>
+        </Link>
+        <NavLinks links={navigation} />
+        <div className={styles.navbar__right}>
           <LocaleSwitch />
           <CustomButton title={t('buttons.contactUs')} stylesClassName={styles.navbar__btn} />
-          </div>
         </div>
-      </ContentWrapper>
+      </div>
     </header>
   );
 };

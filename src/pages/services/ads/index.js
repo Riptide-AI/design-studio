@@ -6,6 +6,8 @@ import { PriceList } from '@/features/sections/PriceList';
 import { pricelist } from '@/data/ads';
 import { Explanation } from '@/features/sections/Explanation';
 import { CheckList } from '@/features/sections/CheckList';
+import { Reviews } from '@/features/sections/Reviews';
+import { reviews } from '@/data/ads';
 
 export default function Ads() {
   return (
@@ -16,6 +18,7 @@ export default function Ads() {
       <PriceList data={pricelist} />
       <InfoCards data={ppc} />
       <InfoCards data={adsDetails} />
+      <Reviews data={reviews} />
       <ContactUs />
     </>
   );

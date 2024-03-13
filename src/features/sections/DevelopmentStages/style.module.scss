@@ -61,7 +61,6 @@
           left: 50%;
           transform: translate(-50%, -50%);
           z-index: 10;
-          
         }
       }
       &::before {
@@ -74,9 +73,9 @@
         top: calc(50% - 6px);
         left: 50%;
         transform: translate(-50%, -50%);
-        transition: all .3s ease;
+        transition: all 0.3s ease;
       }
- 
+
       &:nth-child(2n) {
         justify-content: flex-end;
       }

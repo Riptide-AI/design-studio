@@ -8,7 +8,10 @@ export const LetsWorkTogether = () => {
       <div className={styles['work-together']}>
         <div className={styles['work-together__content']}>
           <h1 className={styles['work-together__title']}>{workTogether.title}</h1>
-          <h3 className={styles['work-together__desc']}>{workTogether.desc}</h3>
+          <h3
+            className={styles['work-together__desc']}
+            dangerouslySetInnerHTML={{ __html: workTogether.desc }}
+          ></h3>
         </div>
         <div className={styles['work-together__form']}>
           <ContactForm variant="contacts" />

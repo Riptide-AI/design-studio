@@ -71,6 +71,15 @@ export const Footer = () => {
                 placeholder="empty"
               />
             </a>
+            <a href={footer.linkedInmLink} target="_blink">
+              <Image
+                src="/img/icons/linkedIn.svg"
+                alt="logo"
+                width={28}
+                height={28}
+                placeholder="empty"
+              />
+            </a>
           </div>
           <div className={styles.footer__rights}>{footer.rights}</div>
         </div>
