@@ -7,7 +7,7 @@ export default function Portfolio() {
   return (
     <>
       <HeroBannerLight data={heroBanner} />
-      <PortfolioPagination/>
+      <PortfolioPagination />
       <ContactUs />
     </>
   );
