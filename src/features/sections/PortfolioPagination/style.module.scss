@@ -86,11 +86,11 @@
       justify-content: center;
       cursor: pointer;
       border: none;
-      &:hover{
+      &:hover {
         background-color: $bright-blue;
         color: $white;
       }
-      &.active{
+      &.active {
         background-color: $bright-blue;
         color: $white;
       }

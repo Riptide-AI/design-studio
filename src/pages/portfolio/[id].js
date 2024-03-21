@@ -22,9 +22,14 @@ export default function Page({ currentItem }) {
 }
 
 export async function getStaticPaths() {
-  const paths = Object.keys(portfolioList).map((id) => ({
-    params: { id },
-  }));
+  const locales = ['en', 'uk']; 
+  const paths = [];
+  locales.forEach((locale) => {
+    Object.keys(portfolioList).forEach((id) => {
+      paths.push({ params: { id }, locale });
+    });
+  });
+
   return { paths, fallback: false };
 }
 

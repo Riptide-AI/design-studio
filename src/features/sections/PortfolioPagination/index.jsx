@@ -108,7 +108,7 @@ export const PortfolioPagination = () => {
             </>
           ) : (
             <>
-              {currentPage > 2 && <button >...</button>}
+              {currentPage > 2 && <button>...</button>}
               {currentPage === totalPages ? (
                 <button onClick={() => goToPage(currentPage - 2)}>{currentPage - 2}</button>
               ) : null}

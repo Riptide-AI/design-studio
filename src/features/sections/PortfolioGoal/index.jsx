@@ -13,7 +13,9 @@ export const PortfolioGoal = ({ currentItem }) => {
           <div className={styles.goal__title}>{currentItem.task.sectionName}</div>
           <ul className={styles.goal___task__list}>
             {currentItem.task.list.map((item, i) => (
-              <li className={styles.goal__task__list__item} key={`item-${i}`}>{item.title}</li>
+              <li className={styles.goal__task__list__item} key={`item-${i}`}>
+                {item.title}
+              </li>
             ))}
           </ul>
         </div>
