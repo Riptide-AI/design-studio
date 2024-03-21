@@ -1,0 +1,59 @@
+@import '@/styles/vars.scss';
+.adaptive {
+  padding: 80px 0 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-family: $main-font;
+  gap: 40px;
+  &__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 450px;
+  }
+  &__section_name {
+    padding-left: 40px;
+    color: $white;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 125%;
+    position: relative;
+    margin-bottom: 24px;
+    &::after {
+      height: 34px;
+      width: 1px;
+      background-color: $bright-blue;
+      position: absolute;
+      left: 0;
+      top: 50%;
+      transform: translateY(-50%);
+      content: '';
+    }
+  }
+  &__title {
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 125%;
+    color: $white;
+    max-width: 400px;
+    margin-bottom: 12px;
+  }
+  &__desc {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 125%;
+    color: $white;
+  }
+  &__image {
+    position: relative;
+    border-radius: 12px;
+    overflow: hidden;
+    width: 1240px;
+    height: 600px;
+    img {
+      height: auto !important ;
+      width: 100%;
+    }
+  }
+}

@@ -11,7 +11,7 @@ export const footer = {
     { title: 'Послуги', link: '/services' },
     { title: 'Портфоліо', link: '/portfolio' },
     { title: 'Про нас', link: '/about-us' },
-    { title: 'Блог', link: '/blog' },
+    // { title: 'Блог', link: '/blog' },
     { title: 'Партнерство', link: '/partnership' },
     { title: 'Контакти', link: '/contacts' },
   ],

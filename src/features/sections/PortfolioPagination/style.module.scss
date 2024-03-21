@@ -1,0 +1,99 @@
+@import '@/styles/vars.scss';
+
+.pagination {
+  margin-top: 140px;
+  display: flex;
+  flex-direction: column;
+  font-family: $main-font;
+  &__filters {
+    display: flex;
+    gap: 42px;
+    &__item {
+      color: $dark-grey;
+      font-size: 24px;
+      line-height: 150%;
+      cursor: pointer;
+      position: relative;
+      &:last-child {
+        &::after {
+          display: none;
+        }
+      }
+      &::after {
+        content: '';
+        position: absolute;
+        right: -21px;
+        height: 16px;
+        bottom: 0;
+        transform: translateY(-9px);
+        width: 1px;
+        background-color: $white;
+      }
+      &:hover {
+        color: $white;
+      }
+    }
+  }
+  &__list {
+    margin-top: 32px;
+    display: grid;
+    width: 100%;
+    grid-template-columns: repeat(3, 387px);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 32px 40px;
+    &__item {
+      &__image {
+        height: 253px;
+        width: 387px;
+        border-radius: 10px;
+        overflow: hidden;
+        background-color: $pale-blue;
+        position: relative;
+      }
+      &__title {
+        margin-top: 16px;
+        color: $white;
+        font-size: 18px;
+        line-height: 125%;
+        font-weight: 500;
+      }
+      &__desc {
+        margin-top: 4px;
+        color: $dark-grey;
+        font-size: 14px;
+        line-height: 120%;
+      }
+    }
+  }
+  &__nav {
+    display: flex;
+    margin: 32px auto 0;
+    flex-direction: row;
+    gap: 5px;
+    button {
+      color: $dark-grey;
+      font-family: $main-font;
+      font-size: 13px;
+      font-weight: 600;
+      padding: 10px;
+      border-radius: 8px;
+      background-color: $pale-blue;
+      width: 32px;
+      height: 32px;
+      outline: none;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      cursor: pointer;
+      border: none;
+      &:hover{
+        background-color: $bright-blue;
+        color: $white;
+      }
+      &.active{
+        background-color: $bright-blue;
+        color: $white;
+      }
+    }
+  }
+}

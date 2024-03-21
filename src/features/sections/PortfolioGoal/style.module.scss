@@ -1,0 +1,64 @@
+@import '@/styles/vars.scss';
+.goal {
+  padding: 80px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto;
+  font-family: $main-font;
+  gap: 40px;
+  &__title {
+    padding-left: 40px;
+    color: $white;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 125%;
+    position: relative;
+    margin-bottom: 24px;
+    &::after {
+      height: 34px;
+      width: 1px;
+      background-color: $bright-blue;
+      position: absolute;
+      left: 0;
+      top: 50%;
+      transform: translateY(-50%);
+      content: '';
+    }
+  }
+  &__idea {
+    display: flex;
+    flex-direction: column;
+    &__desc {
+      font-size: 16px;
+      color: $white;
+      line-height: 125%; /* 20px */
+    }
+  }
+  &__task {
+    display: flex;
+    flex-direction: column;
+    &__list {
+      display: flex;
+      flex-direction: column;
+      &__item {
+        padding-left: 32px;
+        font-size: 16px;
+        color: $white;
+        line-height: 125%;
+        position: relative;
+        list-style: none;
+        margin-bottom: 12px;
+        &::before {
+          height: 1px;
+          width: 23px;
+          background-color: $bright-blue;
+          position: absolute;
+          left: 0;
+          top: 50%;
+          transform: translateY(-50%);
+          content: '';
+        }
+      }
+    }
+  }
+}
