@@ -21,10 +21,8 @@ export const LocationMap = () => {
 
   return (
     <div>
-      <Head>
-        <script async defer src="https://maps.googleapis.com/maps/api/js?callback=initMap"></script>
-      </Head>
       <div id="map" className={styles.map} style={{ height: '415px', width: '100%' }}></div>
+      <script src="https://maps.googleapis.com/maps/api/js?callback=initMap"/>
     </div>
   );
 };

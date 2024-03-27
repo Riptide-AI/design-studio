@@ -1,0 +1,56 @@
+@import '@/styles/vars.scss';
+
+.what_you_get {
+  margin: 140px auto 0;
+  font-family: $main-font;
+  width: 100%;
+  &__title {
+    text-align: center;
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 125%;
+    color: $white;
+    max-width: 750px;
+    margin: 0 auto 40px;
+  }
+  &__list {
+    display: grid;
+    gap: 40px;
+    align-items: center;
+    grid-template-rows: 1fr;
+    grid-template-columns: repeat(4, 1fr);
+  }
+  &__item {
+    max-width: 280px;
+    height: 100%;
+    width: 100%;
+    gap: 17px;
+    display: grid;
+    grid-template:
+      'icon title'
+      'icon desc';
+
+    &__icon {
+      margin-bottom: 12px;
+      grid-area: icon;
+    }
+    &__title {
+      text-align: center;
+      font-size: 18px;
+      font-weight: 600;
+      line-height: 125%;
+      color: $light-grey;
+      grid-area: title;
+      padding-bottom: 4px;
+      border-bottom: 2px solid $bright-blue;
+    }
+    &__desc {
+      text-align: justify;
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 150%;
+      color: $dark-grey;
+      grid-area: desc;
+    }
+  }
+}
