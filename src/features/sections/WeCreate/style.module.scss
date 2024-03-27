@@ -1,0 +1,58 @@
+@import '@/styles/vars.scss';
+
+.we_create {
+  margin: 140px auto 0;
+  font-family: $main-font;
+  width: 100%;
+  &__title {
+    text-align: center;
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 125%;
+    color: $white;
+    margin: 0 auto 40px;
+  }
+  &__list {
+    display: grid;
+    gap: 40px;
+    grid-template-rows: 2fr;
+    grid-template-columns: repeat(3, 1fr);
+  }
+  &__item {
+    max-width: 386px;
+    height: 64px;
+    width: 100%;
+    background-color: $pale-blue;
+    display: flex;
+    border-radius: 10px;
+    align-items: center;
+    width: 100%;
+    padding: 12px;
+
+    &__icon {
+        margin-right: 14px;
+    }
+
+    &__title {
+      font-size: 18px;
+      font-weight: 600;
+      line-height: 125%;
+      color: $white;
+    }
+
+    &__button {
+      display: block;
+      margin-left: auto;
+      border-radius: 8px;
+      height: 40px;
+      width: 40px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background-color: $dark-blue;
+      justify-self: flex-end;
+      cursor: pointer;
+    }
+
+  }
+}

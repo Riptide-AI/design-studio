@@ -60,7 +60,7 @@ export const priceCards = {
       color: '#99DFFE',
       sizeType: 'Старт',
       title: 'Готові рішення',
-      desc: 'Розробка сучасних сайт - квізів на основі бази «Шаблонів»',
+      desc: 'Розробка сучасних Landing Pages на базі «Шаблонів»',
       price: 'від 100$',
       order: 'Замовити одразу',
       details: 'Деталі',
