@@ -19,7 +19,9 @@ export const HowItWorks = ({ hideBtn }) => {
             <div className={styles.howitworks__card} key={index}>
               <div className={styles.howitworks__card__content}>
                 <div className={styles.howitworks__card__icon}>
-                  <Image src={item.icon} height={100} width={100} alt="" placeholder="empty" />
+                  <div className={styles.howitworks__card__icon__img}>
+                    <Image src={item.icon} alt="" placeholder="empty" fill={true} />
+                  </div>
                 </div>
               </div>
               <CustomButton

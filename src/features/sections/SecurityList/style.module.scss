@@ -4,6 +4,9 @@
   display: flex;
   gap: 40px;
   font-family: $main-font;
+  @include media(phone) {
+    flex-direction: column;
+  }
   &__content {
     display: flex;
     flex-direction: column;
@@ -25,16 +28,19 @@
     display: flex;
     margin-top: 24px;
     flex-direction: column;
+
   }
   &__image {
     border-radius: 10px;
     width: 100%;
-    flex-basis: 387px;
+    max-width: 387px;
     height: auto;
     position: relative;
     flex-grow: 1;
     flex-shrink: 0;
     overflow: hidden;
+    aspect-ratio: 387/453;
+
     img {
       width: auto !important;
       height: 100% !important;
@@ -42,19 +48,29 @@
   }
   &__item {
     display: grid;
-    grid-template-columns: auto auto auto;
+    grid-template-columns: 150px auto auto;
     position: relative;
     margin-bottom: 16px;
     align-items: center;
+    @include media(phone) {
+      grid-template-columns: 100px auto auto;
+    }
     &::after {
-      content: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='3' height='150' viewBox='0 0 3 150' fill='none'%3E%3Cpath d='M1.5 0V150' stroke='%232D8EEE' stroke-width='3' stroke-dasharray='6 6'/%3E%3C/svg%3E");
+      content: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='3' height='328' viewBox='0 0 3 328' fill='none'%3E%3Cpath d='M1.5 0V150' stroke='%232D8EEE' stroke-width='3' stroke-dasharray='6 6'/%3E%3C/svg%3E");
       position: absolute;
       height: 100%;
       width: 0;
       top: 80px;
       left: 40px;
+      @include media(phone) {
+        content: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='3' height='328' viewBox='0 0 3 328' fill='none'%3E%3Cpath d='M1.5 0V328' stroke='%232D8EEE' stroke-width='3' stroke-dasharray='6 6'/%3E%3C/svg%3E");
+        width: 0;
+        top: 60px;
+        left: 30px;
+       }
     }
     &:last-child {
+      
       &::after {
         content: '';
       }
@@ -65,6 +81,9 @@
       font-weight: 600;
       line-height: 150%;
       color: $white;
+      @include media(phone) {
+        font-size: 18px;
+      }
     }
     &__desc {
       grid-column: 2 / span 3;
@@ -93,6 +112,16 @@
       align-items: center;
       justify-content: center;
       position: relative;
+      @include media(phone) {
+        height: 60px;
+        width: 60px;
+        border: 5px solid $bright-blue;
+
+        img{
+          height: 22px;
+          width: 22px;
+        }
+      }
       &::after {
         content: '';
         width: 33px;
@@ -102,6 +131,10 @@
         right: -33px;
         transform: translateY(-50%);
         position: absolute;
+        @include media(phone) {
+          width: 20px;
+          right: -20px;
+        }
       }
       &::before {
         content: '';
@@ -113,6 +146,11 @@
         right: -55px;
         transform: translateY(-50%);
         position: absolute;
+        @include media(phone) {
+          width: 20px;
+          height: 20px;
+          right: -35px;
+        }
       }
     }
   }

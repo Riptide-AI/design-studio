@@ -9,7 +9,16 @@
   border-radius: 0;
   transition: background-color 0.5s cubic-bezier(0, 1, 0, 1);
   border-bottom: 1px solid $pale-blue;
-
+  &__button{
+    position: relative;
+    height: 40px;
+    width: 40px;
+    margin-left: auto;
+    @include media(phone) {
+      height: 28px;
+      width: 28px;
+    }
+  }
   &.active {
     background-color: $pale-blue;
     transition: background-color 0.5s ease-in-out;
@@ -29,6 +38,12 @@
   font-weight: 600;
   font-size: 24px;
   line-height: 36px;
+  @include media(phone) {
+    padding: 12px 12px 8px;
+    font-size: 18px;
+    line-height: 125%;
+    height: 48px;
+  }
 }
 .link__icon {
   opacity: 0;
@@ -46,6 +61,9 @@
   padding: 0 20px;
   transition: max-height 1s cubic-bezier(0, 1, 0, 1);
   border-radius: 10px;
+  @include media(phone) {
+    padding: 0 12px;
+  }
 
   &__text {
     padding-bottom: 20px;
@@ -54,6 +72,10 @@
     line-height: 24px;
     color: $dark-grey;
     font-weight: 400;
+    @include media(phone) {
+      font-size: 14px;
+      line-height: 125%;
+    }
   }
   &.open {
     max-height: 1000px;

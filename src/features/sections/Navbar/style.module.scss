@@ -1,3 +1,4 @@
+@import '@/styles/vars.scss';
 .navbar {
   height: 48px;
   position: absolute;
@@ -7,9 +8,18 @@
   max-width: 1440px;
   left: 50%;
   transform: translateX(-50%);
+  @include media(phone) {
+    top: 80px;
+    height: 28px;
+    padding: 0 16px;
+  }
 
   &__btn {
     min-width: 160px;
+    @include media(phone) {
+      min-width: 110px;
+      height: 28px;
+    }
   }
   &__right {
     margin-left: auto;
@@ -18,10 +28,14 @@
   }
 }
 .logo {
-  width: 168px;
+  aspect-ratio: 168/38;
   height: 38px;
   position: relative;
   cursor: pointer;
+  @include media(phone) {
+    height: 28px;
+
+  }
 }
 .nav-wrapper {
   width: 100%;

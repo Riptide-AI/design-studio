@@ -8,3 +8,29 @@ $pale-blue: #12273c;
 
 $main-font: 'Manrope';
 $secondary-font: 'Open Sans';
+
+
+@mixin media($breakpoint) {
+  @if $breakpoint == phone {
+    @media only screen and  (max-width: 1440px) {
+      @content;
+    }
+  }
+  // @else if $breakpoint == tablet {
+  //   @media only screen and (min-width: 600px) and (max-width: 959px) {
+  //     @content;
+  //   }
+  // }
+  // @else if $breakpoint == desktop {
+  //   @media only screen and (min-width: 960px) {
+  //     @content;
+  //   }
+  // }
+  // @else if $breakpoint == custom {
+  //   // Define your custom media query here
+  //   @content;
+  // }
+  @else {
+    @warn "Invalid breakpoint: #{$breakpoint}. Please use 'phone', 'tablet', 'desktop', or 'custom'.";
+  }
+}

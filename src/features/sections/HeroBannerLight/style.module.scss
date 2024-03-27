@@ -2,6 +2,10 @@
 .wrapper {
   width: 100%;
   height: 404px;
+  @include media(phone) {
+    min-height: 235px;
+    height: fit-content;
+  }
 }
 .hero {
   margin-top: 170px;
@@ -9,6 +13,9 @@
   width: 100%;
   flex-direction: column;
   width: 100%;
+  @include media(phone) {
+    margin-top: 150px;
+  }
   &__title,
   &__desc {
     font-family: $main-font;
@@ -19,6 +26,10 @@
     font-weight: 600;
     color: $white;
     margin-bottom: 20px;
+    @include media(phone) {
+      font-size: 32px;
+      line-height: 125%;
+    }
   }
   &__desc {
     font-size: 16px;

@@ -3,17 +3,32 @@
 .services {
   margin-top: 140px;
   width: 100%;
+  @include media(phone) {
+    margin-top: 40px;
+  }
   &__content {
     display: flex;
     justify-content: space-between;
     gap: 40px;
+    @include media(phone) {
+      flex-direction: column;
+      gap: 24px;
+    }
   }
   &__image {
-    width: 600px;
-    height: 479px;
+    max-width: 600px;
+    width: 100%;
+    aspect-ratio: 600/ 429;
     position: relative;
     border-radius: 10px;
     flex-shrink: 0;
+    img {
+      width: 100%;
+      height: auto;
+    }
+    @include media(phone) {
+      order: 1;
+    }
   }
   &__desc {
     flex-grow: 1;
@@ -26,7 +41,10 @@
     font-weight: 600;
     color: $white;
     margin-bottom: 15px;
+    @include media(phone) {
+      font-size: 20px;
+      line-height: 130%;
+    }
   }
-  &__tabs {
-  }
+
 }

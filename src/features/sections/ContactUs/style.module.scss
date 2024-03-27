@@ -5,8 +5,10 @@
   padding: 50px 0;
   font-family: $main-font;
   &__content {
-    margin: 0 auto;
-  }
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+align-items: center;  }
   &__title {
     line-height: 150%;
     margin-bottom: 34px;
@@ -15,5 +17,7 @@
     font-family: Manrope;
     font-size: 24px;
     font-weight: 600;
+    width: 100%;
+ 
   }
 }

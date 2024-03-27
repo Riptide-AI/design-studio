@@ -5,7 +5,10 @@
   width: 100%;
   display: flex;
   flex-direction: column;
-  gap: 33px;
+  gap: 24px;
+  @include media(phone) {
+    margin-top: 80px;
+  }
   &__title {
     color: $white;
     font-family: $main-font;
@@ -13,12 +16,19 @@
     line-height: 125%;
     font-weight: 600;
     text-align: center;
+    @include media(phone) {
+      font-size: 20px;
+      line-height: 130%;
+    }
   }
   &__cards {
     display: flex;
     margin: 0 auto;
   }
   &__card {
+    @include media(phone) {
+      width: 64px;
+    }
     width: 232px;
     display: flex;
     flex-direction: column;
@@ -36,6 +46,11 @@
           right: -10px;
           top: 50%;
           transform: translateY(-50%);
+          @include media(phone) {
+            width: 8px;
+            height: 8px;
+            right: -4px;
+          }
         }
       }
     }
@@ -52,6 +67,11 @@
         left: -10px;
         top: 50%;
         transform: translateY(-50%);
+        @include media(phone) {
+          width: 8px;
+          height: 8px;
+          left: -4px;
+        }
       }
     }
     &:nth-child(2n-1) {
@@ -81,8 +101,23 @@
       display: flex;
       align-items: center;
       justify-content: center;
-      position: relative;
+      @include media(phone) {
+        width: 64px;
+        height: 64px;
+      }
+      &__img {
+        position: relative;
+        width: 100px;
+        height: 100px;
+        @include media(phone) {
+          width: 24px;
+          height: 24px;
+        }
+      }
 
+      @include media(phone) {
+        padding: 21px 17px;
+      }
       &::after {
         content: '';
         position: absolute;
@@ -93,13 +128,24 @@
     }
     &__btn {
       width: calc(100% - 20px);
-      margin-top: 24px;
+      margin-top: 10px;
       border-radius: 2px;
+      @include media(phone) {
+        font-size: 8px;
+        line-height: 125%;
+        width: calc(100% - 5px);
+        height: 14px;
+      }
     }
   }
   &__btn {
     width: fit-content;
     margin: 0 auto;
+    @include media(phone) {
+      font-size: 18px;
+      line-height: 125%;
+      width: 234px;
+    }
   }
   &__desc {
     border: 1px solid $bright-blue;
@@ -111,6 +157,13 @@
     line-height: 24px;
     font-family: $main-font;
     position: relative;
+    @include media(phone) {
+      font-size: 8px;
+      line-height: 125%;
+      width: 100%;
+      padding: 10px;
+    }
+
     // &::after{
     //   content: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="1240" height="129" viewBox="0 0 1240 129" fill="none"><path d="M1239 27.0041V124C1239 126.209 1237.21 128 1235 128H5C2.79086 128 1 126.209 1 124V27.0041C1 24.795 2.79086 23.0041 5 23.0041H99.2181C101.456 23.0041 103.508 21.7589 104.541 19.7739L114.224 1.16627L123.907 19.7738C124.94 21.7589 126.992 23.0041 129.229 23.0041H1235C1237.21 23.0041 1239 24.795 1239 27.0041Z" stroke="#2D8EEE" stroke-width="2"/></svg>');
     //   position: absolute;

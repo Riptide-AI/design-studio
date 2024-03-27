@@ -3,6 +3,11 @@
 .card {
   max-width: 400px;
   width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+ 
+  
   &__order {
     color: $white;
     text-align: center;
@@ -18,9 +23,24 @@
     font-family: $main-font;
     font-size: 16px;
     line-height: 22px;
-    padding: 15px 0 40px;
+    margin: 15px 0 40px;
     color: $light-grey;
     text-align: center;
+    @include media(phone) {
+      font-size: 12px;
+      line-height: 125%;
+      margin: 4px 0 12px;
+    }
+  }
+  &__desc{
+    @include media(phone) {
+     height: 45px;
+    }
+  }
+  &__stats_name {
+    @include media(phone) {
+      margin-bottom: auto;
+     }
   }
   &__stats {
     font-family: $main-font;
@@ -30,5 +50,9 @@
     text-align: center;
     color: $white;
     font-weight: 600;
+    @include media(phone) {
+    font-size: 32px;
+    line-height: 125%;
+    }
   }
 }

@@ -44,7 +44,12 @@
   display: block;
   height: 48px;
   width: 160px;
+  aspect-ratio: 160/48;
   position: relative;
+  @include media(phone) {
+    height: 24px;
+    width: auto;
+   }
   img {
     height: inherit;
     width: inherit;

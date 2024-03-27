@@ -3,6 +3,9 @@
 .business {
   margin-top: 140px;
   width: 100%;
+  @include media(phone) {
+    margin-top: 80px;
+  }
   &__title {
     text-align: center;
     color: $white;
@@ -11,11 +14,22 @@
     line-height: 50px;
     font-weight: 600;
     margin-bottom: 40px;
+    @include media(phone) {
+      margin-bottom: 12px;
+      font-size: 20px;
+      line-height: 130%;
+      text-align: start;
+
+    }
   }
   &__cards {
     display: flex;
     gap: 40px;
+    align-items: center;
     justify-content: space-between;
     overflow: hidden;
+    @include media(phone) {
+      flex-direction: column;
+    }
   }
 }

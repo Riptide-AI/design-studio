@@ -27,6 +27,9 @@
     display: flex;
     margin-top: 60px;
     gap: 20px;
+    @include media(phone) {
+      flex-direction: column;
+    }
   }
   &__item {
     display: flex;

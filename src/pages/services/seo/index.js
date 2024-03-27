@@ -13,7 +13,7 @@ export default function Seo() {
     <>
       <HeroBannerLight data={heroBanner} />
       <SupportTypes data={approach} />
-      <SeoSolution />
+      {/* <SeoSolution /> */}
       <PriceList data={pricelist} />
       <InfoCards data={factors} />
       <ContactUs />

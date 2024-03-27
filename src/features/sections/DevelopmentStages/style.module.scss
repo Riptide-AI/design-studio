@@ -20,6 +20,7 @@
     line-height: 125%;
     max-width: 850px;
     margin: 0 auto;
+    text-align: justify;
   }
   &__timeline {
     margin-top: 40px;
@@ -28,6 +29,9 @@
     grid-template-rows: 1fr;
     justify-content: space-between;
     position: relative;
+    @include media(phone) {
+      display:none;
+    }
     &::after {
       content: '';
       position: absolute;

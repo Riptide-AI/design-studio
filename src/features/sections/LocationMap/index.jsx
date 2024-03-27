@@ -21,7 +21,7 @@ export const LocationMap = () => {
 
   return (
     <div>
-      <div id="map" className={styles.map} style={{ height: '415px', width: '100%' }}></div>
+      <div id="map" className={styles.map}></div>
       <script src="https://maps.googleapis.com/maps/api/js?callback=initMap"/>
     </div>
   );

@@ -4,6 +4,9 @@
   margin: 140px auto 0;
   font-family: $main-font;
   width: 100%;
+  @include media(phone) {
+    margin: 40px auto 0;
+  }
   &__title {
     text-align: center;
     font-size: 40px;
@@ -11,12 +14,18 @@
     line-height: 125%;
     color: $white;
     margin: 0 auto 40px;
+    @include media(phone) {
+      font-size: 24px;
+    }
   }
   &__list {
     display: grid;
     gap: 40px;
     grid-template-rows: 2fr;
     grid-template-columns: repeat(3, 1fr);
+    @include media(phone) {
+      grid-template-columns: 1fr;
+    }
   }
   &__item {
     max-width: 386px;

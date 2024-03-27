@@ -2,6 +2,28 @@ export const heroBanner = {
   title: 'Брендинг та дизайн',
   bg: '/img/hero-banner-7.jfif',
 };
+
+export const weProvide = {
+  title: 'Які послуги ми пропонуємо',
+  list: [
+    {
+      title: 'Дизайн сайту',
+      desc: 'Розробляємо яскравий та вражаючий UІ дизайн. Приділяємо особливу увагу Mobile First. Тому, не зволікай співпрацювати з нами.',
+      icon: '/img/icons/tech-1.svg',
+    },
+    {
+      title: 'Дизайн сайту',
+      desc: 'Розробляємо яскравий та вражаючий UІ дизайн. Приділяємо особливу увагу Mobile First. Тому, не зволікай співпрацювати з нами.',
+      icon: '/img/icons/clipboard.svg',
+    },
+    {
+      title: 'Дизайн сайту',
+      desc: 'Розробляємо яскравий та вражаючий UІ дизайн. Приділяємо особливу увагу Mobile First. Тому, не зволікай співпрацювати з нами.',
+      icon: '/img/icons/tech-6.svg',
+    },
+
+  ],
+};
 export const supportTypes = {
   title: 'Процес розробки дизайну сайту',
   image: '/img/development-stage-1.jfif',

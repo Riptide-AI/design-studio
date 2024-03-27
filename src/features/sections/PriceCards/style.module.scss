@@ -4,6 +4,9 @@
   margin: 140px auto 0;
   width: 100%;
   font-family: Manrope;
+  @include media(phone) {
+    margin: 40px auto 0;
+  }
   &__title {
     text-align: center;
     font-size: 40px;
@@ -11,6 +14,9 @@
     line-height: 125%;
     color: $white;
     margin: 0 auto 12px;
+    @include media(phone) {
+      font-size: 24px;
+    }
   }
   &__desc {
     font-size: 18px;
@@ -20,20 +26,29 @@
     max-width: 850px;
     margin: 0 auto;
     text-align: center;
+    @include media(phone) {
+      text-align: justify;
+      font-weight: normal;
+    }
   }
   &__list {
     display: flex;
     margin-top: 40px;
     gap: 40px;
-    align-items: center;
-    justify-content: stretch;
+    align-items: stretch;
+    @include media(phone) {
+      min-width: 300px;
+      overflow: auto;
+    }
   }
   &__item {
-    width: 386px;
+    max-width: 386px;
+    width: 100%;
     border-radius: 10px;
     padding: 20px 28px 32px;
     display: flex;
     flex-direction: column;
+    flex-shrink: 0;
 
     &:nth-child(2) {
       .price_cards__item__size_type {

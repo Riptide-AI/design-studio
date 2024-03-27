@@ -6,6 +6,9 @@
   flex-direction: column;
   align-items: center;
   font-family: $main-font;
+  @include media(phone) {
+    margin-top: 80px;
+  }
 
   &__title {
     font-size: 40px;
@@ -14,13 +17,18 @@
     color: $white;
     max-width: 800px;
     text-align: center;
+    @include media(phone) {
+      font-size: 24px;
+    }
   }
   &__list {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-
     margin-top: 40px;
     gap: 32px 38px;
+    @include media(phone) {
+      grid-template-columns: 1fr !important;
+    }
   }
   &__image {
     width: 100%;

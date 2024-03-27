@@ -1,16 +1,28 @@
 @import '@/styles/vars.scss';
 
 .card {
-  width: 387px;
+  max-width: 387px;
+  width: 100%;
   display: flex;
   flex-direction: column;
+  border-radius: 10px;
+  @include media(phone) {
+    border-radius: 8px;
+  }
   &__image {
-    height: 300px;
     position: relative;
+    aspect-ratio: 387/300;
     width: 100%;
     margin-bottom: 50px;
+    @include media(phone) {
+      height: 200px;
+      margin-bottom: 32px;
+    }
     & > img {
       border-radius: 10px;
+      @include media(phone) {
+        border-radius: 8px;
+      }
     }
   }
   &__icon {
@@ -25,9 +37,17 @@
     bottom: 0;
     left: 50%;
     transform: translate(-50%, 50%);
+    @include media(phone) {
+      width: 48px;
+      height: 48px;
+    }
     img {
       width: 32px;
       height: 32px;
+      @include media(phone) {
+        width: 24px;
+        height: 24px;
+      }
     }
   }
   &__title {
@@ -39,10 +59,11 @@
     margin-bottom: 8px;
   }
   &__desc {
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 400;
     font-family: $main-font;
     line-height: 150%;
     color: $dark-grey;
+    text-align: justify;
   }
 }
