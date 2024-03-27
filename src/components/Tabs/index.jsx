@@ -19,13 +19,14 @@ export const Tabs = ({ items }) => {
         >
           <div className={styles.tab_header} onClick={() => toggleTab(index)}>
             {tab.tabName}
-            <Image
-              src="img/icons/arrow-circle.svg"
-              height={40}
-              width={40}
-              className={clsx(styles.link__icon, { [styles.active]: activeTab === index })}
-              alt=""
-            />
+            <div className={styles.tab__button}>
+              <Image
+                src="img/icons/arrow-circle.svg"
+                fill={true}
+                className={clsx(styles.link__icon, { [styles.active]: activeTab === index })}
+                alt=""
+              />
+            </div>
           </div>
           <div className={clsx(styles.tab_content, { [styles.open]: activeTab === index })}>
             <div className={styles.tab_content__text}>{tab.content}</div>

@@ -3,6 +3,9 @@
 .work_with_us {
   margin: 140px auto 0;
   width: 100%;
+  @include media(phone) {
+    margin: 40px auto 0;
+  }
   &__title {
     text-align: center;
     font-family: Manrope;
@@ -12,11 +15,17 @@
     color: $white;
     max-width: 750px;
     margin: 0 auto 32px;
+    @include media(phone) {
+      font-size: 24px;
+    }
   }
   &__list {
     display: flex;
     gap: 40px;
     align-items: center;
+    @include media(phone) {
+      flex-direction: column;
+    }
   }
   &__item {
     max-width: 386px;
@@ -35,6 +44,14 @@
       align-items: center;
       justify-content: center;
       margin-bottom: 12px;
+      @include media(phone) {
+        height: 64px;
+        width: 64px;
+        img {
+          width: 32px;
+          height: 32px;
+        }
+      }
     }
     &__desc {
       text-align: center;

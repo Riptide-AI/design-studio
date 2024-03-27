@@ -3,7 +3,9 @@
 .form {
   display: flex;
   flex-direction: column;
-  width: 600px;
+  max-width: 600px;
+  width: 100%;
+ 
   &__input {
     margin-bottom: 32px;
     width: 100%;
@@ -23,6 +25,10 @@
     display: flex;
     gap: 40px;
     width: 100%;
+    @include media(phone) {
+      flex-direction: column;
+      gap: 0;
+    }
   }
   &__label {
     margin-bottom: 20px;
@@ -35,13 +41,27 @@
       font-weight: 600;
       line-height: 125%;
       margin-bottom: 20px;
+      @include media(phone) {
+        display: none;
+      }
+    }
+    @include media(phone) {
+      display: none;
     }
   }
   &__btn {
     margin: 60px auto 0;
+    @include media(phone) {
+      margin: 0 auto;
+      width: 160px;
+    }
   }
 }
 .contacts-btn {
   margin: 8px 0 0;
   width: fit-content;
+  @include media(phone) {
+    margin: 8px auto 0;
+    width: 160px;
+  }
 }

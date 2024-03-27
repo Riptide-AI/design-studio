@@ -7,6 +7,9 @@
   justify-content: center;
   margin: 0 50px;
   width: 100%;
+  @include media(phone) {
+    display: none;
+  }
 }
 .link-item {
   color: $dark-grey;

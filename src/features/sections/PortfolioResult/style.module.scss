@@ -10,6 +10,9 @@
     background-color: $dark-blue;
     position: absolute;
     top: 0;
+    @include media(phone) {
+      height: 170px;
+    }
   }
 }
 .result {
@@ -17,7 +20,7 @@
   font-family: $main-font;
   &__banner_image {
     position: relative;
-    height: 635px;
+    aspect-ratio: 1124/633;
     width: 100%;
 
     img {
@@ -62,7 +65,10 @@
       margin-top: 12px;
       gap: 40px;
       grid-template-columns: 1fr 1fr;
-      grid-template-rows: 1fr;
+      grid-auto-rows: auto;
+      @include media(phone) {
+        grid-template-columns: 1fr;
+      }
     }
     &__item {
       display: flex;
@@ -80,7 +86,7 @@
       &__image {
         position: relative;
         width: 100%;
-        height: 300px;
+        aspect-ratio: 600/300;
         overflow: hidden;
         border-radius: 12px;
         margin-top: 40px;

@@ -5,10 +5,12 @@ import { SecurityList } from '@/features/sections/SecurityList';
 import { Reviews } from '@/features/sections/Reviews';
 import { SupportTypes } from '@/features/sections/SupportTypes';
 import { supportTypes } from '@/data/design';
+import { WeProvide } from '@/features/sections/WeProvide';
 export default function Design() {
   return (
     <>
       <HeroBannerLight data={heroBanner} />
+      <WeProvide/>
       <SupportTypes data={supportTypes} alt cols={4} />
       <SecurityList />
       <Reviews data={reviews} />

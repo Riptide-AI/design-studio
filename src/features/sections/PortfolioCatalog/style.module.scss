@@ -10,6 +10,9 @@
     height: 160px;
     background-color: $dark-blue;
     position: absolute;
+    @include media(phone) {
+      display: none;
+    }
   }
   &::after {
     top: 0;
@@ -25,6 +28,12 @@
   grid-template-rows: 1fr;
   font-family: $main-font;
   gap: 40px;
+  @include media(phone) {
+    grid-template-columns: 1fr;
+    grid-auto-rows: auto;
+    padding: 0;
+    margin-top: 40px;
+  }
   &__content {
     display: flex;
     flex-direction: column;
@@ -68,12 +77,16 @@
     grid-template-rows: 1fr 1fr;
     gap: 40px;
     height: 824px;
+    @include media(phone) {
+      height: auto;
+    }
   }
   &__image {
     position: relative;
     border-radius: 12px;
-    height: 392px;
-    width: 600px;
+    max-width: 600px;
+    width: 100%;
+    aspect-ratio: 600 / 392;
     overflow: hidden;
     z-index: 1;
     img {

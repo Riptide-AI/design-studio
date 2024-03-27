@@ -3,17 +3,30 @@
 .pagination {
   margin-top: 140px;
   display: flex;
+  width: 100%;
   flex-direction: column;
   font-family: $main-font;
+  @include media(phone) {
+    margin-top: 40px;
+  }
   &__filters {
     display: flex;
+    max-width: fit-content;
+    overflow: scroll;
     gap: 42px;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+    &::-webkit-scrollbar {
+      display: none;
+    }
     &__item {
       color: $dark-grey;
       font-size: 24px;
+      min-width: max-content;
       line-height: 150%;
       cursor: pointer;
       position: relative;
+
       &:last-child {
         &::after {
           display: none;
@@ -38,13 +51,21 @@
     margin-top: 32px;
     display: grid;
     width: 100%;
-    grid-template-columns: repeat(3, 387px);
+    grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(3, 1fr);
     gap: 32px 40px;
+    @include media(phone) {
+      grid-template-columns: 1fr;
+      grid-auto-rows: 1fr;
+    }
     &__item {
-      &__image {
+      @include media(phone) {
+        max-width: 328px;
         height: 253px;
-        width: 387px;
+      }
+      &__image {
+        aspect-ratio: 387/253;
+        width: 100%;
         border-radius: 10px;
         overflow: hidden;
         background-color: $pale-blue;

@@ -18,6 +18,9 @@
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr;
   gap: 32px 40px;
+  @include media(phone) {
+    grid-template-columns: 1fr;
+  }
   &__item {
     font-family: $main-font;
     cursor: default;

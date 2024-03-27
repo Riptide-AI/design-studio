@@ -13,6 +13,9 @@
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
+  @include media(phone) {
+    height: auto;
+   }
   &__header {
     width: 100%;
     margin: 100px 0 16px 0;
@@ -31,6 +34,11 @@
     font-weight: 600;
     color: $white;
     text-transform: uppercase;
+    @include media(phone) {
+      font-size: 24px;
+      line-height: 125%;
+      margin-bottom: 8px;
+    }
   }
   &__desc {
     font-size: 16px;
@@ -39,6 +47,10 @@
     max-width: 380px;
     text-align: center;
     font-weight: 400;
+    @include media(phone) {
+      font-size: 16px;
+      line-height: 125%;
+    }
   }
   &__stats_list {
     display: flex;
@@ -46,5 +58,10 @@
     justify-content: space-between;
     gap: 40px;
     margin-top: 40px;
+    @include media(phone) {
+      font-size: 32px;
+      gap: 8px;
+      margin-top: 24px;
+    }
   }
 }

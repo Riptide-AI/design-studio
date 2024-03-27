@@ -5,8 +5,17 @@
   display: flex;
   flex-wrap: wrap;
   gap: 40px;
+  @include media(phone) {
+    flex-direction: column;
+    flex-wrap: nowrap;
+    margin-top: 80px;
+    gap: 24px;
+  }
   &__content {
     flex-basis: calc(50% - 20px);
+    @include media(phone) {
+      flex-basis: 100%;
+    }
   }
   &__title {
     font-family: $main-font;
@@ -15,6 +24,11 @@
     font-weight: 600;
     color: $white;
     margin-bottom: 20px;
+    @include media(phone) {
+      font-size: 20px;
+      line-height: 130%;
+      margin-bottom: 12px;
+    }
   }
   &__desc {
     font-family: $main-font;
@@ -22,26 +36,44 @@
     font-size: 16px;
     line-height: 24px;
     color: $dark-grey;
+    text-align: justify;
+    word-wrap: break-word;
   }
   &__image {
     flex-basis: calc(50% - 20px);
     position: relative;
     width: 100%;
+    aspect-ratio: 600/262;
     max-width: 600px;
-    height: 256px;
     border-radius: 10px;
     overflow: hidden;
+    @include media(phone) {
+      flex-basis: 100%;
+    }
   }
   &__cards_list {
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 1fr;
     gap: 32px;
     width: 100%;
+    @include media(phone) {
+      grid-template-columns: 1fr 1fr;
+      grid-template-rows: 1fr 1fr;
+      gap: 12px;
+
+    }
   }
   &__card {
     flex-grow: 1;
     padding: 40px;
     background-color: $pale-blue;
     border-radius: 20px;
+    @include media(phone) {
+      border-radius: 16px;
+      padding: 12px;
+
+    }
   }
   &__card_counter {
     font-family: $main-font;
@@ -50,6 +82,10 @@
     line-height: 70px;
     color: $white;
     text-align: center;
+    @include media(phone) {
+      font-size: 32px;
+      line-height: 125%;
+    }
   }
   &__card_desc {
     font-family: $main-font;
@@ -58,5 +94,9 @@
     line-height: 24px;
     color: $dark-grey;
     text-align: center;
+    @include media(phone) {
+      font-size: 12px;
+      line-height: 125%;
+    }
   }
 }

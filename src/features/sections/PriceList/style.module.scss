@@ -12,6 +12,7 @@
     line-height: 125%;
     max-width: 800px;
     margin: 0 auto 24px;
+
   }
   &__desc {
     text-align: center;
@@ -20,6 +21,7 @@
     line-height: 150%;
     max-width: 800px;
     margin: 0 auto;
+    
   }
   &__list {
     margin-top: 80px;
@@ -34,6 +36,11 @@
     display: grid;
     grid-template-columns: 260px auto auto;
     align-items: center;
+    @include media(phone) {
+      grid-template-columns: 1fr;
+      grid-auto-rows: auto;
+      padding: 38px 16px;
+    }
     &__title_wrap,
     &__price_wrap {
       display: flex;
@@ -43,10 +50,17 @@
       align-items: flex-end;
       max-width: 175px;
       text-align: right;
+      @include media(phone) {
+        margin: 20px auto 10px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+      }
     }
     &__desc {
       max-width: 500px;
       margin: 0 auto;
+      text-align: justify;
     }
     &__plan {
       font-size: 14px;
@@ -58,12 +72,18 @@
       color: $bright-blue;
       margin-bottom: 20px;
     }
+    &__subtitle{
+      @include media(phone) {
+        margin-bottom: 10px;
+      }
+    }
     &__title {
       color: $white;
       font-size: 40px;
       font-weight: 600;
       line-height: 125%;
       margin-bottom: 6px;
+      
       &_alt {
         font-size: 24px;
         font-weight: 600;
@@ -82,10 +102,13 @@
       font-size: 40px;
       font-weight: 600;
       line-height: 125%;
+    
     }
     &__due,
     &__btn {
       margin-top: 10px;
+      width: 160px;
+      text-align: center;
     }
   }
 }

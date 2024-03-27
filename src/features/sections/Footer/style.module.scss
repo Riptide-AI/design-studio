@@ -17,6 +17,9 @@
     justify-content: space-between;
     font-size: 16px;
     line-height: 150%;
+    @include media(phone) {
+      flex-direction: column;
+    }
   }
   &__info {
     display: flex;
@@ -28,11 +31,18 @@
     display: flex;
     margin-left: auto;
     gap: 40px;
+    @include media(phone) {
+      flex-direction: column;
+      margin: 20px 0 0;
+    }
   }
   &__subLinks {
     display: flex;
     gap: 40px;
     list-style-type: none;
+    @include media(phone) {
+      flex-direction: column;
+    }
   }
   &__links {
     display: flex;

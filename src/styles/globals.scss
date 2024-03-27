@@ -11,4 +11,5 @@ a {
 body {
   background-color: $dark-blue;
   overflow-x: hidden;
+  min-width: 360px !important;
 }

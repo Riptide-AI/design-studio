@@ -1,0 +1,30 @@
+@import '@/styles/vars.scss';
+
+.info_block {
+  margin-top: 70px;
+  display: flex;
+  width: 100%;
+  font-family: $main-font;
+  &__text {
+    margin: 0 auto;
+    color: $white;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 150%; 
+    max-width: 1000px;
+    position: relative;
+    &::after{
+      position: absolute;
+      content: "";
+      height: 2px;
+      width: 100px;
+      background-color: $bright-blue;
+      left: 50%;
+      bottom:-16px;
+      transform: translateX(-50%);
+    
+
+    }
+  }
+}
