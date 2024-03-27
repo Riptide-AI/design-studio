@@ -1,5 +1,4 @@
 import { useEffect, useMemo } from 'react';
-import Head from 'next/head';
 import styles from './style.module.scss';
 
 export const LocationMap = () => {
@@ -22,7 +21,7 @@ export const LocationMap = () => {
   return (
     <div>
       <div id="map" className={styles.map}></div>
-      <script src="https://maps.googleapis.com/maps/api/js?callback=initMap"/>
+      <script defer src="https://maps.googleapis.com/maps/api/js?callback=initMap"/>
     </div>
   );
 };
