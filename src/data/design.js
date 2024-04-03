@@ -9,19 +9,28 @@ export const weProvide = {
     {
       title: 'Дизайн сайту',
       desc: 'Розробляємо яскравий та вражаючий UІ дизайн. Приділяємо особливу увагу Mobile First. Тому, не зволікай співпрацювати з нами.',
-      icon: '/img/icons/tech-1.svg',
+      icons: ['/img/What_services_we_offer/iconoir_design-pencil.png'],
+      styls: ['pencil'],
     },
     {
       title: 'Дизайн сайту',
       desc: 'Розробляємо яскравий та вражаючий UІ дизайн. Приділяємо особливу увагу Mobile First. Тому, не зволікай співпрацювати з нами.',
-      icon: '/img/icons/clipboard.svg',
+      icons: [
+        '/img/What_services_we_offer/clipboard_claer.png',
+        '/img/What_services_we_offer/clipboard_top.png',
+      ],
+      styls: ['clipboard_claer', 'clipboard_top'],
     },
     {
       title: 'Дизайн сайту',
       desc: 'Розробляємо яскравий та вражаючий UІ дизайн. Приділяємо особливу увагу Mobile First. Тому, не зволікай співпрацювати з нами.',
-      icon: '/img/icons/tech-6.svg',
-    },
+      icons: [
+        '/img/What_services_we_offer/check.png',
+        '/img/What_services_we_offer/check_arow.png',
+      ],
 
+      styls: ['check', 'check_arrow'],
+    },
   ],
 };
 export const supportTypes = {

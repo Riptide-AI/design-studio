@@ -10,19 +10,21 @@ export const Reasons = () => {
         <div className={styles.reasons__title}>{reasons.title}</div>
         <div className={styles.reasons__content}>
           {reasons.items.map((item, i) => (
-            <div className={styles.reasons__item} key={`reason-${i}`}>
-              <Image src={item.icon} height={40} width={40} alt="icon" />
-              <div className={styles.reasons__item_title}>
-                {item.title}
-                <div className={styles.reasons__item_marker}>
-                  <div className={styles.reasons__item_marker_dot_wrapper}>
-                    <div className={styles.reasons__item_marker_dot} />
-                  </div>
-                  <div className={styles.reasons__item_marker_underline} />
-                </div>
+            <div className={styles.card} key={`reason-${i}`}>
+              <div className={styles.card_image}>
+                {item.icons.map((img, i) => (
+                  <Image
+                    key={`image-${img}`}
+                    src={img}
+                    data-name={item.styles[i]}
+                    alt="Why_choose_us_block_image"
+                    width={40}
+                    height={40}
+                  />
+                ))}
               </div>
-
-              <div className={styles.reasons__item_desc}>{item.desc}</div>
+              <div className={styles.card_label}>{item.title}</div>
+              <div className={styles.card_text}>{item.desc}</div>
             </div>
           ))}
         </div>

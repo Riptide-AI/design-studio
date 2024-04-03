@@ -3,23 +3,33 @@ import { weCreate } from '@/data/frontend';
 import Link from 'next/link';
 import styles from './style.module.scss';
 import Image from 'next/image';
-
-export const WeCreate = () => {
+ export const WeCreate = () => {
   return (
     <ContentWrapper>
       <div className={styles.we_create}>
         <div className={styles.we_create__title}>{weCreate.title}</div>
-        <div className={styles.we_create__list}>
+        <div className={styles.we_create__card_rows}>
           {weCreate.list.map((item, i) => (
-            <div className={styles.we_create__item} key={`item-${i}`}>
-              <div className={styles.we_create__item__icon}>
-                <Image src={item.icon} width={40} height={40} alt="" />
+            <Link href={item.link} key={`item-${i}`}>
+              <div className={styles.card}>
+                <div className={styles.card_row}>
+                  <div className={styles.image}>
+                    {item.icons.map((img, i) => (
+                      <Image
+                        key={`image-${i + item.link} `}
+                        data-name={item.styles[i]}
+                        src={img}
+                        width={40}
+                        height={40}
+                        alt="Picture"
+                      />
+                    ))}
+                  </div>
+                  <span>{item.title} </span>
+                </div>
+                <button className={styles.card_btn}></button>
               </div>
-              <div className={styles.we_create__item__title}>{item.title}</div>
-              <Link href={item.link} target='_blank' className={styles.we_create__item__button}>
-                <Image src={'/img/icons/last.svg'} width={16} height={16} alt="" />
-              </Link>
-            </div>
+            </Link>
           ))}
         </div>
       </div>

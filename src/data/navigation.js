@@ -3,7 +3,7 @@ export const navigation = [
   { title: 'services', link: '/services' },
   { title: 'portfolio', link: '/portfolio' },
   { title: 'aboutUs', link: '/about-us' },
-  // { title: 'blog', link: '/blog' },
+  { title: 'blog', link: '/blog' },
   { title: 'partnership', link: '/partnership' },
   { title: 'contacts', link: '/contacts' },
 ];

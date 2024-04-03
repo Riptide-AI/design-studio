@@ -30,7 +30,7 @@
     justify-content: space-between;
     position: relative;
     @include media(phone) {
-      display:none;
+      display: none;
     }
     &::after {
       content: '';
@@ -48,6 +48,101 @@
       flex-direction: column;
       justify-content: flex-start;
       position: relative;
+
+      &__order[data-count='1'] {
+        counter-increment: count 01;
+        &::after {
+          content: counter(count);
+        }
+        &:hover {
+          animation: count1 0.5s linear 1;
+          counter-increment: count 01;
+        }
+      }
+      &__order[data-count='2'] {
+        counter-increment: count 02;
+        &::after {
+          content: counter(count);
+        }
+      }
+      &__order[data-count='3'] {
+        counter-increment: count 03;
+        &::after {
+          content: counter(count);
+        }
+      }
+      &__order[data-count='4'] {
+        counter-increment: count 04;
+        &::after {
+          content: counter(count);
+        }
+      }
+      &__order[data-count='5'] {
+        counter-increment: count 05;
+        &::after {
+          content: counter(count);
+        }
+      }
+      &__order[data-count='6'] {
+        counter-increment: count 06;
+        &::after {
+          content: counter(count);
+        }
+      }
+      &__order[data-count='7'] {
+        counter-increment: count 07;
+        &::after {
+          content: counter(count);
+        }
+      }
+      &__order[data-count='8'] {
+        counter-increment: count 08;
+        &::after {
+          content: counter(count);
+        }
+      }
+      &__order[data-count='9'] {
+        counter-increment: count 09;
+        &::after {
+          content: counter(count);
+        }
+      }
+      &:hover &__order[data-count='1'] {
+        animation: count1 0.5s linear 1;
+        counter-increment: count 01;
+      }
+      &:hover &__order[data-count='2'] {
+        animation: count2 0.5s linear 1;
+        counter-increment: count 02;
+      }
+      &:hover &__order[data-count='3'] {
+        animation: count3 0.5s linear 1;
+        counter-increment: count 03;
+      }
+      &:hover &__order[data-count='4'] {
+        animation: count4 0.5s linear 1;
+        counter-increment: count 04;
+      }
+      &:hover &__order[data-count='5'] {
+        animation: count5 0.5s linear 1;
+        counter-increment: count 05;
+      }
+      &:hover &__order[data-count='6'] {
+        animation: count6 0.5s linear 1;
+        counter-increment: count 06;
+      }
+      &:hover &__order[data-count='7'] {
+        animation: count7 0.5s linear 1;
+        counter-increment: count 07;
+      }
+      &:hover &__order[data-count='8'] {
+        animation: count8 0.5s linear 1;
+        counter-increment: count 08;
+      }
+      &:hover &__order[data-count='9'] {
+        animation: count9 0.5s linear 1;
+        counter-increment: count 09;
+      }
       &:hover {
         &::before {
           width: 32px;
@@ -100,5 +195,185 @@
         margin-bottom: 12px;
       }
     }
+  }
+}
+@keyframes count1 {
+  0% {
+    counter-increment: count 00;
+  }
+  100% {
+    counter-increment: count 01;
+  }
+}
+@keyframes count2 {
+  0% {
+    counter-increment: count 00;
+  }
+  50% {
+    counter-increment: count 01;
+  }
+  100% {
+    counter-increment: count 02;
+  }
+}
+@keyframes count3 {
+  0% {
+    counter-increment: count 00;
+  }
+  33% {
+    counter-increment: count 01;
+  }
+  66% {
+    counter-increment: count 01;
+  }
+  100% {
+    counter-increment: count 03;
+  }
+}
+@keyframes count4 {
+  0% {
+    counter-increment: count 00;
+  }
+  25% {
+    counter-increment: count 01;
+  }
+  50% {
+    counter-increment: count 02;
+  }
+  75% {
+    counter-increment: count 03;
+  }
+  100% {
+    counter-increment: count 04;
+  }
+}
+@keyframes count5 {
+  0% {
+    counter-increment: count 00;
+  }
+  20% {
+    counter-increment: count 01;
+  }
+  40% {
+    counter-increment: count 02;
+  }
+  60% {
+    counter-increment: count 03;
+  }
+  80% {
+    counter-increment: count 04;
+  }
+  100% {
+    counter-increment: count 05;
+  }
+}
+@keyframes count6 {
+  0% {
+    counter-increment: count 00;
+  }
+  16% {
+    counter-increment: count 01;
+  }
+  32% {
+    counter-increment: count 02;
+  }
+  48% {
+    counter-increment: count 03;
+  }
+  64% {
+    counter-increment: count 04;
+  }
+  80% {
+    counter-increment: count 05;
+  }
+  100% {
+    counter-increment: count 06;
+  }
+}
+@keyframes count7 {
+  0% {
+    counter-increment: count 00;
+  }
+  15% {
+    counter-increment: count 01;
+  }
+  30% {
+    counter-increment: count 02;
+  }
+  45% {
+    counter-increment: count 03;
+  }
+  60% {
+    counter-increment: count 04;
+  }
+  73% {
+    counter-increment: count 05;
+  }
+  88% {
+    counter-increment: count 06;
+  }
+  100% {
+    counter-increment: count 07;
+  }
+}
+@keyframes count8 {
+  0% {
+    counter-increment: count 00;
+  }
+  12% {
+    counter-increment: count 01;
+  }
+  24% {
+    counter-increment: count 02;
+  }
+  36% {
+    counter-increment: count 03;
+  }
+  48% {
+    counter-increment: count 04;
+  }
+  60% {
+    counter-increment: count 05;
+  }
+  72% {
+    counter-increment: count 06;
+  }
+  84% {
+    counter-increment: count 07;
+  }
+  100% {
+    counter-increment: count 08;
+  }
+}
+@keyframes count9 {
+  0% {
+    counter-increment: count 00;
+  }
+  11% {
+    counter-increment: count 01;
+  }
+  22% {
+    counter-increment: count 02;
+  }
+  33% {
+    counter-increment: count 03;
+  }
+  44% {
+    counter-increment: count 04;
+  }
+  55% {
+    counter-increment: count 05;
+  }
+  66% {
+    counter-increment: count 06;
+  }
+  77% {
+    counter-increment: count 07;
+  }
+  88% {
+    counter-increment: count 08;
+  }
+  100% {
+    counter-increment: count 09;
   }
 }
