@@ -1,0 +1,185 @@
+$dark-blue: #081522;
+$pale-blue: #12273c;
+$bright-blue: #2d8eee;
+$white: #f0f0f0;
+$light-grey: #d4d4d4;
+$dark-grey: #b1b1b1;
+$green: #3deb8d;
+$yellow: #ffcf25;
+$red: #fa3d3d;
+$pale-bright-blue: #59acff;
+$dark-bright-blue: #0777e7;
+
+$font-family: "Manrope", sans-serif;
+$second-family: "Open Sans", sans-serif;
+$third-family: "Gilroy-SemiBold", sans-serif;
+
+@mixin xs {
+  @media (max-width: 425px) {
+    @content;
+  }
+}
+    .article_card {
+      transition-duration: 0.2s;
+      &:hover {
+        transform: scale(1.02);
+      }
+      @include xs {
+        max-width: 400px;
+        flex-direction: column;
+        width: 100%;
+      }
+      width: 1020px;
+      display: flex;
+      margin-bottom: 30px;
+      .card_image {
+        border-radius: 10px;
+        margin-right: 40px;
+        width: 380px;
+        height: 200px;
+        transition-duration: 0.3s;
+        &:hover {
+          box-shadow: 0px 0px 10px 0px #2d8eee;
+        }
+        img {
+          width: 100%;
+          height: 100%;
+        }
+        @include xs {
+          margin-bottom: 12px;
+          margin-right: 0px;
+          max-width: 390px;
+          width: 100%;
+          height: auto;
+        }
+      }
+      .info {
+        @include xs {
+          flex-direction: column;
+        }
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+
+        position: relative;
+        flex-direction: row;
+      }
+      .card_main_info {
+        .card_label {
+          font-family: $font-family;
+          font-weight: 600;
+          font-size: 24px;
+          line-height: 150%;
+          color: $white;
+        }
+        .card_short_text {
+          font-family: $second-family;
+          font-weight: 400;
+          font-size: 16px;
+          line-height: 150%;
+          color: $dark-grey;
+          max-width: 390px;
+          height: 70px;
+          margin-bottom: 60px;
+          overflow: hidden;
+          @include xs {
+            margin-bottom: 12px;
+          }
+        }
+        .card_views {
+          font-family: $font-family;
+          font-weight: 600;
+          font-size: 18px;
+          line-height: 125%;
+          color: $bright-blue;
+          position: relative;
+          padding-left: 36px;
+          @include xs {
+            font-family: $font-family;
+            font-weight: 600;
+            font-size: 16px;
+            line-height: 125%;
+            color: $bright-blue;
+            padding-left: 32px;
+            span {
+              display: none;
+            }
+          }
+          &::before {
+            content: "";
+            background-image: url(../../../public/img/Blog/eye.svg);
+            background-position: center;
+            position: absolute;
+            background-size: cover;
+            top: 2px;
+            left: 0px;
+            width: 24px;
+            height: 24px;
+            @include xs {
+              top: 0px;
+              width: 20px;
+              height: 20px;
+            }
+          }
+        }
+      }
+      .card_more_info {
+        @include xs {
+          position: absolute;
+          bottom: 0px;
+          right: 0px;
+        }
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+        align-items: flex-end;
+        font-family: $font-family;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 125%;
+        color: $bright-blue;
+        .category {
+          transition-duration: 0.3s;
+          cursor: pointer;
+          &:hover {
+            transform: scale(1.05);
+            color: #2165a8;
+          }
+          @include xs {
+            display: none;
+          }
+        }
+        .card_date_post {
+          @include xs {
+            display: none;
+          }
+        }
+        .card_time {
+          position: relative;
+          @include xs {
+            font-family: $font-family;
+            font-weight: 600;
+            font-size: 16px;
+            line-height: 125%;
+            color: $bright-blue;
+          }
+          &::before {
+            content: "";
+            background-image: url(../../../public/img/Blog/Clock.svg);
+            background-size: cover;
+            @include xs {
+              width: 20px;
+              left: -32px;
+              height: 20px;
+            }
+            position: absolute;
+            top: 0px;
+            left: -36px;
+            width: 24px;
+            height: 24px;
+          }
+        }
+      }
+    }
+   
+  
