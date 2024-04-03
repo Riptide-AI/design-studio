@@ -5,11 +5,20 @@
   display: grid;
   grid-template-columns: 2fr 1fr;
   font-family: $main-font;
+  @include media(phone) {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 80px;
+  }
   &__content {
     display: grid;
     gap: 40px;
     grid-template-rows: 1fr;
     grid-template-columns: 1fr 1fr;
+    @include media(phone) {
+      grid-template-columns: 1fr;
+    }
   }
   &__image {
     width: 100%;
@@ -18,6 +27,11 @@
     border-radius: 10px;
     overflow: hidden;
     margin-left: 40px;
+    aspect-ratio: 387/551;
+    max-width: 387px;
+    @include media(phone) {
+      margin: 40px 0 0;
+    }
   }
   &__title {
     grid-column: span 3;
@@ -28,6 +42,9 @@
     text-align: center;
     margin-bottom: 40px;
     position: relative;
+    @include media(phone) {
+      font-size: 24px;
+    }
   }
   &__item {
     display: flex;
@@ -35,6 +52,9 @@
     border-left: 2px solid $bright-blue;
     padding-left: 20px;
     padding-bottom: 40px;
+    @include media(phone) {
+      padding-bottom: 0;
+    }
     &:nth-child(5),
     &:nth-child(6) {
       padding-bottom: 0;

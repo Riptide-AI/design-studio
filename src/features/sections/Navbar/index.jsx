@@ -6,12 +6,17 @@ import { NavLinks } from '@/components/NavLinks';
 import { navigation } from '@/data/navigation';
 import { LocaleSwitch } from '@/components/LocaleSwitch';
 import { CustomButton } from '@/components/CustomButton';
+import { BurgerMenu } from '@/components/BurgerMenu';
 import { useTranslation } from 'react-i18next';
 
 export const Navbar = () => {
   const { t } = useTranslation();
   const [isMobile, setIsMobile] = useState(false);
-
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const handleToggle = () => {
+    isMenuOpen ? document.body.classList.remove('overflow-hidden') : document.body.classList.add('overflow-hidden');
+    setIsMenuOpen(!isMenuOpen);
+  };
   useEffect(() => {
     const handleResize = () => {
       setIsMobile(window.innerWidth <= 1440);
@@ -26,17 +31,20 @@ export const Navbar = () => {
   }, []);
 
   return (
-    <header className={styles.navbar}>
-      <div className={styles['nav-wrapper']}>
+    <header className={`${styles.navbar} ${isMenuOpen ? styles['navbar--open'] : ''}`}>
+      <div className={styles['nav-wrapper']} >
         <Link href="/home">
           <div className={styles.logo}>
             <Image src="/img/logo.png" alt="logo" fill="true" quality="100" placeholder="empty" />
           </div>
         </Link>
-        <NavLinks links={navigation} />
+        {!isMobile && <NavLinks links={navigation} />}
         <div className={styles.navbar__right}>
-          {!isMobile && <LocaleSwitch />} 
+          {!isMobile && <LocaleSwitch />}
           <CustomButton title={t('buttons.contactUs')} stylesClassName={styles.navbar__btn} />
+          {isMobile && (
+            <BurgerMenu links={navigation} isOpen={isMenuOpen} handleToggle={handleToggle} />
+          )}
         </div>
       </div>
     </header>

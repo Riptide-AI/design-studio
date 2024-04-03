@@ -1,0 +1,49 @@
+@import '@/styles/vars.scss';
+.burger_menu {
+  font-family: $main-font;
+
+  &__btn {
+    margin-left: 8px;
+    cursor: pointer;
+    height: 28px;
+  }
+  &__wrapper {
+    background-color: $dark-blue;
+    left: 0;
+    top: -60px;
+    z-index: -1;
+    padding-top: 88px;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+  }
+  &__links {
+    display: flex;
+    flex-direction: column;
+    margin-top: 120px;
+    width: 100%;
+    padding: 0 16px;
+    list-style: none;
+    gap: 24px;
+  }
+  &__switch{
+    margin: 100px 0 20px;
+    padding: 0 16px;
+  }
+}
+
+.link-item {
+  color: $dark-grey;
+  font-family: $main-font;
+  font-size: 18px;
+  line-height: 22.5px;
+  font-weight: 600;
+  min-width: fit-content;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  &--active,
+  &:hover {
+    color: $white;
+  }
+}

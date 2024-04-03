@@ -19,6 +19,10 @@
     align-items: center;
     grid-template-rows: 1fr;
     grid-template-columns: repeat(4, 1fr);
+    @include media(phone) {
+      grid-template-columns: 1fr;
+      align-items: center;
+    }
   }
   &__item {
     max-width: 280px;
@@ -31,6 +35,9 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    @include media(phone) {
+      max-width: none;
+    }
     &__icon {
       margin-bottom: 12px;
     }
@@ -46,7 +53,7 @@
       text-align: justify;
       font-size: 16px;
       font-weight: 400;
-      line-height: 140%; 
+      line-height: 140%;
       color: $dark-grey;
     }
   }

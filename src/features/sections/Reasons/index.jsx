@@ -27,7 +27,7 @@ export const Reasons = () => {
           ))}
         </div>
         <div className={styles.reasons__image}>
-          <Image src={reasons.image} fill="true" objectFit="cover" alt="" placeholder="empty" />
+          <Image src={reasons.image} fill="true" alt="" placeholder="empty" />
         </div>
       </div>
     </ContentWrapper>

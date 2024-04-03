@@ -6,12 +6,27 @@
   z-index: 10;
   width: 100%;
   max-width: 1440px;
+  z-index: 10;
   left: 50%;
   transform: translateX(-50%);
+
   @include media(phone) {
-    top: 80px;
+    top: 0;
     height: 28px;
-    padding: 0 16px;
+    padding: 60px 16px 0;
+
+    &--open {
+      width: 100vw;
+      max-height: 100vh;
+      height: 100%;
+      position: absolute;
+      overflow-y: auto;
+      background-color: $dark-blue;
+
+      // top: -60px;
+      z-index: 10;
+      // padding-top: 88px;
+    }
   }
 
   &__btn {
@@ -34,7 +49,6 @@
   cursor: pointer;
   @include media(phone) {
     height: 28px;
-
   }
 }
 .nav-wrapper {
