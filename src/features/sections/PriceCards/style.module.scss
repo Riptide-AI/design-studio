@@ -39,6 +39,7 @@
     @include media(phone) {
       min-width: 300px;
       overflow: auto;
+      justify-content: center;
     }
   }
   &__item {

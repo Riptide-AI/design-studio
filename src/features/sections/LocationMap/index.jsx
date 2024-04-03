@@ -3,7 +3,9 @@ import styles from './style.module.scss';
 
 export const LocationMap = () => {
   const lvivCoordinates = useMemo(() => ({ lat: 49.8397, lng: 24.0297 }), []);
+
   useEffect(() => {
+    // Define any initialization logic here
     if (typeof window !== 'undefined' && typeof window.google !== 'undefined') {
       const map = new window.google.maps.Map(document.getElementById('map'), {
         center: lvivCoordinates,
@@ -18,10 +20,17 @@ export const LocationMap = () => {
     }
   }, [lvivCoordinates]);
 
+  // Define initMap function before the Google Maps API script is loaded
+
   return (
     <div>
       <div id="map" className={styles.map}></div>
-      <script defer src="https://maps.googleapis.com/maps/api/js?callback=initMap"/>
+      <script
+        async
+        defer
+        src={`https://maps.googleapis.com/maps/api/js?callback=initMap`}
+        type="text/javascript"
+      />
     </div>
   );
 };

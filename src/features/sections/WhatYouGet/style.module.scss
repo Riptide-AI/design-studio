@@ -19,6 +19,10 @@
     align-items: center;
     grid-template-rows: 1fr;
     grid-template-columns: repeat(4, 1fr);
+    @include media(phone) {
+      grid-template-columns: 1fr;
+      align-items: center;
+    }
   }
   &__item {
     max-width: 280px;
@@ -29,7 +33,9 @@
     grid-template:
       'icon title'
       'icon desc';
-
+    @include media(phone) {
+      max-width: none;
+    }
     &__icon {
       margin-bottom: 12px;
       grid-area: icon;

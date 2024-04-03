@@ -3,6 +3,9 @@
 .technologies {
   margin-top: 140px;
   width: 100%;
+  @include media(phone) {
+    margin-top: 40px;
+  }
   &__title {
     font-family: $main-font;
     font-size: 40px;
@@ -27,12 +30,20 @@
     grid-row: 1 / 4;
     overflow: hidden;
     border-radius: 10px;
+    aspect-ratio: 387/496;
+    max-width: 387px;
+    margin: 0 auto;
+    width: 100%;
+
   }
   &__list {
     display: grid;
     gap: 28px 40px;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr;
+    @include media(phone) {
+      grid-template-columns: 1fr;
+    }
   }
   &__item {
     padding: 20px 0;
