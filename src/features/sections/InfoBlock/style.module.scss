@@ -5,6 +5,15 @@
   display: flex;
   width: 100%;
   font-family: $main-font;
+  &:hover{
+ 
+    &:hover{
+      .info_block__text {
+        &::after{   animation: border_bottom 0.5s linear 1;}
+     
+      }
+    }
+  }
   &__text {
     margin: 0 auto;
     color: $white;
@@ -26,5 +35,18 @@
     
 
     }
+  }
+}
+@keyframes border_bottom {
+  10%{
+    
+    background-color: rgba(0, 0, 255, 0);
+
+  }
+  100%{
+
+    background-color: $bright-blue;
+
+    
   }
 }
