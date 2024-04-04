@@ -1,31 +1,22 @@
-import React, { useState } from 'react';
 import style from './style.module.scss';
-
-const sortOptions = [
-  { name: 'Дата', isActive: true },
-  { name: 'Ім’я', isActive: false },
-  { name: 'Перегляди', isActive: false },
-];
+import { useDispatch, useSelector } from 'react-redux';
+import { isCheck } from '@/data/store/Slices/SortSlice';
+import { text } from '@/data/blog';
 
 export default function SortList() {
-  const [activeOption, setActiveOption] = useState(sortOptions[0]);
-
-  const handleFilterClick = (option) => {
-    sortOptions.map((e) => (e.isActive = false));
-    option.isActive = !option.isActive;
-    setActiveOption(option);
-  };
-
+  const dispatch = useDispatch();
+  const sortList = useSelector((state) => state.sort.sortList);
+  
   return (
     <div className={style.sort}>
-      <div className={style.sort_label}>Сортувати за:</div>
+      <div className={style.sort_label}>{text.sortBy}</div>
       <ul className={style.sort_list}>
-        {sortOptions.map((option) => (
+        {sortList.map((option) => (
           <li
             data-name={option.name}
             key={option.name}
             className={option.isActive ? style.active : ''}
-            onClick={() => handleFilterClick(option)}
+            onClick={() => dispatch(isCheck(option.name))}
           >
             {option.name}
           </li>

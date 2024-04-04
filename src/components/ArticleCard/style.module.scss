@@ -65,7 +65,13 @@ $third-family: "Gilroy-SemiBold", sans-serif;
         flex-direction: row;
       }
       .card_main_info {
+        &:hover{
+          .card_label{
+            font-size: 26px;
+          }
+        }
         .card_label {
+          transition-duration: .3s;
           font-family: $font-family;
           font-weight: 600;
           font-size: 24px;
