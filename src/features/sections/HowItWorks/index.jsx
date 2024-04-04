@@ -202,14 +202,7 @@ export function HowItWorks() {
           <div
             className={open ? style.card_description + ' ' + style.open : style.card_description}
           >
-            <Image
-              className={style.arrow}
-              style={{ left: left.current }}
-              src={arrow}
-              width={30}
-              height={22}
-              alt="Picture of the arrow"
-            />
+            <div className={style.arrow} style={{ left: left.current }}></div>
             <p className={style.text}>{text}</p>
           </div>
           <CustomButton

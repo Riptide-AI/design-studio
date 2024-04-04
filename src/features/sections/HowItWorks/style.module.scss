@@ -253,7 +253,6 @@
   padding: 12px 32px;
   border: none;
   cursor: pointer;
-
 }
 .hide {
   opacity: 0;
@@ -272,10 +271,33 @@
   padding: 15px 25px;
   width: 1275px;
   border: 1px solid #3080d1;
+
   .arrow {
     transition-duration: 0.3s;
     position: absolute;
     top: -17px;
+    width: 18px;
+    z-index: 5;
+    height: 22px;
+    background-color: #081522;
+ 
+    &::after,&::before{
+      content: '';
+      height: 1px;
+      background-color:#3080d1;
+      width: 17px;
+      position: absolute;
+      top: 9px;
+
+    }
+    &::after{
+      transform: rotate(-60deg);
+      left: -4px;
+    }
+    &::before{
+      left: 5px;
+      transform: rotate(60deg);
+    }
   }
   .text {
     color: var(--dark-grey, #b1b1b1);
