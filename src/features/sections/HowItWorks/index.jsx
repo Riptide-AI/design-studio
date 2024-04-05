@@ -1,7 +1,6 @@
 import React, { useRef, useState } from 'react';
 import style from './style.module.scss';
 import Image from 'next/image';
-import arrow from '../../../../public/img/How_we_work/arrow.png';
 import { howitworks } from '@/data/homepage';
 import { ContentWrapper } from '@/components/ContentWrapper';
 import { CustomButton } from '@/components/CustomButton';

@@ -9,7 +9,7 @@ import { useSelector } from 'react-redux';
 
 export default function Blog() {
   const [currentPage, setCurrentPage] = useState(1);
-  const [articlesAtPage] = useState(5);
+  const [articlesAtPage] = useState(8);
 
   const filterListRef = useRef([]);
   const filtredArray = useRef([]);

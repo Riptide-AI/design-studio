@@ -17,7 +17,7 @@ export default function BlogPageList({ articlesAtPage, totalArticles, paginate, 
   return (
     <div className={style.blog_page_list}>
       <ul className={style.page_pagination}>
-        <li onClick={(e) => paginate(1)}>
+        <li onClick={() => paginate(1)}>
           {
             <svg
               width="17"
@@ -31,7 +31,7 @@ export default function BlogPageList({ articlesAtPage, totalArticles, paginate, 
             </svg>
           }
         </li>
-        <li onClick={(e) => prevPage(currentPage)}>
+        <li onClick={() => prevPage(currentPage)}>
           {
             <svg
               width="6"
@@ -48,12 +48,12 @@ export default function BlogPageList({ articlesAtPage, totalArticles, paginate, 
           <li
             key={'Page' + number}
             className={currentPage == number ? style.active : ''}
-            onClick={(e) => paginate(number)}
+            onClick={() => paginate(number)}
           >
             {number}
           </li>
         ))}
-        <li onClick={(e) => nextPage(currentPage)}>
+        <li onClick={() => nextPage(currentPage)}>
           {
             <svg
               width="6"
@@ -66,7 +66,7 @@ export default function BlogPageList({ articlesAtPage, totalArticles, paginate, 
             </svg>
           }{' '}
         </li>
-        <li onClick={(e) => paginate(totalPage)}>
+        <li onClick={() => paginate(totalPage)}>
           {
             <svg
               width="17"

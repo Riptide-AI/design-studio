@@ -23,7 +23,7 @@ export default function Blog_filter() {
                 type="checkbox"
                 value={item.name}
                 name="name"
-                onChange={(e) => onChangeCheckBox(item.id)}
+                onChange={() => onChangeCheckBox(item.id)}
                 id={item.name}
                 checked={item.isChecked}
               />

@@ -5,15 +5,15 @@ import { useRouter } from 'next/router';
 import Link from 'next/link';
 import { HeroBannerLight } from '@/features/sections/HeroBannerLight';
 import { heroBanner } from '@/data/blog';
-export default function page() {
-  const router = useRouter();
+
+export default function Page() {
+  const Router = useRouter();
   return (
     <>
       {blogPosts.map(
         (post) =>
-          post.id == router.query.id && (
+          post.id == Router.query.id && (
             <>
-              {' '}
               <HeroBannerLight data={heroBanner} />
               <div className={styles.Article_page}>
                 <div className={styles.wrapper}>
@@ -27,10 +27,12 @@ export default function page() {
                   <div className={styles.more_articles}>
                     <div className={styles.more_articles_label}>Схожі статті</div>
                     <div className={styles.more_articles_card_row}>
-                      {blogPosts.map((morePost,i) => {
+                      {blogPosts.map((morePost) => {
                         if (post.category == morePost.category && post.id !== morePost.id) {
                           return (
-                            <Link href={`/blog/article_page/${morePost.id}`}>
+                            <Link
+                              key={`morePost-${morePost.id}`}
+                            href={`/blog/article_page/${morePost.id}`}>
                           <div className={styles.card}>
                             <div className={styles.card_image}>
                               <Image width={1000} height={1000} src={morePost.image} alt="" />
@@ -50,7 +52,6 @@ export default function page() {
                         
                       })}
                     </div>
-
                     <button className={styles.more_button}>
                       <Link href={'/blog'}>{text.morebtn}</Link>
                     </button>
