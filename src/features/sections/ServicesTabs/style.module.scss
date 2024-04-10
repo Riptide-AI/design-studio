@@ -18,7 +18,8 @@
   &__image {
     max-width: 600px;
     width: 100%;
-    aspect-ratio: 600/ 429;
+    aspect-ratio: 600/ 484;
+    max-height: 484px;
     position: relative;
     border-radius: 10px;
     flex-shrink: 0;
@@ -46,5 +47,4 @@
       line-height: 130%;
     }
   }
-
 }

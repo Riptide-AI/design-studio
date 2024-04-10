@@ -3,8 +3,9 @@
 .technologies {
   margin-top: 140px;
   width: 100%;
+  font-family: $main-font;
+
   &__title {
-    font-family: $main-font;
     font-size: 40px;
     line-height: 125%;
     font-weight: 600;
@@ -13,7 +14,6 @@
     text-align: center;
   }
   &__desc {
-    font-family: $main-font;
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
@@ -27,6 +27,8 @@
     grid-row: 1 / 4;
     overflow: hidden;
     border-radius: 10px;
+    aspect-ratio: 387/496;
+    max-width: 387px;
   }
   &__list {
     display: grid;
@@ -34,6 +36,11 @@
     grid-template-columns: 1fr 1fr 1fr;
     color: $white;
     grid-template-rows: 1fr;
+    @include media(phone) {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
     .card {
       overflow: hidden;
       border-radius: 10px;
@@ -44,8 +51,10 @@
       height: 140px;
       padding: 20px 40px;
       transition-duration: 0.3s;
+      @include media(phone) {
+        width: 100%;
+      }
       &:hover {
-       
         box-shadow: inset 1px 1px 7px #2d8eee;
         img[data-name='pencil'] {
           transform: rotate(360deg);
@@ -154,7 +163,6 @@
     }
     &_title {
       margin-bottom: 12px;
-      font-family: $main-font;
       font-size: 24px;
       font-weight: 600;
       line-height: 150%;
@@ -173,7 +181,6 @@
       }
     }
     &_desc {
-      font-family: $main-font;
       font-size: 16px;
       font-weight: 400;
       line-height: 140%;

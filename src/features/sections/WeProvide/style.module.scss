@@ -30,49 +30,45 @@
       align-items: center;
       justify-content: center;
       &:hover {
-        img[data-name="pencil"] {
+        img[data-name='pencil'] {
           transform: rotate(360deg);
         }
-        img[data-name="check_arrow"] {
+        img[data-name='check_arrow'] {
           animation: check_arrow 1s linear 1;
         }
-        img[data-name="clipboard_clear"]{
+        img[data-name='clipboard_clear'] {
           animation: clipboard 0.5s linear 1;
-
         }
-        img[data-name="clipboard_top"]{
-          animation: clipboard_top .6s linear 1;
-
+        img[data-name='clipboard_top'] {
+          animation: clipboard_top 0.6s linear 1;
         }
-
       }
       .card_image {
         margin-bottom: 10px;
         width: 50px;
         height: 50px;
         position: relative;
-        img[data-name="pencil"] {
+        img[data-name='pencil'] {
           transition-duration: 0.5s;
         }
-        img[data-name="check_arrow"] {
+        img[data-name='check_arrow'] {
           position: absolute;
           top: 0px;
           left: 0px;
         }
-        img[data-name="clipboard_top"] {
+        img[data-name='clipboard_top'] {
           position: absolute;
           top: 0px;
           left: 0px;
         }
-        img[data-name="clipboard_clear"] {
+        img[data-name='clipboard_clear'] {
           position: absolute;
           top: 0px;
           left: 0px;
-         
         }
       }
       .card_label {
-        font-family: "Manrope";
+        font-family: 'Manrope';
         font-size: 24px;
         font-weight: 600;
         line-height: 150%; /* 36px */
@@ -82,7 +78,7 @@
       .card_text {
         color: var(--dark-grey, #b1b1b1);
         text-align: center;
-        font-family: "Open Sans";
+        font-family: 'Open Sans';
         font-size: 16px;
         font-weight: 400;
         line-height: 140%; /* 22.4px */
@@ -108,16 +104,16 @@
     z-index: 2;
   }
   50% {
-   opacity: 0;
-   top: 20px;
-   z-index: 2;
+    opacity: 0;
+    top: 20px;
+    z-index: 2;
   }
-  90%{
-    
+  90% {
   }
-  100% {z-index: 2;
-   top: 0px;
-   opacity: 1;
+  100% {
+    z-index: 2;
+    top: 0px;
+    opacity: 1;
   }
 }
 @keyframes clipboard_top {
@@ -125,14 +121,14 @@
     opacity: 0;
   }
   50% {
-   opacity: 0;
-   top: 10px;
+    opacity: 0;
+    top: 10px;
   }
-  80%{
+  80% {
     opacity: 0;
   }
   100% {
-   top: 0px;
-   opacity: 1;
+    top: 0px;
+    opacity: 1;
   }
 }

@@ -3,7 +3,7 @@ import Link from 'next/link';
 import Image from 'next/image';
 import { useDispatch } from 'react-redux';
 import { isCheck } from '@/data/store/Slices/FilterSlice';
-import { text } from "@/data/blog";
+import { text } from '@/data/blog';
 
 export default function Article_card({
   views,
@@ -16,7 +16,6 @@ export default function Article_card({
   timeToRead,
   category,
 }) {
-
   const dispatch = useDispatch();
 
   return (
@@ -38,9 +37,13 @@ export default function Article_card({
           </div>
         </Link>
         <div className={style.card_more_info}>
-          <div className={style.category} onClick={()=> dispatch(isCheck(category))}>{categoryName}</div>
+          <div className={style.category} onClick={() => dispatch(isCheck(category))}>
+            {categoryName}
+          </div>
           <div className={style.card_date_post}>{date?.toDateString().slice(4)}</div>
-          <div className={style.card_time}>{timeToRead} {text.time}</div>
+          <div className={style.card_time}>
+            {timeToRead} {text.time}
+          </div>
         </div>
       </div>
     </div>

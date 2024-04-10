@@ -95,7 +95,7 @@ export default function Blog() {
 
   useEffect(() => {
     setcurrentArticle(filtredArray.current.slice(firstArticelIndex, lastArticelIndex));
-  }, [currentPage]);
+  }, [currentPage, firstArticelIndex, lastArticelIndex]);
 
   useEffect(() => {
     filterListRef.current = [];
@@ -113,11 +113,10 @@ export default function Blog() {
       }
     });
     setcurrentArticle(filtredArray.current.slice(firstArticelIndex, lastArticelIndex));
-    setCurrentPage(1)
-  }, [filtersData]);
+    setCurrentPage(1);
+  }, [filtersData, firstArticelIndex, lastArticelIndex]);
 
   useEffect(() => {
-
     sortList.map((e) => {
       if (e.isActive) {
         switch (e.id) {

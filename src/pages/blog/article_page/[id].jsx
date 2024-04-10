@@ -32,24 +32,24 @@ export default function Page() {
                           return (
                             <Link
                               key={`morePost-${morePost.id}`}
-                            href={`/blog/article_page/${morePost.id}`}>
-                          <div className={styles.card}>
-                            <div className={styles.card_image}>
-                              <Image width={1000} height={1000} src={morePost.image} alt="" />
-                            </div>
-                            <div className={styles.card_label}>{morePost.name}</div>
-                            <div className={styles.card_text}>
-                             {morePost.descrip}
-                            </div>
-                            <div className={styles.card_more_info}>
-                              <div className={styles.card_views}>{morePost.views}</div>
-                              <div className={styles.card_time}>{morePost.timeToRead + ' '+text.time}</div>
-                            </div>
-                          </div>
-                        </Link>
-                          )
+                              href={`/blog/article_page/${morePost.id}`}
+                            >
+                              <div className={styles.card}>
+                                <div className={styles.card_image}>
+                                  <Image width={1000} height={1000} src={morePost.image} alt="" />
+                                </div>
+                                <div className={styles.card_label}>{morePost.name}</div>
+                                <div className={styles.card_text}>{morePost.descrip}</div>
+                                <div className={styles.card_more_info}>
+                                  <div className={styles.card_views}>{morePost.views}</div>
+                                  <div className={styles.card_time}>
+                                    {morePost.timeToRead + ' ' + text.time}
+                                  </div>
+                                </div>
+                              </div>
+                            </Link>
+                          );
                         }
-                        
                       })}
                     </div>
                     <button className={styles.more_button}>

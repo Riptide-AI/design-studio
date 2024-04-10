@@ -10,7 +10,6 @@ export const WhatYouGet = () => {
         <div className={styles.what_you_get__title}>{whatYouGet.title}</div>
         <div className={styles.what_you_get__list}>
           {whatYouGet.list.map((item, i) => (
-        
             <div className={styles.card} key={`item-${i}`}>
               <div className={styles.card_row}>
                 <div className={styles.card_image}>

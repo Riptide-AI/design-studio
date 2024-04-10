@@ -12,7 +12,7 @@ export default function Frontend() {
   return (
     <>
       <HeroBannerLight data={heroBanner} />
-      <WeCreate/>
+      <WeCreate />
       <Workflow />
       <BusinessShowCase />
       <InfoCards data={infoCards} />

@@ -9,10 +9,9 @@ $pale-blue: #12273c;
 $main-font: 'Manrope';
 $secondary-font: 'Open Sans';
 
-
 @mixin media($breakpoint) {
   @if $breakpoint == phone {
-    @media only screen and  (max-width: 1440px) {
+    @media only screen and (max-width: 1440px) {
       @content;
     }
   }

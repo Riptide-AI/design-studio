@@ -8,9 +8,9 @@ const SortSlice = createSlice({
   reducers: {
     isCheck: (state, action) => {
       const searchId = (element) => {
-        if (element.name == action.payload)  return element;
+        if (element.name == action.payload) return element;
       };
-      state.sortList.map(e=>e.isActive =false)
+      state.sortList.map((e) => (e.isActive = false));
       state.sortList.find(searchId).isActive = !state.sortList.find(searchId).isActive;
     },
   },

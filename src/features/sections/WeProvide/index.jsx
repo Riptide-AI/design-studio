@@ -10,7 +10,6 @@ export const WeProvide = () => {
         <div className={styles.we_provide__title}>{weProvide.title}</div>
         <div className={styles.we_provide__list}>
           {weProvide.list.map((item, i) => (
-          
             <div className={styles.service_card} key={`item-${i}`}>
               <div className={styles.card_image}>
                 {item.icons.map((img, i) => (

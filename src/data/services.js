@@ -58,9 +58,13 @@ export const technologies = {
     },
     {
       title: 'Backend',
-      icons: ['/img/Tehnology/java.png', '/img/Tehnology/java_piece.png', '/img/Tehnology/java_text.png'],
+      icons: [
+        '/img/Tehnology/java.png',
+        '/img/Tehnology/java_piece.png',
+        '/img/Tehnology/java_text.png',
+      ],
       desc: 'PHP | Python | Rust | Java | Node.js | Ruby | С# | C++',
-      styles: ['java', 'java_piece','java_text'],
+      styles: ['java', 'java_piece', 'java_text'],
     },
 
     {

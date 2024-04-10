@@ -7,7 +7,7 @@ export const weCreate = {
   title: 'Які сайти ми розробляємо',
   list: [
     {
-      title: 'Інтернет-магазинс',
+      title: 'Інтернет-магазин',
       icons: [
         '/img/What_sites_we_develop/shop_bottom.png',
         '/img/What_sites_we_develop/shop_top.png',
@@ -42,7 +42,7 @@ export const weCreate = {
       styles: ['quiz'],
     },
     {
-      title: 'Сайт-візитівка',
+      title: 'Сайт-візитка',
       icons: [
         '/img/What_sites_we_develop/business_card_without_person.png',
         '/img/What_sites_we_develop/business_card_peron.png',

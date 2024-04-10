@@ -1,3 +1,5 @@
+@import '@/styles/vars.scss';
+
 @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap');
 @keyframes radar {
   0% {
@@ -61,6 +63,9 @@
 .How_we_work {
   margin: auto;
   margin-top: 140px;
+  @include media(phone) {
+    display: none; //to fix
+  }
 }
 .wrapper {
   max-width: 1160px;
@@ -78,7 +83,7 @@
     font-style: normal;
     font-weight: 600;
     line-height: 125%;
-    margin-bottom: 24px;
+    margin-bottom: 40px;
   }
   .images {
     width: 100%;
@@ -280,21 +285,21 @@
     z-index: 5;
     height: 22px;
     background-color: #081522;
- 
-    &::after,&::before{
+
+    &::after,
+    &::before {
       content: '';
       height: 1px;
-      background-color:#3080d1;
+      background-color: #3080d1;
       width: 17px;
       position: absolute;
       top: 9px;
-
     }
-    &::after{
+    &::after {
       transform: rotate(-60deg);
       left: -4px;
     }
-    &::before{
+    &::before {
       left: 5px;
       transform: rotate(60deg);
     }

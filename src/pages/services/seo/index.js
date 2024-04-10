@@ -7,6 +7,8 @@ import { approach, factors } from '@/data/seo';
 // import { SeoSolution } from '@/features/sections/SeoSolution';
 import { PriceList } from '@/features/sections/PriceList';
 import { pricelist } from '@/data/seo';
+import { reviews } from '@/data/seo';
+import { Reviews } from '@/features/sections/Reviews';
 
 export default function Seo() {
   return (
@@ -16,6 +18,7 @@ export default function Seo() {
       {/* <SeoSolution /> */}
       <PriceList data={pricelist} />
       <InfoCards data={factors} />
+      <Reviews data={reviews} />
       <ContactUs />
     </>
   );

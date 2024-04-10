@@ -15,7 +15,6 @@ export const Technologies = () => {
           </div>
           {technologies.list.map((item, i) => (
             <div className={styles.card} key={`item-${i}`}>
-             
               <div className={styles.card_image}>
                 {item.icons.map((img, i) => (
                   <Image

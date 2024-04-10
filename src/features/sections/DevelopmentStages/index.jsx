@@ -12,8 +12,10 @@ export const DevelopmentStages = ({ data, length = 7 }) => {
           style={{ gridTemplateColumns: `repeat(${length},1fr)` }}
         >
           {data.list.map((item, i) => (
-            <div  className={styles.stages__timeline__item} key={`item-${i}`}>
-              <div data-count ={i + 1} className={styles.stages__timeline__item__order}>0</div>
+            <div className={styles.stages__timeline__item} key={`item-${i}`}>
+              <div data-count={i + 1} className={styles.stages__timeline__item__order}>
+                0
+              </div>
               <div className={styles.stages__timeline__item__title}>{item.title}</div>
             </div>
           ))}

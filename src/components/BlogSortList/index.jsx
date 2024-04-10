@@ -6,7 +6,7 @@ import { text } from '@/data/blog';
 export default function SortList() {
   const dispatch = useDispatch();
   const sortList = useSelector((state) => state.sort.sortList);
-  
+
   return (
     <div className={style.sort}>
       <div className={style.sort_label}>{text.sortBy}</div>

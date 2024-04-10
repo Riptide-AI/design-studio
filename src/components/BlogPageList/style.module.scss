@@ -22,11 +22,11 @@ $third-family: 'Gilroy-SemiBold', sans-serif;
 
 .blog_page_list {
   align-self: center;
-  .page_pagination { 
-     @include xs {
+  .page_pagination {
+    @include xs {
       margin-top: 40px;
       gap: 10px;
-  }
+    }
     display: flex;
     align-items: center;
     justify-content: center;

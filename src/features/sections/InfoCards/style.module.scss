@@ -43,10 +43,9 @@
     scrollbar-color: transparent transparent;
     -ms-overflow-style: none;
     @include media(phone) {
-      max-width:360px;
+      max-width: 360px;
       padding: 0 16px;
-
-     }
+    }
 
     &::-webkit-scrollbar {
       height: 0;

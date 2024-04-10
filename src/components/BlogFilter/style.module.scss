@@ -10,9 +10,9 @@ $red: #fa3d3d;
 $pale-bright-blue: #59acff;
 $dark-bright-blue: #0777e7;
 
-$font-family: "Manrope", sans-serif;
-$second-family: "Open Sans", sans-serif;
-$third-family: "Gilroy-SemiBold", sans-serif;
+$font-family: 'Manrope', sans-serif;
+$second-family: 'Open Sans', sans-serif;
+$third-family: 'Gilroy-SemiBold', sans-serif;
 
 @mixin xs {
   @media (max-width: 425px) {

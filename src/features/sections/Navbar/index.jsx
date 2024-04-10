@@ -14,7 +14,9 @@ export const Navbar = () => {
   const [isMobile, setIsMobile] = useState(false);
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const handleToggle = () => {
-    isMenuOpen ? document.body.classList.remove('overflow-hidden') : document.body.classList.add('overflow-hidden');
+    isMenuOpen
+      ? document.body.classList.remove('overflow-hidden')
+      : document.body.classList.add('overflow-hidden');
     setIsMenuOpen(!isMenuOpen);
   };
   useEffect(() => {
@@ -32,7 +34,7 @@ export const Navbar = () => {
 
   return (
     <header className={`${styles.navbar} ${isMenuOpen ? styles['navbar--open'] : ''}`}>
-      <div className={styles['nav-wrapper']} >
+      <div className={styles['nav-wrapper']}>
         <Link href="/home">
           <div className={styles.logo}>
             <Image src="/img/logo.png" alt="logo" fill="true" quality="100" placeholder="empty" />

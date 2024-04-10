@@ -6,7 +6,7 @@ import { text } from '@/data/blog';
 export default function Blog_filter() {
   const dispatch = useDispatch();
   const filtersData = useSelector((state) => state.filter.filterdata);
-  
+
   const onChangeCheckBox = (id) => {
     dispatch(isCheck(id));
   };

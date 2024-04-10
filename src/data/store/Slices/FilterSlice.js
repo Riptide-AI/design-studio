@@ -8,7 +8,7 @@ const FilterSlice = createSlice({
   reducers: {
     isCheck: (state, action) => {
       const searchId = (element) => {
-        if (element.id == action.payload)  return element;
+        if (element.id == action.payload) return element;
       };
       state.filterdata.find(searchId).isChecked = !state.filterdata.find(searchId).isChecked;
     },

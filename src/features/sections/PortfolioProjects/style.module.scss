@@ -6,8 +6,7 @@
   font-family: $main-font;
   gap: 40px;
   @include media(phone) {
-    grid-template-columns:1fr;
-
+    grid-template-columns: 1fr;
   }
   &__content {
     height: 400px;
@@ -15,7 +14,7 @@
     flex-direction: column;
     justify-content: center;
     @include media(phone) {
-     height: auto;
+      height: auto;
     }
   }
   &__section_name {
@@ -28,7 +27,7 @@
     margin-bottom: 24px;
     @include media(phone) {
       font-size: 24px;
-     }
+    }
     &::after {
       height: 34px;
       width: 1px;
@@ -49,7 +48,7 @@
     margin-bottom: 12px;
     @include media(phone) {
       font-size: 20px;
-     }
+    }
   }
   &__desc {
     font-size: 16px;
@@ -58,7 +57,7 @@
     color: $white;
     @include media(phone) {
       font-size: 14px;
-     }
+    }
   }
   &__image {
     position: relative;

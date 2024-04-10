@@ -3,7 +3,7 @@ import { weCreate } from '@/data/frontend';
 import Link from 'next/link';
 import styles from './style.module.scss';
 import Image from 'next/image';
- export const WeCreate = () => {
+export const WeCreate = () => {
   return (
     <ContentWrapper>
       <div className={styles.we_create}>
