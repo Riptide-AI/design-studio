@@ -39,7 +39,7 @@
     padding: 12px;
 
     &__icon {
-        margin-right: 14px;
+      margin-right: 14px;
     }
 
     &__title {
@@ -62,6 +62,279 @@
       justify-self: flex-end;
       cursor: pointer;
     }
+  }
+ 
+    &__card_rows {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      a {
+        text-decoration: none;
+        margin:  20px 0px;
+        color: white;
+       .card {
+          width: 380px;
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          padding: 12px;
+          border-radius: 10px;
+          transition-duration: 0.5s;
+          background: #12273c;
+          &:hover {
+            box-shadow: inset 1px 1px 10px #2d8eee;
+  
+            img[data-name="shop_top"] {
+              animation: shop 0.7s linear 1;
+            }
+            img[data-name="quiz"] {
+              animation: quiz 1.5s linear 1;
+            }
+            img[data-name="corporate_lock"] {
+              animation: corporate_lock 0.5s linear 1;
+            }
+            img[data-name="corporate_top"] {
+              animation: corporate_top 1s linear 1;
+            }
+            img[data-name="business_card_peron"] {
+              animation: business_card_peron 0.5s linear 1;
+            }
+            img[data-name="business_card_without_person"] {
+              transform: scale(1.1);
+            }
+            img[data-name="lending_top"] {
+              animation: lending_top 0.5s linear 1;
+            }
+            img[data-name="lending_text"] {
+              animation: lending_text 0.5s linear 1;
+            }
+            img[data-name="e_comerc_front"] {
+              animation: e_comerc_front 0.5s linear 1;
+            }
+            img[data-name="e_comerc_back"] {
+              animation: e_comerc_back 0.6s linear 1;
+            }
+            button {
+              background-color: #1f4e80;
+            }
+          }
+          button {
+            transition-duration: 0.5s;
+            border-radius: 8px;
+            border: 1px solid #12273c;
+            background: #081522;
+            height: 40px;
+            width: 40px;
+            position: relative;
+  
+            &::before {
+              content: "";
+              background-image: url(../../../../public/img/What_sites_we_develop/arrows.svg);
+              background-size: contain;
+              background-repeat: no-repeat;
+              position: absolute;
+              height: 16px;
+              width: 16px;
+              top: 11px;
+              left: 11px;
+            }
+          }
+          .card_row {
+            display: flex;
+            align-items: center;
+            span {
+              font-family: "Manrope";
+              font-size: 18px;
+              font-weight: 600;
+              line-height: 125%; /* 22.5px */
+            }
+            .image {
+              margin-right: 15px;
+              position: relative;
+              overflow: hidden;
+              img[data-name="shop_top"] {
+                position: absolute;
+                top: 0;
+                left: 0;
+                transition-duration: 0.3s;
+              }
+              img[data-name="corporate_lock"] {
+                position: absolute;
+                top: 0px;
+                left: 0px;
+              }
+              img[data-name="corporate_top"] {
+                position: absolute;
+                top: 0px;
+                left: 0px;
+              }
+              img[data-name="business_card_without_person"] {
+                transition-duration: 0.3s;
+              }
+              img[data-name="business_card_peron"] {
+                position: absolute;
+                top: 0px;
+                left: 0px;
+              }
+             
+              img[data-name="lending_text"] {
+                position: absolute;
+                top: 0px;
+                left: 0px;
+              }
+              img[data-name="lending_top"] {
+                position: absolute;
+                top: 0px;
+                left: 0px;
+              }
+              img[data-name="e_comerc_back"] {
+                position: relative;
+                top: 0px;
+                left: 0px;
+              }
+              img[data-name="e_comerc_front"] {
+                position: absolute;
+                top: 0px;
+                left: 0px;
+              }
+            }
+          }
+   
+        }
+      }
+    }
+  }
+  
 
+@keyframes shop {
+  0% {
+    transform: translate(0px, 0px) rotate3d(1, 1, 1, 0deg);
+  }
+  50% {
+    transform: translate(0px, -7px) rotate3d(1, 0, 0, 80deg);
+  }
+  100% {
+    transform: translate(0px, 0px) rotate3d(1, 1, 1, 0deg);
+  }
+}
+@keyframes quiz {
+  0% {
+    transform: scale(1) rotate(0deg);
+  }
+  25% {
+    transform: scale(1.2);
+  }
+  37% {
+    transform: scale(1.2) rotate(90deg);
+  }
+  50% {
+    border-radius: 15px;
+    transform: scale(1) rotate(90deg);
+    /*     background-color: rgba(255, 73, 73, 0.137); */
+  }
+
+  75% {
+    transform: scale(1.2) rotate(90deg);
+  }
+  90% {
+    transform: scale(1.2) rotate(0deg);
+  }
+  100% {
+    transform: scale(1) rotate(0deg);
+  }
+}
+@keyframes corporate_top {
+  0% {
+    top: 0px;
+  }
+  50% {
+    top: -10px;
+  }
+  100% {
+    top: 0px;
+  }
+}
+@keyframes corporate_lock {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes lending_top {
+  0% {
+    left: -50px;
+  }
+
+  100% {
+    left: 0px;
+  }
+}
+@keyframes lending_text {
+  0% {
+    top: 50px;
+  }
+
+  100% {
+    top: 0px;
+  }
+}
+@keyframes business_card_peron {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes card {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  75% {
+    transform: scale(1.1);
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+@keyframes e_comerc_back {
+  0% {
+    top: -7px;
+    left: -50px;
+  }
+  50% {
+    left: -5px;
+  }
+  55% {
+  }
+  100% {
+    top: 0px;
+    left: 0px;
+  }
+}
+@keyframes e_comerc_front {
+  0% {
+    left: -50px;
+  }
+  50% {
+    left: 0px;
+  }
+  100% {
+    left: 0px;
   }
 }

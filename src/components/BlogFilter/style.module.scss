@@ -1,0 +1,131 @@
+$dark-blue: #081522;
+$pale-blue: #12273c;
+$bright-blue: #2d8eee;
+$white: #f0f0f0;
+$light-grey: #d4d4d4;
+$dark-grey: #b1b1b1;
+$green: #3deb8d;
+$yellow: #ffcf25;
+$red: #fa3d3d;
+$pale-bright-blue: #59acff;
+$dark-bright-blue: #0777e7;
+
+$font-family: "Manrope", sans-serif;
+$second-family: "Open Sans", sans-serif;
+$third-family: "Gilroy-SemiBold", sans-serif;
+
+@mixin xs {
+  @media (max-width: 425px) {
+    @content;
+  }
+}
+.categorys {
+  @include xs {
+    margin-bottom: 40px;
+  }
+  .category_label {
+    margin-bottom: 26px;
+    font-family: $font-family;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 125%;
+    color: $white;
+    position: relative;
+    @include xs {
+      font-weight: 400;
+      font-size: 18px;
+      width: 100%;
+    }
+    width: 170px;
+    &::before {
+      content: '';
+      width: 100%;
+      position: absolute;
+      bottom: -6px;
+      left: 0px;
+      height: 1px;
+      background: $bright-blue;
+    }
+  }
+  .category_list {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  .category {
+    display: inline-block;
+    margin-bottom: 12px;
+    .checkLabel {
+      padding-left: 35px;
+      position: relative;
+      font-family: $second-family;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 150%;
+      color: $light-grey;
+      transition-duration: 0.3s;
+      &:hover {
+        input:checked ~ .checkSpan {
+          &::before {
+            opacity: 15%;
+          }
+        }
+      }
+      &:hover {
+        @media (min-width: 425px) {
+          .checkSpan {
+            transition-duration: 0.3s;
+            &::before {
+              content: '';
+              transition-duration: 0.3s;
+              background-color: #000000;
+              opacity: 50%;
+              position: absolute;
+              top: 0px;
+              left: 0px;
+              width: 20px;
+              height: 20px;
+            }
+
+            transform-origin: bottom left;
+            background-image: url(../../../public/img/Blog/Check.svg);
+            background-repeat: no-repeat;
+            background-position: 100% 100%;
+            background-size: contain;
+          }
+        }
+      }
+
+      cursor: pointer;
+      input[type='checkbox'] {
+        position: absolute;
+        opacity: 0;
+        cursor: pointer;
+        height: 0;
+        width: 0;
+      }
+      input:checked ~ .checkSpan {
+        transition-duration: 0.3s;
+        color: #000;
+        transform-origin: bottom left;
+        background-image: url(../../../public/img/Blog/Check.svg);
+        background-repeat: no-repeat;
+        background-position: 100% 100%;
+        background-size: contain;
+      }
+      .checkSpan {
+        transition-duration: 0.3s;
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 24px;
+        width: 24px;
+        border-radius: 4px;
+        fill: $dark-blue;
+        border: 1px solid $bright-blue;
+      }
+    }
+    .design {
+    }
+  }
+}

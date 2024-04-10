@@ -10,12 +10,22 @@ export const WeProvide = () => {
         <div className={styles.we_provide__title}>{weProvide.title}</div>
         <div className={styles.we_provide__list}>
           {weProvide.list.map((item, i) => (
-            <div className={styles.we_provide__item} key={`item-${i}`}>
-              <div className={styles.we_provide__item__icon}>
-                <Image src={item.icon} width={50} height={50} alt="" />
+          
+            <div className={styles.service_card} key={`item-${i}`}>
+              <div className={styles.card_image}>
+                {item.icons.map((img, i) => (
+                  <Image
+                    key={`item-${img}`}
+                    data-name={item.styls[i]}
+                    src={img}
+                    width={50}
+                    height={50}
+                    alt="Picture"
+                  />
+                ))}
               </div>
-              <div className={styles.we_provide__item__title}>{item.title}</div>
-              <div className={styles.we_provide__item__desc}>{item.desc}</div>
+              <div className={styles.card_label}>{item.title}</div>
+              <div className={styles.card_text}>{item.desc}</div>
             </div>
           ))}
         </div>

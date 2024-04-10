@@ -46,34 +46,41 @@ export const technologies = {
   list: [
     {
       title: 'Design',
-      icon: '/img/icons/tech-1.svg',
+      icons: ['/img/Tehnology/iconoir_design-pencil.png'],
       desc: 'Adobe PS | Adobe AE | Adobe XD| Figma | Zeplin | ProtoPie',
+      styles: ['pencil'],
     },
     {
       title: 'Frontend',
-      icon: '/img/icons/tech-2.svg',
+      icons: ['/img/Tehnology/cpu.png', '/img/Tehnology/cpu_border.png'],
       desc: 'HTML & CSS | Angular.js | React.js | Vue.js | Next.js | jQuery | Svelte',
+      styles: ['cpu', 'cpu_border'],
     },
     {
       title: 'Backend',
-      icon: '/img/icons/tech-3.svg',
+      icons: ['/img/Tehnology/java.png', '/img/Tehnology/java_piece.png', '/img/Tehnology/java_text.png'],
       desc: 'PHP | Python | Rust | Java | Node.js | Ruby | С# | C++',
+      styles: ['java', 'java_piece','java_text'],
     },
 
     {
       title: 'Database',
-      icon: '/img/icons/tech-4.svg',
+      icons: ['/img/Tehnology/icon-park-outline_data-four.png'],
       desc: 'MongoDB | Oracle DB | Maria DB | MySQL | Postgre SQL',
+      styles: ['data'],
     },
     {
       title: 'eCommerce and CMS',
-      icon: '/img/icons/tech-5.svg',
+      icons: ['/img/Tehnology/fluent_content.png', '/img/Tehnology/fluent_content_gear.png'],
       desc: 'Magento | Shopify | WordPress | OpenCart | Wix',
+      styles: ['fluent_content', 'fluent_content_gear'],
     },
     {
       title: 'Testing',
-      icon: '/img/icons/tech-6.svg',
+      icons: ['/img/Tehnology/check.png', '/img/Tehnology/check_arow.png'],
+
       desc: 'JUnit | Cypress | Postman |TestRail | Selenium',
+      styles: ['check', 'check_arrow'],
     },
   ],
 };

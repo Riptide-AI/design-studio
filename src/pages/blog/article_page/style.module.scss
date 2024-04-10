@@ -1,0 +1,270 @@
+$dark-blue: #081522;
+$pale-blue: #12273c;
+$bright-blue: #2d8eee;
+$white: #f0f0f0;
+$light-grey: #d4d4d4;
+$dark-grey: #b1b1b1;
+$green: #3deb8d;
+$yellow: #ffcf25;
+$red: #fa3d3d;
+$pale-bright-blue: #59acff;
+$dark-bright-blue: #0777e7;
+
+$font-family: 'Manrope', sans-serif;
+$second-family: 'Open Sans', sans-serif;
+$third-family: 'Gilroy-SemiBold', sans-serif;
+
+@mixin xs {
+  @media (max-width: 425px) {
+    @content;
+  }
+}
+.Article_page {
+  .wrapper {
+    max-width: 1240px;
+    margin: auto;
+    @include xs {
+      max-width: 425px;
+      padding: 0px 15px;
+    }
+    .article_label {
+      padding-top: 90px;
+      font-family: $font-family;
+      font-weight: 600;
+      font-size: 40px;
+      line-height: 125%;
+      color: #fff;
+      margin-bottom: 12px;
+      @include xs {
+        font-size: 24px;
+        margin-top: 40px;
+      }
+    }
+    .sub_label_text {
+      font-family: $second-family;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 150%;
+      text-align: justify;
+      color: #fff;
+      margin-bottom: 40px;
+      color: #fff;
+      @include xs {
+        font-size: 14px;
+        margin-bottom: 24px;
+        line-height: 125%;
+      }
+    }
+    .picture_block {
+      border-radius: 10px;
+      width: 1240px;
+      height: 400px;
+      margin-bottom: 40px;
+      @include xs {
+        width: 100%;
+        height: 200px;
+        margin-bottom: 24px;
+      }
+      img {
+        width: 100%;
+        height: 100%;
+      }
+    }
+    .sub_label {
+      font-family: $font-family;
+      font-weight: 600;
+      font-size: 24px;
+      line-height: 150%;
+      color: #fff;
+      margin-bottom: 12px;
+      @include xs {
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 125%;
+      }
+    }
+    .last_text {
+      font-family: $second-family;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 150%;
+      text-align: justify;
+      color: #fff;
+      margin-bottom: 140px;
+      @include xs {
+        font-size: 14px;
+        margin-bottom: 80px;
+        line-height: 125%;
+      }
+    }
+    .more_articles {
+      display: flex;
+      flex-direction: column;
+      .more_articles_label {
+        font-family: $font-family;
+        font-weight: 600;
+        font-size: 40px;
+        line-height: 125%;
+        color: #fff;
+        margin-bottom: 30px;
+        @include xs {
+          margin-bottom: 12px;
+          font-size: 24px;
+        }
+      }
+      .more_articles_card_row {
+        display: flex;
+        @include xs {
+          flex-direction: column;
+        }
+
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 30px;
+        .card {
+          cursor: pointer;
+          transition-duration: 0.3s;
+          @include xs {
+            margin-bottom: 24px;
+            max-width: 400px;
+            width: 100%;
+          }
+          &:hover {
+            transform: scale(1.02);
+            .card_image {
+              box-shadow: 0px 0px 10px -2px #2d8eee;
+            }
+          }
+          width: 280px;
+          .card_image {
+            transition-duration: 0.3s;
+            border-radius: 10px;
+            width: 100%;
+            height: 220px;
+            @include xs {
+              height: 170px;
+            }
+            margin-bottom: 12px;
+            img {
+            border-radius: 10px;
+            width: 100%;
+              height: 100%;
+              object-fit: cover;
+            }
+          }
+          .card_label {
+            font-family: $font-family;
+            font-weight: 600;
+            font-size: 24px;
+            line-height: 150%;
+            color: $white;
+            margin-bottom: 5px;
+            @include xs {
+              font-weight: 500;
+              font-size: 18px;
+              line-height: 125%;
+            }
+          }
+          .card_text {
+            font-family: $second-family;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 150%;
+            color: $light-grey;
+            margin-bottom: 12px;
+            overflow: hidden;
+            @include xs {
+              font-weight: 500;
+              font-size: 14px;
+              line-height: 125%;
+            }
+          }
+          .card_more_info {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            .card_views {
+              font-family: $font-family;
+              font-weight: 600;
+              font-size: 18px;
+              line-height: 125%;
+              color: $bright-blue;
+              position: relative;
+              padding-left: 36px;
+              @include xs {
+                font-size: 16px;
+              }
+              &::before {
+                content: '';
+                background-image: url(../../../../public/img/Blog/eye.svg);
+                background-position: center;
+                background-size: cover;
+                position: absolute;
+                top: 0px;
+                left: 0px;
+                width: 24px;
+                height: 24px;
+                @include xs {
+                  width: 20px;
+                  height: 20px;
+                }
+              }
+            }
+            .card_time {
+              font-family: $font-family;
+              font-weight: 600;
+              font-size: 18px;
+              line-height: 125%;
+              color: $bright-blue;
+              position: relative;
+              @include xs {
+                font-size: 16px;
+              }
+              &::before {
+                content: '';
+                background-image: url(../../../../public/img/Blog/Clock.svg);
+                background-size: cover;
+                position: absolute;
+                top: -2px;
+                left: -36px;
+                width: 24px;
+                height: 24px;
+                @include xs {
+                  width: 20px;
+                  height: 20px;
+                }
+              }
+            }
+          }
+        }
+      }
+      .more_button {
+        align-self: flex-end;
+        font-family: $font-family;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 125%;
+        text-align: center;
+        color: $white;
+        border-radius: 90px;
+        padding: 12px 32px;
+        width: 173px;
+        height: 47px;
+        background: $bright-blue;
+        margin-bottom: 120px;
+        transition-duration: 0.3s;
+        &:hover {
+          box-shadow: inset 0px 0px 10px 3px #12375c;
+        }
+        @include xs {
+          align-self: center;
+          margin-bottom: 120px;
+          border-radius: 90px;
+          padding: 12px 32px;
+          width: 234px;
+          height: 47px;
+        }
+      }
+    }
+  }
+}

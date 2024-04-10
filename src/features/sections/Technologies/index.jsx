@@ -14,16 +14,24 @@ export const Technologies = () => {
             <Image src={technologies.img} alt="" fill="true" />
           </div>
           {technologies.list.map((item, i) => (
-            <div className={styles.technologies__item} key={`item-${i}`}>
-              <Image
-                src={item.icon}
-                alt=""
-                className={styles.technologies__item_icon}
-                height={40}
-                width={40}
-              />
-              <div className={styles.technologies__item_title}>{item.title}</div>
-              <div className={styles.technologies__item_desc}>{item.desc}</div>
+            <div className={styles.card} key={`item-${i}`}>
+             
+              <div className={styles.card_image}>
+                {item.icons.map((img, i) => (
+                  <Image
+                    key={`image-${img}`}
+                    data-name={item.styles[i]}
+                    src={img}
+                    width={40}
+                    height={40}
+                    alt="Picture of the tehnology "
+                  />
+                ))}
+              </div>
+              <div className={styles.card_content}>
+                <div className={styles.card_label}>{item.title}</div>
+                <div className={styles.card_text}>{item.desc}</div>
+              </div>
             </div>
           ))}
         </div>
