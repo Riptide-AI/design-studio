@@ -12,6 +12,10 @@ body {
   background-color: $dark-blue;
   overflow-x: hidden;
   min-width: 360px !important;
+  
+  &.overflow-hidden{
+      overflow: hidden;
+  }
 }
 ul,
 ol {

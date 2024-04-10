@@ -13,7 +13,5 @@ module.exports = {
   rules: {
     'linebreak-style': ['error', 'unix'],
   },
-  overrides: [
-    // You can specify overrides for specific files or directories here
-  ],
+
 };

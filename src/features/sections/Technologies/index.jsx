@@ -10,12 +10,9 @@ export const Technologies = () => {
         <div className={styles.technologies__title}>{technologies.title}</div>
         <div className={styles.technologies__desc}>{technologies.desc}</div>
         <div className={styles.technologies__list}>
-          <div
-            className={styles.technologies__img}
-            style={{
-              background: `url(${technologies.img})`,
-            }}
-          ></div>
+          <div className={styles.technologies__img}>
+            <Image src={technologies.img} alt="" fill="true" />
+          </div>
           {technologies.list.map((item, i) => (
             <div className={styles.card} key={`item-${i}`}>
              

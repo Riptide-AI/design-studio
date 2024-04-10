@@ -4,6 +4,9 @@
   margin-top: 140px;
   display: flex;
   flex-direction: column;
+  @include media(phone) {
+    margin-top: 40px;
+  }
 }
 .offers_title {
   text-align: center;
