@@ -19,13 +19,19 @@
     align-items: center;
     grid-template-rows: 1fr;
     grid-template-columns: repeat(4, 1fr);
+    @include media(phone) {
+      grid-template-columns: 1fr;
+    }
 
     .card {
       display: flex;
       align-items: center;
       justify-content: center;
       max-width: 280px;
-
+      width: 100%;
+      @include media(phone) {
+        max-width: none;
+      }
       .card_row {
         display: flex;
         align-items: flex-start;

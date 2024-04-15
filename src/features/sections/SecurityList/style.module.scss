@@ -1,233 +1,155 @@
 @import '@/styles/vars.scss';
-.We_protect {
+.security {
   margin-top: 140px;
+  display: flex;
+  gap: 40px;
   font-family: $main-font;
-  color: white;
-  width: 100%;
   @include media(phone) {
     flex-direction: column;
   }
-  .We_protect_row {
+  &__content {
     display: flex;
+    flex-direction: column;
+  }
+  &__title {
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 125%;
+    color: $white;
+  }
+  &__desc {
+    margin-top: 12px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 150%;
+    color: $dark-grey;
+  }
+  &__list {
+    display: flex;
+    margin-top: 24px;
+    flex-direction: column;
+  }
+  &__image {
+    border-radius: 10px;
+    width: 100%;
+    max-width: 387px;
+    height: auto;
+    position: relative;
+    flex-grow: 1;
+    flex-shrink: 0;
+    overflow: hidden;
+    aspect-ratio: 387/453;
+
+    img {
+      width: auto !important;
+      height: 100% !important;
+    }
+  }
+  &__item {
+    display: grid;
+    grid-template-columns: 150px auto auto;
+    position: relative;
+    margin-bottom: 16px;
     align-items: center;
-    justify-content: space-between;
     @include media(phone) {
-      flex-direction: column;
+      grid-template-columns: 100px auto auto;
     }
-    .content {
-      .content_label {
-        margin-bottom: 40px;
-        .label {
-          font-size: 40px;
-          font-weight: 600;
-          line-height: 125%; /* 50px */
-          margin-bottom: 12px;
-        }
-        .sub_label {
-          font-size: 18px;
-          font-weight: 600;
-          line-height: 125%;
+    &::after {
+      content: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='3' height='328' viewBox='0 0 3 328' fill='none'%3E%3Cpath d='M1.5 0V150' stroke='%232D8EEE' stroke-width='3' stroke-dasharray='6 6'/%3E%3C/svg%3E");
+      position: absolute;
+      height: 100%;
+      width: 0;
+      top: 80px;
+      left: 40px;
+      @include media(phone) {
+        content: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='3' height='328' viewBox='0 0 3 328' fill='none'%3E%3Cpath d='M1.5 0V328' stroke='%232D8EEE' stroke-width='3' stroke-dasharray='6 6'/%3E%3C/svg%3E");
+        width: 0;
+        top: 60px;
+        left: 30px;
+      }
+    }
+    &:last-child {
+      &::after {
+        content: '';
+      }
+    }
+    &__title,
+    &__order {
+      font-size: 24px;
+      font-weight: 600;
+      line-height: 150%;
+      color: $white;
+      @include media(phone) {
+        font-size: 18px;
+      }
+    }
+    &__desc {
+      grid-column: 2 / span 3;
+      color: $dark-grey;
+      font-size: 16px;
+      text-align: justify;
+      font-weight: 400;
+      line-height: 140%;
+    }
+    &__order {
+      padding: 6px 11px;
+      background-color: $bright-blue;
+      border-radius: 10px;
+      margin-right: 12px;
+    }
+    &__icon {
+      z-index: 1;
+      grid-row: 1;
+      height: 80px;
+      width: 80px;
+      border: 10px solid $bright-blue;
+      background-color: $dark-blue;
+      margin-right: 66px;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      position: relative;
+      @include media(phone) {
+        height: 60px;
+        width: 60px;
+        border: 5px solid $bright-blue;
+
+        img {
+          height: 22px;
+          width: 22px;
         }
       }
-      .content_row {
-        .card {
-          display: flex;
-          align-items: flex-start;
-          position: relative;
-          &:nth-child(1) {
-            &::after {
-              content: '';
-              background-image: url(../../../../public/img/We_protect/line.svg);
-              position: absolute;
-              height: 105px;
-              width: 5px;
-              top: 63px;
-              left: 33.5px;
-            }
-          }
-
-          &:hover {
-            .card_count {
-              animation: count 1s linear 1;
-            }
-            img[data-name='money_top'] {
-              animation: money 1.2s linear;
-            }
-            img[data-name='hourglass_clear'] {
-              animation: hourglass_clear 1.5s linear 1;
-            }
-            img[data-name='hourglass_send'] {
-              animation: hourglass_send 1.5s linear 1;
-            }
-          }
-
-          &:nth-child(1) {
-            margin-bottom: 30px;
-          }
-          .card_image {
-            padding: 25px;
-            border-radius: 50%;
-            border: 10px solid #2d8eee;
-            width: 32px;
-            height: 32px;
-            position: absolute;
-            top: -10px;
-            left: 0px;
-            margin-right: 65px;
-            img {
-              height: 33px;
-              width: 33px;
-            }
-            &::after,
-            &::before {
-              content: '';
-              transition-duration: 0.3s;
-              position: absolute;
-              background-color: #2d8eee;
-              z-index: 5;
-            }
-            &::after {
-              top: 20px;
-              left: 50px;
-              height: 10px;
-              width: 32px;
-            }
-            &::before {
-              top: 10px;
-              left: 70px;
-              height: 32px;
-              width: 32px;
-              border-radius: 50%;
-            }
-            img[data-name='money_and_back_1'] {
-              position: absolute;
-              top: 8px;
-              left: 8px;
-              z-index: 2;
-              transition-duration: 0.3s;
-            }
-            img[data-name='money_top'] {
-              transition-duration: 0.5s;
-              position: absolute;
-              top: 9px;
-              left: 23px;
-              height: 10.2px;
-              width: auto;
-            }
-            img[data-name='hourglass_clear'] {
-              position: absolute;
-              top: 10px;
-              left: 10px;
-              height: auto;
-              width: 32px;
-            }
-            img[data-name='hourglass_send'] {
-              position: absolute;
-              top: 29px;
-              left: 20px;
-              height: 6px;
-              width: auto;
-            }
-          }
-          .card_information {
-            margin-left: 135px;
-            .card_name_block {
-              display: flex;
-              align-items: center;
-              margin-bottom: 12px;
-              .card_count {
-                font-size: 24px;
-                font-weight: 600;
-                line-height: 150%;
-                border-radius: 10px;
-                background: #2d8eee;
-                padding: 6px 11px;
-                margin-right: 20px;
-              }
-              .card_name {
-                font-size: 24px;
-                font-weight: 600;
-                line-height: 150%;
-              }
-            }
-            .card_text {
-              max-width: 670px;
-              color: #b1b1b1;
-              text-align: justify;
-              font-family: 'Open Sans';
-              font-size: 16px;
-              font-weight: 400;
-              line-height: 140%; /* 22.4px */
-            }
-          }
+      &::after {
+        content: '';
+        width: 33px;
+        height: 10px;
+        background-color: $bright-blue;
+        top: 50%;
+        right: -33px;
+        transform: translateY(-50%);
+        position: absolute;
+        @include media(phone) {
+          width: 20px;
+          right: -20px;
+        }
+      }
+      &::before {
+        content: '';
+        width: 32px;
+        height: 32px;
+        background-color: $bright-blue;
+        border-radius: 50%;
+        top: 50%;
+        right: -55px;
+        transform: translateY(-50%);
+        position: absolute;
+        @include media(phone) {
+          width: 20px;
+          height: 20px;
+          right: -35px;
         }
       }
     }
-  }
-}
-
-@keyframes money {
-  0% {
-    transform: translate(0px, 0px) rotate(0deg);
-  }
-
-  15% {
-    transform: translate(-15.5px, -3px) rotate(-180deg);
-  }
-  40% {
-    transform: translate(-15.5px, 5px) rotate(-360deg);
-  }
-  50% {
-    transform: translate(-15.5px, 5px) rotate(-360deg);
-  }
-  60% {
-    transform: translate(-15.5px, 5px) rotate(-360deg);
-  }
-  85% {
-    transform: translate(-15.5px, -3px) rotate(-180deg);
-  }
-  100% {
-    transform: translate(0px, 0px) rotate(0deg);
-  }
-}
-@keyframes count {
-  0% {
-    border-radius: 10px;
-  }
-
-  33% {
-    border-radius: 30px;
-  }
-  66% {
-    border-radius: 0px;
-  }
-  100% {
-    border-radius: 10px;
-  }
-}
-@keyframes hourglass_clear {
-  0% {
-  }
-  50% {
-  }
-  100% {
-    transform: rotate(360deg);
-  }
-}
-@keyframes hourglass_send {
-  0% {
-    opacity: 0;
-  }
-
-  50% {
-    opacity: 0;
-
-    transform: translateY(-10px) rotate3d(1, 0, 0, 180deg);
-  }
-  70% {
-    opacity: 0;
-  }
-
-  100% {
   }
 }
