@@ -30,7 +30,7 @@
     justify-content: space-between;
     position: relative;
     @include media(phone) {
-      display: none;
+      display: none; // to fix
     }
     &::after {
       content: '';

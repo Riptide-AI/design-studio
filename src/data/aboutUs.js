@@ -54,4 +54,5 @@ export const ourClients = {
     { src: '/img/partners-logo/logo-5.svg', alt: '' },
   ],
   btn: 'Стати клієнтом',
+  btnLink: '/contacts',
 };

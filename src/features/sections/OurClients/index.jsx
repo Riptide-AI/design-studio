@@ -3,6 +3,7 @@ import { ourClients } from '@/data/aboutUs';
 import styles from './style.module.scss';
 import Image from 'next/image';
 import { CustomButton } from '@/components/CustomButton';
+import Link from 'next/link';
 
 export const OurClients = () => {
   return (
@@ -15,7 +16,9 @@ export const OurClients = () => {
               <Image src={item.src} alt={item.alt} fill="true" />
             </div>
           ))}
-          <CustomButton title={ourClients.btn} stylesClassName={styles.clients__btn} />
+          <Link href={ourClients.btnLink}>
+            <CustomButton title={ourClients.btn} stylesClassName={styles.clients__btn} />
+          </Link>
         </div>
       </div>
     </ContentWrapper>

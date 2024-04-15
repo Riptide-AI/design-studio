@@ -8,6 +8,7 @@ import { LocaleSwitch } from '@/components/LocaleSwitch';
 import { CustomButton } from '@/components/CustomButton';
 import { BurgerMenu } from '@/components/BurgerMenu';
 import { useTranslation } from 'react-i18next';
+import { scrollTo } from '@/scripts/scrollTo';
 
 export const Navbar = () => {
   const { t } = useTranslation();
@@ -43,7 +44,11 @@ export const Navbar = () => {
         {!isMobile && <NavLinks links={navigation} />}
         <div className={styles.navbar__right}>
           {!isMobile && <LocaleSwitch />}
-          <CustomButton title={t('buttons.contactUs')} stylesClassName={styles.navbar__btn} />
+          <CustomButton
+            title={t('buttons.contactUs')}
+            stylesClassName={styles.navbar__btn}
+            action={() => scrollTo('contact-form')}
+          />
           {isMobile && (
             <BurgerMenu links={navigation} isOpen={isMenuOpen} handleToggle={handleToggle} />
           )}

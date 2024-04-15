@@ -21,7 +21,7 @@ export const footer = {
       list: [
         { title: 'Розробка', link: '/services/frontend' },
         { title: 'Дизайн', link: '/services/design' },
-        { title: 'Маркетинг', link: '/services/ads' },
+        { title: 'Маркетинг', link: '/services/seo' },
         { title: 'Підтримка', link: '/services/support' },
       ],
     },

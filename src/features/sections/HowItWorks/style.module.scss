@@ -63,6 +63,7 @@
 .How_we_work {
   margin: auto;
   margin-top: 140px;
+  font-family: $main-font;
   @include media(phone) {
     display: none; //to fix
   }
@@ -78,7 +79,7 @@
   .label {
     color: var(--white, #f0f0f0);
     text-align: center;
-    font-family: 'Manrope';
+    font-family: $main-font;
     font-size: 40px;
     font-style: normal;
     font-weight: 600;
@@ -234,7 +235,7 @@
       width: 210px;
       padding: 12px 32px;
       margin: 0px 10px;
-      font-family: 'Manrope';
+      font-family: $main-font;
       font-size: 18px;
       font-style: normal;
       font-weight: 600;
@@ -307,7 +308,7 @@
   .text {
     color: var(--dark-grey, #b1b1b1);
     text-align: justify;
-    font-family: 'Open Sans';
+    font-family: $main-font;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;

@@ -1,6 +1,7 @@
 import { ContentWrapper } from '@/components/ContentWrapper';
 import { CustomButton } from '@/components/CustomButton';
 import Image from 'next/image';
+import Link from 'next/link';
 import styles from './style.module.scss';
 
 export const PriceCards = ({ data }) => {
@@ -20,7 +21,9 @@ export const PriceCards = ({ data }) => {
               <div className={styles.price_cards__item__title}>{item.title}</div>
               <div className={styles.price_cards__item__desc}>{item.desc}</div>
               <div className={styles.price_cards__item__price}>{item.price}</div>
-              <CustomButton stylesClassName={styles.price_cards__item__btn} title={item.order} />
+              <Link href={{ pathname: '/contacts', query: { message: item.message } }}>
+                <CustomButton stylesClassName={styles.price_cards__item__btn} title={item.order} />
+              </Link>
               <CustomButton
                 stylesClassName={styles.price_cards__item__btn_alt}
                 title={item.details}

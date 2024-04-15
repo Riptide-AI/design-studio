@@ -1,9 +1,10 @@
-import React, { useRef, useState } from 'react';
+import { useRef, useState } from 'react';
 import style from './style.module.scss';
 import Image from 'next/image';
 import { howitworks } from '@/data/homepage';
 import { ContentWrapper } from '@/components/ContentWrapper';
 import { CustomButton } from '@/components/CustomButton';
+import Link from 'next/link';
 
 export function HowItWorks() {
   const [text, setText] = useState('');
@@ -204,10 +205,12 @@ export function HowItWorks() {
             <div className={style.arrow} style={{ left: left.current }}></div>
             <p className={style.text}>{text}</p>
           </div>
-          <CustomButton
-            title="Замовити веб-сайт"
-            stylesClassName={open ? style.btn_order + ' ' + style.hide : style.btn_order}
-          />
+          <Link href={'/contacts'}>
+            <CustomButton
+              title="Замовити веб-сайт"
+              stylesClassName={open ? style.btn_order + ' ' + style.hide : style.btn_order}
+            />
+          </Link>
         </div>
       </section>
     </ContentWrapper>

@@ -1,6 +1,7 @@
 import { ContentWrapper } from '@/components/ContentWrapper';
 import styles from './style.module.scss';
 import { CustomButton } from '@/components/CustomButton';
+import Link from 'next/link';
 import clsx from 'clsx';
 
 export const PriceList = ({ data }) => {
@@ -31,10 +32,12 @@ export const PriceList = ({ data }) => {
               <div className={styles.price_section__item__price_wrap}>
                 <div className={styles.price_section__item__price}>{item.price}</div>
                 {item.due && <div className={styles.price_section__item__due}>{item.due}</div>}
-                <CustomButton
-                  title={data.orderBtn}
-                  stylesClassName={styles.price_section__item__btn}
-                />
+                <Link href={{ pathname: '/contacts', query: { message: item.message } }}>
+                  <CustomButton
+                    title={data.orderBtn}
+                    stylesClassName={styles.price_section__item__btn}
+                  />
+                </Link>
               </div>
             </div>
           ))}
