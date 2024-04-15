@@ -35,42 +35,58 @@ export const whatYouGet = {
     {
       title: 'До 30% економії ваших коштів',
       desc: 'Мінімізуйте ваші фінансові витрати, відмовляючись від найму розробників.',
-      icon: '/img/what-you-get/money-bag.png',
+      icons: ['/img/What_you_get/money.png'],
+      styles: ['money'],
     },
     {
       title: 'Немає проєкту = немає оплати',
       desc: 'Ви можете уникнути виплати зарплати розробникам, якщо у вас немає нового проєкту.',
-      icon: '/img/what-you-get/credit-card.png',
+      icons: ['/img/What_you_get/card.png'],
+      styles: ['card'],
     },
     {
       title: 'Пропонуйте нові ідеї щодо послуг',
       desc: 'ІТ-новинка щодо розробки у великому попиті. Обирайте нас для повних ІТ-рішень.',
-      icon: '/img/what-you-get/rocket.png',
+      icons: [
+        '/img/What_you_get/rocket.png',
+        '/img/What_you_get/rocket_fire.png',
+        '/img/What_you_get/rocket_active_fire.png',
+      ],
+      styles: ['rocket', 'rocket_fire', 'rocket_active_fire'],
     },
     {
       title: 'Отримайте наш досвід, працюючи разом',
       desc: 'Впродовж трьох років наші експерти здобули великого технологічного досвіду.',
-      icon: '/img/what-you-get/note.png',
+      icons: ['/img/What_you_get/notebook.png', '/img/What_you_get/notebook_note.png'],
+      styles: ['notebook', 'notebook_note'],
     },
     {
       title: 'Біле маркування та NDA',
       desc: 'Безпека проєкту: абсолютне біле маркування, NDA щодо конфіденційності.',
-      icon: '/img/what-you-get/security.png',
+      icons: ['/img/What_you_get/shield.png', '/img/What_you_get/shield_Daw.png'],
+      styles: ['shield', 'shield_Daw'],
     },
     {
       title: 'Отримайте наш потенціал доставки',
       desc: 'Ми орієнтуємося на розвиток через здатність найму 25-ти інженерів та 2ох менеджерів.',
-      icon: '/img/what-you-get/lightning.png',
+      icons: ['/img/What_you_get/lighting.png'],
+      styles: ['lighting'],
     },
     {
       title: 'Знайдення сучасного спеціаліста',
       desc: 'Продуктивний департамент  рекрутингу, який націлений на швидкий пошук.',
-      icon: '/img/what-you-get/user.png',
+      icons: ['/img/What_you_get/man_head.png', '/img/What_you_get/man.png'],
+      styles: ['man_head', 'man'],
     },
     {
       title: 'Якість і підтримка протягом проєкту',
       desc: 'Доставлений продукт, який має право на подальшу тех. підтримку від нас.',
-      icon: '/img/what-you-get/award.png',
+      icons: [
+        '/img/What_you_get/some_center.png',
+        '/img/What_you_get/some_bottom.png',
+        '/img/What_you_get/some_gear.png',
+      ],
+      styles: ['some_center', 'some_bottom', 'some_gear'],
     },
   ],
 };
@@ -80,22 +96,32 @@ export const whyWorkWithUs = {
     {
       title: 'Професійність',
       desc: 'Досвід та, звісно ж, потужність у створенні інноваційних веб-проєктів з його унікальністю.',
-      icon: '/img/icons/coins.png',
+      icons: ['/img/Why_cooperate_with_us/money1.png', '/img/Why_cooperate_with_us/money_top.png'],
+      styles: ['money', 'money_top'],
     },
     {
       title: 'Творчість',
       desc: 'Ми розробляємо унікальний та сучасний вигляд  веб-сайту, враховуючи його особливості.',
-      icon: '/img/icons/bulb.png',
+      icons: [
+        '/img/Why_cooperate_with_us/light_white.png',
+        '/img/Why_cooperate_with_us/light_center.png',
+      ],
+      styles: ['light_white', 'light_center'],
     },
     {
       title: 'Підтримка',
       desc: 'Ми гарантуємо якісний сервіс для вашого сайту. Окрім того, звісно ж технічну підтримку.',
-      icon: '/img/icons/tool.png',
+      icons: ['/img/Why_cooperate_with_us/wrench.png'],
+      styles: ['wrench'],
     },
     {
       title: 'Швидкість роботи',
       desc: 'Ми забезпечуємо оперативне завантаження сторінок сайту. Це наша ключова перевага.',
-      icon: '/img/icons/speed.png',
+      icons: [
+        '/img/Why_cooperate_with_us/spidometr.png',
+        '/img/Why_cooperate_with_us/spidometr_arrow2.png',
+      ],
+      styles: ['spidometr', 'spidometr_arrow'],
     },
   ],
 };

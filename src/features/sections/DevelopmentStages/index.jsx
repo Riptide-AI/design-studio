@@ -13,7 +13,9 @@ export const DevelopmentStages = ({ data, length = 7 }) => {
         >
           {data.list.map((item, i) => (
             <div className={styles.stages__timeline__item} key={`item-${i}`}>
-              <div className={styles.stages__timeline__item__order}>0{i + 1}</div>
+              <div data-count={i + 1} className={styles.stages__timeline__item__order}>
+                0
+              </div>
               <div className={styles.stages__timeline__item__title}>{item.title}</div>
             </div>
           ))}

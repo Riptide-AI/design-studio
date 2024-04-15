@@ -11,7 +11,7 @@ export default function Smm() {
   return (
     <>
       <HeroBannerLight data={heroBanner} />
-      <SocialSMM/>
+      <SocialSMM />
       <CheckList data={checks} />
       <SecurityList />
       <Reviews data={reviews} />

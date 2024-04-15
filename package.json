@@ -11,6 +11,7 @@
     "prettier": "prettier --write \"**/*.{js,jsx,scss,css}\""
   },
   "dependencies": {
+    "@reduxjs/toolkit": "^2.2.3",
     "clsx": "^2.0.0",
     "i18next": "^23.6.0",
     "next": "13.5.4",
@@ -19,6 +20,7 @@
     "react-dom": "^18",
     "react-hook-form": "^7.48.2",
     "react-i18next": "^13.3.1",
+    "react-redux": "^9.1.0",
     "sass": "^1.69.4"
   },
   "devDependencies": {

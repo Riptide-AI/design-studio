@@ -6,6 +6,7 @@
   justify-content: space-between;
   font-family: $main-font;
   width: 100%;
+  flex-grow: 1;
   @include media(phone) {
     flex-direction: column;
     gap: 24px;
@@ -34,10 +35,15 @@
       font-size: 14px;
       line-height: 150%;
     }
-    
+
     i {
       color: $white;
       font-style: normal;
     }
+  }
+  &__form {
+    display: flex;
+    flex-grow: 1;
+    max-width: 600px;
   }
 }

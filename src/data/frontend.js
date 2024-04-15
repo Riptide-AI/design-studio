@@ -7,34 +7,57 @@ export const weCreate = {
   title: 'Які сайти ми розробляємо',
   list: [
     {
-      title: 'Інтернет-магазинс',
-      icon: '/img/sites/store.png',
+      title: 'Інтернет-магазин',
+      icons: [
+        '/img/What_sites_we_develop/shop_bottom.png',
+        '/img/What_sites_we_develop/shop_top.png',
+      ],
       link: '/services/store',
+      styles: ['shop_bottom', 'shop_top'],
     },
     {
       title: 'Корпоративний сайт',
-      icon: '/img/sites/corporate.png',
+      icons: [
+        '/img/What_sites_we_develop/corporate_top.png',
+        '/img/What_sites_we_develop/corporate_lock.png',
+        '/img/What_sites_we_develop/corporate_bottom.png',
+      ],
       link: '/services/corporate',
+      styles: ['corporate_top', 'corporate_lock', 'corporate_bottom'],
     },
     {
       title: 'Landing Page',
-      icon: '/img/sites/landing.png',
+      icons: [
+        '/img/What_sites_we_develop/lending_top.png',
+        '/img/What_sites_we_develop/lending_text.png',
+        '/img/What_sites_we_develop/lending_back.png',
+      ],
       link: '/services/landing',
+      styles: ['lending_top', 'lending_text', 'lending_back'],
     },
     {
       title: 'Сайт-квіз',
-      icon: '/img/sites/quiz.png',
+      icons: ['/img/What_sites_we_develop/quiz.png'],
       link: '/services/quiz',
+      styles: ['quiz'],
     },
     {
-      title: 'Сайт-візитівка',
-      icon: '/img/sites/site-card.png',
+      title: 'Сайт-візитка',
+      icons: [
+        '/img/What_sites_we_develop/business_card_without_person.png',
+        '/img/What_sites_we_develop/business_card_peron.png',
+      ],
       link: '/services/card',
+      styles: ['business_card_without_person', 'business_card_peron'],
     },
     {
       title: 'eCommerce проєкт',
-      icon: '/img/sites/ecommerce.png',
+      icons: [
+        '/img/What_sites_we_develop/e_comerc_front.png',
+        '/img/What_sites_we_develop/e_comerc_back.png',
+      ],
       link: '/services/ecommerce',
+      styles: ['e_comerc_front', 'e_comerc_back'],
     },
   ],
 };

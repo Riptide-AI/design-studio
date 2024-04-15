@@ -4,15 +4,20 @@
   margin-top: 140px;
   width: 100%;
   font-family: $main-font;
+  @include media(phone) {
+    margin-top: 80px;
+  }
   &__title {
     text-align: center;
     font-size: 40px;
     color: $white;
     font-weight: 600;
     line-height: 125%;
-    max-width: 800px;
-    margin: 0 auto 24px;
-
+    max-width: 1000px;
+    margin: 0 auto 12px;
+    @include media(phone) {
+      font-size: 24px;
+    }
   }
   &__desc {
     text-align: center;
@@ -21,10 +26,9 @@
     line-height: 150%;
     max-width: 800px;
     margin: 0 auto;
-    
   }
   &__list {
-    margin-top: 80px;
+    margin-top: 40px;
     display: flex;
     flex-direction: column;
     gap: 2px;
@@ -72,7 +76,7 @@
       color: $bright-blue;
       margin-bottom: 20px;
     }
-    &__subtitle{
+    &__subtitle {
       @include media(phone) {
         margin-bottom: 10px;
       }
@@ -83,7 +87,7 @@
       font-weight: 600;
       line-height: 125%;
       margin-bottom: 6px;
-      
+
       &_alt {
         font-size: 24px;
         font-weight: 600;
@@ -102,7 +106,6 @@
       font-size: 40px;
       font-weight: 600;
       line-height: 125%;
-    
     }
     &__due,
     &__btn {

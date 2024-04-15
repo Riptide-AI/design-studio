@@ -8,7 +8,8 @@
     width: 100%;
     display: flex;
     flex-direction: column;
-align-items: center;  }
+    align-items: center;
+  }
   &__title {
     line-height: 150%;
     margin-bottom: 34px;
@@ -18,6 +19,5 @@ align-items: center;  }
     font-size: 24px;
     font-weight: 600;
     width: 100%;
- 
   }
 }

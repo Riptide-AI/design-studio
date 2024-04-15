@@ -10,7 +10,7 @@ export default function Design() {
   return (
     <>
       <HeroBannerLight data={heroBanner} />
-      <WeProvide/>
+      <WeProvide />
       <SupportTypes data={supportTypes} alt cols={4} />
       <SecurityList />
       <Reviews data={reviews} />

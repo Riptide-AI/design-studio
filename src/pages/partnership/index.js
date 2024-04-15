@@ -13,7 +13,7 @@ export default function Partnership() {
       <InfoBlock />
       <BecomePartner />
       <WhyWorkWithUs />
-      <WhatYouGet/>
+      <WhatYouGet />
       <ContactUs />
     </>
   );

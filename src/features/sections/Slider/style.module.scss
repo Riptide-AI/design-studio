@@ -80,7 +80,6 @@
       bottom: -64px;
       transform: none;
     }
-
   }
   &__btn_prev {
     left: 0;
@@ -94,7 +93,6 @@
     @include media(phone) {
       right: 50%;
       transform: translateX(60px);
-
     }
   }
 }

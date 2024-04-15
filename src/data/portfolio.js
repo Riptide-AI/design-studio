@@ -71,55 +71,55 @@ export const portfolioPagination = {
       {
         id: 19,
         image: '/img/development-stage-1.jfif', // img link here
-        title: 'Назва',
+        title: 'Проєкт 1',
         theme: 'Web development',
       },
       {
         id: 20,
         image: '/img/development-stage-1.jfif', // img link here
-        title: 'Назва',
+        title: 'Проєкт 2',
         theme: 'Web development',
       },
       {
         id: 21,
         image: '/img/development-stage-1.jfif', // img link here
-        title: 'Назва',
+        title: 'Проєкт 3',
         theme: 'Web development',
       },
       {
         id: 22,
         image: '/img/development-stage-1.jfif', // img link here
-        title: 'Назва',
+        title: 'Проєкт 4',
         theme: 'Web development',
       },
       {
         id: 23,
         image: '/img/development-stage-1.jfif', // img link here
-        title: 'Назва',
+        title: 'Проєкт 5',
         theme: 'Web development',
       },
       {
         id: 24,
         image: '/img/development-stage-1.jfif', // img link here
-        title: 'Назва',
+        title: 'Проєкт 6',
         theme: 'Web development',
       },
       {
         id: 25,
         image: '/img/development-stage-1.jfif', // img link here
-        title: 'Назва',
+        title: 'Проєкт 7',
         theme: 'Web development',
       },
       {
         id: 26,
         image: '/img/development-stage-1.jfif', // img link here
-        title: 'Назва',
+        title: 'Проєкт 8',
         theme: 'Web development',
       },
       {
         id: 27,
         image: '/img/development-stage-1.jfif', // img link here
-        title: 'Назва',
+        title: 'Проєкт 9',
         theme: 'Web development',
       },
     ],

@@ -2,6 +2,7 @@ import { ContentWrapper } from '@/components/ContentWrapper';
 import styles from './style.module.scss';
 import { becomePartner } from '@/data/homepage';
 import { CustomButton } from '@/components/CustomButton';
+import Link from 'next/link';
 export const BecomePartner = () => {
   return (
     <ContentWrapper>
@@ -16,10 +17,12 @@ export const BecomePartner = () => {
               ></div>
               <div className={styles['become-partner__program-title']}>{item.title}</div>
               <div className={styles['become-partner__program-desc']}>{item.desc}</div>
-              <CustomButton
-                title={item.btn}
-                stylesClassName={styles['become-partner__program-btn']}
-              />
+              <Link href={'/contacts'}>
+                <CustomButton
+                  title={item.btn}
+                  stylesClassName={styles['become-partner__program-btn']}
+                />
+              </Link>
             </div>
           ))}
         </div>

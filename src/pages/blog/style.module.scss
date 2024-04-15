@@ -1,0 +1,97 @@
+$dark-blue: #081522;
+$pale-blue: #12273c;
+$bright-blue: #2d8eee;
+$white: #f0f0f0;
+$light-grey: #d4d4d4;
+$dark-grey: #b1b1b1;
+$green: #3deb8d;
+$yellow: #ffcf25;
+$red: #fa3d3d;
+$pale-bright-blue: #59acff;
+$dark-bright-blue: #0777e7;
+
+$font-family: 'Manrope', sans-serif;
+$second-family: 'Open Sans', sans-serif;
+$third-family: 'Gilroy-SemiBold', sans-serif;
+
+@mixin xs {
+  @media (max-width: 425px) {
+    @content;
+  }
+}
+
+.blog {
+  padding-top: 130px;
+  width: 100%;
+  margin-bottom: 140px;
+  @include xs {
+    margin-bottom: 40px;
+  }
+  .wrapper {
+    max-width: 1240px;
+    margin: auto;
+    @include xs {
+      max-width: 425px;
+      padding: 15px;
+    }
+    .blogs_label_sort {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 30px;
+      @include xs {
+        display: none;
+      }
+      .label {
+        font-family: $font-family;
+        font-weight: 600;
+        font-size: 40px;
+        line-height: 125%;
+        color: #fff;
+        position: relative;
+      }
+      .line {
+        width: 55%;
+        background-color: $pale-blue;
+        height: 1px;
+        top: 50%;
+      }
+    }
+    .blog_content {
+      display: flex;
+      justify-content: space-between;
+
+      .blogs_label_sort_mob {
+        display: none;
+      }
+      @include xs {
+        flex-direction: column;
+        .blogs_label_sort_mob {
+          display: flex;
+          flex-direction: column;
+          align-items: flex-start;
+          justify-content: space-between;
+          margin-bottom: 30px;
+          .label_mob {
+            font-family: $font-family;
+            font-weight: 600;
+            font-size: 24px;
+            line-height: 125%;
+            color: #fff;
+            position: relative;
+            margin-bottom: 12px;
+          }
+        }
+      }
+
+      .articles {
+        padding-top: 30px;
+        display: flex;
+        align-items: flex-end;
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+      }
+    }
+  }
+}

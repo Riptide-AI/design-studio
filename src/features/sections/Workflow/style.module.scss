@@ -35,6 +35,11 @@
     display: flex;
     flex-direction: column;
 
+    &:hover {
+      .workflow__item__order {
+        animation: border_bottom 0.5s linear 1;
+      }
+    }
     &__order {
       height: 36px;
       padding-bottom: 12px;
@@ -45,7 +50,6 @@
       text-transform: uppercase;
       color: $white;
       text-align: center;
-
     }
     &__title {
       margin-top: 20px;
@@ -55,7 +59,6 @@
       line-height: 125%;
       padding: 0 10px;
       text-align: center;
-
     }
     &__desc {
       margin-top: 12px;
@@ -64,7 +67,14 @@
       font-weight: 400;
       line-height: 150%;
       text-align: justify;
-
     }
+  }
+}
+@keyframes border_bottom {
+  10% {
+    border-bottom: 2px solid rgba(0, 0, 255, 0);
+  }
+  100% {
+    border-bottom: 2px solid $bright-blue;
   }
 }

@@ -10,7 +10,6 @@ export const LocationMap = () => {
       const map = new window.google.maps.Map(document.getElementById('map'), {
         center: lvivCoordinates,
         zoom: 15,
-        disableDefaultUI: true,
       });
       new window.google.maps.Marker({
         position: lvivCoordinates,
@@ -28,7 +27,7 @@ export const LocationMap = () => {
       <script
         async
         defer
-        src={`https://maps.googleapis.com/maps/api/js?callback=initMap`}
+        src="https://maps.googleapis.com/maps/api/js?callback=initMap&libraries=places"
         type="text/javascript"
       />
     </div>

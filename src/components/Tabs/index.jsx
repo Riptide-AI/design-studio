@@ -2,9 +2,10 @@ import styles from './style.module.scss';
 import { useState } from 'react';
 import clsx from 'clsx';
 import Image from 'next/image';
+import Link from 'next/link';
+
 export const Tabs = ({ items }) => {
   const [activeTab, setActiveTab] = useState(0);
-
   const toggleTab = (index) => {
     setActiveTab(activeTab === index ? null : index);
   };
@@ -20,12 +21,14 @@ export const Tabs = ({ items }) => {
           <div className={styles.tab_header} onClick={() => toggleTab(index)}>
             {tab.tabName}
             <div className={styles.tab__button}>
-              <Image
-                src="img/icons/arrow-circle.svg"
-                fill={true}
-                className={clsx(styles.link__icon, { [styles.active]: activeTab === index })}
-                alt=""
-              />
+              <Link href={tab.link}>
+                <Image
+                  src="img/icons/arrow-circle.svg"
+                  fill={true}
+                  className={clsx(styles.link__icon, { [styles.active]: activeTab === index })}
+                  alt=""
+                />
+              </Link>
             </div>
           </div>
           <div className={clsx(styles.tab_content, { [styles.open]: activeTab === index })}>

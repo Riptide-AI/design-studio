@@ -3,7 +3,7 @@ import styles from './style.module.scss';
 
 export const PortfolioBanner = ({ currentItem }) => {
   return (
-    <section
+    <div
       className={styles.hero}
       style={{
         background: `linear-gradient(0deg, rgba(0, 0, 0, 0.50) 50% 0%, rgba(0, 0, 0, 0.50) 100%), url(${currentItem.background}) center / cover no-repeat`,
@@ -15,6 +15,6 @@ export const PortfolioBanner = ({ currentItem }) => {
           <div className={styles.hero__desc}>{currentItem.desc}</div>
         </div>
       </ContentWrapper>
-    </section>
+    </div>
   );
 };

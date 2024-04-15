@@ -2,9 +2,18 @@ import styles from './style.module.scss';
 import { useForm } from 'react-hook-form';
 import { CustomButton } from '../CustomButton';
 import { contactUs } from '@/data/homepage';
+import { useEffect } from 'react';
+import { useRouter } from 'next/router';
 
 export const ContactForm = ({ variant }) => {
-  const { register, handleSubmit } = useForm();
+  const { register, handleSubmit, setValue } = useForm();
+  const router = useRouter();
+
+  useEffect(() => {
+    const message = router.query.message || '';
+    setValue('desc', message);
+  }, [router.query.message, setValue]);
+
   const onSubmit = (data) => console.log(data);
 
   return (
@@ -21,10 +30,10 @@ export const ContactForm = ({ variant }) => {
       <label htmlFor="desc" className={variant ? styles.form__label__alt : styles.form__label}>
         {contactUs.desc}
       </label>
-      <input
+      <textarea
         {...register('desc')}
         id={'desc'}
-        className={styles.form__input}
+        className={styles.form__textarea}
         placeholder={contactUs.descPlaceholder}
       />
       <CustomButton

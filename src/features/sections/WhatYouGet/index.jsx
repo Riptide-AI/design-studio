@@ -10,12 +10,25 @@ export const WhatYouGet = () => {
         <div className={styles.what_you_get__title}>{whatYouGet.title}</div>
         <div className={styles.what_you_get__list}>
           {whatYouGet.list.map((item, i) => (
-            <div className={styles.what_you_get__item} key={`item-${i}`}>
-              <div className={styles.what_you_get__item__icon}>
-                <Image src={item.icon} width={40} height={40} alt="" />
+            <div className={styles.card} key={`item-${i}`}>
+              <div className={styles.card_row}>
+                <div className={styles.card_image}>
+                  {item.icons.map((img, i) => (
+                    <Image
+                      key={`item-${img}`}
+                      data-name={item.styles[i]}
+                      src={img}
+                      alt="Picture"
+                      width={40}
+                      height={40}
+                    />
+                  ))}
+                </div>
+                <div className={styles.card_info}>
+                  <div className={styles.card_label}>{item.title}</div>
+                  <div className={styles.card_text}>{item.desc}</div>
+                </div>
               </div>
-              <div className={styles.what_you_get__item__title}>{item.title}</div>
-              <div className={styles.what_you_get__item__desc}>{item.desc}</div>
             </div>
           ))}
         </div>

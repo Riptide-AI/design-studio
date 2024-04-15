@@ -26,6 +26,8 @@
     gap: 40px;
     @include media(phone) {
       flex-direction: column;
+      margin-top: 12px;
+      gap: 24px;
     }
   }
   &__program-item {
@@ -39,6 +41,15 @@
     padding: 20px;
     background-position: center;
     background-size: contain;
+    &:hover {
+      &:hover {
+        .become-partner__program-title {
+          &::after {
+            animation: border_bottom 0.5s linear 1;
+          }
+        }
+      }
+    }
     @include media(phone) {
       padding: 12px;
     }
@@ -99,5 +110,13 @@
     @include media(phone) {
       width: 160px;
     }
+  }
+}
+@keyframes border_bottom {
+  10% {
+    border-bottom: 2px solid rgba(0, 0, 255, 0);
+  }
+  100% {
+    border-bottom: 2px solid $bright-blue;
   }
 }

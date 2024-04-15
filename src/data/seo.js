@@ -56,7 +56,8 @@ export const factors = {
 export const solutions = {
   title: 'Які задачі вирішує ЅЕО просування сайту',
   btn: 'Вирішити мою задачу',
-  image: '/img/solutions/banner.jpg',
+  imageOne: '/img/solutions/seo-1.png',
+  imageTwo: '/img/solutions/seo-2.png',
   list: [
     {
       title: 'Підвищення впізнаваності бренду',
@@ -67,12 +68,11 @@ export const solutions = {
       icon: '/img/solutions/icon-2.png',
     },
     {
-      title:
-        'Залучення нових потенційних клієнтів або збільшення вже існуючого потоку користувачів',
+      title: ' Залучення нових потенційних клієнтів',
       icon: '/img/solutions/icon-3.png',
     },
     {
-      title: 'Значне зростання продажів і збільшення конверсії вашого бізнесу',
+      title: 'Зростання продажів та конверсій вашого бізнесу',
       icon: '/img/solutions/icon-4.png',
     },
   ],
@@ -89,6 +89,8 @@ export const pricelist = {
       planType: 'Старт',
       due: 'Термін від 8 місяців',
       price: 'від 500$',
+      message:
+        "Добрий день, пишу до Вас із зацікавленістю щодо замовлення послуги 'Plan A - Просування молодого сайту' за 500$ ",
     },
     {
       title: 'Plan B',
@@ -97,6 +99,8 @@ export const pricelist = {
       planType: 'Економ',
       due: 'Термін від 3 місяців',
       price: 'від 600$',
+      message:
+        "Добрий день, пишу до Вас із зацікавленістю щодо замовлення послуги 'Plan B' за 600$ ",
     },
     {
       title: 'Plan C',
@@ -105,6 +109,8 @@ export const pricelist = {
       planType: 'Малий бізнес',
       due: 'Термін від 4 місяців',
       price: 'від 800$',
+      message:
+        "Добрий день, пишу до Вас із зацікавленістю щодо замовлення послуги 'Plan C' за 800$ ",
     },
     {
       title: 'Plan D',
@@ -113,6 +119,38 @@ export const pricelist = {
       planType: 'Бізнес',
       due: 'Термін від 8 місяців',
       price: 'від 950$',
+      message:
+        "Добрий день, пишу до Вас із зацікавленістю щодо замовлення послуги 'Plan D' за 950$ ",
+    },
+  ],
+};
+export const reviews = {
+  title: 'Почуйте це від наших клієнтів',
+  desc: 'Від початку до підтримки – ми завжди поруч, готові радити та допомагати.\nВаш успіх – наш пріоритет.',
+  slides: [
+    {
+      title: 'Заголовок',
+      author: 'Павло Гук 1',
+      position: 'Менеджер компанії ',
+      content: 'Слайд 1',
+    },
+    {
+      title: 'Заголовок',
+      author: 'Павло Гук 2',
+      position: 'Менеджер компанії ',
+      content: 'Слайд 2',
+    },
+    {
+      title: 'Заголовок',
+      author: 'Павло Гук 3',
+      position: 'Менеджер компанії ',
+      content: 'Слайд 3',
+    },
+    {
+      title: 'Заголовок',
+      author: 'Павло Гук 4',
+      position: 'Менеджер компанії ',
+      content: 'Слайд 4',
     },
   ],
 };
