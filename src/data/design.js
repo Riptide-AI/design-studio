@@ -87,7 +87,7 @@ export const checks = {
 };
 
 export const securityList = {
-  title: 'Ми захищаємо вас від двох  пасток',
+  title: 'Ми захищаємо вас від двох пасток',
   desc: 'Відповідно до дослідження McKinsey Oxford',
   image: '/img/security.png',
   list: [
