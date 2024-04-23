@@ -4,13 +4,13 @@ import styles from './style.module.scss';
 import { useTranslation } from 'react-i18next';
 
 export const LocaleSwitch = () => {
-  const [lang, setLang] = useState('ua');
   const { i18n } = useTranslation();
+  const [lang, setLang] = useState(i18n.language);
 
   const changeLanguage = (lang) => {
     setLang(lang);
   };
-
+  
   useEffect(() => {
     i18n.changeLanguage(lang);
   }, [lang, i18n]);
