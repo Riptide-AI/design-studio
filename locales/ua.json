@@ -1,13 +1,15 @@
-{"navigation" : {
-  "home": "Головна",
-  "services": "Послуги",
-  "contacts": "Контакти",
-  "portfolio": "Портфоліо",
-  "aboutUs": "Про нас",
-  "blog": "Блог",
-  "partnership": "Партнерство"
-},
-"buttons": {
-  "contactUs": "Зв’язатися"
-}
+{
+  "navigation": {
+    "home": "Головна",
+    "services": "Послуги",
+    "contacts": "Контакти",
+    "portfolio": "Портфоліо",
+    "aboutUs": "Про нас",
+    "blog": "Блог",
+    "partnership": "Партнерство"
+  },
+  "buttons": {
+    "contactUs": "Зв’язатися",
+    "aboutUsbtn": "Стати клієнтом"
+  }
 }

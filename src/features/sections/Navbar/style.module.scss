@@ -13,7 +13,7 @@
   @include media(phone) {
     top: 0;
     height: 28px;
-    padding: 60px 16px 0;
+    padding: 34px 0;
 
     &--open {
       width: 100vw;
@@ -22,7 +22,10 @@
       position: absolute;
       overflow-y: auto;
       background-color: $dark-blue;
-
+      @include media(phone) {
+        width:100%;
+      
+      }
       // top: -60px;
       z-index: 10;
       // padding-top: 88px;
@@ -57,4 +60,9 @@
   align-items: center;
   // justify-content: space-between;
   margin-left: auto;
+
+  @include media(phone) {
+    padding: 13px 27px;
+    background: #081522;
+  }
 }

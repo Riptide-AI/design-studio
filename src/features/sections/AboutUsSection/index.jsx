@@ -2,8 +2,22 @@ import { ContentWrapper } from '@/components/ContentWrapper';
 import styles from './style.module.scss';
 import { aboutUs } from '@/data/homepage';
 import Image from 'next/image';
+import { CustomButton } from '@/components/CustomButton';
+import { useEffect, useState } from 'react';
+import { useTranslation } from 'react-i18next';
 
 export const AboutUsSection = () => {
+  const { t } = useTranslation();
+  const [windowWidth, setwindowWidth] = useState();
+  useEffect(() => {
+    if (typeof window !== 'undefined') {
+      setwindowWidth(window.innerWidth);
+
+      const updateWidth = () => setwindowWidth(window.innerWidth);
+      window.addEventListener('resize', updateWidth);
+      return () => window.removeEventListener('resize', updateWidth);
+    }
+  }, []);
   return (
     <ContentWrapper>
       <section className={styles.about_us}>
@@ -21,10 +35,15 @@ export const AboutUsSection = () => {
           {aboutUs.cards.map((card, index) => (
             <div className={styles.about_us__card} key={index}>
               <div className={styles.about_us__card_counter}>{card.counter}</div>
-              <div className={styles.about_us__card_desc}>{card.desc}</div>
+              <div className={styles.about_us__card_desc}>
+                {windowWidth > 1440 ? card.desc : aboutUs.mobileCards[index].desc}
+              </div>
             </div>
           ))}
         </div>
+        {windowWidth < 1440 && (
+          <CustomButton title={t('buttons.aboutUsbtn')} stylesClassName={styles.navbar__btn} />
+        )}
       </section>
     </ContentWrapper>
   );
