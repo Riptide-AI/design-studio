@@ -52,7 +52,7 @@ export const Navbar = () => {
             />
           )}  
           {isMobile && (
-            <BurgerMenu links={navigation} isOpen={isMenuOpen} handleToggle={handleToggle} />
+            <BurgerMenu links={navigation} isOpen={isMenuOpen} handleToggle={handleToggle} setOpen ={setIsMenuOpen}/>
           )}
         </div>
       </div>

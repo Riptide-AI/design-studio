@@ -8,6 +8,7 @@
     height: 28px;
   }
   &__wrapper {
+    width: 100%;
     background-color: $dark-blue;
     left: 0;
     top: -60px;
@@ -29,6 +30,7 @@
     li {
       border-bottom: 1px solid rgba(45, 142, 238, 0.33);
       padding-bottom: 10px;
+      transition: color 0.3s;
       &:hover {
         color: #2d8eee;
       }
