@@ -3,6 +3,9 @@ import styles from './style.module.scss';
 import Image from 'next/image';
 import { footer } from '@/data/footer';
 import Link from 'next/link';
+import FoterSocials from '@/components/FooterSocials';
+
+
 
 export const Footer = () => {
   return (
@@ -52,38 +55,11 @@ export const Footer = () => {
               </ul>
             </div>
           </div>
-          <div className={styles.footer__socials}>
-            <a href={footer.telegramLink} target="_blink">
-              <Image
-                src="/img/icons/telegram.svg"
-                alt="logo"
-                width={28}
-                height={28}
-                placeholder="empty"
-              />
-            </a>
-            <a href={footer.instagramLink} target="_blink">
-              <Image
-                src="/img/icons/instagram.svg"
-                alt="logo"
-                width={28}
-                height={28}
-                placeholder="empty"
-              />
-            </a>
-            <a href={footer.linkedInmLink} target="_blink">
-              <Image
-                src="/img/icons/linkedIn.svg"
-                alt="logo"
-                width={28}
-                height={28}
-                placeholder="empty"
-              />
-            </a>
-          </div>
+          <FoterSocials opacityCount ={1}/>
           <div className={styles.footer__rights}>{footer.rights}</div>
         </div>
       </ContentWrapper>
     </div>
   );
 };
+

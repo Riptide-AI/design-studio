@@ -3,7 +3,8 @@ import Link from 'next/link';
 import Image from 'next/image';
 import { useTranslation } from 'react-i18next';
 import { useRouter } from 'next/router';
-import { Footer } from '@/features/sections/Footer';
+import { CustomButton } from '../CustomButton';
+import FoterSocials from '../FooterSocials';
 import { LocaleSwitch } from '../LocaleSwitch';
 export const BurgerMenu = ({ links, isOpen, handleToggle }) => {
   const { t } = useTranslation();
@@ -11,6 +12,7 @@ export const BurgerMenu = ({ links, isOpen, handleToggle }) => {
 
   return (
     <>
+     {isOpen && <LocaleSwitch/>}
       <div className={styles.burger_menu__btn} role="button" onClick={handleToggle}>
         {isOpen ? (
           <Image src={'/img/icons/close-btn.svg'} height={28} width={28} alt="" />
@@ -35,10 +37,13 @@ export const BurgerMenu = ({ links, isOpen, handleToggle }) => {
             ))}
           </ul>
           <div className={styles.burger_menu__switch}>
-            <LocaleSwitch />
+        <CustomButton
+         title={t('buttons.contactUs')}
+         stylesClassName={styles.navbar__btn}
+         action={() => scrollTo('contact-form')}/>
           </div>
 
-          <Footer />
+          <FoterSocials opacityCount={0.4}/>
         </div>
       )}
     </>
