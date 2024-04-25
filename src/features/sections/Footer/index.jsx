@@ -1,10 +1,26 @@
 import { ContentWrapper } from '@/components/ContentWrapper';
+import { useState, useEffect } from 'react';
+import { FooterMobileNav } from '@/components/FooterMobileNav';
 import styles from './style.module.scss';
 import Image from 'next/image';
 import { footer } from '@/data/footer';
 import Link from 'next/link';
 
 export const Footer = () => {
+  const [isMobile, setIsMobile] = useState(false);
+
+  useEffect(() => {
+    const handleResize = () => {
+      setIsMobile(window.innerWidth <= 1440);
+    };
+
+    handleResize(); // Check initial width
+    window.addEventListener('resize', handleResize); // Add event listener for resize
+
+    return () => {
+      window.removeEventListener('resize', handleResize); // Cleanup event listener
+    };
+  }, []);
   return (
     <div className={styles.footer__bg}>
       <ContentWrapper>
@@ -28,29 +44,33 @@ export const Footer = () => {
                 {footer.phoneDisplay}
               </a>
             </div>
-            <div className={styles.footer__nav}>
-              <ul className={styles.footer__links}>
-                {footer.links.map((item) => (
-                  <li className={styles['footer__link-item']} key={item.title}>
-                    <Link href={item.link}>{item.title}</Link>
-                  </li>
-                ))}
-              </ul>
-              <ul className={styles.footer__subLinks}>
-                {footer.subLinks.map((group) => (
-                  <li key={group.title}>
-                    <div className={styles['footer__link-item']}>{group.title}</div>
-                    <ul className={styles.footer__links}>
-                      {group.list.map((subLink) => (
-                        <li className={styles['footer__subLink-item']} key={subLink.title}>
-                          <Link href={subLink.link}>{subLink.title}</Link>
-                        </li>
-                      ))}
-                    </ul>
-                  </li>
-                ))}
-              </ul>
-            </div>
+            {isMobile ? (
+              <FooterMobileNav footer={footer} />
+            ) : (
+              <div className={styles.footer__nav}>
+                <ul className={styles.footer__links}>
+                  {footer.links.map((item) => (
+                    <li className={styles['footer__link-item']} key={item.title}>
+                      <Link href={item.link}>{item.title}</Link>
+                    </li>
+                  ))}
+                </ul>
+                <ul className={styles.footer__subLinks}>
+                  {footer.subLinks.map((group) => (
+                    <li key={group.title}>
+                      <div className={styles['footer__link-item']}>{group.title}</div>
+                      <ul className={styles.footer__links}>
+                        {group.list.map((subLink) => (
+                          <li className={styles['footer__subLink-item']} key={subLink.title}>
+                            <Link href={subLink.link}>{subLink.title}</Link>
+                          </li>
+                        ))}
+                      </ul>
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            )}
           </div>
           <div className={styles.footer__socials}>
             <a href={footer.telegramLink} target="_blink">
