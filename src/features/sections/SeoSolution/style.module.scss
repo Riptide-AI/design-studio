@@ -6,7 +6,7 @@
   max-width: 1220px;
   width: 100%;
   @include media(phone) {
-    display: none; // to fix
+    // display: none; // to fix
   }
   &__title {
     color: $white;
@@ -28,6 +28,7 @@
     margin-bottom: 32px;
     width: 100%;
     position: relative;
+    overflow: visible;
     &::after {
       content: '';
       width: 100%;
@@ -45,7 +46,9 @@
     align-items: center;
     justify-content: center;
     width: 100%;
+    position: relative;
     &:nth-child(2n-1) {
+
       div:first-child {
         order: 1;
 
@@ -56,6 +59,10 @@
         &::before {
           transform: translate(-50%, -50%);
           top: 0;
+          @include media(phone) {
+            transform: scale(0.4) translateX(-20px);
+            top: -8px;
+          }
         }
       }
     }
@@ -70,6 +77,12 @@
       max-width: 250px;
       position: relative;
 
+      img {
+        @include media(phone) {
+          width: 12px;
+          height: 12px;
+        }
+      }
       &::after {
         content: '';
         height: 16px;
@@ -80,6 +93,9 @@
         position: absolute;
         bottom: 0;
         z-index: 10;
+        @include media(phone) {
+          width: 10px;
+        }
       }
       &::before {
         content: url('/img/icons/point.png');
@@ -91,17 +107,29 @@
         position: absolute;
         bottom: 0;
         z-index: 11;
+
+        @include media(phone) {
+          transform: scale(0.4) translateX(-20px);
+          bottom: -8px;
+        }
       }
     }
     &__title {
       font-size: 16px;
       color: $dark-grey;
       line-height: 150%;
+      @include media(phone) {
+        font-size: 10px;
+        line-height: 125%;
+      }
     }
   }
   &__images {
     display: flex;
     gap: 40px;
+    @include media(phone) {
+      flex-direction: column;
+    }
   }
 
   &__image {
