@@ -22,8 +22,8 @@ export const FooterMobileNav = ({ footer }) => {
         </div>
         <div className={clsx(styles.tab_content, { [styles.open]: activeTab === 0 })}>
           <div className={styles.tab_content__text}>
-            {footerLinks.map((item, i) => (
-              <Link href={item.link} key="item">
+            {footerLinks.map((item) => (
+              <Link href={item.link} key={item.title}>
                 {item.title}
               </Link>
             ))}
@@ -31,7 +31,10 @@ export const FooterMobileNav = ({ footer }) => {
         </div>
       </div>
       {footerSubLinks.map((tab, index) => (
-        <div className={clsx(styles.tab, { [styles.active]: activeTab === index + 1 })}>
+        <div
+          className={clsx(styles.tab, { [styles.active]: activeTab === index + 1 })}
+          key={tab.title}
+        >
           <div className={styles.tab_header} onClick={() => toggleTab(index + 1)}>
             {tab.title}
             <div
@@ -42,7 +45,7 @@ export const FooterMobileNav = ({ footer }) => {
           </div>
           <div className={clsx(styles.tab_content, { [styles.open]: activeTab === index + 1 })}>
             <div className={styles.tab_content__text}>
-              {tab.list.map((item, i) => (
+              {tab.list.map((item) => (
                 <Link href={item.link} key="item">
                   {item.title}
                 </Link>
