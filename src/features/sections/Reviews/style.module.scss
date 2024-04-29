@@ -7,6 +7,9 @@
   width: 100%;
   justify-content: center;
   align-items: center;
+  @include media(phone) {
+    margin: 40px auto 0;
+  }
 
   &__title {
     font-size: 40px;

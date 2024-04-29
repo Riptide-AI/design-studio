@@ -85,11 +85,22 @@
     margin: 40px auto 0;
     gap: 30px;
     height: 28px;
+    @include media(phone) {
+     padding-bottom: 20px;
+     border-bottom: 1px solid $dark-grey;
+     width: 100%;
+     justify-content: center;
+     height: auto;
+     
+    }
   }
   &__rights {
     color: $dark-grey;
     text-align: center;
     margin-top: 20px;
     font-size: 16px;
+    @include media(phone) {
+      margin-top: 8px;
+     }
   }
 }
