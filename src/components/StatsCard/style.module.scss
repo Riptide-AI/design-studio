@@ -6,12 +6,40 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  .rounds {
+    display: none;
+  }
+  @include media(phone) {
+    max-width: 100px;
+    &:nth-child(3) {
+      .rounds {
+        img {
+          transform:rotateZ(180deg);
+        }
+      }
+    }
+    .rounds {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 8px;
+      img {
+        margin-left: -11px;
+        &:nth-child(4) {
+          margin-left: -15px;
+          width: 9px;
+          height: 10px;
+        }
+      }
+    }
+  }
 
   &:hover {
     .card__order {
       animation: border_bottom 0.5s linear 1;
     }
   }
+
   &__order {
     color: $white;
     text-align: center;
@@ -21,6 +49,9 @@
     font-size: 18px;
     line-height: 22px;
     font-weight: 600;
+    @include media(phone) {
+      margin-top: 25px;
+    }
   }
   &__desc,
   &__stats_name {
@@ -38,12 +69,20 @@
   }
   &__desc {
     @include media(phone) {
-      height: 45px;
+      overflow: hidden;
+      max-height: 33px;
     }
   }
   &__stats_name {
     @include media(phone) {
       margin-bottom: auto;
+      font-weight: 400;
+      font-size: 11px;
+      text-align: left;
+      padding-left: 37px;
+      margin-top: 0px;
+      text-transform: capitalize;
+      white-space: nowrap;
     }
   }
   &__stats {
@@ -55,8 +94,21 @@
     color: $white;
     font-weight: 600;
     @include media(phone) {
-      font-size: 32px;
+      text-align: left;
+      font-size: 14px;
+      padding-left: 37px;
       line-height: 125%;
+      padding-bottom: 0px;
+      position: relative;
+      &::before {
+        content: '';
+        width: 2px;
+        height: 28px;
+        position: absolute;
+        left: 28px;
+        top: 3px;
+        background: linear-gradient(180deg, #39a6f8 0%, #061727 100%);
+      }
     }
   }
 }

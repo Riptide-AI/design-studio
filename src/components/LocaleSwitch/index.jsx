@@ -4,13 +4,13 @@ import styles from './style.module.scss';
 import { useTranslation } from 'react-i18next';
 
 export const LocaleSwitch = () => {
-  const [lang, setLang] = useState('ua');
   const { i18n } = useTranslation();
+  const [lang, setLang] = useState(i18n.language);
 
   const changeLanguage = (lang) => {
     setLang(lang);
   };
-
+  
   useEffect(() => {
     i18n.changeLanguage(lang);
   }, [lang, i18n]);
@@ -22,7 +22,8 @@ export const LocaleSwitch = () => {
         width={32}
         height={32}
         role="button"
-        style={{ opacity: lang === 'en' ? 1 : 0.3 }}
+        style={{ opacity: lang === 'en' ? 1 : 0.3,
+        transform: lang === 'en' ? 'scale(1)':'scale(0.8)'}}
         onClick={() => changeLanguage('en')}
         className={styles.lang_btn}
         alt="lang-icon"
@@ -33,7 +34,8 @@ export const LocaleSwitch = () => {
         width={32}
         height={32}
         role="button"
-        style={{ opacity: lang === 'ua' ? 1 : 0.3 }}
+        style={{ opacity: lang === 'ua' ? 1 : 0.3, 
+                transform: lang === 'ua' ? 'scale(1)':'scale(0.8)'}}
         onClick={() => changeLanguage('ua')}
         className={styles.lang_btn}
         alt="lang-icon"

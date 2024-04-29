@@ -8,6 +8,8 @@
   "partnership": "Partnership"
 },
 "buttons": {
-  "contactUs": "Contact Us"
+  "contactUs": "Contact Us",
+  "aboutUsbtn": "Become a client"
+ 
 }
 }

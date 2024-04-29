@@ -19,6 +19,10 @@
   width: 100%;
   padding: 32px 0 0;
 
+  @include media(phone) {
+    padding: 25px 0px;
+  }
+
   // &::before,
   // &::after {
   //   content: "";
@@ -47,8 +51,8 @@
   aspect-ratio: 160/48;
   position: relative;
   @include media(phone) {
-    height: 24px;
-    width: auto;
+    height: 35px;
+    width: 110px;
   }
   img {
     height: inherit;
@@ -66,6 +70,9 @@
 .infiniteSlider > div > div > div {
   padding-right: 48px;
   box-sizing: content-box;
+  @include media(phone) {
+    padding-right: 24px;
+  }
 }
 
 .infiniteSlider > div {

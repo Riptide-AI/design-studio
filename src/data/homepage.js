@@ -1,7 +1,45 @@
 export const statsCards = [
-  { desc: 'вирішуємо задачі бізнесу', stats: '75', statsName: 'виконаних проектів' },
-  { desc: 'комплексний підхід', stats: '25', statsName: 'досвідчених спеціалістів' },
-  { desc: 'ефективне просування та продажі', stats: '2', statsName: 'роки досвіду' },
+  {
+    desc: 'вирішуємо задачі бізнесу',
+    mobDesc: 'вирішуємо задачі бізнесу',
+    stats: '75',
+    mobStats: '75+',
+    statsName: 'виконаних проектів',
+    mobStatsName: 'проектів',
+    images: [
+      '/img/heroBaner/colorElips1.svg',
+      '/img/heroBaner/colorElips2.svg',
+      '/img/heroBaner/colorElips3.svg',
+      '/img/heroBaner/stars.svg',
+    ],
+  },
+  {
+    desc: 'комплексний підхід',
+    mobDesc: `комплексний\n підхід`,
+    mobStats: '25',
+    stats: '25',
+    statsName: 'досвідчених спеціалістів',
+    mobStatsName: 'спеціалістів',
+    images: [
+      '/img/heroBaner/Ellipse1.svg',
+      '/img/heroBaner/Ellipse2.svg',
+      '/img/heroBaner/Ellipse3.svg',
+    ],
+  },
+  {
+    desc: 'ефективне просування та продажі',
+    mobDesc: 'ефективне просування',
+    mobStats: '2+',
+    stats: '2',
+    statsName: 'роки досвіду',
+    mobStatsName: 'роки досвіду',
+    images: [
+      '/img/heroBaner/colorElips1.svg',
+      '/img/heroBaner/colorElips2.svg',
+      '/img/heroBaner/colorElips3.svg',
+      '/img/heroBaner/stars.svg',
+    ],
+  },
 ];
 export const partners = [
   { src: '/img/partners-logo/logo-1.svg', alt: '' },
@@ -49,6 +87,12 @@ export const aboutUs = {
     { counter: '25', desc: 'досвідчених спеціалістів' },
     { counter: '2', desc: 'роки досвіду' },
     { counter: '99%', desc: 'відсоток задоволених клієнтів' },
+  ],
+  mobileCards: [
+    { counter: '75', desc: 'виконаних проєктів' },
+    { counter: '25', desc: 'спеціалістів' },
+    { counter: '2', desc: 'роки досвіду' },
+    { counter: '99%', desc: 'задоволених клієнтів' },
   ],
 };
 export const businessCards = {

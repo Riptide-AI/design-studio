@@ -43,14 +43,16 @@ export const Navbar = () => {
         </Link>
         {!isMobile && <NavLinks links={navigation} />}
         <div className={styles.navbar__right}>
-          {!isMobile && <LocaleSwitch />}
-          <CustomButton
-            title={t('buttons.contactUs')}
-            stylesClassName={styles.navbar__btn}
-            action={() => scrollTo('contact-form')}
-          />
+        {!isMobile && <LocaleSwitch />}
+          {!isMobile && (
+            <CustomButton
+              title={t('buttons.contactUs')}
+              stylesClassName={styles.navbar__btn}
+              action={() => scrollTo('contact-form')}
+            />
+          )}  
           {isMobile && (
-            <BurgerMenu links={navigation} isOpen={isMenuOpen} handleToggle={handleToggle} />
+            <BurgerMenu links={navigation} isOpen={isMenuOpen} handleToggle={handleToggle} setOpen ={setIsMenuOpen}/>
           )}
         </div>
       </div>
