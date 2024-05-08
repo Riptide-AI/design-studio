@@ -3,10 +3,28 @@ import { CustomButton } from '@/components/CustomButton';
 import Image from 'next/image';
 import Link from 'next/link';
 import styles from './style.module.scss';
+import { DetailsModal } from '@/components/DetailsModal';
+import { useState } from 'react';
 
 export const PriceCards = ({ data }) => {
+  const [isModalOpen, setModalOpen] = useState(false);
+  const [modalContent, setModalContent] = useState();
+  const handleCloseModal = () => {
+    setModalOpen(false);
+  };
+  const handleOpenModal = (content) => {
+    setModalContent(content);
+    setModalOpen(true);
+  };
   return (
     <ContentWrapper>
+      {modalContent && (
+        <DetailsModal
+          isOpen={isModalOpen}
+          handleClose={handleCloseModal}
+          modalContent={modalContent}
+        />
+      )}
       <div className={styles.price_cards}>
         <div className={styles.price_cards__title}>{data.title}</div>
         <div className={styles.price_cards__desc}>{data.desc}</div>
@@ -27,6 +45,7 @@ export const PriceCards = ({ data }) => {
               <CustomButton
                 stylesClassName={styles.price_cards__item__btn_alt}
                 title={item.details}
+                action={() => handleOpenModal(item.modal)}
               />
               <ul className={styles.price_cards__item__checks_list}>
                 {item.checks.map((check, i) => (

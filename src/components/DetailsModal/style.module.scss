@@ -1,0 +1,142 @@
+@import '@/styles/vars.scss';
+
+.modal {
+  width: 100vw;
+  height: 100vh;
+  z-index: 100;
+  left: 0;
+  top: 0;
+  position: fixed;
+  font-family: $main-font;
+  @include media(phone) {
+    height: 100%;
+    overflow: scroll;
+  }
+  &__closeBtn {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    cursor: pointer;
+    transition: transform 0.3s;
+    &:hover {
+      transform: scale(1.2);
+    }
+  }
+  &__type {
+    border-radius: 90px;
+    padding: 10px 20px;
+    color: $white;
+    border: 1px solid $white;
+    height: 43px;
+    width: max-content;
+    flex-shrink: 0;
+  }
+  &__heading {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 40px;
+    border-bottom: 1px solid $pale-blue;
+    gap: 200px;
+    @include media(phone) {
+      flex-direction: column;
+      gap: 20px;
+    }
+    &__title {
+      margin-bottom: 24px;
+      color: $white;
+      font-size: 40px;
+      line-height: 125%;
+      font-weight: 500;
+    }
+    &__desc {
+      word-break: break-all;
+      color: $dark-grey;
+      font-size: 18px;
+      line-height: 125%;
+      max-width: 800px;
+      width: 100%;
+    }
+  }
+  &__grid {
+    display: grid;
+    margin-top: 40px;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: 'card1 card1 card2 card2' '. card3 card3 .';
+    gap: 40px;
+    @include media(phone) {
+      display: flex;
+      flex-direction: column;
+    }
+    &__img {
+      position: relative;
+      aspect-ratio: 280/ 227;
+      border-radius: 20px;
+    }
+    &__card {
+      background-color: $pale-blue;
+      border-radius: 20px;
+      padding: 50px 20px 20px;
+      position: relative;
+      &__title {
+        font-size: 18px;
+        line-height: 125%;
+        color: $white;
+        padding-bottom: 8px;
+        border-bottom: 1px solid $bright-blue;
+        margin-bottom: 12px;
+        width: fit-content;
+      }
+      &__desc {
+        font-size: 18px;
+        line-height: 125%;
+        color: $white;
+        word-break: break-all;
+      }
+      &__order {
+        position: absolute;
+        font-size: 56px;
+        line-height: 125%;
+        color: $dark-blue;
+        font-weight: 900;
+        z-index: 1;
+        top: 10px;
+      }
+      &:nth-child(1) {
+        grid-area: card1;
+      }
+      &:nth-child(2) {
+        grid-area: card2;
+      }
+      &:nth-child(3) {
+        grid-area: card3;
+      }
+    }
+    &__card_content {
+      background-color: $pale-blue;
+      position: relative;
+      z-index: 10;
+    }
+  }
+  &__content {
+    max-width: 1440px;
+    height: auto;
+    min-height: 840px;
+    top: 50%;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: $dark-blue;
+    padding: 50px 100px;
+    @include media(phone) {
+      padding: 40px 20px;
+      height: 100%;
+      overflow: scroll;
+    }
+  }
+  &__background {
+    width: 100%;
+    height: 100%;
+    background-color: rgba($pale-blue, 0.7);
+  }
+}

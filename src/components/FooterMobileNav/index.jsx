@@ -45,8 +45,8 @@ export const FooterMobileNav = ({ footer }) => {
           </div>
           <div className={clsx(styles.tab_content, { [styles.open]: activeTab === index + 1 })}>
             <div className={styles.tab_content__text}>
-              {tab.list.map((item) => (
-                <Link href={item.link} key="item">
+              {tab.list.map((item,i) => (
+                <Link href={item.link} key={i}>
                   {item.title}
                 </Link>
               ))}
