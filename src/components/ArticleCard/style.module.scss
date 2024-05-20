@@ -15,11 +15,12 @@ $second-family: 'Open Sans', sans-serif;
 $third-family: 'Gilroy-SemiBold', sans-serif;
 
 @mixin xs {
-  @media (max-width: 425px) {
+  @media (max-width: 760px) {
     @content;
   }
 }
 .article_card {
+ flex: 1 0 auto;
   transition-duration: 0.2s;
   &:hover {
     transform: scale(1.02);
@@ -27,12 +28,20 @@ $third-family: 'Gilroy-SemiBold', sans-serif;
   @include xs {
     max-width: 400px;
     flex-direction: column;
-    width: 100%;
+  min-width: 0px;
+  width: 100%;
   }
-  width: 1020px;
+  min-width: 650px;
+  max-width: 1020px;
   display: flex;
   margin-bottom: 30px;
-  .card_image {
+  .card_image { 
+    @media (max-width: 1024px) {
+      width: 280px;
+      height: 150px;
+      margin-right: 20px;
+    }
+
     border-radius: 10px;
     margin-right: 40px;
     width: 380px;
@@ -57,14 +66,19 @@ $third-family: 'Gilroy-SemiBold', sans-serif;
     @include xs {
       flex-direction: column;
     }
+   
     width: 100%;
     display: flex;
     justify-content: space-between;
 
     position: relative;
     flex-direction: row;
+ 
   }
   .card_main_info {
+   max-width: 350px;
+   width: 100%;
+    flex: 1 0 auto; 
     &:hover {
       .card_label {
         font-size: 26px;
@@ -77,6 +91,11 @@ $third-family: 'Gilroy-SemiBold', sans-serif;
       font-size: 24px;
       line-height: 150%;
       color: $white;
+      width: 100%;
+       @media (max-width: 1024px) {
+        font-size: 20px;
+  
+    }
     }
     .card_short_text {
       font-family: $second-family;
@@ -88,6 +107,11 @@ $third-family: 'Gilroy-SemiBold', sans-serif;
       height: 70px;
       margin-bottom: 60px;
       overflow: hidden;
+      @media (max-width: 1024px) {
+        margin-bottom: 20px;
+        font-size: 14px;
+
+    }
       @include xs {
         margin-bottom: 12px;
       }
@@ -130,6 +154,8 @@ $third-family: 'Gilroy-SemiBold', sans-serif;
     }
   }
   .card_more_info {
+    white-space: nowrap;
+    flex: 1 0 auto;
     @include xs {
       position: absolute;
       bottom: 0px;
@@ -144,6 +170,10 @@ $third-family: 'Gilroy-SemiBold', sans-serif;
     font-size: 18px;
     line-height: 125%;
     color: $bright-blue;
+    @media (max-width: 1024px) {
+      font-size: 14px;
+
+  }
     .category {
       transition-duration: 0.3s;
       cursor: pointer;

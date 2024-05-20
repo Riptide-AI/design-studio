@@ -1,6 +1,10 @@
 @import '@/styles/vars.scss';
 
 .technologies {
+  @include media(phone){
+  margin-top: 80px;
+    
+  }
   margin-top: 140px;
   width: 100%;
   font-family: $main-font;
@@ -23,6 +27,10 @@
     max-width: 1024px;
   }
   &__img {
+    @include media(phone){
+     display: none;
+        
+      }
     position: relative;
     grid-row: 1 / 4;
     overflow: hidden;

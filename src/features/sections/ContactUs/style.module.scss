@@ -4,6 +4,10 @@
   margin-top: 140px;
   padding: 50px 0;
   font-family: $main-font;
+  @include media(phone){
+  margin-top: 80px;
+
+  }
   &__content {
     width: 100%;
     display: flex;

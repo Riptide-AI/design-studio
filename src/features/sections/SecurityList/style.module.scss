@@ -5,6 +5,7 @@
   gap: 40px;
   font-family: $main-font;
   @include media(phone) {
+    margin-top: 40px;
     flex-direction: column;
   }
   &__content {

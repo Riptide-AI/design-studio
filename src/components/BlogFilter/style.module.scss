@@ -13,14 +13,11 @@ $dark-bright-blue: #0777e7;
 $font-family: 'Manrope', sans-serif;
 $second-family: 'Open Sans', sans-serif;
 $third-family: 'Gilroy-SemiBold', sans-serif;
+@import '@/styles/vars.scss';
 
-@mixin xs {
-  @media (max-width: 425px) {
-    @content;
-  }
-}
+
 .categorys {
-  @include xs {
+    @include media(phone) {
     margin-bottom: 40px;
   }
   .category_label {
@@ -31,7 +28,7 @@ $third-family: 'Gilroy-SemiBold', sans-serif;
     line-height: 125%;
     color: $white;
     position: relative;
-    @include xs {
+      @include media(phone) {
       font-weight: 400;
       font-size: 18px;
       width: 100%;
@@ -51,10 +48,14 @@ $third-family: 'Gilroy-SemiBold', sans-serif;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
+   
   }
   .category {
-    display: inline-block;
+   
     margin-bottom: 12px;
+     @include media(phone){
+   
+    }
     .checkLabel {
       padding-left: 35px;
       position: relative;

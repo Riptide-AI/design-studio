@@ -6,7 +6,7 @@ import { CustomButton } from '@/components/CustomButton';
 import { useEffect, useState } from 'react';
 import { useTranslation } from 'react-i18next';
 
-export const AboutUsSection = () => {
+export const AboutUsSection = ({children=null}) => {
   const { t } = useTranslation();
   const [windowWidth, setwindowWidth] = useState();
   useEffect(() => {
@@ -41,6 +41,7 @@ export const AboutUsSection = () => {
             </div>
           ))}
         </div>
+        {children}
         {windowWidth < 1440 && (
           <CustomButton title={t('buttons.aboutUsbtn')} stylesClassName={styles.navbar__btn} />
         )}

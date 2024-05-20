@@ -88,6 +88,9 @@
     gap: 12px;
     a{
       font-size: inherit;
+      &:nth-child(1){
+        line-height: 19px;
+      }
     }
     @include media(phone) {
       font-size: 14px;

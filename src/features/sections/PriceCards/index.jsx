@@ -4,9 +4,33 @@ import Image from 'next/image';
 import Link from 'next/link';
 import styles from './style.module.scss';
 import { DetailsModal } from '@/components/DetailsModal';
-import { useState } from 'react';
+import { useEffect, useRef, useState } from 'react';
 
 export const PriceCards = ({ data }) => {
+  const cardsRef = useRef('');
+  function scrolX() {
+    cardsRef.current.scrollBy({
+      left: 40,
+      top: 0,
+      behavior: 'smooth',
+    });
+ 
+    setTimeout(() => {
+      cardsRef.current.scrollBy({
+        left: -40,
+        top: 0,
+        behavior: 'smooth',
+      });
+    
+    }, 250);
+  }
+
+  useEffect(() => {
+    setInterval(() => {
+      scrolX();
+    }, 10000);
+  }, []);
+
   const [isModalOpen, setModalOpen] = useState(false);
   const [modalContent, setModalContent] = useState();
   const handleCloseModal = () => {
@@ -28,7 +52,7 @@ export const PriceCards = ({ data }) => {
       <div className={styles.price_cards}>
         <div className={styles.price_cards__title}>{data.title}</div>
         <div className={styles.price_cards__desc}>{data.desc}</div>
-        <div className={styles.price_cards__list}>
+        <div ref={cardsRef} className={styles.price_cards__list}>
           {data.list.map((item, i) => (
             <div
               className={styles.price_cards__item}

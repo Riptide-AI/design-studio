@@ -36,6 +36,9 @@
   &__idea {
     display: flex;
     flex-direction: column;
+    @include media(phone) {
+   text-align: justify;
+    }
     &__desc {
       font-size: 16px;
       color: $white;
@@ -61,6 +64,7 @@
         margin-bottom: 12px;
         @include media(phone) {
           font-size: 14px;
+          text-align: justify;
         }
         &::before {
           height: 1px;

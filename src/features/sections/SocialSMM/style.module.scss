@@ -102,6 +102,11 @@
   }
 
   &__image {
+    @include media(phone) {
+      &:nth-last-child(1) {
+        display: none;
+      }
+    }
     flex-grow: 1;
     width: 100%;
     position: relative;

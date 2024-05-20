@@ -39,6 +39,8 @@
     @include media(phone) {
       min-width: 300px;
       overflow: auto;
+      animation: anima 12s  linear 0s infinite;
+
     }
   }
   &__item {
@@ -135,5 +137,27 @@
         line-height: 140%;
       }
     }
+  }
+}
+@keyframes anim {
+  90%{
+    max-width: 360px;
+
+  } 
+  92%{
+    max-width: 430px;
+
+  }
+  95%{
+    max-width: 400px;
+
+  }
+  97%{
+    max-width: 430px;
+
+  }
+  100%{
+    max-width: 360px;
+    
   }
 }

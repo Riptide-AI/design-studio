@@ -10,8 +10,8 @@ export const footer = {
   links: [
     { title: 'Послуги', link: '/services' },
     { title: 'Портфоліо', link: '/portfolio' },
-    { title: 'Про нас', link: '/about-us' },
     { title: 'Блог', link: '/blog' },
+    { title: 'Про нас', link: '/about-us' },
     { title: 'Партнерство', link: '/partnership' },
     { title: 'Контакти', link: '/contacts' },
   ],
@@ -19,8 +19,8 @@ export const footer = {
     {
       title: 'Послуги',
       list: [
-        { title: 'Розробка', link: '/services/frontend' },
         { title: 'Дизайн', link: '/services/design' },
+        { title: 'Розробка', link: '/services/frontend' },
         { title: 'Маркетинг', link: '/services/seo' },
         { title: 'Підтримка', link: '/services/support' },
       ],
