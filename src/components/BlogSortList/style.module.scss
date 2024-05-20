@@ -13,12 +13,9 @@ $dark-bright-blue: #0777e7;
 $font-family: 'Manrope', sans-serif;
 $second-family: 'Open Sans', sans-serif;
 $third-family: 'Gilroy-SemiBold', sans-serif;
+@import '@/styles/vars.scss';
 
-@mixin xs {
-  @media (max-width: 425px) {
-    @content;
-  }
-}
+
 .sort {
   display: flex;
   align-items: center;
@@ -64,7 +61,7 @@ $third-family: 'Gilroy-SemiBold', sans-serif;
   display: none;
 }
 
-@include xs {
+  @include media(phone) {
   .blogs_label_sort_mob {
     display: flex;
     flex-direction: column;

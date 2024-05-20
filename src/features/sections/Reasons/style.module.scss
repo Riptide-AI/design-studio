@@ -34,6 +34,7 @@
     }
     @include media(phone) {
       margin: 40px 0;
+      display: none;
     }
   }
   &__title {

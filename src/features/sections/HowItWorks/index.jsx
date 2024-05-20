@@ -1,4 +1,4 @@
-import { useRef, useState } from 'react';
+import { useEffect, useRef, useState } from 'react';
 import style from './style.module.scss';
 import Image from 'next/image';
 import { howitworks } from '@/data/homepage';
@@ -10,55 +10,76 @@ export function HowItWorks() {
   const [text, setText] = useState('');
   const [open, setOpen] = useState(false);
   const left = useRef('90px');
+  const top = useRef('410px');
   const data = useRef('opened');
+  const [windowWidth, setwindowWidth] = useState();
+
+  useEffect(() => {
+    if (typeof window !== 'undefined') {
+      setwindowWidth(window.innerWidth);
+
+      const updateWidth = () => setwindowWidth(window.innerWidth);
+      window.addEventListener('resize', updateWidth);
+      return () => window.removeEventListener('resize', updateWidth);
+    }
+  }, []);
 
   function chooseText(datatype) {
-    !open ? setOpen(true) : '';
-    switch (datatype) {
-      case 'Research':
-        setText(howitworks[0].desc);
-        {
-          data.current == 'Research' ? setOpen(!open) : '';
-          left.current = '100px';
-          data.current = datatype;
-        }
-        break;
-      case 'Design':
-        setText(howitworks[1].desc);
-        {
-          data.current == 'Design' ? setOpen(!open) : console.log(data);
-          left.current = '330px';
-          data.current = datatype;
-        }
-        break;
-      case 'Development':
-        setText(howitworks[2].desc);
-        {
-          data.current == datatype ? setOpen(!open) : '';
-          left.current = '565px';
-          data.current = datatype;
-        }
-        break;
-      case 'Launching':
-        setText(howitworks[3].desc);
-        {
-          data.current == datatype ? setOpen(!open) : '';
-          left.current = '795px';
-          data.current = datatype;
-        }
-        break;
-      case 'Support':
-        setText(howitworks[4].desc);
-        {
-          data.current == datatype ? setOpen(!open) : '';
-          left.current = '1020px';
-          data.current = datatype;
-        }
-        break;
-      default:
-        setOpen(false);
-        break;
+    if (  windowWidth>1440) {
+      !open ? setOpen(true) : '';
+      switch (datatype) {
+        case 'Research':
+          setText(howitworks[0].desc);
+          {
+            data.current == 'Research' ? setOpen(!open) : '';
+            windowWidth<1440? top.current = '182px':'';
+            left.current = '100px';
+            data.current = datatype;
+          }
+          break;
+        case 'Design':
+          setText(howitworks[1].desc);
+          {
+            data.current == 'Design' ? setOpen(!open) : console.log(data);
+            windowWidth<1440? top.current = '280px':'';
+            left.current = '330px';
+            data.current = datatype;
+          }
+          break;
+        case 'Development':
+          setText(howitworks[2].desc);
+          {
+            data.current == datatype ? setOpen(!open) : '';
+            windowWidth<1440? top.current = '380px':'';
+            left.current = '565px';
+            data.current = datatype;
+          }
+          break;
+        case 'Launching':
+          setText(howitworks[3].desc);
+          {
+            data.current == datatype ? setOpen(!open) : '';
+            windowWidth<1440? top.current = '480px':'';
+            left.current = '795px';
+            data.current = datatype;
+          }
+          break;
+        case 'Support':
+          setText(howitworks[4].desc);
+          {
+            data.current == datatype ? setOpen(!open) : '';
+            windowWidth<1440? top.current = '580px':'';
+            left.current = '1020px';
+            data.current = datatype;
+          }
+          break;
+        default:
+          setOpen(false);
+          break;
+      }
     }
+    
+   
   }
   return (
     <ContentWrapper>
@@ -201,8 +222,9 @@ export function HowItWorks() {
           </div>
           <div
             className={open ? style.card_description + ' ' + style.open : style.card_description}
-          >
-            <div className={style.arrow} style={{ left: left.current }}></div>
+             style={{ top: top.current }} >
+            <div className={style.arrow}
+             style={{ left: left.current}}></div>
             <p className={style.text}>{text}</p>
           </div>
           <Link href={'/contacts'}>

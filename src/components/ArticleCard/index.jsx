@@ -26,16 +26,17 @@ export default function Article_card({
         </div>
       </Link>
       <div className={style.info}>
-        <Link href={`/blog/article_page/${id}`}>
           <div className={style.card_main_info}>
+          <Link href={`/blog/article_page/${id}`}>
             <div className={style.card_label}>{name}</div>
+            </Link>
             <div className={style.card_short_text}>{descrip} </div>
             <div className={style.card_views}>
               {views}
               <span> {text.viwes}</span>
             </div>
           </div>
-        </Link>
+      
         <div className={style.card_more_info}>
           <div className={style.category} onClick={() => dispatch(isCheck(category))}>
             {categoryName}

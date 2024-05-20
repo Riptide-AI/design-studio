@@ -10,6 +10,8 @@
   transition: background-color 0.5s cubic-bezier(0, 1, 0, 1);
   border-bottom: 1px solid $pale-blue;
   &__button {
+    transition-duration: 0.3s;
+    border-radius: 50%;
     position: relative;
     height: 40px;
     width: 40px;
@@ -24,6 +26,11 @@
     transition: background-color 0.5s ease-in-out;
     border-radius: 10px;
     border-bottom: 0; // Add this line to remove the bottom border for .tab.active
+    &:hover {
+      .tab__button {
+        background-color: #0d345c;
+      }
+    }
   }
 }
 

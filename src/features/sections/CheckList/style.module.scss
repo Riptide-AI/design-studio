@@ -4,7 +4,10 @@
   margin-top: 140px;
   width: 100%;
   font-family: $main-font;
+  @include media(phone) {
+    margin-top: 80px;
 
+}
   &__title {
     font-size: 40px;
     font-weight: 600;

@@ -14,24 +14,26 @@ $font-family: 'Manrope', sans-serif;
 $second-family: 'Open Sans', sans-serif;
 $third-family: 'Gilroy-SemiBold', sans-serif;
 
-@mixin xs {
-  @media (max-width: 425px) {
-    @content;
-  }
-}
+@import '@/styles/vars.scss';
+
+
+
 
 .blog {
   padding-top: 130px;
   width: 100%;
   margin-bottom: 140px;
-  @include xs {
+  @include media(phone) {
     margin-bottom: 40px;
+  padding-top: 0px;
+  margin-top: 80px;
+
   }
   .wrapper {
     max-width: 1240px;
     margin: auto;
-    @include xs {
-      max-width: 425px;
+  @include media(phone) {
+     
       padding: 15px;
     }
     .blogs_label_sort {
@@ -39,7 +41,7 @@ $third-family: 'Gilroy-SemiBold', sans-serif;
       align-items: center;
       justify-content: space-between;
       margin-bottom: 30px;
-      @include xs {
+    @include media(phone) {
         display: none;
       }
       .label {
@@ -60,12 +62,13 @@ $third-family: 'Gilroy-SemiBold', sans-serif;
     .blog_content {
       display: flex;
       justify-content: space-between;
-
       .blogs_label_sort_mob {
         display: none;
       }
-      @include xs {
-        flex-direction: column;
+   
+    @include media(phone) {
+      flex-direction: column;
+    
         .blogs_label_sort_mob {
           display: flex;
           flex-direction: column;
@@ -87,10 +90,12 @@ $third-family: 'Gilroy-SemiBold', sans-serif;
       .articles {
         padding-top: 30px;
         display: flex;
-        align-items: flex-end;
+   
         flex-direction: column;
-        justify-content: center;
         width: 100%;
+       @media (max-width:760px) {
+        align-items: center;
+       }
       }
     }
   }
