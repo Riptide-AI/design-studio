@@ -13,8 +13,8 @@ export const weProvide = {
       styls: ['pencil'],
     },
     {
-      title: 'Дизайн сайту',
-      desc: 'Розробляємо яскравий та вражаючий UІ дизайн. Приділяємо особливу увагу Mobile First. Тому, не зволікай співпрацювати з нами.',
+      title: 'Розробка прототипу',
+      desc: 'Ми творимо високоякісний UX-дизайн, уважно аналізуємо взаємодію користувача з контентом для максимальної зручності.',
       icons: [
         '/img/What_services_we_offer/clipboard_claer.png',
         '/img/What_services_we_offer/clipboard_top.png',
@@ -22,8 +22,8 @@ export const weProvide = {
       styls: ['clipboard_claer', 'clipboard_top'],
     },
     {
-      title: 'Дизайн сайту',
-      desc: 'Розробляємо яскравий та вражаючий UІ дизайн. Приділяємо особливу увагу Mobile First. Тому, не зволікай співпрацювати з нами.',
+      title: 'Фірмовий стиль',
+      desc: 'Ми розробляємо унікальний корпоративний стиль, охоплюючи лого, фірмові кольори, шрифти та інші ключові елементи.',
       icons: [
         '/img/What_services_we_offer/check.png',
         '/img/What_services_we_offer/check_arow.png',

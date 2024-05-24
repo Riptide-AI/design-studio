@@ -1,4 +1,4 @@
-import { useState, useMemo } from 'react';
+import { useState, useMemo, useRef, useEffect } from 'react';
 import { ContentWrapper } from '@/components/ContentWrapper';
 import { portfolioPagination } from '@/data/portfolio';
 import Link from 'next/link';
@@ -6,6 +6,7 @@ import Image from 'next/image';
 import styles from './style.module.scss';
 
 export const PortfolioPagination = () => {
+  const refList = useRef('');
   const [currentFilter, setCurrentFilter] = useState('all');
   const allList = useMemo(() => {
     let finalList = [];
@@ -57,11 +58,32 @@ export const PortfolioPagination = () => {
   const goToLastPage = () => {
     setCurrentPage(totalPages);
   };
+  async function scrollX() {
+    await refList.current.scrollBy({
+      left: 500,
+      top: 0,
+      behavior: 'smooth',
+    });
+ 
+    setTimeout(() => {
+      refList.current.scrollBy({
+        left: -500,
+        top: 0,
+        behavior: 'smooth',
+      });
+    }, 600);
+  }
+
+  useEffect(() => {
+    setInterval(() => {
+      scrollX();
+    }, 6000);
+  }, []);
 
   return (
     <ContentWrapper>
       <div className={styles.pagination}>
-        <div className={styles.pagination__filters}>
+        <div ref={refList} className={styles.pagination__filters}>
           {portfolioPagination.filters.map((item) => (
             <div
               className={styles.pagination__filters__item}

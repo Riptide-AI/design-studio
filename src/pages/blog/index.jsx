@@ -149,7 +149,7 @@ export default function Blog() {
           <Sort_list />
         </div>
         <div className={style.blog_content}>
-          <Blog_filter />
+       
           <div className={style.blogs_label_sort_mob}>
             <div className={style.label_mob}>{text.MainArticle}</div>
             <div className={style.line}></div>

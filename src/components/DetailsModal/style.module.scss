@@ -21,6 +21,10 @@
     &:hover {
       transform: scale(1.2);
     }
+    @include media(phone){
+      top: 55px;
+
+    }
   }
   &__type {
     border-radius: 90px;
@@ -72,6 +76,9 @@
       position: relative;
       aspect-ratio: 280/ 227;
       border-radius: 20px;
+      @include media(phone){
+        display: none;
+      }
     }
     &__card {
       background-color: $pale-blue;

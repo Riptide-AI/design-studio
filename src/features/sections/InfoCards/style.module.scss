@@ -14,6 +14,38 @@
     margin-top: 80px;
   }
 
+  .paginationBtn {
+    align-self: flex-end;
+     margin-top: 20px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    justify-content: center;
+    @include media(phone){
+    align-self: center;
+
+    }
+    .nextBtn, .prevBtn {
+      &:hover {
+        img {
+          background-color: #0d345c;
+        }
+      }
+      cursor: pointer;
+      img {
+        transition-duration: 0.3s;
+        border-radius: 50%;
+        height: 40px;
+        width: auto;
+      }
+    }
+    .prevBtn {
+      img {
+        rotate: 180deg;
+      
+      }
+    }
+  }
   &__title {
     font-size: 40px;
     font-weight: 600;
@@ -46,7 +78,7 @@
     @include media(phone) {
       max-width: 360px;
       padding: 0 16px;
-      animation: anim 12s  linear 0s infinite;
+      animation: anim 12s linear 0s infinite;
     }
 
     &::-webkit-scrollbar {
@@ -113,7 +145,7 @@
     }
   }
 }
-@keyframes anim {
+/* @keyframes anim {
   90%{
     max-width: 360px;
 
@@ -134,4 +166,4 @@
     max-width: 360px;
     
   }
-}
+} */

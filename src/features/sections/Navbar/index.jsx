@@ -4,11 +4,11 @@ import Image from 'next/image';
 import Link from 'next/link';
 import { NavLinks } from '@/components/NavLinks';
 import { navigation } from '@/data/navigation';
-import { LocaleSwitch } from '@/components/LocaleSwitch';
 import { CustomButton } from '@/components/CustomButton';
 import { BurgerMenu } from '@/components/BurgerMenu';
 import { useTranslation } from 'react-i18next';
 import { scrollTo } from '@/scripts/scrollTo';
+import SetLanguage from '@/components/setLanguage/SetLanguage';
 
 export const Navbar = () => {
   const { t } = useTranslation();
@@ -43,7 +43,7 @@ export const Navbar = () => {
         </Link>
         {!isMobile && <NavLinks links={navigation} />}
         <div className={styles.navbar__right}>
-        {!isMobile && <LocaleSwitch />}
+        {!isMobile && <SetLanguage />}
           {!isMobile && (
             <CustomButton
               title={t('buttons.contactUs')}

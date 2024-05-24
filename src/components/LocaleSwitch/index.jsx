@@ -10,7 +10,7 @@ export const LocaleSwitch = () => {
   const changeLanguage = (lang) => {
     setLang(lang);
   };
-  
+  console.log(lang);
   useEffect(() => {
     i18n.changeLanguage(lang);
   }, [lang, i18n]);

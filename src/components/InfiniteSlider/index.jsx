@@ -2,7 +2,7 @@ import styles from './style.module.scss';
 import Image from 'next/image';
 import { useMemo } from 'react';
 
-export const InfiniteSlider = ({ list, opacityCount }) => {
+export const InfiniteSlider = ({ list, opacityCount, isTitle }) => {
   const componentsList = useMemo(() => {
     return list.map((item, i) => (
       <div key={`image-${i}`} className={styles.logo}>
@@ -11,12 +11,17 @@ export const InfiniteSlider = ({ list, opacityCount }) => {
     ));
   }, [list]);
   return (
-    <div className={styles.infiniteSlider} style={{ opacity: opacityCount }}>
-      <div>
-        <div>{componentsList}</div>
-        <div>{componentsList}</div>
-        <div>{componentsList}</div>
-      </div>
-    </div>
+    <>
+      {isTitle && <div className={styles.title}> Наші клієнти </div> }
+      <div className={styles.infiniteSlider} style={{ opacity: opacityCount }}>
+        <div>
+          <div>{componentsList}</div>
+          <div>{componentsList}</div>
+          <div>{componentsList}</div>
+          <div>{componentsList}</div>
+          <div>{componentsList}</div>
+        </div>
+      </div>{' '}
+    </>
   );
 };

@@ -8,8 +8,9 @@
   width: 100%;
   flex-grow: 1;
   @include media(phone) {
+   margin-top: 20px;
     flex-direction: column;
-  margin-top: 80px;
+  padding-top: 80px;
   gap: 24px;
   }
   &__content {

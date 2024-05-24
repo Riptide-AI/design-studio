@@ -5,11 +5,12 @@
   display: flex;
   flex-wrap: wrap;
   gap: 40px;
+  position: relative;
   @include media(phone) {
     flex-direction: column;
     flex-wrap: nowrap;
     gap: 24px;
-    margin-top: 80px;
+    margin-top: 20px;
   }
   &__content {
     flex-basis: calc(50% - 20px);
@@ -38,6 +39,9 @@
     color: $dark-grey;
     text-align: justify;
     word-wrap: break-word;
+    @include media(phone){
+      margin-top: 40px;
+    }
   }
   &__image {
     flex-basis: calc(50% - 20px);
@@ -109,5 +113,11 @@
     line-height: 125%;
     text-align: center;
     color: #f0f0f0;
+    position: absolute;
+    right: 0px;
+    bottom: -7px;
+    @include media(phone) {
+      position: relative;
+    }
   }
 }

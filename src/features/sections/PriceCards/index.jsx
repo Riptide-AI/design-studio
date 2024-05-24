@@ -7,21 +7,20 @@ import { DetailsModal } from '@/components/DetailsModal';
 import { useEffect, useRef, useState } from 'react';
 
 export const PriceCards = ({ data }) => {
-  const cardsRef = useRef('');
-  function scrolX() {
-    cardsRef.current.scrollBy({
+  const cardsRef = useRef();
+  async function scrolX() {
+      await cardsRef.current.scrollBy({
       left: 40,
       top: 0,
       behavior: 'smooth',
     });
- 
+
     setTimeout(() => {
       cardsRef.current.scrollBy({
         left: -40,
         top: 0,
         behavior: 'smooth',
       });
-    
     }, 250);
   }
 

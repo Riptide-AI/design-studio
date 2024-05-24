@@ -3,22 +3,26 @@
 @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap');
 
 .How_we_work {
-  margin: auto;
+
   margin-top: 140px;
   font-family: $main-font;
   @include media(phone) {
+    margin: auto;
   margin-top: 80px;
-
-  }
+}
 }
 .wrapper {
-  max-width: 1160px;
+  max-width: 1240px;
   margin: auto;
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  position: relative;
+  position: relative; 
+   @include media(phone) {
+  max-width: 1160px;
+    
+    }
   .label {
     color: var(--white, #f0f0f0);
     text-align: center;
@@ -45,6 +49,7 @@
     background-size: 100% 100%;
     display: flex;
     align-items: center;
+
     @include media(phone) {
       background-image: url(../../../../public/img/How_we_work/dashed_backgound_rotated.png);
       height: 100%;
@@ -53,7 +58,7 @@
     .picture {
       height: 100px;
       width: 100px;
-      margin: 0px 65px;
+      margin: 0px 74px;
       @include media(phone) {
         height: 70px;
         width: 70px;
@@ -182,7 +187,7 @@
         content: '';
         position: absolute;
         top: 40px;
-        left: -75px;
+        left: -84px;
         height: 20px;
         width: 20px;
         border-radius: 50%;
@@ -197,7 +202,7 @@
       }
       &::after {
         top: 40px;
-        left: 155px;
+        left: 164px;
         @include media(phone) {
           top: 118px;
           left: 115px;
@@ -219,6 +224,7 @@
     align-items: center;
     margin-top: 25px;
     margin-bottom: 40px;
+    justify-content: space-evenly;
     @include media(phone) {
       flex-direction: column;
       gap: 135px;

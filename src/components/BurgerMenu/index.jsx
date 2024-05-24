@@ -5,14 +5,14 @@ import { useTranslation } from 'react-i18next';
 import { useRouter } from 'next/router';
 import { CustomButton } from '../CustomButton';
 import FoterSocials from '../FooterSocials';
-import { LocaleSwitch } from '../LocaleSwitch';
+import SetLanguage from '../setLanguage/SetLanguage';
 export const BurgerMenu = ({ links, isOpen, handleToggle, setOpen }) => {
   const { t } = useTranslation();
   const router = useRouter();
 
   return (
     <>
-      {isOpen && <LocaleSwitch/>}
+      {isOpen && <SetLanguage/>}
       <div className={styles.burger_menu__btn} role="button" onClick={handleToggle}>
         {isOpen ? (
           <Image src={'/img/icons/close-btn.svg'} height={28} width={28} alt="" />
