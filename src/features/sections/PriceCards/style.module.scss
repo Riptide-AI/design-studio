@@ -4,6 +4,9 @@
   margin: 140px auto 0;
   width: 100%;
   font-family: Manrope;
+  .paginationBtn {
+    display: none;
+  }
   @include media(phone) {
     margin: 40px auto 0;
     .paginationBtn {
@@ -38,9 +41,7 @@
       }
     }
   }
-  .paginationBtn {
-    display: none;
-  }
+ 
   &__title {
     text-align: center;
     font-size: 40px;
