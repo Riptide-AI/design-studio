@@ -5,7 +5,8 @@ import Link from 'next/link';
 import styles from './style.module.scss';
 import { DetailsModal } from '@/components/DetailsModal';
 import arrow from 'public/img/icons/arrow-circle.svg';
-import { useEffect, useRef, useState } from 'react';
+import { useRef, useState } from 'react';
+
 
 export const PriceCards = ({ data }) => {
   const cardsRef = useRef();

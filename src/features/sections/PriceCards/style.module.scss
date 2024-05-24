@@ -6,8 +6,6 @@
   font-family: Manrope;
   @include media(phone) {
     margin: 40px auto 0;
-  }
-  @include media(phone){
     .paginationBtn {
       align-self: flex-end;
       margin-top: 20px;

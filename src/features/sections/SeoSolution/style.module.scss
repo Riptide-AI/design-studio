@@ -143,13 +143,6 @@
       max-width: 250px;
       position: relative;
     
-   
-      img {
-      /*   @include media(phone) {
-          width: 32px;
-          height: 32px;
-        } */
-      }
       &::after {
         content: '';
         height: 16px;
