@@ -7,36 +7,41 @@
   @include media(phone) {
     margin: 40px auto 0;
   }
-  .paginationBtn {
-    align-self: flex-end;
-    margin-top: 20px;
-    display: flex;
-    align-items: center;
-    gap: 20px;
-    justify-content: center;
-    @include media(phone) {
-      align-self: center;
-    }
-    .nextBtn,
-    .prevBtn {
-      &:hover {
+  @include media(phone){
+    .paginationBtn {
+      align-self: flex-end;
+      margin-top: 20px;
+      display: flex;
+      align-items: center;
+      gap: 20px;
+      justify-content: center;
+      @include media(phone) {
+        align-self: center;
+      }
+      .nextBtn,
+      .prevBtn {
+        &:hover {
+          img {
+            background-color: #0d345c;
+          }
+        }
+        cursor: pointer;
         img {
-          background-color: #0d345c;
+          transition-duration: 0.3s;
+          border-radius: 50%;
+          height: 40px;
+          width: auto;
         }
       }
-      cursor: pointer;
-      img {
-        transition-duration: 0.3s;
-        border-radius: 50%;
-        height: 40px;
-        width: auto;
+      .prevBtn {
+        img {
+          rotate: 180deg;
+        }
       }
     }
-    .prevBtn {
-      img {
-        rotate: 180deg;
-      }
-    }
+  }
+  .paginationBtn {
+    display: none;
   }
   &__title {
     text-align: center;
