@@ -16,6 +16,9 @@
     font-weight: 600;
     line-height: 125%;
     margin-bottom: 40px;
+  @include media(phone) {
+  font-size: 35px;
+  }
   }
   &__content {
     display: flex;

@@ -19,7 +19,8 @@
     line-height: 125%;
     color: $white;
     @include media(phone) {
-      margin-bottom: 40px;
+    font-size: 35px;
+    margin-bottom: 40px;
     }
   }
   &__desc {
@@ -31,7 +32,8 @@
     margin-bottom: 40px;
     font-size: 16px;
     @include media(phone) {
-      text-align: justify;
+    font-size: 16px;
+    text-align: justify;
     }
   }
   &__images {

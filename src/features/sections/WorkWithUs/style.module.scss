@@ -60,6 +60,9 @@
       font-weight: 600;
       line-height: 125%;
       color: $dark-grey;
+      @include media(phone){
+        text-align: justify;
+      }
     }
   }
 }

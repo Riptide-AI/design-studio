@@ -85,6 +85,11 @@
       border-radius: 20px;
       padding: 50px 20px 20px;
       position: relative;
+      &:hover{
+        .modal__grid__card__order{
+          top: -5px;
+        }
+      }
       &__title {
         font-size: 18px;
         line-height: 125%;
@@ -108,6 +113,7 @@
         font-weight: 900;
         z-index: 1;
         top: 10px;
+        transition-duration: .3s;
       }
       &:nth-child(1) {
         grid-area: card1;

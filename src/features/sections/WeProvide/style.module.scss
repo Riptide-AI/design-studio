@@ -15,6 +15,10 @@
     color: $white;
     max-width: 750px;
     margin: 0 auto 40px;
+    @include media(phone) {
+      font-size: 35px;
+
+    }
   }
   &__list {
     display: flex;
@@ -83,6 +87,9 @@
         font-weight: 400;
         line-height: 140%; /* 22.4px */
         max-width: 390px;
+        @include media(phone){
+          text-align: justify;
+        }
       }
     }
   }

@@ -4,32 +4,26 @@ import Image from 'next/image';
 import Link from 'next/link';
 import styles from './style.module.scss';
 import { DetailsModal } from '@/components/DetailsModal';
+import arrow from 'public/img/icons/arrow-circle.svg';
 import { useEffect, useRef, useState } from 'react';
 
 export const PriceCards = ({ data }) => {
   const cardsRef = useRef();
-  async function scrolX() {
-      await cardsRef.current.scrollBy({
-      left: 40,
+ 
+ async function scrollToNext() {
+   await cardsRef.current.scrollBy({
+      left: 380,
       top: 0,
       behavior: 'smooth',
     });
-
-    setTimeout(() => {
-      cardsRef.current.scrollBy({
-        left: -40,
-        top: 0,
-        behavior: 'smooth',
-      });
-    }, 250);
   }
-
-  useEffect(() => {
-    setInterval(() => {
-      scrolX();
-    }, 10000);
-  }, []);
-
+ async function scrollToPrev() {
+  await  cardsRef.current.scrollBy({
+      left: -380,
+      top: 0,
+      behavior: 'smooth',
+    });
+  }
   const [isModalOpen, setModalOpen] = useState(false);
   const [modalContent, setModalContent] = useState();
   const handleCloseModal = () => {
@@ -83,6 +77,14 @@ export const PriceCards = ({ data }) => {
             </div>
           ))}
         </div>
+        <div className={styles.paginationBtn}>
+        <div className={styles.prevBtn} onClick={scrollToPrev}>
+          <Image src={arrow} width={100} height={100} className={styles.link__icon} alt="" />
+        </div>
+        <div className={styles.nextBtn} onClick={scrollToNext}>
+          <Image src={arrow} width={100} height={100} className={styles.link__icon} alt="" />
+        </div>
+      </div>
       </div>
     </ContentWrapper>
   );
