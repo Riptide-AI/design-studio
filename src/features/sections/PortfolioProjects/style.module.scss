@@ -55,6 +55,7 @@
     font-weight: 400;
     line-height: 125%;
     color: $white;
+    text-align: justify;
     @include media(phone) {
       font-size: 14px;
     }

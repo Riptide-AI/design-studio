@@ -31,7 +31,7 @@
     margin-top: 40px;
     display: flex;
     flex-direction: column;
-    gap: 2px;
+    gap: 5px;
   }
   &__item {
     width: 100%;
@@ -106,6 +106,7 @@
       font-size: 40px;
       font-weight: 600;
       line-height: 125%;
+      white-space: nowrap;
     }
     &__due,
     &__btn {

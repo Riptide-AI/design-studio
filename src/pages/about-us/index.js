@@ -6,8 +6,8 @@ import { partners } from '@/data/homepage';
 export default function AboutUs() {
   return (
     <>
-      <AboutUsSection > 
-        <InfiniteSlider list={partners} opacityCount={0.5} /> </AboutUsSection>
+      <AboutUsSection isBtn={true} > 
+        <InfiniteSlider list={partners} opacityCount={1} isTitle={true} /> </AboutUsSection>
      
       <HowItWorks hideBtn="true" />
       <Reasons />

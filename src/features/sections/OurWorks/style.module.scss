@@ -14,8 +14,8 @@
     line-height: 125%;
     font-weight: 600;
     @include media(phone) {
-      text-align: start;
-      font-size: 24px;
+      text-align: center;
+      font-size: 30px;
       line-height: 150%;
     }
   }

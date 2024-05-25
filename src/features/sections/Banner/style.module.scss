@@ -25,6 +25,10 @@
     color: $white;
     margin-bottom: 20px;
     text-align: center;
+    @include media(phone){
+    font-size: 35px;
+
+    }
   }
   &__desc {
     font-family: $main-font;

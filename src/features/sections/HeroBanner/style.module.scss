@@ -4,6 +4,7 @@
   width: 100%;
   flex-direction: column;
   align-items: center;
+  gap: 70px;
 
   @include media(phone) {
     background-image: url('/img/hero-banner.jpg');
@@ -13,26 +14,28 @@
     position: absolute;
     left: 0;
     width: 100vw;
-    min-width: 360px;
+  gap: 10px;
+  min-width: 360px;
   }
 }
 .hero {
   position: relative;
   width: 100%;
   height: 100vh;
-  margin-top: 80px;
   padding: 0px 0px 80px;
   background-image: url('/img/hero-banner.jpg');
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
+  
   @include media(phone) {
     background-image: none;
     height: 480px;
+   margin-top: 20px;
   }
   &__header {
     width: 100%;
-    margin: 100px 0 16px 0;
+    margin: 120px 0 16px 0;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -54,6 +57,7 @@
     font-weight: 600;
     color: $white;
     text-transform: uppercase;
+    margin-top: 80px;
     @include media(phone) {
       text-transform: capitalize;
       margin-bottom: 8px;

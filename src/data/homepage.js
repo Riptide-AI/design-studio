@@ -86,14 +86,9 @@ export const aboutUs = {
     { counter: '75', desc: 'виконаних проєктів' },
     { counter: '25', desc: 'досвідчених спеціалістів' },
     { counter: '2', desc: 'роки досвіду' },
-    { counter: '99%', desc: 'відсоток задоволених клієнтів' },
-  ],
-  mobileCards: [
-    { counter: '75', desc: 'виконаних проєктів' },
-    { counter: '25', desc: 'спеціалістів' },
-    { counter: '2', desc: 'роки досвіду' },
     { counter: '99%', desc: 'задоволених клієнтів' },
-  ],
+  ]
+
 };
 export const businessCards = {
   title: 'Створюємо веб - сайти для різних типів бізнесу',

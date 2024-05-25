@@ -22,7 +22,7 @@ export const HeroBanner = () => {
               <StatsCard card={card} id={index} key={index} />
             ))}
           </div>
-          <InfiniteSlider list={partners} opacityCount={0.5} />
+          <InfiniteSlider list={partners} opacityCount={0.9} />
         </div>
       </ContentWrapper>
     </section>

@@ -53,12 +53,14 @@
       }
     }
     &__title {
+      margin: auto;
       margin-top: 24px;
+      margin-bottom: 30px;
       font-size: 24px;
       font-weight: 600;
       line-height: 125%;
       color: $white;
-      max-width: 400px;
+      
     }
     &__list {
       display: grid;
