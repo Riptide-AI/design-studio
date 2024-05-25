@@ -1,6 +1,5 @@
 import style from './style.module.scss';
 import Sort_list from '@/components/BlogSortList';
-import Blog_filter from '@/components/BlogFilter';
 import { blogPosts, text } from '@/data/blog';
 import Articls_content from '@/components/Articls_content';
 import BlogPageList from '@/components/BlogPageList';
