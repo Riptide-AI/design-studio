@@ -5,7 +5,7 @@ $Dark-blue:#12273C;
   display: flex;
   align-items: center;
   flex-direction: row;
-  margin-right: 10px;
+  margin-right: 20px;
   @media (max-width: 1440px) {
   margin-right: 0px;
   }
@@ -16,18 +16,47 @@ $Dark-blue:#12273C;
     border-top-right-radius: 7px;
     border-top-left-radius: 7px;
     transition: 0.3s;
-    
+    position: relative;   height: 44px;
+    img{
+      align-self: center;
+    }
+    &::after,&::before{
+      content: '';
+      transition-duration: .3s;
+      height: 1px;
+      width: 10px;
+      position: absolute;
+      top: 21px;
+      background-color: #f0f0f0;
+    }
+    &::after{
+      right: -13px;
+      rotate: -45deg;
+    }
+    &::before{
+      right: -5px;
+      rotate: 45deg;
+    }
     @media (max-width: 768px) {
       padding: 5px;
     }
+    
   }
   .dropdown_header_open {
-    border-top-right-radius: 7px;
+ 
+      transition-duration: .3s;
+      border-top-right-radius: 7px;
     border-top-left-radius: 7px;
    display: flex;
     margin-bottom: 0;
-    img{
-      align-self: center;
+  
+    &::after{
+      right: -13px;
+      rotate: 45deg;
+    }
+    &::before{
+      right: -5px;
+      rotate: -45deg;
     }
   }
 
