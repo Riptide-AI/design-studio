@@ -5,7 +5,7 @@ $Dark-blue:#12273C;
   display: flex;
   align-items: center;
   flex-direction: row;
-  margin-right: 10px;
+  margin-right: 20px;
   @media (max-width: 1440px) {
   margin-right: 0px;
   }
@@ -16,19 +16,57 @@ $Dark-blue:#12273C;
     border-top-right-radius: 7px;
     border-top-left-radius: 7px;
     transition: 0.3s;
-    
-    @media (max-width: 768px) {
-      padding: 5px;
-    }
-  }
-  .dropdown_header_open {
-    border-top-right-radius: 7px;
-    border-top-left-radius: 7px;
-   display: flex;
-    margin-bottom: 0;
+    position: relative;   height: 44px;
     img{
       align-self: center;
     }
+    &::after,&::before{
+      content: '';
+      transition-duration: .3s;
+      height: 1px;
+      width: 10px;
+      position: absolute;
+      top: 21px;
+      background-color: #ccd6f7;
+    }
+    &::after{
+      right: -12px;
+      rotate: -45deg;
+    }
+    &::before{
+      right: -5px;
+      rotate: 45deg;
+    }
+    @media (max-width: 768px) {
+ /*      padding: 5px; */
+    }
+    
+  }
+  .dropdown_header_open {
+ 
+      transition-duration: .3s;
+      border-top-right-radius: 7px;
+    border-top-left-radius: 7px;
+   display: flex;
+    margin-bottom: 0;
+   
+    &::after{
+      right: -12px;
+      rotate: 45deg;
+    }
+    &::before{
+      right: -5px;
+      rotate: -45deg;
+    } 
+    @media (max-width: 768px) {
+      &::after,&::before{
+        width: 8px;
+      }
+      &::after{
+        right: -10px;
+        rotate: 45deg;
+      }
+         }
   }
 
   .dropdown_list {
@@ -78,7 +116,7 @@ $Dark-blue:#12273C;
       cursor: pointer;
       background: $Dark-blue;
       @media (max-width: 768px) {
-        padding: 5px;
+       /*  padding: 5px; */
       }
       &:hover {
         background-color: #f0f0f0;

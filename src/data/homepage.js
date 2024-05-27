@@ -87,6 +87,12 @@ export const aboutUs = {
     { counter: '25', desc: 'досвідчених спеціалістів' },
     { counter: '2', desc: 'роки досвіду' },
     { counter: '99%', desc: 'задоволених клієнтів' },
+  ],
+  mobCards: [
+    { counter: '75', desc: 'виконаних проєктів' },
+    { counter: '25', desc: 'спеціалістів' },
+    { counter: '2', desc: 'роки досвіду' },
+    { counter: '99%', desc: 'задоволених клієнтів' },
   ]
 
 };
