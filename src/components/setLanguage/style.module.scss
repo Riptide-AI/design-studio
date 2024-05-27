@@ -27,10 +27,10 @@ $Dark-blue:#12273C;
       width: 10px;
       position: absolute;
       top: 21px;
-      background-color: #f0f0f0;
+      background-color: #ccd6f7;
     }
     &::after{
-      right: -13px;
+      right: -12px;
       rotate: -45deg;
     }
     &::before{
@@ -38,7 +38,7 @@ $Dark-blue:#12273C;
       rotate: 45deg;
     }
     @media (max-width: 768px) {
-      padding: 5px;
+ /*      padding: 5px; */
     }
     
   }
@@ -49,15 +49,24 @@ $Dark-blue:#12273C;
     border-top-left-radius: 7px;
    display: flex;
     margin-bottom: 0;
-  
+   
     &::after{
-      right: -13px;
+      right: -12px;
       rotate: 45deg;
     }
     &::before{
       right: -5px;
       rotate: -45deg;
-    }
+    } 
+    @media (max-width: 768px) {
+      &::after,&::before{
+        width: 8px;
+      }
+      &::after{
+        right: -10px;
+        rotate: 45deg;
+      }
+         }
   }
 
   .dropdown_list {
@@ -107,7 +116,7 @@ $Dark-blue:#12273C;
       cursor: pointer;
       background: $Dark-blue;
       @media (max-width: 768px) {
-        padding: 5px;
+       /*  padding: 5px; */
       }
       &:hover {
         background-color: #f0f0f0;
