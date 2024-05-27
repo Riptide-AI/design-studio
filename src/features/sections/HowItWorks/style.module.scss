@@ -228,10 +228,11 @@
     @include media(phone) {
       flex-direction: column;
       gap: 135px;
-      margin-top: 170px;
+   /*    margin-top: 170px; */
       margin-bottom: 0px;
       position: absolute;
       z-index: 0;
+      top: 133px;
 
     }
 
