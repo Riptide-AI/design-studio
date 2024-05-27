@@ -31,11 +31,11 @@ $Dark-blue:#12273C;
     }
     &::after{
       right: -12px;
-      rotate: -45deg;
+      rotate: 45deg;
     }
     &::before{
       right: -5px;
-      rotate: 45deg;
+      rotate: -45deg;
     }
     @media (max-width: 768px) {
  /*      padding: 5px; */
@@ -52,11 +52,11 @@ $Dark-blue:#12273C;
    
     &::after{
       right: -12px;
-      rotate: 45deg;
+      rotate: -45deg;
     }
     &::before{
       right: -5px;
-      rotate: -45deg;
+      rotate: 45deg;
     } 
     @media (max-width: 768px) {
       &::after,&::before{
@@ -64,7 +64,7 @@ $Dark-blue:#12273C;
       }
       &::after{
         right: -10px;
-        rotate: 45deg;
+        rotate: -45deg;
       }
          }
   }
