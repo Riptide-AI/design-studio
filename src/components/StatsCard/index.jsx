@@ -1,11 +1,12 @@
 import { useEffect, useState } from 'react';
 import styles from './style.module.scss';
 import Image from 'next/image';
+import { useTranslation } from 'react-i18next';
 
 export const StatsCard = ({ card, id }) => {
   const formatIndex = id < 10 ? `0${id + 1}` : `${id + 1}`;
   const mobformatIndex = id < 10 ? `0${Math.abs(id - 3)}` : `${Math.abs(id - 3)}`;
-
+  const { t } = useTranslation();
   const [windowWidth, setwindowWidth] = useState();
 
   useEffect(() => {
@@ -22,12 +23,12 @@ export const StatsCard = ({ card, id }) => {
       {windowWidth > 1440 ? (
         <>
           <div className={styles.card__order}>{formatIndex}</div>
-          <div className={styles.card__desc}>{windowWidth > 1440 ? card.desc : card.mobDesc}</div>
+          <div className={styles.card__desc}>{t(windowWidth > 1440 ? card.desc : card.mobDesc)}</div>
           <div className={styles.card__stats}>
             {windowWidth > 1440 ? card.stats : card.mobStats}
           </div>
           <div className={styles.card__stats_name}>
-            {windowWidth > 1440 ? card.statsName : card.mobStatsName}
+            {t( windowWidth > 1440 ? card.statsName : card.mobStatsName)}
           </div>
         </>
       ) : (
