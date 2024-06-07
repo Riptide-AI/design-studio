@@ -59,19 +59,21 @@ export const PortfolioPagination = () => {
     setCurrentPage(totalPages);
   };
   async function scrollX() {
-    await refList.current.scrollBy({
-      left: 500,
-      top: 0,
-      behavior: 'smooth',
-    });
- 
-    setTimeout(() => {
-      refList.current.scrollBy({
-        left: -500,
+    if (refList) {
+      await refList.current.scrollBy({
+        left: 500,
         top: 0,
         behavior: 'smooth',
       });
-    }, 600);
+
+      setTimeout(() => {
+        refList.current.scrollBy({
+          left: -500,
+          top: 0,
+          behavior: 'smooth',
+        });
+      }, 600);
+    }
   }
 
   useEffect(() => {

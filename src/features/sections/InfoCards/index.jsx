@@ -7,18 +7,22 @@ export const InfoCards = ({ data }) => {
   const cardList = useRef();
 
   function scrollToNext() {
-    cardList.current.scrollBy({
-      left: 390,
-      top: 0,
-      behavior: 'smooth',
-    });
+    if (cardList) {
+      cardList.current.scrollBy({
+        left: 390,
+        top: 0,
+        behavior: 'smooth',
+      });
+    }
   }
   function scrollToPrev() {
-    cardList.current.scrollBy({
-      left: -390,
-      top: 0,
-      behavior: 'smooth',
-    });
+    if (cardList) {
+      cardList.current.scrollBy({
+        left: -390,
+        top: 0,
+        behavior: 'smooth',
+      });
+    }
   }
 
   return (

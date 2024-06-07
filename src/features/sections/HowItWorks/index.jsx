@@ -5,6 +5,7 @@ import { howitworks } from '@/data/homepage';
 import { ContentWrapper } from '@/components/ContentWrapper';
 import { CustomButton } from '@/components/CustomButton';
 import Link from 'next/link';
+import { useTranslation } from 'react-i18next';
 
 export function HowItWorks() {
   const [text, setText] = useState('');
@@ -13,6 +14,8 @@ export function HowItWorks() {
   const top = useRef('410px');
   const data = useRef('opened');
   const [windowWidth, setwindowWidth] = useState();
+  const { t } = useTranslation();
+
 
   useEffect(() => {
     if (typeof window !== 'undefined') {
@@ -28,48 +31,48 @@ export function HowItWorks() {
     if (  windowWidth>1440) {
       !open ? setOpen(true) : '';
       switch (datatype) {
-        case 'Research':
-          setText(howitworks[0].desc);
+        case 'Analysis':
+          setText(t(howitworks[0].desc));
           {
-            data.current == 'Research' ? setOpen(!open) : '';
+            data.current == 'Analysis' ? setOpen(!open) : '';
             windowWidth<1440? top.current = '182px':'';
-            left.current = '100px';
+            left.current = '125px';
             data.current = datatype;
           }
           break;
         case 'Design':
-          setText(howitworks[1].desc);
+          setText(t(howitworks[1].desc));
           {
             data.current == 'Design' ? setOpen(!open) : console.log(data);
             windowWidth<1440? top.current = '280px':'';
-            left.current = '330px';
+            left.current = '365px';
             data.current = datatype;
           }
           break;
         case 'Development':
-          setText(howitworks[2].desc);
+          setText(t(howitworks[2].desc));
           {
-            data.current == datatype ? setOpen(!open) : '';
+            data.current == 'Development' ? setOpen(!open) : '';
             windowWidth<1440? top.current = '380px':'';
-            left.current = '565px';
+            left.current = '615px';
             data.current = datatype;
           }
           break;
         case 'Launching':
-          setText(howitworks[3].desc);
+          setText(t(howitworks[3].desc));
           {
-            data.current == datatype ? setOpen(!open) : '';
+            data.current == 'Launching' ? setOpen(!open) : '';
             windowWidth<1440? top.current = '480px':'';
-            left.current = '795px';
+            left.current = '855px';
             data.current = datatype;
           }
           break;
-        case 'Support':
-          setText(howitworks[4].desc);
+        case 'Maintenance':
+          setText(t(howitworks[4].desc));
           {
-            data.current == datatype ? setOpen(!open) : '';
+            data.current == 'Maintenance' ? setOpen(!open) : '';
             windowWidth<1440? top.current = '580px':'';
-            left.current = '1020px';
+            left.current = '1100px';
             data.current = datatype;
           }
           break;
@@ -85,7 +88,7 @@ export function HowItWorks() {
     <ContentWrapper>
       <section className={style.How_we_work}>
         <div className={style.wrapper}>
-          <div className={style.label}>Як ми працюємо</div>
+          <div className={style.label}>{t('How_we_work.title')}</div>
           <div className={style.card_row}>
             <div className={style.images}>
               <div className={style.picture}>
@@ -180,11 +183,11 @@ export function HowItWorks() {
             <div className={style.btns_to_images}>
               <button
                 onClick={() => {
-                  chooseText('Research');
+                  chooseText('Analysis');
                 }}
                 className={style.card_label}
               >
-                {howitworks[0].title}
+                {t(howitworks[0].title)}
               </button>
               <button
                 onClick={() => {
@@ -192,7 +195,7 @@ export function HowItWorks() {
                 }}
                 className={style.card_label}
               >
-                {howitworks[1].title}
+                {t(howitworks[1].title)}
               </button>
               <button
                 onClick={() => {
@@ -200,7 +203,7 @@ export function HowItWorks() {
                 }}
                 className={style.card_label}
               >
-                {howitworks[2].title}
+                {t(howitworks[2].title)}
               </button>
               <button
                 onClick={() => {
@@ -208,15 +211,15 @@ export function HowItWorks() {
                 }}
                 className={style.card_label}
               >
-                {howitworks[3].title}
+                {t(howitworks[3].title)}
               </button>
               <button
                 onClick={() => {
-                  chooseText('Support');
+                  chooseText('Maintenance');
                 }}
                 className={style.card_label}
               >
-                {howitworks[4].title}
+                {t(howitworks[4].title)}
               </button>
             </div>
           </div>
@@ -229,7 +232,7 @@ export function HowItWorks() {
           </div>
           <Link href={'/contacts'}>
             <CustomButton
-              title="Замовити веб-сайт"
+              title={t('How_we_work.oreder-btn')}
               stylesClassName={open ? style.btn_order + ' ' + style.hide : style.btn_order}
             />
           </Link>

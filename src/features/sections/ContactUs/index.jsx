@@ -2,7 +2,11 @@ import { ContentWrapper } from '@/components/ContentWrapper';
 import styles from './style.module.scss';
 import { contactUs } from '@/data/homepage';
 import { ContactForm } from '@/components/ContactForm';
+import { useTranslation } from 'react-i18next';
+
 export const ContactUs = () => {
+  const { t } = useTranslation();
+
   return (
     <div
       className={styles['contact-us']}
@@ -15,7 +19,7 @@ export const ContactUs = () => {
     >
       <ContentWrapper>
         <div className={styles['contact-us__content']}>
-          <h4 className={styles['contact-us__title']}>{contactUs.title}</h4>
+          <h4 className={styles['contact-us__title']}>{t(contactUs.title)}</h4>
           <ContactForm />
         </div>
       </ContentWrapper>

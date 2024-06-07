@@ -13,7 +13,7 @@
 }
 .hero {
   width: 100%;
-  margin-top: 80px ;
+/*   margin-top: 80px ; */
   height: 100vh;
   padding-bottom: 80px;
   background-position: center;
@@ -23,7 +23,7 @@
   background-repeat: no-repeat;
   font-family: $main-font;
   @include media(phone){
-  margin-top: 20px;
+  margin-top: 0px;
   }
   &__title {
     color: $white;

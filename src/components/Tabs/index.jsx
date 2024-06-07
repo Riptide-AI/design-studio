@@ -3,12 +3,14 @@ import { useState } from 'react';
 import clsx from 'clsx';
 import Image from 'next/image';
 import Link from 'next/link';
+import { useTranslation } from 'react-i18next';
 
 export const Tabs = ({ items }) => {
   const [activeTab, setActiveTab] = useState(0);
   const toggleTab = (index) => {
     setActiveTab(activeTab === index ? null : index);
   };
+  const { t } = useTranslation();
 
   return (
     <div className={styles.tabs_container}>
@@ -19,7 +21,7 @@ export const Tabs = ({ items }) => {
           style={{ borderWidth: activeTab === index + 1 ? '0px' : '1px' }}
         >
           <div className={styles.tab_header} onClick={() => toggleTab(index)}>
-            {tab.tabName}
+            {t(tab.tabName)}
             <div className={styles.tab__button}>
               <Link href={tab.link}>
                 <Image
@@ -32,7 +34,7 @@ export const Tabs = ({ items }) => {
             </div>
           </div>
           <div className={clsx(styles.tab_content, { [styles.open]: activeTab === index })}>
-            <div className={styles.tab_content__text}>{tab.content}</div>
+            <div className={styles.tab_content__text}>{t(tab.content)}</div>
           </div>
         </div>
       ))}
