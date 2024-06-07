@@ -8,22 +8,19 @@ import arrow from 'public/img/icons/arrow-circle.svg';
 import { useRef, useState } from 'react';
 
 export const PriceCards = ({ data }) => {
-  const cardsRef = useRef();
-  async function scrollToNext() {
-    if (cardsRef) {
-      await cardsRef.current.scrollBy({
-        left: window.innerWidth ,
-        top: 0,
-        behavior: 'smooth',
+  const cardsRef = useRef('');
+  function scrollToNext() {
+    if (cardsRef.current) {
+      requestAnimationFrame(() => {
+        cardsRef.current.scrollLeft += window.innerWidth;
       });
     }
   }
-  async function scrollToPrev() {
-    if (cardsRef) {
-      await cardsRef.current.scrollBy({
-        left: -(window.innerWidth ),
-        top: 0,
-        behavior: 'smooth',
+
+  function scrollToPrev() {
+    if (cardsRef.current) {
+      requestAnimationFrame(() => {
+        cardsRef.current.scrollLeft -= window.innerWidth;
       });
     }
   }

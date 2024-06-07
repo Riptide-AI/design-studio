@@ -1,5 +1,6 @@
 import { ContentWrapper } from '@/components/ContentWrapper';
 import styles from './style.module.scss';
+import { t } from 'i18next';
 
 export const HeroBannerLight = ({ data }) => {
   return (
@@ -13,7 +14,7 @@ export const HeroBannerLight = ({ data }) => {
     >
       <ContentWrapper>
         <div className={styles.hero}>
-          <h2 className={styles.hero__title}>{data.title}</h2>
+          <h2 className={styles.hero__title}>{t(data.title)}</h2>
           {/* <h3 className={styles.hero__desc}>{data.desc}</h3> */}
         </div>
       </ContentWrapper>

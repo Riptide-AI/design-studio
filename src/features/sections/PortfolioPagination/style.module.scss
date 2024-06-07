@@ -10,6 +10,7 @@
     margin-top: 40px;
   }
   &__filters {
+    scroll-behavior: smooth;
     display: flex;
     max-width: fit-content;
     overflow: scroll;

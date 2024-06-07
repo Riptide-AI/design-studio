@@ -3,7 +3,7 @@ export const heroBanner = {
   bg: '/img/hero-banner-8.jfif',
 };
 export const infoBlock = {
-  desc: 'Ви компанія з розробки програмного забезпечення, маркетингове агентство, студія дизайну чи будь-яка інша ІТ-орієнтована компанія, яка шукає надійного партнера з технічними знаннями та відмінною репутацією?',
+  desc: 'infoBlock',
 };
 
 export const becomePartner = {
@@ -30,23 +30,23 @@ export const becomePartner = {
   ],
 };
 export const whatYouGet = {
-  title: 'Що Ви отримаєте?',
+  title: 'whatYouGet.title',
   list: [
     {
-      title: 'До 30% економії ваших коштів',
-      desc: 'Мінімізуйте ваші фінансові витрати, відмовляючись від найму розробників.',
+      title: 'whatYouGet.list.1.title',
+      desc: 'whatYouGet.list.1.desc',
       icons: ['/img/What_you_get/money.png'],
       styles: ['money'],
     },
     {
-      title: 'Немає проєкту = немає оплати',
-      desc: 'Ви можете уникнути виплати зарплати розробникам, якщо у вас немає нового проєкту.',
+      title: 'whatYouGet.list.2.title',
+      desc: 'whatYouGet.list.2.desc',
       icons: ['/img/What_you_get/card.png'],
       styles: ['card'],
     },
     {
-      title: 'Пропонуйте нові ідеї щодо послуг',
-      desc: 'ІТ-новинка щодо розробки у великому попиті. Обирайте нас для повних ІТ-рішень.',
+      title: 'whatYouGet.list.3.title',
+      desc: 'whatYouGet.list.3.desc',
       icons: [
         '/img/What_you_get/rocket.png',
         '/img/What_you_get/rocket_fire.png',
@@ -55,32 +55,32 @@ export const whatYouGet = {
       styles: ['rocket', 'rocket_fire', 'rocket_active_fire'],
     },
     {
-      title: 'Отримайте наш досвід, працюючи разом',
-      desc: 'Впродовж трьох років наші експерти здобули великого технологічного досвіду.',
+      title: 'whatYouGet.list.4.title',
+      desc: 'whatYouGet.list.4.desc',
       icons: ['/img/What_you_get/notebook.png', '/img/What_you_get/notebook_note.png'],
       styles: ['notebook', 'notebook_note'],
     },
     {
-      title: 'Біле маркування та NDA',
-      desc: 'Безпека проєкту: абсолютне біле маркування, NDA щодо конфіденційності.',
+      title: 'whatYouGet.list.5.title',
+      desc: 'whatYouGet.list.5.desc',
       icons: ['/img/What_you_get/shield.png', '/img/What_you_get/shield_Daw.png'],
       styles: ['shield', 'shield_Daw'],
     },
     {
-      title: 'Отримайте наш потенціал доставки',
-      desc: 'Ми орієнтуємося на розвиток через здатність найму 25-ти інженерів та 2ох менеджерів.',
+      title: 'whatYouGet.list.6.title',
+      desc: 'whatYouGet.list.6.desc',
       icons: ['/img/What_you_get/lighting.png'],
       styles: ['lighting'],
     },
     {
-      title: 'Знайдення сучасного спеціаліста',
-      desc: 'Продуктивний департамент  рекрутингу, який націлений на швидкий пошук.',
+      title: 'whatYouGet.list.7.title',
+      desc: 'whatYouGet.list.7.desc',
       icons: ['/img/What_you_get/man_head.png', '/img/What_you_get/man.png'],
       styles: ['man_head', 'man'],
     },
     {
-      title: 'Якість і підтримка протягом проєкту',
-      desc: 'Доставлений продукт, який має право на подальшу тех. підтримку від нас.',
+      title: 'whatYouGet.list.8.title',
+      desc: 'whatYouGet.list.8.desc',
       icons: [
         '/img/What_you_get/some_center.png',
         '/img/What_you_get/some_bottom.png',
@@ -91,17 +91,17 @@ export const whatYouGet = {
   ],
 };
 export const whyWorkWithUs = {
-  title: 'Чому варто співпрацювати з нами?',
+  title: 'whyWorkWithUs.title',
   list: [
     {
-      title: 'Професійність',
-      desc: 'Досвід та, звісно ж, потужність у створенні інноваційних веб-проєктів з його унікальністю.',
+      title: 'whyWorkWithUs.list.1.title',
+      desc: 'whyWorkWithUs.list.1.desc',
       icons: ['/img/Why_cooperate_with_us/money1.png', '/img/Why_cooperate_with_us/money_top.png'],
       styles: ['money', 'money_top'],
     },
     {
-      title: 'Творчість',
-      desc: 'Ми розробляємо унікальний та сучасний вигляд  веб-сайту, враховуючи його особливості.',
+      title: 'whyWorkWithUs.list.2.title',
+      desc: 'whyWorkWithUs.list.2.desc',
       icons: [
         '/img/Why_cooperate_with_us/light_white.png',
         '/img/Why_cooperate_with_us/light_center.png',
@@ -109,14 +109,14 @@ export const whyWorkWithUs = {
       styles: ['light_white', 'light_center'],
     },
     {
-      title: 'Підтримка',
-      desc: 'Ми гарантуємо якісний сервіс для вашого сайту. Окрім того, звісно ж технічну підтримку.',
+      title: 'whyWorkWithUs.list.3.title',
+      desc: 'whyWorkWithUs.list.3.desc',
       icons: ['/img/Why_cooperate_with_us/wrench.png'],
       styles: ['wrench'],
     },
     {
-      title: 'Швидкість роботи',
-      desc: 'Ми забезпечуємо оперативне завантаження сторінок сайту. Це наша ключова перевага.',
+      title: 'whyWorkWithUs.list.4.title',
+      desc: 'whyWorkWithUs.list.4.desc',
       icons: [
         '/img/Why_cooperate_with_us/spidometr.png',
         '/img/Why_cooperate_with_us/spidometr_arrow2.png',

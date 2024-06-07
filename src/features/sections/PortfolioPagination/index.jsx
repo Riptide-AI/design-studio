@@ -4,9 +4,11 @@ import { portfolioPagination } from '@/data/portfolio';
 import Link from 'next/link';
 import Image from 'next/image';
 import styles from './style.module.scss';
+import { useTranslation } from 'react-i18next';
 
 export const PortfolioPagination = () => {
-  const refList = useRef('');
+  const {t} = useTranslation();
+  const refList = useRef({});
   const [currentFilter, setCurrentFilter] = useState('all');
   const allList = useMemo(() => {
     let finalList = [];
@@ -58,30 +60,27 @@ export const PortfolioPagination = () => {
   const goToLastPage = () => {
     setCurrentPage(totalPages);
   };
-  async function scrollX() {
-    if (refList) {
-      await refList.current.scrollBy({
-        left: 500,
-        top: 0,
-        behavior: 'smooth',
-      });
 
-      setTimeout(() => {
-        refList.current.scrollBy({
-          left: -500,
-          top: 0,
-          behavior: 'smooth',
-        });
-      }, 600);
+  async function scrollToX() {
+    if (refList.current) {
+      requestAnimationFrame(() => {
+        refList.current.scrollLeft += 500;
+      });
+    }
+  }
+  async function scrollFromX() {
+    if (refList.current) {
+      requestAnimationFrame(() => {
+        refList.current.scrollLeft -= 500;
+      });
     }
   }
 
   useEffect(() => {
-    setInterval(() => {
-      scrollX();
-    }, 6000);
+    const intervalId2 = setInterval(scrollFromX, 800);
+    const intervalId = setInterval(scrollToX, 6000);
+    return () => clearInterval(intervalId,intervalId2);
   }, []);
-
   return (
     <ContentWrapper>
       <div className={styles.pagination}>
@@ -93,7 +92,7 @@ export const PortfolioPagination = () => {
               onClick={() => handleFilterChange(item.id)}
               style={{ color: item.id === currentFilter ? 'white' : '#B1B1B1' }}
             >
-              {item.filterName}
+              {t(item.filterName)}
             </div>
           ))}
         </div>

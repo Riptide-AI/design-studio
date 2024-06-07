@@ -66,6 +66,7 @@
     margin-top: 12px;
   }
   &__list {
+    scroll-behavior: smooth;
     display: flex;
     gap: 40px;
     overflow-x: auto;

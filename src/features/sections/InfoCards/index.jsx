@@ -6,24 +6,21 @@ import arrow from 'public/img/icons/arrow-circle.svg';
 export const InfoCards = ({ data }) => {
   const cardList = useRef();
 
-  function scrollToNext() {
-    if (cardList) {
-      cardList.current.scrollBy({
-        left: 390,
-        top: 0,
-        behavior: 'smooth',
+ async function scrollToNext() {
+    if (cardList.current) {
+      requestAnimationFrame(() => {
+        cardList.current.scrollLeft += 390;
       });
     }
   }
-  function scrollToPrev() {
-    if (cardList) {
-      cardList.current.scrollBy({
-        left: -390,
-        top: 0,
-        behavior: 'smooth',
+ async function scrollToPrev() {
+    if (cardList.current) {
+      requestAnimationFrame(() => {
+        cardList.current.scrollLeft -= 390;
       });
     }
   }
+
 
   return (
     <div className={styles.success}>

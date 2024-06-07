@@ -91,7 +91,7 @@
   },
   "How_we_work": {
     "title": "How do we work?",
-    "oreder-btn":"Order a website",
+    "oreder-btn": "Order a website",
     "cards": {
       "1": {
         "btn": "Analysis",
@@ -115,24 +115,23 @@
       }
     }
   },
-  "becomePartner":{
-    "title":"Become our partner today",
-    "cards":{
-      "1":{
+  "becomePartner": {
+    "title": "Become our partner today",
+    "cards": {
+      "1": {
         "title": "Business partnership",
         "desc": "We can satisfy all of your needs if you're looking for a modern expert supplier. You'll be able to use specialized tools that will change the way you create, sell, and do other things when you work with our team.",
         "btn": "Contact Us"
-   
-      },"2":{
+      },
+      "2": {
         "title": "Development partner",
         "desc": "We can meet all your technical needs as your modern technical subcontractor. Our team has access to cutting-edge resources that can revolutionize your marketing, web design, and strategy processes.",
         "btn": "Contact Us"
-   
-      },"3":{
+      },
+      "3": {
         "title": "Referral program",
         "desc": "We intend to take full control of the software development for your client, and this includes remuneration for our contribution. Our goal is to provide you with a high level of service and successful business growth.",
         "btn": "Contact Us"
-   
       }
     }
   },
@@ -154,8 +153,8 @@
       }
     }
   },
-  "contactUs":{
-    "title":"Contact us",
+  "contactUs": {
+    "title": "Contact us",
     "name": "Name",
     "phone": "Phone",
     "email": "E-mail",
@@ -163,8 +162,246 @@
     "descPlaceholder": "Briefly describe the project...",
     "btn": "Send"
   },
-  "workTogether":{
-    "title":"Let's work together!",
-    "desc":"We are always ready to discuss your next project. You can email us at <i>support@fullstack-innovations.com</i> or fill out the form. Our experts are looking forward to the chance to work with you."
+  "workTogether": {
+    "title": "Let's work together!",
+    "desc": "We are always ready to discuss your next project. You can email us at <i>support@fullstack-innovations.com</i> or fill out the form. Our experts are looking forward to the chance to work with you."
+  },
+  "Protfolio-heroBaner": {
+    "title": "Portfolio"
+  },
+  "portfolioPagination": {
+    "filters": {
+      "1": "All",
+      "2": "Web Design",
+      "3": "Web Development",
+      "4": "Logos",
+      "5": "Business Cards"
+    }
+  },
+  "infoBlock": "Are you a software development company, marketing agency, design studio, or any other IT-oriented company seeking a reliable partner with technical expertise and an excellent reputation?",
+  "whyWorkWithUs": {
+    "title": "Why should you collaborate with us?",
+    "list": {
+      "1": {
+        "title": "Professionalism",
+        "desc": "Experience and, of course, power in creating innovative web projects with its uniqueness."
+      },
+      "2": {
+        "title": "Creativity",
+        "desc": "We design a unique and modern look of the website, taking into account its features."
+      },
+      "3": {
+        "title": "Support",
+        "desc": "We guarantee quality servicing of your website, along with providing technical support as needed."
+      },
+      "4": {
+        "title": "Efficiency",
+        "desc": "We specialize in providing fast website page loading times. This is our key advantage."
+      }
+    }
+  },
+  "whatYouGet": {
+    "title": "What will you get?",
+    "list": {
+      "1": {
+        "title": "Up to 30% cost savings for you",
+        "desc": "Minimize your financial expenses by opting out of hiring developers."
+      },
+      "2": {
+        "title": "If there's no project, you don't pay.",
+        "desc": "If there is no project, there is no salary for the developer"
+      },
+      "3": {
+        "title": "Offering new ideas for services.",
+        "desc": "IT development, high demand. Choose us for full solutions."
+      },
+      "4": {
+        "title": "Gain our expertise by working together.",
+        "desc": "Our experts amassed extensive tech experience in three years."
+      },
+      "5": {
+        "title": "White labeling and NDA protection.",
+        "desc": "Project Security: Absolute White Labeling, Confidentiality NDA."
+      },
+      "6": {
+        "title": "Get our full delivery potential.",
+        "desc": "We focus on development through the ability to hire 25 engineers."
+      },
+      "7": {
+        "title": "Finding a modern specialist",
+        "desc": "Improve your business solution by hiring our specialist"
+      },
+      "8": {
+        "title": "Quality and support throughout the project",
+        "desc": "The delivered product includes further technical support from us."
+      }
+    }
+  },
+  "reasons": {
+    "title": "Why choose us?",
+    "items": {
+      "1": {
+        "title": "Customer orientation",
+        "desc": "Our deep understanding of business is our strength. We specialize in developing websites aimed at maximizing conversions and sales."
+      },
+      "2": {
+        "title": "Сreativity",
+        "desc": "Every website is a unique masterpiece. Our creative design captures attention and consistently impresses with innovative solutions."
+      },
+      "3": {
+        "title": "Advanced approaches and technologies",
+        "desc": "If you want your website to be transformed into a contemporary digital platform, we will utilize cutting-edge technology and innovative solutions."
+      },
+      "4": {
+        "title": "Readiness for challenges",
+        "desc": "We guarantee effective solutions to your tasks and elegant website design. Embracing modernity and excellence in every project!"
+      },
+      "5": {
+        "title": "High-quality and prompt execution",
+        "desc": "High efficiency and speed are the cornerstones of success in collaborating with us. Our individualized approach is guaranteed!"
+      },
+      "6": {
+        "title": "Thorough testing of solutions",
+        "desc": "Your success heavily relies on our dependable technologies. We meticulously test every aspect to ensure absolute flawlessness."
+      }
+    }
+  },
+  "reviews":{
+    "title":"Reviews of our customers",
+    "desc":"From start to support, we're always by your side, ready to advise and assist. Your success is our priority.",
+    "slides":{
+      "1":{
+        "title": "Заголовок",
+        "author": "Павло Гук 1",
+        "position": "Менеджер компанії ",
+        "content": "Слайд 1"
+      },
+      "2":{
+        "title": "Заголовок",
+        "author": "Павло Гук 2",
+        "position": "Менеджер компанії ",
+        "content": "Слайд 2"
+      },
+      "3":{
+        "title": "Заголовок",
+        "author": "Павло Гук 3",
+        "position": "Менеджер компанії ",
+        "content": "Слайд 3"
+      },
+      "4":{
+        "title": "Заголовок",
+        "author": "Павло Гук 4",
+        "position": "Менеджер компанії ",
+        "content": "Слайд 4"
+      }
+    }
+  },
+  "banner":{
+    "title":"Do you believe in hiring professionals?",
+    "desc":"We are a team with extensive experience in developing custom software engineering solutions for websites, utilizing various technologies. Our experts possess a versatile stack, including JavaScript, Python, PHP, and employ frameworks such as React, Django, Next.js, and Laravel. We set ourselves the important task of ensuring stability and productivity for each project, utilizing optimized code and advanced caching techniques to ensure fast page loading and efficient website performance."
+  },
+  "technologies":{
+    "title":"Technologies",
+    "desc":"Our company has extensive experience in developing specialized software engineering solutions, utilizing various technologies to ensure reliability and security."
+  },
+  "Offers": {
+    "list": {
+      "1": {
+        "title": "Development",
+        "desc": "Our experienced experts have vast experience in creating modern websites, stylish online stores, and innovative web services."
+      },
+      "2": {
+        "title": "Search promotion",
+        "desc": "Our experts effectively advertise sites on Google. Trust us with your brand and we guarantee the success of your online promotion."
+      },
+      "3": {
+        "title": "Contextual advertising",
+        "desc": "Secure high ranking ads in Google search for the impressive success of your brand! Increase your visibility exponentially with us."
+      },
+      "4": {
+        "title": "Branding and design",
+        "desc": "The visual experience is born in the hands of our specialists who combine creativity and high expert skill in the design process."
+      },
+      "5": {
+        "title": "Website support",
+        "desc": "We provide comprehensive technical support for the reliability and optimal operation of your resource. Your success is our greatest goal."
+      },
+      "6": {
+        "title": "Promotion in social networks",
+        "desc": "Our team has extensive experience in bringing attention to a relevant brand or product through various social platforms."
+      }
+    }
+  },
+  "securityList":{
+    "title":"We protect you from two traps",
+    "desc":"According to McKinsey Oxford research",
+    "list":{
+      "1":{
+        "title":"Protection against overspending",
+        "desc":"Before starting work, we agree on a fixed amount to avoid misunderstandings and unforeseen costs. With us, you know exactly how much your project will cost and you can calmly work on its implementation. However, if you wish to add new functionality, we are willing to negotiate additional costs for these operational changes."
+      },
+      "2":{
+        "title":"Timeout protection",
+        "desc":"We fix a clear schedule for your project, conduct a thorough analysis and planning of requirements to avoid possible delays. Thanks to our approach, you will always have a clear idea of the completion date, which allows you to manage expectations and ensure the successful implementation of the project within the agreed time frame."
+      }
+    }
+  },
+  "socialSMM": {
+    "title": "Promotion in social networks",
+    "list": {
+      "1": {
+        "title": "A team of experienced experts",
+        "desc": "We do not use external specialists for website development and work only with our own specialists."
+      },
+      "2": {
+        "title": "Transparent cooperation",
+        "desc": "No hidden conditions, unpredictable changes in the cost of services, manipulation of reports, etc."
+      },
+      "3": {
+        "title": "Individual approach",
+        "desc": "Businesses are unique, so approaches to their promotion vary in each case."
+      },
+      "4": {
+        "title": "Individual strategy",
+        "desc": "The general concept and strategy of website promotion are always individual solutions for the client."
+      },
+      "5": {
+        "title": "Comprehensive analytics",
+        "desc": "We thoroughly research our clients' businesses, their niche, competitors and their promotion strategies."
+      },
+      "6": {
+        "title": "Experience in your field",
+        "desc": "Whatever niche you work in, chances are we already have experience promoting it. Or at least in an adjacent niche."
+      }
+    }
+  },
+  "checks": {
+    "title": "What will promotion in social networks give you?",
+    "list": {
+      "1": {
+        "title": "Recognition of the company",
+        "desc": "ЅMM-promotion is definitely not a direction that can be neglected. The presence of the brand in popular social networks can significantly increase the recognition of the company among the target, near-target and even non-target audiences."
+      },
+      "2": {
+        "title": "Customer satisfaction and engagement",
+        "desc": "It is easier to attract an audience on social networks than, for example, on a website. Here you can hold contests, quizzes, polls, voting, and more. The reaction of subscribers will be better than if the same activities are carried out on the company's website."
+      },
+      "3": {
+        "title": "A deeper understanding of the audience",
+        "desc": "Promotion on social media is a chance to maintain regular touch with the audience, check their emotions, and be interested in their thoughts. This allows you to have a deeper understanding of your audience while also creating a human brand."
+      },
+      "4": {
+        "title": "Effective advertising of a new product or service",
+        "desc": "In social networks, it is possible to quickly draw attention to a new product or service. Word of mouth here works just fine! Plus, let's not forget about targeted advertising, which can be very finely tuned to show exactly to your target audience."
+      },
+      "5": {
+        "title": "Increase in the conversion rate",
+        "desc": "Online promotion always aims to increase conversions and improve sales, including social media promotion. Various activities and advertising campaigns aimed at multiplying conversion efficiency."
+      },
+      "6": {
+        "title": "Increasing brand loyalty",
+        "desc": "Users are more loyal to brands that are not only present in social networks, but also actively communicate, participate in discussions, and contribute to the life of the company and its development strategy."
+      }
+    }
   }
 }

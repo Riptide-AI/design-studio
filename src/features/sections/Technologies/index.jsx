@@ -2,13 +2,15 @@ import { ContentWrapper } from '@/components/ContentWrapper';
 import styles from './style.module.scss';
 import { technologies } from '@/data/services';
 import Image from 'next/image';
+import { useTranslation } from 'react-i18next';
 
 export const Technologies = () => {
+  const {t}=useTranslation();
   return (
     <ContentWrapper>
       <div className={styles.technologies}>
-        <div className={styles.technologies__title}>{technologies.title}</div>
-        <div className={styles.technologies__desc}>{technologies.desc}</div>
+        <div className={styles.technologies__title}>{t(technologies.title)}</div>
+        <div className={styles.technologies__desc}>{t(technologies.desc)}</div>
         <div className={styles.technologies__list}>
           <div className={styles.technologies__img}>
             <Image src={technologies.img} alt="" fill="true" />
