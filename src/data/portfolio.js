@@ -1,14 +1,14 @@
 export const heroBanner = {
-  title: 'Web Development',
+  title: 'Protfolio-heroBaner.title',
   bg: '/img/hero-banner-8.jfif',
 };
 export const portfolioPagination = {
   filters: [
-    { filterName: 'All', id: 'all' },
-    { filterName: 'Web Design', id: 'web_design' },
-    { filterName: 'Web Development', id: 'web_development' },
-    { filterName: 'Logos', id: 'logos' },
-    { filterName: 'Business Cards', id: 'business_cards' },
+    { filterName: 'portfolioPagination.filters.1', id: 'all' },
+    { filterName: 'portfolioPagination.filters.2', id: 'web_design' },
+    { filterName: 'portfolioPagination.filters.3', id: 'web_development' },
+    { filterName: 'portfolioPagination.filters.4', id: 'logos' },
+    { filterName: 'portfolioPagination.filters.5', id: 'business_cards' },
   ],
   lists: {
     web_design: [

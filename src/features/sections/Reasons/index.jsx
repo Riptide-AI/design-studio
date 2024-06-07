@@ -2,12 +2,14 @@ import { ContentWrapper } from '@/components/ContentWrapper';
 import styles from './style.module.scss';
 import Image from 'next/image';
 import { reasons } from '@/data/aboutUs';
+import { useTranslation } from 'react-i18next';
 
 export const Reasons = () => {
+  const { t } = useTranslation();
   return (
     <ContentWrapper>
       <div className={styles.reasons}>
-        <div className={styles.reasons__title}>{reasons.title}</div>
+        <div className={styles.reasons__title}>{t(reasons.title)}</div>
         <div className={styles.reasons__content}>
           {reasons.items.map((item, i) => (
             <div className={styles.card} key={`reason-${i}`}>
@@ -23,8 +25,8 @@ export const Reasons = () => {
                   />
                 ))}
               </div>
-              <div className={styles.card_label}>{item.title}</div>
-              <div className={styles.card_text}>{item.desc}</div>
+              <div className={styles.card_label}>{t(item.title)}</div>
+              <div className={styles.card_text}>{t(item.desc)}</div>
             </div>
           ))}
         </div>

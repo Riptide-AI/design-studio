@@ -6,7 +6,7 @@
   flex-direction: column;
   align-items: center;
   font-family: $main-font;
-  @include media(phone){
+  @include media(phone) {
     margin-top: 80px;
   }
   &__title {
@@ -29,7 +29,7 @@
   &__list {
     display: flex;
     margin-top: 60px;
-    gap: 20px;
+    gap: 30px;
     @include media(phone) {
       flex-direction: column;
     }
@@ -37,34 +37,31 @@
   &__item {
     display: flex;
     flex-direction: column;
-
-    &:hover {
-      .workflow__item__order {
-        animation: border_bottom 0.5s linear 1;
-      }
-    }
+    position: relative;
+    
+   
     &__order {
-      height: 36px;
-      padding-bottom: 12px;
-      border-bottom: 2px solid $bright-blue;
-      font-size: 18px;
-      font-weight: 400;
-      letter-spacing: 0.36px;
-      text-transform: uppercase;
+      position: absolute;
       color: $white;
-      text-align: center;
+      font-size: 120px;
+      font-weight: 600;
+      line-height: 100px;
+      opacity: 0.15;
+      bottom: 0px;
+      right: 0px;
+      z-index: 0;
     }
     &__title {
       margin-top: 20px;
       color: $light-grey;
-      font-size: 18px;
+      font-size: 25px;
       font-weight: 600;
       line-height: 125%;
-      padding: 0 10px;
-      text-align: center;
+    
+      text-align: left;
     }
     &__desc {
-      margin-top: 12px;
+      margin-top: 5px;
       color: $dark-grey;
       font-size: 16px;
       font-weight: 400;
