@@ -4,9 +4,10 @@ import { statsCards } from '@/data/homepage';
 import { StatsCard } from '@/components/StatsCard';
 import { InfiniteSlider } from '@/components/InfiniteSlider';
 import { partners } from '@/data/homepage';
+import { useTranslation } from 'react-i18next';
 
 export const HeroBanner = () => {
-  
+  const { t } = useTranslation();
   return (
     <section className={styles.hero}>
       <ContentWrapper>
@@ -14,7 +15,7 @@ export const HeroBanner = () => {
           <div className={styles.hero__header}>
             <h1 className={styles.hero__title}>Fullstack <span>innovations</span></h1>
             <h2 className={styles.hero__desc}>
-              Розробка сайтів та копмлексне просування вашого бізнесу в лідери
+            {t(`hero-baner.subTitle`)} 
             </h2>
           </div>
           <div className={styles.hero__stats_list}>

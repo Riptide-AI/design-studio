@@ -1,15 +1,170 @@
-{"navigation" : {
-  "home": "Home",
-  "services": "Services",
-  "contacts": "Contacts",
-  "portfolio": "Portfolio",
-  "aboutUs": "About Us",
-  "blog": "Blog",
-  "partnership": "Partnership"
-},
-"buttons": {
-  "contactUs": "Contact Us",
-  "aboutUsbtn": "Become a client"
- 
-}
+{
+  "navigation": {
+    "home": "Home",
+    "services": "Services",
+    "contacts": "Contacts",
+    "portfolio": "Portfolio",
+    "aboutUs": "About Us",
+    "blog": "Blog",
+    "partnership": "Partnership"
+  },
+  "buttons": {
+    "contactUs": "Contact Us",
+    "aboutUsbtn": "Become a client"
+  },
+  "hero-baner": {
+    "subTitle": "Website development and comprehensive promotion of your business to the leaders.",
+    "cards": {
+      "first": {
+        "name": "solving business problems",
+        "desc": "completed projects",
+        "desc-mob": "projects"
+      },
+      "second": {
+        "name": "comprehensive approach",
+        "desc": "experienced specialists",
+        "desc-mob": "specialists"
+      },
+      "third": {
+        "name": "effective promotion and sales",
+        "desc": "years of experience",
+        "name-mob": "effective promotion"
+      }
+    }
+  },
+  "ServicesTabs": {
+    "services": "Services",
+    "cards": {
+      "1": {
+        "tabName": "Design",
+        "content": "We provide a full range of creative design services for your business. We will create stylish and effective designs for your websites, logos, and business cards, giving you a competitive edge."
+      },
+      "2": {
+        "tabName": "Development",
+        "content": "We are ready to take on the development of various web projects, including interactive quiz sites, corporate platforms, eCommerce projects, online stores, effective landing pages, and stylish portfolio websites."
+      },
+      "3": {
+        "tabName": "Marketing",
+        "content": "Our company is ready to provide a full range of marketing services for your business. Starting from site audit and SEO promotion to SMM promotion and contextual advertising."
+      },
+      "4": {
+        "tabName": "Maintenance",
+        "content": "Our team is equipped to offer several supplementary services including: integration with 1C, website optimization for speed, malware removal, technical enhancements, and migration of the site to HTTPS."
+      }
+    }
+  },
+  "aboutUs": {
+    "title": "About us",
+    "desc": "We are a team of professionals in web development and innovation, ready to turn your concepts into successful and profitable projects. Since late 2021, we have already implemented over 75 successful websites, demonstrating our high level of expertise and professionalism.<br \/> Our approach is based on individual attention to each client, ensuring the development of modern, productive, and unique web solutions. We thoroughly consider the latest trends and industry requirements to provide your project with a competitive edge.",
+    "cards": {
+      "1": {
+        "desc": "completed projects"
+      },
+      "2": {
+        "desc": "experienced specialists",
+        "desc-mob": "specialists"
+      },
+      "3": {
+        "desc": "years of experience"
+      },
+      "4": {
+        "desc": "satisfied clients"
+      }
+    }
+  },
+  "businessCards": {
+    "title": "We create websites for various types of businesses.",
+    "cards": {
+      "1": {
+        "title": "Retail trading",
+        "desc": "Вeauty outlets, grocery markets, electronic retailers, florist shops, bookstores, souvenir boutiques, etc."
+      },
+      "2": {
+        "title": "Public catering",
+        "desc": "Restaurants, bars, cafes, coffee shops, bakeries, buffets, canteens, wine bars, street food stalls, etc."
+      },
+      "3": {
+        "title": "Services for the population",
+        "desc": "Maintenance services, beauty parlors, laundry services, recruitment firms, tutoring centers, etc."
+      }
+    }
+  },
+  "How_we_work": {
+    "title": "How do we work?",
+    "oreder-btn":"Order a website",
+    "cards": {
+      "1": {
+        "btn": "Analysis",
+        "desc": "At this stage, the main focus is on understanding the project goals, target audience, and requirements. This involves gathering information through meetings, discussions, and research. The project scope is determined, and a strategy is developed to ensure the website aligns with its intended purpose. Key deliverables include project concept, user personas, site map, competitor analysis, recommendations, forecasting, and evaluation."
+      },
+      "2": {
+        "btn": "Design",
+        "desc": "At this stage, the main focus is on creating the visual appearance and user interface of the website. Designers determine the color palette, fonts, layouts, and page structure. Important aspects of user experience are also taken into account, ensuring convenient navigation and an aesthetically appealing look. Designers consider adaptability and interactivity to optimize user interaction."
+      },
+      "3": {
+        "btn": "Development",
+        "desc": "At this stage, the main focus is on understanding the unique needs of your business and achieving optimal functionality. Our team of experts is ready to tackle any type of web project, from creating engaging quiz sites that attract and increase audience interaction, to powerful e-commerce platforms that facilitate an efficient online commercial process."
+      },
+      "4": {
+        "btn": "Release",
+        "desc": "At this stage, the main focus is on preparing the website for its public release. This includes uploading content, configuring hosting and domain name settings, as well as conducting final checks for errors and security. After completing this stage, the site becomes accessible to visitors, providing them with a positive interaction experience, reliable performance, and efficient content management."
+      },
+      "5": {
+        "btn": "Maintenance",
+        "desc": "At this stage, the main focus is on supporting and further developing the website. Administrators and developers monitor the site's performance, fix errors, update content, and enhance functionality according to evolving user needs. Support may also involve optimizing performance, protecting against potential threats to ensure stability, and improving the user experience."
+      }
+    }
+  },
+  "becomePartner":{
+    "title":"Become our partner today",
+    "cards":{
+      "1":{
+        "title": "Business partnership",
+        "desc": "We can satisfy all of your needs if you're looking for a modern expert supplier. You'll be able to use specialized tools that will change the way you create, sell, and do other things when you work with our team.",
+        "btn": "Contact Us"
+   
+      },"2":{
+        "title": "Development partner",
+        "desc": "We can meet all your technical needs as your modern technical subcontractor. Our team has access to cutting-edge resources that can revolutionize your marketing, web design, and strategy processes.",
+        "btn": "Contact Us"
+   
+      },"3":{
+        "title": "Referral program",
+        "desc": "We intend to take full control of the software development for your client, and this includes remuneration for our contribution. Our goal is to provide you with a high level of service and successful business growth.",
+        "btn": "Contact Us"
+   
+      }
+    }
+  },
+  "ourWorks": {
+    "title": "Our projects",
+    "btn": "View all",
+    "cards": {
+      "1": {
+        "title": "Назва",
+        "desc": "Lorem ipsum dolor sit amet consectetur. Pharetra a phasellus tortor a mollis diam lectu"
+      },
+      "2": {
+        "title": "Назва",
+        "desc": "Lorem ipsum dolor sit amet consectetur. Pharetra a phasellus tortor a mollis diam lectu"
+      },
+      "3": {
+        "title": "Назва",
+        "desc": "Lorem ipsum dolor sit amet consectetur. Pharetra a phasellus tortor a mollis diam lectu"
+      }
+    }
+  },
+  "contactUs":{
+    "title":"Contact us",
+    "name": "Name",
+    "phone": "Phone",
+    "email": "E-mail",
+    "desc": "What business solution do you need to provide?",
+    "descPlaceholder": "Briefly describe the project...",
+    "btn": "Send"
+  },
+  "workTogether":{
+    "title":"Let's work together!",
+    "desc":"We are always ready to discuss your next project. You can email us at <i>support@fullstack-innovations.com</i> or fill out the form. Our experts are looking forward to the chance to work with you."
+  }
 }
