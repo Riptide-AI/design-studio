@@ -266,29 +266,29 @@
       }
     }
   },
-  "reviews":{
-    "title":"Reviews of our customers",
-    "desc":"From start to support, we're always by your side, ready to advise and assist. Your success is our priority.",
-    "slides":{
-      "1":{
+  "reviews": {
+    "title": "Reviews of our customers",
+    "desc": "From start to support, we're always by your side, ready to advise and assist. Your success is our priority.",
+    "slides": {
+      "1": {
         "title": "Заголовок",
         "author": "Павло Гук 1",
         "position": "Менеджер компанії ",
         "content": "Слайд 1"
       },
-      "2":{
+      "2": {
         "title": "Заголовок",
         "author": "Павло Гук 2",
         "position": "Менеджер компанії ",
         "content": "Слайд 2"
       },
-      "3":{
+      "3": {
         "title": "Заголовок",
         "author": "Павло Гук 3",
         "position": "Менеджер компанії ",
         "content": "Слайд 3"
       },
-      "4":{
+      "4": {
         "title": "Заголовок",
         "author": "Павло Гук 4",
         "position": "Менеджер компанії ",
@@ -296,13 +296,13 @@
       }
     }
   },
-  "banner":{
-    "title":"Do you believe in hiring professionals?",
-    "desc":"We are a team with extensive experience in developing custom software engineering solutions for websites, utilizing various technologies. Our experts possess a versatile stack, including JavaScript, Python, PHP, and employ frameworks such as React, Django, Next.js, and Laravel. We set ourselves the important task of ensuring stability and productivity for each project, utilizing optimized code and advanced caching techniques to ensure fast page loading and efficient website performance."
+  "banner": {
+    "title": "Do you believe in hiring professionals?",
+    "desc": "We are a team with extensive experience in developing custom software engineering solutions for websites, utilizing various technologies. Our experts possess a versatile stack, including JavaScript, Python, PHP, and employ frameworks such as React, Django, Next.js, and Laravel. We set ourselves the important task of ensuring stability and productivity for each project, utilizing optimized code and advanced caching techniques to ensure fast page loading and efficient website performance."
   },
-  "technologies":{
-    "title":"Technologies",
-    "desc":"Our company has extensive experience in developing specialized software engineering solutions, utilizing various technologies to ensure reliability and security."
+  "technologies": {
+    "title": "Technologies",
+    "desc": "Our company has extensive experience in developing specialized software engineering solutions, utilizing various technologies to ensure reliability and security."
   },
   "Offers": {
     "list": {
@@ -332,17 +332,133 @@
       }
     }
   },
-  "securityList":{
-    "title":"We protect you from two traps",
-    "desc":"According to McKinsey Oxford research",
-    "list":{
-      "1":{
-        "title":"Protection against overspending",
-        "desc":"Before starting work, we agree on a fixed amount to avoid misunderstandings and unforeseen costs. With us, you know exactly how much your project will cost and you can calmly work on its implementation. However, if you wish to add new functionality, we are willing to negotiate additional costs for these operational changes."
+  "ecomerceOffers": {
+    "title": "You will get",
+    "list": {
+      "1": {
+        "title": "Modern design",
+        "desc": "The eCommerce project embodies a unique and contemporary style, effectively showcasing the company's high level of professionalism."
       },
-      "2":{
-        "title":"Timeout protection",
-        "desc":"We fix a clear schedule for your project, conduct a thorough analysis and planning of requirements to avoid possible delays. Thanks to our approach, you will always have a clear idea of the completion date, which allows you to manage expectations and ensure the successful implementation of the project within the agreed time frame."
+      "2": {
+        "title": "Consideration of trends",
+        "desc": "The field of eCommerce projects is constantly evolving. Websites are becoming interactive, we take this into account and use it in our work."
+      },
+      "3": {
+        "title": "Correct usability",
+        "desc": "The success of an eCommerce project is NOT only the satisfaction of the owner, but also the creation of a modern, innovative platform for visitors."
+      },
+      "4": {
+        "title": "Modern management system",
+        "desc": "Any employee, including you, will be able to easily and efficiently administer the project without frantic efforts, ensuring high-quality work of the resource."
+      },
+      "5": {
+        "title": "SEO optimization",
+        "desc": "In a world where there is a lot of competition, success depends a lot on SEO optimization. We create unique strategies for each client's website."
+      },
+      "6": {
+        "title": "Mobile version",
+        "desc": "Remember that half of the audience visits websites on smartphones. We create all projects with an emphasis on mobility for optimal comfort of use."
+      }
+    }
+  },
+  "QuizOffers": {
+    "title": "You will get",
+    "list": {
+      "1": {
+        "title": "Modern design",
+        "desc": "The quiz platform offers a virtual realm for an unparalleled journey brimming with emotion, thrill, expertise, and active participation."
+      },
+      "2": {
+        "title": "Consideration of trends",
+        "desc": "Quiz sites are a trend! Adventures, tests, impressions - join! The dream comes true with us. Plus, exhilaration and satisfaction await!"
+      },
+      "3": {
+        "title": "Correct usability",
+        "desc": "The success of the quiz site lies in customer satisfaction. A simple, lightweight and easy-to-understand platform is our key to this."
+      },
+      "4": {
+        "title": "Modern management system",
+        "desc": "Easily administer your quiz site with us effortlessly and quickly, and everyone in the team will be able to manage it easily and efficiently."
+      },
+      "5": {
+        "title": "SEO optimization",
+        "desc": "In a highly competitive world, SEO is the key to the success of your quiz site. We will develop an individual strategy for your website."
+      },
+      "6": {
+        "title": "Mobile version",
+        "desc": "Half of the visitors are on smartphones. Our expertise is mobile convenience. We will help you achieve success together."
+      }
+    }
+  },
+  "BusinesCardOffers": {
+    "title": "You will get",
+    "list": {
+      "1": {
+        "title": "Modern design",
+        "desc": "A modern business card site epitomizes a unique and stylish presentation, effectively showcasing the company's professionalism and quality."
+      },
+      "2": {
+        "title": "Consideration of trends",
+        "desc": "The evolution of business card site development enhances interactivity and attractiveness, with our company closely tracking these trends."
+      },
+      "3": {
+        "title": "Correct usability",
+        "desc": "The true success of a business card site lies not only in satisfying the owner but also in providing visitors with a modern and user-friendly platform."
+      },
+      "4": {
+        "title": "Modern management system",
+        "desc": "Any employee, including you, will be able to easily and efficiently administer the project without frantic efforts, ensuring high-quality work of the resource."
+      },
+      "5": {
+        "title": "SEO optimization",
+        "desc": "In a world where there is a lot of competition, success depends a lot on SEO optimization. We create unique strategies for each client's website."
+      },
+      "6": {
+        "title": "Mobile version",
+        "desc": "Remember that half of the audience visits websites on smartphones. We create all projects with an emphasis on mobility for optimal comfort of use."
+      }
+    }
+  },
+  "CorporateOffers": {
+    "title": "You will get",
+    "list": {
+      "1": {
+        "title": "Modern design",
+        "desc": "A corporate website is an electronic platform that reflects a modern and unique style and, of course, a high level of professionalism of the company."
+      },
+      "2": {
+        "title": "Consideration of trends",
+        "desc": "The evolution of corporate websites involves enhancing interactivity and attractiveness, trends closely monitored by our company."
+      },
+      "3": {
+        "title": "Correct usability",
+        "desc": "The real success of a corporate website lies not only in the satisfaction of the owner, but also in the ability to create a convenient, effective platform for users."
+      },
+      "4": {
+        "title": "Modern management system",
+        "desc": "All employees, including yourself, will effortlessly and effectively manage the corporate site, ensuring its high-quality performance."
+      },
+      "5": {
+        "title": "SEO optimization",
+        "desc": "In a competitive world, a corporate website's success hinges largely on SEO optimization. We craft bespoke strategies for each site."
+      },
+      "6": {
+        "title": "Mobile version",
+        "desc": "Remember that half of the audience visits websites on smartphones. We create all projects with an emphasis on mobility for optimal comfort of use.."
+      }
+    }
+  },
+  "securityList": {
+    "title": "We protect you from two traps",
+    "desc": "According to McKinsey Oxford research",
+    "list": {
+      "1": {
+        "title": "Protection against overspending",
+        "desc": "Before starting work, we agree on a fixed amount to avoid misunderstandings and unforeseen costs. With us, you know exactly how much your project will cost and you can calmly work on its implementation. However, if you wish to add new functionality, we are willing to negotiate additional costs for these operational changes."
+      },
+      "2": {
+        "title": "Timeout protection",
+        "desc": "We fix a clear schedule for your project, conduct a thorough analysis and planning of requirements to avoid possible delays. Thanks to our approach, you will always have a clear idea of the completion date, which allows you to manage expectations and ensure the successful implementation of the project within the agreed time frame."
       }
     }
   },
@@ -402,6 +518,916 @@
         "title": "Increasing brand loyalty",
         "desc": "Users are more loyal to brands that are not only present in social networks, but also actively communicate, participate in discussions, and contribute to the life of the company and its development strategy."
       }
+    }
+  },
+  "supportTypes": {
+    "title": "Types of technical support",
+    "list": {
+      "1": {
+        "title": "Monthly support",
+        "desc": "If a client project has a limited period of active support, we are ready to provide you with the necessary support in the first months. This is especially important for effective identification and elimination of possible problems. Our experts are ready to help you in this process."
+      },
+      "2": {
+        "title": "Annual support",
+        "desc": "An individual analysis of the scope and list of tasks is carried out to ensure stable daily support throughout the year for projects for which it is important to continuously monitor and avoid failures in the work of websites with a large flow of visitors, ensuring reliability."
+      },
+      "3": {
+        "title": "Payment per hour of work",
+        "desc": "Projects aimed at the performance of well-defined tasks and regular updating of the system, content, and semantic blocks. These are ideal for creating landing pages and simple design sites, ensuring stable, efficient, user-friendly, and visually appealing functionality."
+      }
+    }
+  },
+  "supportPackages": {
+    "title": "Types of work within support packages",
+    "list": {
+      "1": {
+        "title": "Improvement of logic",
+        "desc": "The website's usability ensures simplicity, efficiency, intuitiveness, accessibility, and overall comfort for users."
+      },
+      "2": {
+        "title": "Redesign",
+        "desc": "Improving website's design encompasses elevating visual elements and broadening its range of features."
+      },
+      "3": {
+        "title": "Page layout",
+        "desc": "Bug fixes, updates for device and browser compatibility, style adjustments, functional enhancements."
+      },
+      "4": {
+        "title": "Refactoring",
+        "desc": "Ensuring the effectiveness of the website through technical optimization of the code and elimination of potential errors."
+      },
+      "5": {
+        "title": "Integration",
+        "desc": "Creating integrations for sites, including payment systems, analytics, CRM, social networks, and more."
+      },
+      "6": {
+        "title": "Creating a new one",
+        "desc": "We will customize your website according to your wishes. We are ready to include any changes for the convenience of users."
+      }
+    }
+  },
+  "weProvide": {
+    "title": "What services do we offer?",
+    "list": {
+      "1": {
+        "title": "Website's design",
+        "desc": "We develop bright and impressive Mobile First UI design. We pay special attention to Mobile First."
+      },
+      "2": {
+        "title": "Prototype development",
+        "desc": "We create high-quality UX design, carefully analyze user interaction with content for maximum convenience."
+      },
+      "3": {
+        "title": "Corporate style",
+        "desc": "We develop a unique corporate style, covering logos, corporate colors, fonts and other key elements."
+      }
+    }
+  },
+  "supportTypesDesign": {
+    "title": "Website's design development process",
+    "list": {
+      "1": {
+        "title": "Research",
+        "desc": "Analysis of competitors and your new trends and examples is the main component of our work."
+      },
+      "2": {
+        "title": "Prototype",
+        "desc": "User scenario development and prototyping are important steps in our workflow."
+      },
+      "3": {
+        "title": "Content",
+        "desc": "Placement of content, selection of media elements in the prototype are key aspects of your work."
+      },
+      "4": {
+        "title": "Development",
+        "desc": "Designing the visual design, detailing the layout and introducing animation effects on the website."
+      }
+    }
+  },
+  "weCreate": {
+    "title": "What sites do we develop?",
+    "list": {
+      "1": {
+        "title": "Internet-shop"
+      },
+      "2": {
+        "title": "Corporate site"
+      },
+      "3": {
+        "title": "Landing Page"
+      },
+      "4": {
+        "title": "Quiz site"
+      },
+      "5": {
+        "title": "Business card site"
+      },
+      "6": {
+        "title": "eCommerce project"
+      }
+    }
+  },
+  "workwithus": {
+    "title": "Work with a team of specialist problem solvers",
+    "list": {
+      "1": {
+        "desc": "We start with analysis and carefully imagine the big picture before development begins to ensure success."
+      },
+      "2": {
+        "desc": "Our professional designers are ready to help you - from the concept to the delivery of the product and beyond."
+      },
+      "3": {
+        "desc": "Making sure your product is built to matter is extremely important to us and our dedicated, skilled team."
+      }
+    }
+  },
+  "priceCardsShops": {
+    "title": "Internet-shop",
+    "desc": "We specialize in the development of unique online stores of any level of complexity, as well as typical sites of the low price segment. We are ready to offer the best solution depending on the scale, complexity, budget and terms of your project.",
+    "list": {
+      "1": {
+        "modal": {
+          "title": "Індивідуальна розробка",
+          "type": "Старт",
+          "desc": "************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************",
+          "grid": {
+            "1": {
+              "title": "Продуманий дизайн і інтерфейс",
+              "desc": "****************************************************************************************************************************************************************************************************************************************************************************************************************************************************"
+            },
+            "2": {
+              "title": "Швидке виконання роботи",
+              "desc": "****************************************************************************************************************************************************************************************************************************************************************************************************************************************************"
+            },
+            "3": {
+              "title": "Якісне та деталізоване пропрацювання",
+              "desc": "****************************************************************************************************************************************************************************************************************************************************************************************************************************************************"
+            }
+          }
+        },
+        "message": "Добрий день, цікавлюсь створенням інтернет - магазину за допомогою готових шаблонів, що від 300$",
+        "sizeType": "Start",
+        "title": "Ready-made solutions",
+        "desc": "Development of modern online stores based on 'Templates'",
+        "price": "from 300$",
+        "order": "Order now",
+        "details": "Details",
+        "checks": {
+          "1": "Why are ready solutions considered at the start of a business?",
+          "2": "What exactly are the features for good and easy development?",
+          "3": " How are ready-made solutions better than individual ones?"
+        }
+      },
+      "2": {
+        "modal": {
+          "title": "Individual development",
+          "type": "Small business",
+          "desc": "************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************",
+          "grid": {
+            "1": {
+              "title": "Продуманий дизайн і інтерфейс",
+              "desc": "****************************************************************************************************************************************************************************************************************************************************************************************************************************************************"
+            },
+            "2": {
+              "title": "Швидке виконання роботи",
+              "desc": "****************************************************************************************************************************************************************************************************************************************************************************************************************************************************"
+            },
+            "3": {
+              "title": "Якісне та деталізоване пропрацювання",
+              "desc": "****************************************************************************************************************************************************************************************************************************************************************************************************************************************************"
+            }
+          }
+        },
+        "message": "Добрий день, цікавлюсь створенням інтернет - магазину за допомогою індивідуальної розробки для малого бізнесу, що від 500$",
+        "sizeType": "Small business",
+        "title": "Individual development",
+        "desc": "Creating a uniquely designed online store for up to 1000 products.",
+        "price": "from 500$",
+        "order": "Order now",
+        "details": "Details",
+        "checks": {
+          "1": " What elements of site design make it attractive to customers?",
+          "2": "How to streamline search options for 1000 products effectively?",
+          "3": "Why are individual solutions better than ready-made solutions?"
+        }
+      },
+      "3": {
+        "modal": {
+          "title": "Індивідуальна розробка",
+          "type": "Бізнес",
+          "desc": "************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************",
+          "grid": {
+            "1": {
+              "title": "Продуманий дизайн і інтерфейс",
+              "desc": "****************************************************************************************************************************************************************************************************************************************************************************************************************************************************"
+            },
+            "2": {
+              "title": "Швидке виконання роботи",
+              "desc": "****************************************************************************************************************************************************************************************************************************************************************************************************************************************************"
+            },
+            "3": {
+              "title": "Якісне та деталізоване пропрацювання",
+              "desc": "****************************************************************************************************************************************************************************************************************************************************************************************************************************************************"
+            }
+          }
+        },
+        "message": "Добрий день, цікавлюсь створенням інтернет - магазину за допомогою індивідуальної розробки для бізнесу, що від 800$",
+        "sizeType": "Business",
+        "title": "Individual development",
+        "desc": "Сreating a unique design of an online store with more than 1,000 products.",
+        "price": "from 800$",
+        "order": "Order now",
+        "details": "Details",
+        "checks": {
+          "1": "What design details will interest buyers and attract attention?",
+          "2": " How to streamline search options more than 1000 products effectively?",
+          "3": "Why are individual solutions better than ready-made solutions?"
+        }
+      }
+    }
+  },
+  "priceCardsCorporate": {
+    "title": "Corporate site",
+    "desc": "Our team has high expertise in developing unique corporate websites at any level of complexity. We also specialize in creating standard projects in the low-budget segment.",
+    "list": {
+      "1": {
+        "modal": {
+          "title": "Індивідуальна розробка",
+          "type": "Старт",
+          "desc": "************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************",
+          "grid": {
+            "1": {
+              "title": "Продуманий дизайн і інтерфейс",
+              "desc": "****************************************************************************************************************************************************************************************************************************************************************************************************************************************************"
+            },
+            "2": {
+              "title": "Швидке виконання роботи",
+              "desc": "****************************************************************************************************************************************************************************************************************************************************************************************************************************************************"
+            },
+            "3": {
+              "title": "Якісне та деталізоване пропрацювання",
+              "desc": "****************************************************************************************************************************************************************************************************************************************************************************************************************************************************"
+            }
+          }
+        },
+        "message": "Добрий день, цікавлюсь створенням корпоративного сайту за допомогою шаблонів, що від 200$",
+        "sizeType": "Start",
+        "title": "Ready-made solutions",
+        "desc": "Development of modern static site based on 'Templates'",
+        "price": "from 300$",
+        "order": "Order now",
+        "details": "Details",
+        "checks": {
+          "1": "Why are ready solutions considered at the start of a business?",
+          "2": "What exactly are the features for good and easy development?",
+          "3": "  How are ready-made solutions better than individual ones?"
+        }
+      },
+      "2": {
+        "modal": {
+          "title": "Індивідуальна розробка",
+          "type": "Малий бізнес",
+          "desc": "************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************",
+          "grid": {
+            "1": {
+              "title": "Продуманий дизайн і інтерфейс",
+              "desc": "****************************************************************************************************************************************************************************************************************************************************************************************************************************************************"
+            },
+            "2": {
+              "title": "Швидке виконання роботи",
+              "desc": "****************************************************************************************************************************************************************************************************************************************************************************************************************************************************"
+            },
+            "3": {
+              "title": "Якісне та деталізоване пропрацювання",
+              "desc": "****************************************************************************************************************************************************************************************************************************************************************************************************************************************************"
+            }
+          }
+        },
+        "message": "Добрий день, цікавлюсь створенням корпоративного сайту за допомогою індивідуальної розробки для малих бізнесів, що від 400$",
+        "sizeType": "Small business",
+        "title": "Individual development",
+        "desc": "Development of a modern static site without a server and database.",
+        "price": "from 400$",
+        "order": "Order now",
+        "details": "Details",
+        "checks": {
+          "1": " Advantages of choosing a static site without server and database?",
+          "2": "Which technologies are used in static site development?",
+          "3": "  Advantages of a serverless static site compared to other types?"
+        }
+      },
+      "3": {
+        "modal": {
+          "title": "Індивідуальна розробка",
+          "type": "Бізнес",
+          "desc": "************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************",
+          "grid": {
+            "1": {
+              "title": "Продуманий дизайн і інтерфейс",
+              "desc": "****************************************************************************************************************************************************************************************************************************************************************************************************************************************************"
+            },
+            "2": {
+              "title": "Швидке виконання роботи",
+              "desc": "****************************************************************************************************************************************************************************************************************************************************************************************************************************************************"
+            },
+            "3": {
+              "title": "Якісне та деталізоване пропрацювання",
+              "desc": "****************************************************************************************************************************************************************************************************************************************************************************************************************************************************"
+            }
+          }
+        },
+        "message": "Добрий день, цікавлюсь створенням корпоративного сайту за допомогою індивідуальної розробки для бізнесів, що від 800$",
+        "sizeType": "Business",
+        "title": "Individual development",
+        "desc": "Development of a unique dynamic site with a server and database.",
+        "price": "from 800$",
+        "order": "Order now",
+        "details": "Details",
+        "checks": {
+          "1": " Why are dynamic sites with a server and a database ideal?",
+          "2": " What technologies are used to create dynamic sites?",
+          "3": "  What are the advantages of a dynamic site with a server compared to others?"
+        }
+      }
+    }
+  },
+  "priceCardsQuiz": {
+    "title": "Quiz site",
+    "desc": "Our expertise is in creating unique quiz sites of various levels of complexity, as well as in the development of typical low-budget websites. We are ready to provide optimal solutions, taking into account the scale, complexity, budget and terms of your project.",
+    "list": {
+      "1": {
+        "modal": {
+          "title": "Індивідуальна розробка",
+          "type": "Старт",
+          "desc": "************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************",
+          "grid": {
+            "1": {
+              "title": "Продуманий дизайн і інтерфейс",
+              "desc": "****************************************************************************************************************************************************************************************************************************************************************************************************************************************************"
+            },
+            "2": {
+              "title": "Швидке виконання роботи",
+              "desc": "****************************************************************************************************************************************************************************************************************************************************************************************************************************************************"
+            },
+            "3": {
+              "title": "Якісне та деталізоване пропрацювання",
+              "desc": "****************************************************************************************************************************************************************************************************************************************************************************************************************************************************"
+            }
+          }
+        },
+        "message": "Добрий день, цікавлюсь створенням корпоративного сайту за допомогою шаблонів, що від 200$",
+        "sizeType": "Start",
+        "title": "Ready-made solutions",
+        "desc": "Development of unique site - quizzes based on the 'Templates' database",
+        "price": "from 150$",
+        "order": "Order now",
+        "details": "Details",
+        "checks": {
+          "1": "Why are ready solutions considered at the start of a business?",
+          "2": "What exactly are the features for good and easy development?",
+          "3": "  How are ready-made solutions better than individual ones?"
+        }
+      },
+      "2": {
+        "modal": {
+          "title": "Індивідуальна розробка",
+          "type": "Малий бізнес",
+          "desc": "************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************",
+          "grid": {
+            "1": {
+              "title": "Продуманий дизайн і інтерфейс",
+              "desc": "****************************************************************************************************************************************************************************************************************************************************************************************************************************************************"
+            },
+            "2": {
+              "title": "Швидке виконання роботи",
+              "desc": "****************************************************************************************************************************************************************************************************************************************************************************************************************************************************"
+            },
+            "3": {
+              "title": "Якісне та деталізоване пропрацювання",
+              "desc": "****************************************************************************************************************************************************************************************************************************************************************************************************************************************************"
+            }
+          }
+        },
+        "message": "Добрий день, цікавлюсь створенням корпоративного сайту за допомогою індивідуальної розробки для малих бізнесів, що від 400$",
+        "sizeType": "Small business",
+        "title": "Individual development",
+        "desc": "Development of a modern static site without a server and database.",
+        "price": "from 300$",
+        "order": "Order now",
+        "details": "Details",
+        "checks": {
+          "1": " Advantages of choosing a static site without server and database?",
+          "2": "Which technologies are used in static site development?",
+          "3": "  Advantages of a serverless static site compared to other types?"
+        }
+      },
+      "3": {
+        "modal": {
+          "title": "Індивідуальна розробка",
+          "type": "Бізнес",
+          "desc": "************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************",
+          "grid": {
+            "1": {
+              "title": "Продуманий дизайн і інтерфейс",
+              "desc": "****************************************************************************************************************************************************************************************************************************************************************************************************************************************************"
+            },
+            "2": {
+              "title": "Швидке виконання роботи",
+              "desc": "****************************************************************************************************************************************************************************************************************************************************************************************************************************************************"
+            },
+            "3": {
+              "title": "Якісне та деталізоване пропрацювання",
+              "desc": "****************************************************************************************************************************************************************************************************************************************************************************************************************************************************"
+            }
+          }
+        },
+        "message": "Добрий день, цікавлюсь створенням корпоративного сайту за допомогою індивідуальної розробки для бізнесів, що від 800$",
+        "sizeType": "Business",
+        "title": "Individual development",
+        "desc": "Development of a unique dynamic site with a server and database.",
+        "price": "from 750$",
+        "order": "Order now",
+        "details": "Details",
+        "checks": {
+          "1": " Why are dynamic sites with a server and a database ideal?",
+          "2": " What technologies are used to create dynamic sites?",
+          "3": "  What are the advantages of a dynamic site with a server compared to others?"
+        }
+      }
+    }
+  },
+  "priceCardsBusinesCard": {
+    "title": "Business card site",
+    "desc": "Our team has high expertise in creating unique business card websites at any level of complexity. We also specialize in the development of standard projects in the low-budget segment.",
+    "list": {
+      "1": {
+        "modal": {
+          "title": "Індивідуальна розробка",
+          "type": "Старт",
+          "desc": "************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************",
+          "grid": {
+            "1": {
+              "title": "Продуманий дизайн і інтерфейс",
+              "desc": "****************************************************************************************************************************************************************************************************************************************************************************************************************************************************"
+            },
+            "2": {
+              "title": "Швидке виконання роботи",
+              "desc": "****************************************************************************************************************************************************************************************************************************************************************************************************************************************************"
+            },
+            "3": {
+              "title": "Якісне та деталізоване пропрацювання",
+              "desc": "****************************************************************************************************************************************************************************************************************************************************************************************************************************************************"
+            }
+          }
+        },
+        "message": "Добрий день, цікавлюсь створенням корпоративного сайту за допомогою шаблонів, що від 200$",
+        "sizeType": "Start",
+        "title": "Ready-made solutions",
+        "desc": "Development of interesting site business cards based on the 'Templates' database.",
+        "price": "from 150$",
+        "order": "Order now",
+        "details": "Details",
+        "checks": {
+          "1": "Why are ready solutions considered at the start of a business?",
+          "2": "What exactly are the features for good and easy development?",
+          "3": "  How are ready-made solutions better than individual ones?"
+        }
+      },
+      "2": {
+        "modal": {
+          "title": "Індивідуальна розробка",
+          "type": "Малий бізнес",
+          "desc": "************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************",
+          "grid": {
+            "1": {
+              "title": "Продуманий дизайн і інтерфейс",
+              "desc": "****************************************************************************************************************************************************************************************************************************************************************************************************************************************************"
+            },
+            "2": {
+              "title": "Швидке виконання роботи",
+              "desc": "****************************************************************************************************************************************************************************************************************************************************************************************************************************************************"
+            },
+            "3": {
+              "title": "Якісне та деталізоване пропрацювання",
+              "desc": "****************************************************************************************************************************************************************************************************************************************************************************************************************************************************"
+            }
+          }
+        },
+        "message": "Добрий день, цікавлюсь створенням корпоративного сайту за допомогою індивідуальної розробки для малих бізнесів, що від 400$",
+        "sizeType": "Small business",
+        "title": "Individual development",
+        "desc": "Development of a modern static site without a server and database.",
+        "price": "from 250$",
+        "order": "Order now",
+        "details": "Details",
+        "checks": {
+          "1": " Advantages of choosing a static site without server and database?",
+          "2": "Which technologies are used in static site development?",
+          "3": "  Advantages of a serverless static site compared to other types?"
+        }
+      },
+      "3": {
+        "modal": {
+          "title": "Індивідуальна розробка",
+          "type": "Бізнес",
+          "desc": "************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************",
+          "grid": {
+            "1": {
+              "title": "Продуманий дизайн і інтерфейс",
+              "desc": "****************************************************************************************************************************************************************************************************************************************************************************************************************************************************"
+            },
+            "2": {
+              "title": "Швидке виконання роботи",
+              "desc": "****************************************************************************************************************************************************************************************************************************************************************************************************************************************************"
+            },
+            "3": {
+              "title": "Якісне та деталізоване пропрацювання",
+              "desc": "****************************************************************************************************************************************************************************************************************************************************************************************************************************************************"
+            }
+          }
+        },
+        "message": "Добрий день, цікавлюсь створенням корпоративного сайту за допомогою індивідуальної розробки для бізнесів, що від 800$",
+        "sizeType": "Business",
+        "title": "Individual development",
+        "desc": "Development of a unique dynamic site with a server and database.",
+        "price": "from 600$",
+        "order": "Order now",
+        "details": "Details",
+        "checks": {
+          "1": " Why are dynamic sites with a server and a database ideal?",
+          "2": " What technologies are used to create dynamic sites?",
+          "3": "  What are the advantages of a dynamic site with a server compared to others?"
+        }
+      }
+    }
+  },
+  "priceCardsEcomerce": {
+    "title": "eCommerce project",
+    "desc": "We specialize in the development of unique eCommerce projects of any level of complexity, as well as typical sites of the low price segment. We are ready to offer the best solution depending on the complexity, budget and terms of your project.",
+    "list": {
+      "1": {
+        "modal": {
+          "title": "Індивідуальна розробка",
+          "type": "Старт",
+          "desc": "************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************",
+          "grid": {
+            "1": {
+              "title": "Продуманий дизайн і інтерфейс",
+              "desc": "****************************************************************************************************************************************************************************************************************************************************************************************************************************************************"
+            },
+            "2": {
+              "title": "Швидке виконання роботи",
+              "desc": "****************************************************************************************************************************************************************************************************************************************************************************************************************************************************"
+            },
+            "3": {
+              "title": "Якісне та деталізоване пропрацювання",
+              "desc": "****************************************************************************************************************************************************************************************************************************************************************************************************************************************************"
+            }
+          }
+        },
+        "message": "Добрий день, цікавлюсь створенням корпоративного сайту за допомогою шаблонів, що від 200$",
+        "sizeType": "Start",
+        "title": "Ready-made solutions",
+        "desc": "Development of unique eCommerce projects based on 'Templates'",
+        "price": "from 300$",
+        "order": "Order now",
+        "details": "Details",
+        "checks": {
+          "1": "Why are ready solutions considered at the start of a business?",
+          "2": "What exactly are the features for good and easy development?",
+          "3": "  How are ready-made solutions better than individual ones?"
+        }
+      },
+      "2": {
+        "modal": {
+          "title": "Індивідуальна розробка",
+          "type": "Малий бізнес",
+          "desc": "************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************",
+          "grid": {
+            "1": {
+              "title": "Продуманий дизайн і інтерфейс",
+              "desc": "****************************************************************************************************************************************************************************************************************************************************************************************************************************************************"
+            },
+            "2": {
+              "title": "Швидке виконання роботи",
+              "desc": "****************************************************************************************************************************************************************************************************************************************************************************************************************************************************"
+            },
+            "3": {
+              "title": "Якісне та деталізоване пропрацювання",
+              "desc": "****************************************************************************************************************************************************************************************************************************************************************************************************************************************************"
+            }
+          }
+        },
+        "message": "Добрий день, цікавлюсь створенням корпоративного сайту за допомогою індивідуальної розробки для малих бізнесів, що від 400$",
+        "sizeType": "Small business",
+        "title": "Individual development",
+        "desc": "Development of a modern static site without a server and database.",
+        "price": "from 500$",
+        "order": "Order now",
+        "details": "Details",
+        "checks": {
+          "1": " Advantages of choosing a static site without server and database?",
+          "2": "Which technologies are used in static site development?",
+          "3": "  Advantages of a serverless static site compared to other types?"
+        }
+      },
+      "3": {
+        "modal": {
+          "title": "Індивідуальна розробка",
+          "type": "Бізнес",
+          "desc": "************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************",
+          "grid": {
+            "1": {
+              "title": "Продуманий дизайн і інтерфейс",
+              "desc": "****************************************************************************************************************************************************************************************************************************************************************************************************************************************************"
+            },
+            "2": {
+              "title": "Швидке виконання роботи",
+              "desc": "****************************************************************************************************************************************************************************************************************************************************************************************************************************************************"
+            },
+            "3": {
+              "title": "Якісне та деталізоване пропрацювання",
+              "desc": "****************************************************************************************************************************************************************************************************************************************************************************************************************************************************"
+            }
+          }
+        },
+        "message": "Добрий день, цікавлюсь створенням корпоративного сайту за допомогою індивідуальної розробки для бізнесів, що від 800$",
+        "sizeType": "Business",
+        "title": "Individual development",
+        "desc": "Development of a unique dynamic site with a server and database.",
+        "price": "from 800$",
+        "order": "Order now",
+        "details": "Details",
+        "checks": {
+          "1": " Why are dynamic sites with a server and a database ideal?",
+          "2": " What technologies are used to create dynamic sites?",
+          "3": "  What are the advantages of a dynamic site with a server compared to others?"
+        }
+      }
+    }
+  },
+  "priceCardsLending": {
+    "title": "Landing Page",
+    "desc": "Our team has high expertise in creating unique Landing Pages at any level of complexity. We also specialize in the development of standard projects in the low-budget segment.",
+    "list": {
+      "1": {
+        "modal": {
+          "title": "Індивідуальна розробка",
+          "type": "Старт",
+          "desc": "************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************",
+          "grid": {
+            "1": {
+              "title": "Продуманий дизайн і інтерфейс",
+              "desc": "****************************************************************************************************************************************************************************************************************************************************************************************************************************************************"
+            },
+            "2": {
+              "title": "Швидке виконання роботи",
+              "desc": "****************************************************************************************************************************************************************************************************************************************************************************************************************************************************"
+            },
+            "3": {
+              "title": "Якісне та деталізоване пропрацювання",
+              "desc": "****************************************************************************************************************************************************************************************************************************************************************************************************************************************************"
+            }
+          }
+        },
+        "message": "Добрий день, цікавлюсь створенням корпоративного сайту за допомогою шаблонів, що від 200$",
+        "sizeType": "Start",
+        "title": "Ready-made solutions",
+        "desc": "Development of unique and modern Landing Pages based on 'Templates'",
+        "price": "from 100$",
+        "order": "Order now",
+        "details": "Details",
+        "checks": {
+          "1": "Why are ready solutions considered at the start of a business?",
+          "2": "What exactly are the features for good and easy development?",
+          "3": "  How are ready-made solutions better than individual ones?"
+        }
+      },
+      "2": {
+        "modal": {
+          "title": "Індивідуальна розробка",
+          "type": "Малий бізнес",
+          "desc": "************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************",
+          "grid": {
+            "1": {
+              "title": "Продуманий дизайн і інтерфейс",
+              "desc": "****************************************************************************************************************************************************************************************************************************************************************************************************************************************************"
+            },
+            "2": {
+              "title": "Швидке виконання роботи",
+              "desc": "****************************************************************************************************************************************************************************************************************************************************************************************************************************************************"
+            },
+            "3": {
+              "title": "Якісне та деталізоване пропрацювання",
+              "desc": "****************************************************************************************************************************************************************************************************************************************************************************************************************************************************"
+            }
+          }
+        },
+        "message": "Добрий день, цікавлюсь створенням корпоративного сайту за допомогою індивідуальної розробки для малих бізнесів, що від 400$",
+        "sizeType": "Small business",
+        "title": "Individual development",
+        "desc": "Development of a modern static site without a server and database.",
+        "price": "from 250$",
+        "order": "Order now",
+        "details": "Details",
+        "checks": {
+          "1": " Advantages of choosing a static site without server and database?",
+          "2": "Which technologies are used in static site development?",
+          "3": "  Advantages of a serverless static site compared to other types?"
+        }
+      },
+      "3": {
+        "modal": {
+          "title": "Індивідуальна розробка",
+          "type": "Бізнес",
+          "desc": "************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************",
+          "grid": {
+            "1": {
+              "title": "Продуманий дизайн і інтерфейс",
+              "desc": "****************************************************************************************************************************************************************************************************************************************************************************************************************************************************"
+            },
+            "2": {
+              "title": "Швидке виконання роботи",
+              "desc": "****************************************************************************************************************************************************************************************************************************************************************************************************************************************************"
+            },
+            "3": {
+              "title": "Якісне та деталізоване пропрацювання",
+              "desc": "****************************************************************************************************************************************************************************************************************************************************************************************************************************************************"
+            }
+          }
+        },
+        "message": "Добрий день, цікавлюсь створенням корпоративного сайту за допомогою індивідуальної розробки для бізнесів, що від 800$",
+        "sizeType": "Business",
+        "title": "Individual development",
+        "desc": "Development of a unique dynamic site with a server and database.",
+        "price": "from 300$",
+        "order": "Order now",
+        "details": "Details",
+        "checks": {
+          "1": " Why are dynamic sites with a server and a database ideal?",
+          "2": " What technologies are used to create dynamic sites?",
+          "3": "  What are the advantages of a dynamic site with a server compared to others?"
+        }
+      }
+    }
+  },
+  "offersStore": {
+    "title": "You will get",
+    "list": {
+      "1": {
+        "title": "Modern design",
+        "desc": "An online store isn't just about buying things; it's an immersive experience where customers encounter professionalism at every step of their interaction with the platform."
+      },
+      "2": {
+        "title": "Consideration of trends",
+        "desc": "Online stores are turning into modern innovative virtual ecosystems that go beyond the usual shopping pattern, establishing new standards and expanding functionality."
+      },
+      "3": {
+        "title": "Correct usability",
+        "desc": "The triumph of an online store isn't solely measured by its profitability for the owner; it heavily relies on simplicity and convenience for customers.Customer comfort comes first for success."
+      },
+      "4": {
+        "title": "Modern management system",
+        "desc": "The ability to co-manage your online store from any device, including you and your team, creates a convenient interface that allows you to control all aspects of the business."
+      },
+      "5": {
+        "title": "SEO optimization",
+        "desc": "Your success is our priority. With effective SEO and an individual strategy, we will ensure maximum visibility and promotion of your online store in a competitive environment."
+      },
+      "6": {
+        "title": "Mobile version",
+        "desc": "We work to make every stage of online shopping as pleasant and easy as possible for you. Our goal is to provide you with unparalleled convenience during online shopping."
+      }
+    }
+  },
+  "achieveResults": {
+    "title": "How is the result achieved? ",
+    "list": {
+      "1": {
+        "title": "Research",
+        "desc": "Effective analysis of the market and competitors is the key to success. We constantly study the market situation and actions of competitors in order to find new opportunities and increase competitiveness. "
+      },
+      "2": {
+        "title": "Design",
+        "desc": "We specialize in crafting unique designs for every online store, ensuring they align with the product theme, while creating attractive, practical interfaces that captivate customers and drive sales. "
+      },
+      "3": {
+        "title": "Development",
+        "desc": "Employing advanced technologies, we meticulously craft online stores to deliver the fastest and smoothest operation across all modern browsers, ensuring unparalleled reliability, comfort, and user satisfaction. "
+      },
+      "4": {
+        "title": "Testing",
+        "desc": "Before launching an online store, we carefully check every aspect to identify and correct potential errors, guaranteeing unsurpassed reliability and exceptional quality of website development."
+      }
+    }
+  },
+  "achieveResultsLand": {
+    "title": "What tasks does the Landing page solve?",
+    "list": {
+      "1": {
+        "title": "Quick start",
+        "desc": "Launching a landing page is not only a quick, but also a productive way to ensure an instant flow of applications and sales."
+      },
+      "2": {
+        "title": "Conversion",
+        "desc": "A landing page sells very well by focusing on a product or service. Effective insulation attracts attention."
+      },
+      "3": {
+        "title": "Increase in profit",
+        "desc": "A landing page is a way to clearly present new products or services, setting them apart from the main site."
+      }
+    }
+  },
+  "achieveResultsQuiz": {
+    "title": "How the result is achieved",
+    "list": {
+      "1": {
+        "title": "Research",
+        "desc": "Effective analysis of the market and competitors is the key to success. We constantly study the market situation and actions of competitors in order to find new opportunities and increase competitiveness."
+      },
+      "2": {
+        "title": "Design",
+        "desc": "We develop an innovative and unique design for each quiz site, focusing on the topic and creating an attractive, engaging, and highly functional interface for all types of users worldwide, ensuring satisfaction."
+      },
+      "3": {
+        "title": "Development",
+        "desc": "We use the latest standards for optimal performance, ensuring fast and correct work in all browsers for the site-quiz, providing a seamless, efficient, and highly reliable user experience for everyone, guaranteed."
+      },
+      "4": {
+        "title": "Testing",
+        "desc": "Before launching the site-quiz, we meticulously conduct experimental testing to identify and rectify any shortcomings, ensuring its smooth operation and optimal performance across all browsers, without compromise."
+      }
+    }
+  },
+  "achieveResultsBusinesCard": {
+    "title": "How the result is achieved",
+    "list": {
+      "1": {
+        "title": "Research",
+        "desc": "Effective analysis of the market and competitors is the key to success. We constantly study the market and competitors, seeking new opportunities."
+      },
+      "2": {
+        "title": "Design",
+        "desc": "We develop an innovative and unique design for each business card site, focusing on the theme and creating an attractive and functional interface."
+      },
+      "3": {
+        "title": "Development",
+        "desc": "We use modern advanced technologies for maximum performance, and we also ensure fast and smooth operation of the business card site in all browsers."
+      },
+      "4": {
+        "title": "Testing",
+        "desc": "Before launching the business card site, we conduct preliminary testing to identify and correct any flaws, guaranteeing its smooth operation."
+      }
+    }
+  },
+  "achieveResultsCorporate": {
+    "title": "How the result is achieved",
+    "list": {
+      "1": {
+        "title": "Research",
+        "desc": "Effective analysis of the market and competitors is the key to success. We constantly study the market and competitors, seeking new opportunities."
+      },
+      "2": {
+        "title": "Design",
+        "desc": "We create a unique design for each corporate site, and we also focus on the theme and development of an attractive and functional interface."
+      },
+      "3": {
+        "title": "Development",
+        "desc": "We use modern advanced technologies for maximum performance, and we also ensure fast and uninterrupted operation of the corporate site in all browsers."
+      },
+      "4": {
+        "title": "Testing",
+        "desc": "Before launching a corporate site, we conduct testing to identify and correct any flaws, guaranteeing its smooth operation."
+      }
+    }
+  },
+  "stagesLand": {
+    "title": "Stages of creating a Landing page",
+    "desc": "We use a number of proven methods, systematically built processes and algorithms in combination with innovative technologies to create a high-quality landing page that will please both you and users and effectively solve business tasks.",
+    "list": {
+      "1": "Analysis of competitors",
+      "2": "Defining audience goals",
+      "3": "Creating a prototype",
+      "4": "Writing sales texts",
+      "5": "Design development",
+      "6": "Programming and layout",
+      "7": "Site performance testing",
+      "8": "Project release",
+      "9": "Setting up and running ads"
+    }
+  },
+  "stagesQuiz": {
+    "title": "6 stages of quiz development",
+    "desc": "We use a number of proven methods, systematically built processes and algorithms in combination with innovative technologies to create a high-quality quiz that will appeal to both you and users and will effectively solve business tasks.",
+    "list": {
+      "1": "Development of a technical task",
+      "2": "Creating a prototype of questions for a quiz",
+      "3": "Creating a design for a website",
+      "4": "Setting up contextual advertising",
+      "5": "Development of site functionality",
+      "6": "Launching the final result of the site",
+      "7": "Optimization and further support"
+   
     }
   }
 }

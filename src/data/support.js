@@ -4,52 +4,52 @@ export const heroBanner = {
   bg: '/img/hero-banner-3.jpg',
 };
 export const supportTypes = {
-  title: 'Види технічної підтримки',
+  title: 'supportTypes.title',
   list: [
     {
-      title: 'Щомісячна підтримка',
-      desc: 'Якщо клієнтський проєкт має обмежений період активної потреби в підтримці, ми готові надати вам необхідну підтримку у перших місяцях. Це особливо важливо для ефективного виявлення та усунення можливих проблем. Наші експерти готові допомогти вам у цьому процесі.',
+      title: 'supportTypes.list.1.title',
+      desc: 'supportTypes.list.1.desc',
       image: '/img/support-1.png',
     },
     {
-      title: 'Річна підтримка',
-      desc: 'Здійснюється індивідуальний аналіз обсягу та переліку завдань для забезпечення стабільної щоденної підтримки протягом року для проєктів, для яких важливий безперебійний моніторинг та відсутність збоїв у роботі веб-сайтів з великим потоком відвідувачів забезпечуючи надійність.',
+      title: 'supportTypes.list.2.title',
+      desc: 'supportTypes.list.2.desc',
       image: '/img/support-2.png',
     },
     {
-      title: 'Оплата за годину роботи',
-      desc: 'Проєкти, які спрямовані щодо виконання чітко визначених завдань та регулярного оновлення системи, контенту та смислових блоків. Це  ідеально підходять для створення лендінгів та простих конструкторських сайтів, забезпечуючи стійку та ефективну роботу.',
+      title: 'supportTypes.list.3.title',
+      desc: 'supportTypes.list.3.desc',
       image: '/img/support-3.png',
     },
   ],
 };
 
 export const supportPackages = {
-  title: 'Типи робіт у рамках пакетів підтримки',
+  title: 'supportPackages.title',
   list: [
     {
-      title: 'Покращення бізнес-логіки',
-      desc: 'Зручність використання веб-сайту щодо забезпечення простоти та комфортності для користувачів.',
+      title: 'supportPackages.list.1.title',
+      desc: 'supportPackages.list.1.desc',
     },
     {
-      title: 'Редизайн',
-      desc: 'Оновлення стилю веб - сайту, відповідно до удосконалення графічного вмісту та розширення функцій.',
+      title: 'supportPackages.list.2.title',
+      desc: 'supportPackages.list.2.desc',
     },
     {
-      title: 'Верстка',
-      desc: 'Усунення помилок, оновлення адаптації щодо різних пристроїв, браузерів, зміна стилю та покращення функціоналу.',
+      title: 'supportPackages.list.3.title',
+      desc: 'supportPackages.list.3.desc',
     },
     {
-      title: 'Рефакторинг',
-      desc: 'Забезпечення ефективності роботи веб-  сайту через технічну оптимізацію коду та усунення потенційних помилок.',
+      title: 'supportPackages.list.4.title',
+      desc: 'supportPackages.list.4.desc',
     },
     {
-      title: 'Інтеграція',
-      desc: 'Ми створюємо інтеграції для веб-сайтів, включаючи платіжні системи, аналітику, CRM, соціальні мережі та ін.',
+      title: 'supportPackages.list.5.title',
+      desc: 'supportPackages.list.5.desc',
     },
     {
-      title: 'Створення нового',
-      desc: 'Налаштуємо ваш веб-сайт за вашими побажаннями. Ми готові долучити будь-які зміни для зручності користувачів.',
+      title: 'supportPackages.list.6.title',
+      desc: 'supportPackages.list.6.desc',
     },
   ],
 };
@@ -72,8 +72,8 @@ export const securityList = {
   ],
 };
 export const reviews = {
-  title: 'Почуйте це від наших клієнтів',
-  desc: 'Від початку до підтримки – ми завжди поруч, готові радити та допомагати.\nВаш успіх – наш пріоритет.',
+  title: 'reviews.title',
+  desc: 'reviews.desc',
   slides: [
     {
       title: 'Заголовок',

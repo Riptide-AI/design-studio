@@ -1,11 +1,14 @@
 import { ContentWrapper } from '@/components/ContentWrapper';
 import styles from './style.module.scss';
+import { useTranslation } from 'react-i18next';
 
 export const SupportTypes = ({ data, alt, cols = 3, startsWith = '00' }) => {
+  const {t}=useTranslation();
+  
   return (
     <ContentWrapper>
       <div className={styles.support_types}>
-        <div className={styles.support_types__title}>{data.title}</div>
+        <div className={styles.support_types__title}>{t(data.title)}</div>
         <div
           className={styles.support_types__list}
           style={{ gridTemplateColumns: `repeat(${cols}, 1fr)` }}
@@ -20,10 +23,10 @@ export const SupportTypes = ({ data, alt, cols = 3, startsWith = '00' }) => {
                 {i + 1}
               </div>
               <div className={`${styles.support_types__item__title} ${alt ? styles.alt : ''}`}>
-                {item.title}
+                {t(item.title)}
               </div>
               <div className={`${styles.support_types__item__desc} ${alt ? styles.alt : ''}`}>
-                {item.desc}
+                {t(item.desc)}
               </div>
             </div>
           ))}
