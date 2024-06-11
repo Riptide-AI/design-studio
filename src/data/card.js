@@ -4,25 +4,25 @@ export const heroBanner = {
   bg: '/img/hero-banner-10.jfif',
 };
 export const workwithus = {
-  title: 'Працюйте з командою спеціалістів, які вирішують проблеми',
+  title: 'workwithus.title',
   list: [
     {
-      desc: 'Ми розпочинаємо з аналізу та уважно уявляємо загальну картину перед розробкою.',
+      desc: 'workwithus.list.1.desc',
       icon: '/img/icons/workwithus-1.png',
     },
     {
-      desc: 'Наші професіональні дизайнери готові допомогти Вам – від концепції до доставки  продукту і далі.',
+      desc: 'workwithus.list.2.desc',
       icon: '/img/icons/workwithus-2.png',
     },
     {
-      desc: 'Для нас надзвичайно важливо переконатися, що Ваш продукт створений, щоб мати значення.',
+      desc: 'workwithus.list.3.desc',
       icon: '/img/icons/workwithus-3.png',
     },
   ],
 };
 export const reviews = {
-  title: 'Почуйте це від наших клієнтів',
-  desc: 'Від початку до підтримки – ми завжди поруч, готові радити та допомагати.\nВаш успіх – наш пріоритет.',
+  title: 'reviews.title',
+  desc: 'reviews.desc',
   slides: [
     {
       title: 'Заголовок',
@@ -52,179 +52,179 @@ export const reviews = {
 };
 
 export const offers = {
-  title: 'Ви отримаєте',
+  title: 'BusinesCardOffers.title',
   list: [
     {
-      title: '',
-      desc: 'Сайт-візитка – це віртуальна платформа, яка втілює сучасний та унікальний стиль, а також, звісно ж демонструє високий рівень професіоналізму представленої  компанії.',
+      title: 'BusinesCardOffers.list.1.title',
+      desc: 'BusinesCardOffers.list.1.desc',
       offerName: 'Design',
       link: '/services/design',
     },
     {
-      title: 'Врахування трендів',
-      desc: 'Розвиток сфери сайтів - візиток постійно розвивається, збільшуючи інтерактивність та привабливість, і наша компанія уважно стежить за цими тенденціями.',
+      title: 'BusinesCardOffers.list.2.title',
+      desc: 'BusinesCardOffers.list.2.desc',
       offerName: 'Trends',
       link: '',
     },
     {
-      title: 'Правильне юзабіліті',
-      desc: 'Справжній успіх сайту-візитки виявляється не лише щодо задоволення власника, а й у можливості створення сучасної та легкої  платформи для відвідувачів.',
+      title: 'BusinesCardOffers.list.3.title',
+      desc: 'BusinesCardOffers.list.3.desc',
       offerName: 'Usability',
       link: '',
     },
     {
-      title: 'Сучасна система упправління',
-      desc: 'Будь-який співробітник, включаючи Вас, зможе легко та ефективно адмініструвати проєкт без шалених зусиль, забезпечуючи якісну роботу ресурсу.',
+      title: 'BusinesCardOffers.list.4.title',
+      desc: 'BusinesCardOffers.list.4.desc',
       offerName: 'CMS',
       link: '',
     },
     {
-      title: 'SEO оптимізація',
-      desc: 'У світі де панує велика конкуренції, успіх  значно залежить від  SEO-оптимізації. Ми створюємо унікальні стратегії для кожного клієнтського веб-сайту.',
+      title: 'BusinesCardOffers.list.5.title',
+      desc: 'BusinesCardOffers.list.5.desc',
       offerName: 'SEO',
       link: '/services/seo',
     },
     {
-      title: 'Мобільна версія',
-      desc: 'Пам`ятайте, що половина аудиторії відвідує веб-сайти на смартфонах. Ми створюємо усі проєкти з акцентом на мобільність для оптимального комфорту використання.',
+      title: 'BusinesCardOffers.list.6.title',
+      desc: 'BusinesCardOffers.list.6.desc',
       offerName: 'Mobile',
       link: '',
     },
   ],
 };
+
 export const priceCards = {
-  title: 'Сайт-візитка',
-  desc: 'Наша команда має високу експертизу у створенні унікальних веб-сайтів-візиток на будь-якому рівні складності. Ми також спеціалізуємося на розробці стандартних проєктів у низькобюджетному сегменті.',
+  title: 'priceCardsBusinesCard.title',
+  desc: 'priceCardsBusinesCard.desc',
   checkIcon: '/img/icons/check-3.svg',
   list: [
     {
       modal: {
-        title: 'Індивідуальна розробка',
-        type: 'Старт',
-        desc: '************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************',
+        title: 'priceCardsBusinesCard.list.1.modal.title',
+        type: 'priceCardsBusinesCard.list.1.modal.type',
+        desc: 'priceCardsBusinesCard.list.1.modal.desc',
         grid: [
           {
-            title: 'Продуманий дизайн і інтерфейс',
-            desc: '****************************************************************************************************************************************************************************************************************************************************************************************************************************************************',
+            title: 'priceCardsBusinesCard.list.1.modal.grid.1.title',
+            desc: 'priceCardsBusinesCard.list.1.modal.grid.1.desc',
           },
           {
-            title: 'Швидке виконання роботи',
-            desc: '****************************************************************************************************************************************************************************************************************************************************************************************************************************************************',
+            title: 'priceCardsBusinesCard.list.1.modal.grid.2.title',
+            desc: 'priceCardsBusinesCard.list.1.modal.grid.2.desc',
           },
           {
-            title: 'Якісне та деталізоване пропрацювання',
-            desc: '****************************************************************************************************************************************************************************************************************************************************************************************************************************************************',
+            title: 'priceCardsBusinesCard.list.1.modal.grid.3.title',
+            desc: 'priceCardsBusinesCard.list.1.modal.grid.3.desc',
           },
         ],
         images: [{ src: '/img/plans/plan-1.png' }, { src: '/img/plans/plan-2.png' }],
       },
       color: '#FFEDAD',
-      message:
-        'Добрий день, цікавлюсь створенням сайту-візитки за допомогою готових рішень, що від 150$',
-      sizeType: 'Старт',
-      title: 'Готові рішення',
-      desc: 'Розробка сучасних сайт-візиток на основі бази «Шаблонів»',
-      price: 'від 150$',
-      order: 'Замовити одразу',
-      details: 'Деталі',
+
+      message: 'priceCardsBusinesCard.list.1.message',
+      sizeType: 'priceCardsBusinesCard.list.1.sizeType',
+      title: 'priceCardsBusinesCard.list.1.title',
+      desc: 'priceCardsBusinesCard.list.1.desc',
+      price: 'priceCardsBusinesCard.list.1.price',
+      order: 'priceCardsBusinesCard.list.1.order',
+      details: 'priceCardsBusinesCard.list.1.details',
       checks: [
-        { content: 'Чому готові рішення розглядаються на старті бізнесу?' },
-        { content: 'Які саме існують функції для хорошої та легкої розробки?' },
-        { content: 'Які існують переваги готових рішень проти індивідуальної розробки?' },
+        { content: 'priceCardsBusinesCard.list.1.checks.1' },
+        { content: 'priceCardsBusinesCard.list.1.checks.2' },
+        { content: 'priceCardsBusinesCard.list.1.checks.3' },
       ],
     },
     {
       modal: {
-        title: 'Індивідуальна розробка',
-        type: 'Малий бізнес',
-        desc: '************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************',
+        title: 'priceCardsBusinesCard.list.2.modal.title',
+        type: 'priceCardsBusinesCard.list.2.modal.type',
+        desc: 'priceCardsBusinesCard.list.2.modal.desc',
         grid: [
           {
-            title: 'Продуманий дизайн і інтерфейс',
-            desc: '****************************************************************************************************************************************************************************************************************************************************************************************************************************************************',
+            title: 'priceCardsBusinesCard.list.2.modal.grid.1.title',
+            desc: 'priceCardsBusinesCard.list.2.modal.grid.1.desc',
           },
           {
-            title: 'Швидке виконання роботи',
-            desc: '****************************************************************************************************************************************************************************************************************************************************************************************************************************************************',
+            title: 'priceCardsBusinesCard.list.2.modal.grid.2.title',
+            desc: 'priceCardsBusinesCard.list.2.modal.grid.2.desc',
           },
           {
-            title: 'Якісне та деталізоване пропрацювання',
-            desc: '****************************************************************************************************************************************************************************************************************************************************************************************************************************************************',
+            title: 'priceCardsBusinesCard.list.2.modal.grid.3.title',
+            desc: 'priceCardsBusinesCard.list.2.modal.grid.3.desc',
           },
         ],
         images: [{ src: '/img/plans/plan-1.png' }, { src: '/img/plans/plan-2.png' }],
       },
       color: '#F0F0F0',
-      message:
-        'Добрий день, цікавлюсь створенням сайту-візитки за допомогою індивідуальної розробки для малих бізнесів, що від 250$',
-      sizeType: 'Малий бізнес',
-      title: 'Індивідуальна розробка',
-      desc: 'Розробка сучасного статичного сайту без сервера та бази даних.',
-      price: 'від 250$',
-      order: 'Замовити одразу',
-      details: 'Деталі',
+
+      message: 'priceCardsBusinesCard.list.2.message',
+      sizeType: 'priceCardsBusinesCard.list.2.sizeType',
+      title: 'priceCardsBusinesCard.list.2.title',
+      desc: 'priceCardsBusinesCard.list.2.desc',
+      price: 'priceCardsBusinesCard.list.2.price',
+      order: 'priceCardsBusinesCard.list.2.order',
+      details: 'priceCardsBusinesCard.list.2.details',
       checks: [
-        { content: 'Чому обирають розробку статичного сайту без сервера та бази даних?' },
-        { content: 'Які технології використовуються при створенні статичних сайтів?' },
-        { content: 'Які переваги є у статичного сайту без сервера порівняно з іншими типами?' },
+        { content: 'priceCardsBusinesCard.list.2.checks.1' },
+        { content: 'priceCardsBusinesCard.list.2.checks.2' },
+        { content: 'priceCardsBusinesCard.list.2.checks.3' },
       ],
     },
     {
       modal: {
-        title: 'Індивідуальна розробка',
-        type: 'Бізнес',
-        desc: '************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************',
+        title: 'priceCardsBusinesCard.list.3.modal.title',
+        type: 'priceCardsBusinesCard.list.3.modal.type',
+        desc: 'priceCardsBusinesCard.list.3.modal.desc',
         grid: [
           {
-            title: 'Продуманий дизайн і інтерфейс',
-            desc: '****************************************************************************************************************************************************************************************************************************************************************************************************************************************************',
+            title: 'priceCardsBusinesCard.list.3.modal.grid.1.title',
+            desc: 'priceCardsBusinesCard.list.3.modal.grid.1.desc',
           },
           {
-            title: 'Швидке виконання роботи',
-            desc: '****************************************************************************************************************************************************************************************************************************************************************************************************************************************************',
+            title: 'priceCardsBusinesCard.list.3.modal.grid.2.title',
+            desc: 'priceCardsBusinesCard.list.3.modal.grid.2.desc',
           },
           {
-            title: 'Якісне та деталізоване пропрацювання',
-            desc: '****************************************************************************************************************************************************************************************************************************************************************************************************************************************************',
+            title: 'priceCardsBusinesCard.list.3.modal.grid.3.title',
+            desc: 'priceCardsBusinesCard.list.3.modal.grid.3.desc',
           },
         ],
         images: [{ src: '/img/plans/plan-1.png' }, { src: '/img/plans/plan-2.png' }],
       },
       color: '#FFA3A3',
-      message:
-        'Добрий день, цікавлюсь створенням сайту-візитки за допомогою індивідуальної розробки для бізнесів, що від 600$',
-      sizeType: 'Бізнес',
-      title: 'Індивідуальна розробка',
-      desc: 'Розробка унікального динамічного сайту з наявністю сервера та базою даних.',
-      price: 'від 600$',
-      order: 'Замовити одразу',
-      details: 'Деталі',
+      message: 'priceCardsBusinesCard.list.3.message',
+      sizeType: 'priceCardsBusinesCard.list.3.sizeType',
+      title: 'priceCardsBusinesCard.list.3.title',
+      desc: 'priceCardsBusinesCard.list.3.desc',
+      price: 'priceCardsBusinesCard.list.3.price',
+      order: 'priceCardsBusinesCard.list.3.order',
+      details: 'priceCardsBusinesCard.list.3.details',
       checks: [
-        { content: 'Чому  динамічні сайти зі сервером та базою даних - це ідеальний варіант?' },
-        { content: 'Які технології використовуються при створенні динамічних сайтів?' },
-        { content: 'Які переваги є у динамічного сайту зі сервером порівняно з іншими?' },
+        { content: 'priceCardsBusinesCard.list.3.checks.1' },
+        { content: 'priceCardsBusinesCard.list.3.checks.2' },
+        { content: 'priceCardsBusinesCard.list.3.checks.3' },
       ],
     },
   ],
 };
 export const achieveResults = {
-  title: 'Як досягається результат',
+  title: 'achieveResultsBusinesCard.title',
   list: [
     {
-      title: 'Дослідження',
-      desc: 'Ефективний аналіз ринку та конкурентів - ключ до успіху. Постійно вивчаємо ринкову ситуацію та дії конкурентів, щоб знаходити нові можливості та підвищувати конкурентоспроможність.',
+      title: 'achieveResultsBusinesCard.list.1.title',
+      desc: 'achieveResultsBusinesCard.list.1.desc',
     },
     {
-      title: 'Дизайн',
-      desc: 'Розробляємо інноваційний і унікальний дизайн для кожного сайту-візитки, зосереджуючись на тематиці та створюючи привабливий та функціональний інтерфейс.',
+      title: 'achieveResultsBusinesCard.list.2.title',
+      desc: 'achieveResultsBusinesCard.list.2.desc',
     },
     {
-      title: 'Розробка',
-      desc: 'Ми використовуємо сучасні передові технології для максимальної продуктивності, і також забезпечуємо швидку безперебійну роботу сайту-візитки  в усіх браузерах.',
+      title: 'achieveResultsBusinesCard.list.3.title',
+      desc: 'achieveResultsBusinesCard.list.3.desc',
     },
     {
-      title: 'Тестування',
-      desc: 'Перед запуском сайту-візитки ми дослідно проводимо тестування для того, щоб виявити та виправити будь-які недоліки, гарантуючи його безперебійну роботу.',
+      title: 'achieveResultsBusinesCard.list.4.title',
+      desc: 'achieveResultsBusinesCard.list.4.desc',
     },
   ],
 };

@@ -4,25 +4,25 @@ export const heroBanner = {
   bg: '/img/hero-banner-12.jfif',
 };
 export const workwithus = {
-  title: 'Працюйте з командою спеціалістів, які вирішують проблеми',
+  title: 'workwithus.title',
   list: [
     {
-      desc: 'Ми розпочинаємо з аналізу та уважно уявляємо загальну картину перед розробкою.',
+      desc: 'workwithus.list.1.desc',
       icon: '/img/icons/workwithus-1.png',
     },
     {
-      desc: 'Наші професіональні дизайнери готові допомогти Вам – від концепції до доставки  продукту і далі.',
+      desc: 'workwithus.list.2.desc',
       icon: '/img/icons/workwithus-2.png',
     },
     {
-      desc: 'Для нас надзвичайно важливо переконатися, що Ваш продукт створений, щоб мати значення.',
+      desc: 'workwithus.list.3.desc',
       icon: '/img/icons/workwithus-3.png',
     },
   ],
 };
 export const reviews = {
-  title: 'Почуйте це від наших клієнтів',
-  desc: 'Від початку до підтримки – ми завжди поруч, готові радити та допомагати.\nВаш успіх – наш пріоритет.',
+  title: 'reviews.title',
+  desc: 'reviews.desc',
   slides: [
     {
       title: 'Заголовок',
@@ -50,164 +50,200 @@ export const reviews = {
     },
   ],
 };
-
-export const offers = {
-  title: 'Ви отримаєте',
+/* export const offers = {
   list: [
     {
-      title: 'Сучасний дизайн',
-      desc: 'eCommerce проєкт презентк віртуальну платформу, яка втілює індивідуальний та сучасний стиль, показуючи високий рівень професіоналізму компанії.',
-      offerName: 'Design',
-      link: '/services/design',
+      title: 'Offers.list.1.title',
+      desc: 'Offers.list.1.desc',
+      offerName: 'WEB',
+      link: '/services/frontend',
     },
     {
-      title: 'Врахування трендів',
-      desc: 'Сфера eCommerce проєктів безперервно еволюціонує. Веб-сайти стають все більш взаємодійськими та захоплюючими, ми це враховуємо та використовуємо в роботі.',
-      offerName: 'Trends',
-      link: '',
-    },
-    {
-      title: 'Правильне юзабіліті',
-      desc: 'Успіх eCommerce проєкту - це НЕ лише задоволення власника, але й створення сучасної, інноваціної та легкої платформи для відвідувачів.',
-      offerName: 'Usability',
-      link: '',
-    },
-    {
-      title: 'Сучасна система упправління',
-      desc: 'Будь-який співробітник, включаючи Вас, зможе легко та ефективно адмініструвати проєкт без шалених зусиль, забезпечуючи якісну роботу ресурсу.',
-      offerName: 'CMS',
-      link: '',
-    },
-    {
-      title: 'SEO оптимізація',
-      desc: 'У світі де панує велика конкуренції, успіх  значно залежить від  SEO-оптимізації. Ми створюємо унікальні стратегії для кожного клієнтського веб-сайту.',
+      title: 'Offers.list.2.title',
+      desc: 'Offers.list.2.desc',
       offerName: 'SEO',
       link: '/services/seo',
     },
     {
-      title: 'Мобільна версія',
-      desc: 'Пам`ятайте, що половина аудиторії відвідує веб-сайти на смартфонах. Ми створюємо усі проєкти з акцентом на мобільність для оптимального комфорту використання.',
+      title: 'Offers.list.3.title',
+      desc: 'Offers.list.3.desc',
+      offerName: 'PPC',
+      link: '/services/ads',
+    },
+    {
+      title: 'Offers.list.4.title',
+      desc: 'Offers.list.4.desc',
+      offerName: 'BRANDING',
+      link: '/services/design',
+    },
+    {
+      title: 'Offers.list.5.title',
+      desc: 'Offers.list.5.desc',
+      offerName: 'SUPPORT',
+      link: '/services/support',
+    },
+    {
+      title: 'Offers.list.6.title',
+      desc: 'Offers.list.6.desc',
+      offerName: 'SMM',
+      link: '/services/smm',
+    },
+  ],
+}; */
+export const offers = {
+  title: 'ecomerceOffers.title',
+  list: [
+    {
+      title: 'ecomerceOffers.list.1.title',
+      desc: 'ecomerceOffers.list.1.desc',
+      offerName: 'Design',
+      link: '/services/design',
+    },
+    {
+      title: 'ecomerceOffers.list.2.title',
+      desc: 'ecomerceOffers.list.2.desc',
+      offerName: 'Trends',
+      link: '',
+    },
+    {
+      title: 'ecomerceOffers.list.3.title',
+      desc: 'ecomerceOffers.list.3.desc',
+      offerName: 'Usability',
+      link: '',
+    },
+    {
+      title: 'ecomerceOffers.list.4.title',
+      desc: 'ecomerceOffers.list.4.desc',
+      offerName: 'CMS',
+      link: '',
+    },
+    {
+      title: 'ecomerceOffers.list.5.title',
+      desc: 'ecomerceOffers.list.5.desc',
+      offerName: 'SEO',
+      link: '/services/seo',
+    },
+    {
+      title: 'ecomerceOffers.list.6.title',
+      desc: 'ecomerceOffers.list.6.desc',
       offerName: 'Mobile',
       link: '',
     },
   ],
 };
+
 export const priceCards = {
-  title: 'eCommerce проєкт',
-  desc: 'Спеціалізуємося на розробці унікальних eCommerce проєктів будь-якого рівня складності, а також типових сайтах низького цінового сегмента. Ми готові запропонувати краще рішення в залежності від складності, бюджету і термінів Вашого проєкту.',
+  title: 'priceCardsEcomerce.title',
+  desc: 'priceCardsEcomerce.desc',
   checkIcon: '/img/icons/check-3.svg',
   list: [
     {
       modal: {
-        title: 'Індивідуальна розробка',
-        type: 'Старт',
-        desc: '************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************',
+        title: 'priceCardsEcomerce.list.1.modal.title',
+        type: 'priceCardsEcomerce.list.1.modal.type',
+        desc: 'priceCardsEcomerce.list.1.modal.desc',
         grid: [
           {
-            title: 'Продуманий дизайн і інтерфейс',
-            desc: '****************************************************************************************************************************************************************************************************************************************************************************************************************************************************',
+            title: 'priceCardsEcomerce.list.1.modal.grid.1.title',
+            desc: 'priceCardsEcomerce.list.1.modal.grid.1.desc',
           },
           {
-            title: 'Швидке виконання роботи',
-            desc: '****************************************************************************************************************************************************************************************************************************************************************************************************************************************************',
+            title: 'priceCardsEcomerce.list.1.modal.grid.2.title',
+            desc: 'priceCardsEcomerce.list.1.modal.grid.2.desc',
           },
           {
-            title: 'Якісне та деталізоване пропрацювання',
-            desc: '****************************************************************************************************************************************************************************************************************************************************************************************************************************************************',
+            title: 'priceCardsEcomerce.list.1.modal.grid.3.title',
+            desc: 'priceCardsEcomerce.list.1.modal.grid.3.desc',
           },
         ],
         images: [{ src: '/img/plans/plan-1.png' }, { src: '/img/plans/plan-2.png' }],
       },
       color: '#9796ED',
-      message:
-        'Добрий день, цікавлюсь створенням eCommerce проєкту за допомогою шаблонів, що від 300$',
-      sizeType: 'Старт',
-      title: 'Готові рішення',
-      desc: 'Розробка унікальних eCommerce-проєктів на базі «Шаблонів»',
-      price: 'від 300$',
-      order: 'Замовити одразу',
-      details: 'Деталі',
+      message: 'priceCardsEcomerce.list.1.message',
+      sizeType: 'priceCardsEcomerce.list.1.sizeType',
+      title: 'priceCardsEcomerce.list.1.title',
+      desc: 'priceCardsEcomerce.list.1.desc',
+      price: 'priceCardsEcomerce.list.1.price',
+      order: 'priceCardsEcomerce.list.1.order',
+      details: 'priceCardsEcomerce.list.1.details',
       checks: [
-        { content: 'Чому готові рішення розглядаються на старті бізнесу?' },
-        { content: 'Які саме існують функції для хорошої та легкої розробки?' },
-        { content: 'Які існують переваги готових рішень проти індивідуальної розробки?' },
+        { content: 'priceCardsEcomerce.list.1.checks.1' },
+        { content: 'priceCardsEcomerce.list.1.checks.2' },
+        { content: 'priceCardsEcomerce.list.1.checks.3' },
       ],
     },
     {
       modal: {
-        title: 'Індивідуальна розробка',
-        type: 'Малий бізнес',
-        desc: '************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************',
+        title: 'priceCardsEcomerce.list.2.modal.title',
+        type: 'priceCardsEcomerce.list.2.modal.type',
+        desc: 'priceCardsEcomerce.list.2.modal.desc',
         grid: [
           {
-            title: 'Продуманий дизайн і інтерфейс',
-            desc: '****************************************************************************************************************************************************************************************************************************************************************************************************************************************************',
+            title: 'priceCardsEcomerce.list.2.modal.grid.1.title',
+            desc: 'priceCardsEcomerce.list.2.modal.grid.1.desc',
           },
           {
-            title: 'Швидке виконання роботи',
-            desc: '****************************************************************************************************************************************************************************************************************************************************************************************************************************************************',
+            title: 'priceCardsEcomerce.list.2.modal.grid.2.title',
+            desc: 'priceCardsEcomerce.list.2.modal.grid.2.desc',
           },
           {
-            title: 'Якісне та деталізоване пропрацювання',
-            desc: '****************************************************************************************************************************************************************************************************************************************************************************************************************************************************',
+            title: 'priceCardsEcomerce.list.2.modal.grid.3.title',
+            desc: 'priceCardsEcomerce.list.2.modal.grid.3.desc',
           },
         ],
         images: [{ src: '/img/plans/plan-1.png' }, { src: '/img/plans/plan-2.png' }],
       },
       color: '#F0F0F0',
-      message:
-        'Добрий день, цікавлюсь створенням eCommerce проєкту за допомогою індивідуальної розробки для малих бізнесів, що від 500$',
-      sizeType: 'Малий бізнес',
-      title: 'Індивідуальна розробка',
-      desc: 'Розробка сучасного статичного сайту без сервера та бази даних.',
-      price: 'від 500$',
-      order: 'Замовити одразу',
-      details: 'Деталі',
+      message: 'priceCardsEcomerce.list.2.message',
+      sizeType: 'priceCardsEcomerce.list.2.sizeType',
+      title: 'priceCardsEcomerce.list.2.title',
+      desc: 'priceCardsEcomerce.list.2.desc',
+      price: 'priceCardsEcomerce.list.2.price',
+      order: 'priceCardsEcomerce.list.2.order',
+      details: 'priceCardsEcomerce.list.2.details',
       checks: [
-        { content: 'Чому обирають розробку статичного сайту без сервера та бази даних?' },
-        { content: 'Які технології використовуються при створенні статичних сайтів?' },
-        { content: 'Які переваги є у статичного сайту без сервера порівняно з іншими типами?' },
+        { content: 'priceCardsEcomerce.list.2.checks.1' },
+        { content: 'priceCardsEcomerce.list.2.checks.2' },
+        { content: 'priceCardsEcomerce.list.2.checks.3' },
       ],
     },
     {
       modal: {
-        title: 'Індивідуальна розробка',
-        type: 'Бізнес',
-        desc: '************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************',
+        title: 'priceCardsEcomerce.list.3.modal.title',
+        type: 'priceCardsEcomerce.list.3.modal.type',
+        desc: 'priceCardsEcomerce.list.3.modal.desc',
         grid: [
           {
-            title: 'Продуманий дизайн і інтерфейс',
-            desc: '****************************************************************************************************************************************************************************************************************************************************************************************************************************************************',
+            title: 'priceCardsEcomerce.list.3.modal.grid.1.title',
+            desc: 'priceCardsEcomerce.list.3.modal.grid.1.desc',
           },
           {
-            title: 'Швидке виконання роботи',
-            desc: '****************************************************************************************************************************************************************************************************************************************************************************************************************************************************',
+            title: 'priceCardsEcomerce.list.3.modal.grid.2.title',
+            desc: 'priceCardsEcomerce.list.3.modal.grid.2.desc',
           },
           {
-            title: 'Якісне та деталізоване пропрацювання',
-            desc: '****************************************************************************************************************************************************************************************************************************************************************************************************************************************************',
+            title: 'priceCardsEcomerce.list.3.modal.grid.3.title',
+            desc: 'priceCardsEcomerce.list.3.modal.grid.3.desc',
           },
         ],
         images: [{ src: '/img/plans/plan-1.png' }, { src: '/img/plans/plan-2.png' }],
       },
       color: '#FFA3A3',
-      message:
-        'Добрий день, цікавлюсь створенням eCommerce проєкту за допомогою індивідуальної розробки для бізнесів, що від 800$',
-      sizeType: 'Бізнес',
-      title: 'Індивідуальна розробка',
-      desc: 'Розробка унікального динамічного сайту з наявністю сервера та базою даних.',
-      price: 'від 800$',
-      order: 'Замовити одразу',
-      details: 'Деталі',
+      message: 'priceCardsEcomerce.list.3.message',
+      sizeType: 'priceCardsEcomerce.list.3.sizeType',
+      title: 'priceCardsEcomerce.list.3.title',
+      desc: 'priceCardsEcomerce.list.3.desc',
+      price: 'priceCardsEcomerce.list.3.price',
+      order: 'priceCardsEcomerce.list.3.order',
+      details: 'priceCardsEcomerce.list.3.details',
       checks: [
-        { content: 'Чому  динамічні сайти зі сервером та базою даних - це ідеальний варіант?' },
-        { content: 'Які технології використовуються при створенні динамічних сайтів?' },
-        { content: 'Які переваги є у динамічного сайту зі сервером порівняно з іншими?' },
+        { content: 'priceCardsEcomerce.list.3.checks.1' },
+        { content: 'priceCardsEcomerce.list.3.checks.2' },
+        { content: 'priceCardsEcomerce.list.3.checks.3' },
       ],
     },
   ],
 };
-
 export const securityList = {
   title: 'Ми захищаємо вас від двох пасток',
   desc: 'Відповідно до дослідження McKinsey Oxford',

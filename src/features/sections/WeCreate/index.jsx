@@ -3,11 +3,13 @@ import { weCreate } from '@/data/frontend';
 import Link from 'next/link';
 import styles from './style.module.scss';
 import Image from 'next/image';
+import { useTranslation } from 'react-i18next';
 export const WeCreate = () => {
+  const { t } = useTranslation();
   return (
     <ContentWrapper>
       <div className={styles.we_create}>
-        <div className={styles.we_create__title}>{weCreate.title}</div>
+        <div className={styles.we_create__title}>{t(weCreate.title)}</div>
         <div className={styles.we_create__card_rows}>
           {weCreate.list.map((item, i) => (
             <Link href={item.link} key={`item-${i}`}>
@@ -25,7 +27,7 @@ export const WeCreate = () => {
                       />
                     ))}
                   </div>
-                  <span>{item.title} </span>
+                  <span>{t(item.title)} </span>
                 </div>
                 <button className={styles.card_btn}></button>
               </div>

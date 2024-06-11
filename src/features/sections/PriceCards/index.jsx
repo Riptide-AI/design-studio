@@ -6,8 +6,10 @@ import styles from './style.module.scss';
 import { DetailsModal } from '@/components/DetailsModal';
 import arrow from 'public/img/icons/arrow-circle.svg';
 import { useRef, useState } from 'react';
+import { useTranslation } from 'react-i18next';
 
 export const PriceCards = ({ data }) => {
+  const {t} = useTranslation();
   const cardsRef = useRef('');
   function scrollToNext() {
     if (cardsRef.current) {
@@ -43,8 +45,8 @@ export const PriceCards = ({ data }) => {
         />
       )}
       <div className={styles.price_cards}>
-        <div className={styles.price_cards__title}>{data.title}</div>
-        <div className={styles.price_cards__desc}>{data.desc}</div>
+        <div className={styles.price_cards__title}>{t(data.title)}</div>
+        <div className={styles.price_cards__desc}>{t(data.desc)}</div>
         <div ref={cardsRef} className={styles.price_cards__list}>
           {data.list.map((item, i) => (
             <div
@@ -52,16 +54,16 @@ export const PriceCards = ({ data }) => {
               key={`item-${i}`}
               style={{ backgroundColor: item.color }}
             >
-              <div className={styles.price_cards__item__size_type}>{item.sizeType}</div>
-              <div className={styles.price_cards__item__title}>{item.title}</div>
-              <div className={styles.price_cards__item__desc}>{item.desc}</div>
-              <div className={styles.price_cards__item__price}>{item.price}</div>
-              <Link href={{ pathname: '/contacts', query: { message: item.message } }}>
-                <CustomButton stylesClassName={styles.price_cards__item__btn} title={item.order} />
+              <div className={styles.price_cards__item__size_type}>{t(item.sizeType)}</div>
+              <div className={styles.price_cards__item__title}>{t(item.title)}</div>
+              <div className={styles.price_cards__item__desc}>{t(item.desc)}</div>
+              <div className={styles.price_cards__item__price}>{t(item.price)}</div>
+              <Link href={{ pathname: '/contacts', query: { message: t(item.message) } }}>
+                <CustomButton stylesClassName={styles.price_cards__item__btn} title={t(item.order)} />
               </Link>
               <CustomButton
                 stylesClassName={styles.price_cards__item__btn_alt}
-                title={item.details}
+                title={t(item.details)}
                 action={() => handleOpenModal(item.modal)}
               />
               <ul className={styles.price_cards__item__checks_list}>
@@ -69,7 +71,7 @@ export const PriceCards = ({ data }) => {
                   <li key={`check-${i}`} className={styles.price_cards__item__check_item}>
                     <Image src={data.checkIcon} width={30} height={30} alt="" />
                     <span className={styles.price_cards__item__check_item__text}>
-                      {check.content}
+                      {t(check.content)}
                     </span>
                   </li>
                 ))}

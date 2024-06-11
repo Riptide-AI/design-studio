@@ -83,8 +83,8 @@ export const securityList = {
   ],
 };
 export const reviews = {
-  title: 'Почуйте це від наших клієнтів',
-  desc: 'Від початку до підтримки – ми завжди поруч, готові радити та допомагати.\nВаш успіх – наш пріоритет.',
+  title: 'reviews.title',
+  desc: 'reviews.desc',
   slides: [
     {
       title: 'Заголовок',

@@ -4,17 +4,17 @@ export const heroBanner = {
 };
 
 export const weProvide = {
-  title: 'Які послуги ми пропонуємо',
+  title: 'weProvide.title',
   list: [
     {
-      title: 'Дизайн сайту',
-      desc: 'Розробляємо яскравий та вражаючий UІ дизайн. Приділяємо особливу увагу Mobile First. Тому, не зволікай співпрацювати з нами.',
+      title: 'weProvide.list.1.title',
+      desc: 'weProvide.list.1.desc',
       icons: ['/img/What_services_we_offer/iconoir_design-pencil.png'],
       styls: ['pencil'],
     },
     {
-      title: 'Розробка прототипу',
-      desc: 'Ми творимо високоякісний UX-дизайн, уважно аналізуємо взаємодію користувача з контентом для максимальної зручності.',
+      title: 'weProvide.list.2.title',
+      desc: 'weProvide.list.2.desc',
       icons: [
         '/img/What_services_we_offer/clipboard_claer.png',
         '/img/What_services_we_offer/clipboard_top.png',
@@ -22,8 +22,8 @@ export const weProvide = {
       styls: ['clipboard_claer', 'clipboard_top'],
     },
     {
-      title: 'Фірмовий стиль',
-      desc: 'Ми розробляємо унікальний корпоративний стиль, охоплюючи лого, фірмові кольори, шрифти та інші ключові елементи.',
+      title: 'weProvide.list.3.title',
+      desc: 'weProvide.list.3.desc',
       icons: [
         '/img/What_services_we_offer/check.png',
         '/img/What_services_we_offer/check_arow.png',
@@ -34,24 +34,24 @@ export const weProvide = {
   ],
 };
 export const supportTypes = {
-  title: 'Процес розробки дизайну сайту',
+  title: 'supportTypesDesign.title',
   image: '/img/development-stage-1.jfif',
   list: [
     {
-      title: 'Дослідження',
-      desc: 'Аналіз конкурентів та ваших нових тенденцій і прикладів — основна складова нашої роботи.',
+      title: 'supportTypesDesign.list.1.title',
+      desc: 'supportTypesDesign.list.1.desc',
     },
     {
-      title: 'Прототип',
-      desc: 'Розробка сценаріїв користувача та створення прототипів — важливі етапи нашого процесу роботи.',
+      title: 'supportTypesDesign.list.2.title',
+      desc: 'supportTypesDesign.list.2.desc',
     },
     {
-      title: 'Контент',
-      desc: 'Розміщення контенту, вибір медіа-елементів в прототип — ключові аспекти нашої роботи.',
+      title: 'supportTypesDesign.list.3.title',
+      desc: 'supportTypesDesign.list.3.desc',
     },
     {
-      title: 'Оформлення',
-      desc: 'Розробка візуального оформлення, деталізація макету та введення анімаційних ефектів на веб-сайті.',
+      title: 'supportTypesDesign.list.4.title',
+      desc: 'supportTypesDesign.list.4.desc',
     },
   ],
 };
@@ -104,8 +104,8 @@ export const securityList = {
   ],
 };
 export const reviews = {
-  title: 'Почуйте це від наших клієнтів',
-  desc: 'Від початку до підтримки – ми завжди поруч, готові радити та допомагати.\nВаш успіх – наш пріоритет.',
+  title: 'reviews.title',
+  desc: 'reviews.desc',
   slides: [
     {
       title: 'Заголовок',

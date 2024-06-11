@@ -20,7 +20,7 @@ export const offers = {
     },
     {
       title: 'Offers.list.4.title',
-      desc: "Offers.list.4.desc",
+      desc: 'Offers.list.4.desc',
       offerName: 'BRANDING',
       link: '/services/design',
     },
@@ -101,8 +101,8 @@ export const heroBanner = {
 };
 
 export const reviews = {
-  title: 'Почуйте це від наших клієнтів',
-  desc: 'Від початку до підтримки – ми завжди поруч, готові радити та допомагати.\nВаш успіх – наш пріоритет.',
+  title: 'reviews.title',
+  desc: 'reviews.desc',
   slides: [
     {
       title: 'Заголовок',

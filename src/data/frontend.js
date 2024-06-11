@@ -4,10 +4,10 @@ export const heroBanner = {
   bg: '/img/hero-banner-2.jpg',
 };
 export const weCreate = {
-  title: 'Які сайти ми розробляємо',
+  title: 'weCreate.title',
   list: [
     {
-      title: 'Інтернет-магазин',
+      title: 'weCreate.list.1.title',
       icons: [
         '/img/What_sites_we_develop/shop_bottom.png',
         '/img/What_sites_we_develop/shop_top.png',
@@ -16,7 +16,7 @@ export const weCreate = {
       styles: ['shop_bottom', 'shop_top'],
     },
     {
-      title: 'Корпоративний сайт',
+      title: 'weCreate.list.2.title',
       icons: [
         '/img/What_sites_we_develop/corporate_top.png',
         '/img/What_sites_we_develop/corporate_lock.png',
@@ -26,7 +26,7 @@ export const weCreate = {
       styles: ['corporate_top', 'corporate_lock', 'corporate_bottom'],
     },
     {
-      title: 'Landing Page',
+      title: 'weCreate.list.3.title',
       icons: [
         '/img/What_sites_we_develop/lending_top.png',
         '/img/What_sites_we_develop/lending_text.png',
@@ -36,13 +36,13 @@ export const weCreate = {
       styles: ['lending_top', 'lending_text', 'lending_back'],
     },
     {
-      title: 'Сайт-квіз',
+      title: 'weCreate.list.4.title',
       icons: ['/img/What_sites_we_develop/quiz.png'],
       link: '/services/quiz',
       styles: ['quiz'],
     },
     {
-      title: 'Сайт-візитка',
+      title: 'weCreate.list.5.title',
       icons: [
         '/img/What_sites_we_develop/business_card_without_person.png',
         '/img/What_sites_we_develop/business_card_peron.png',
@@ -51,7 +51,7 @@ export const weCreate = {
       styles: ['business_card_without_person', 'business_card_peron'],
     },
     {
-      title: 'eCommerce проєкт',
+      title: 'weCreate.list.6.title',
       icons: [
         '/img/What_sites_we_develop/e_comerc_front.png',
         '/img/What_sites_we_develop/e_comerc_back.png',
