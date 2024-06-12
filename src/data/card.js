@@ -1,5 +1,5 @@
 export const heroBanner = {
-  title: 'Створення сайту візитки',
+  title: 'heroBannerCard.title',
   desc: '',
   bg: '/img/hero-banner-10.jfif',
 };

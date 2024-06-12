@@ -1,5 +1,5 @@
 export const heroBanner = {
-  title: 'SMM - просування',
+  title: 'heroBannerSmm.title',
   bg: '/img/hero-banner-6.jfif',
 };
 export const socialSMM = {

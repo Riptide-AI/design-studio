@@ -2,7 +2,7 @@ import { ContentWrapper } from '@/components/ContentWrapper';
 import styles from './style.module.scss';
 import { useTranslation } from 'react-i18next';
 
-export const SupportTypes = ({ data, alt, cols = 3, startsWith = '00' }) => {
+export const SupportTypes = ({ data, alt, cols = 3, startsWith = '00', landing=false }) => {
   const {t}=useTranslation();
   
   return (
@@ -15,10 +15,10 @@ export const SupportTypes = ({ data, alt, cols = 3, startsWith = '00' }) => {
         >
           {data.list.map((item, i) => (
             <div
-              className={`${styles.support_types__item}  ${alt ? styles.alt : ''}`}
+              className={`${styles.support_types__item}  ${alt ? styles.alt : ''} ${landing ? styles.landing : ''}`}
               key={`item-${i}`}
             >
-              <div className={`${styles.support_types__item__order} ${alt ? styles.alt : ''} `}>
+              <div className={`${styles.support_types__item__order} ${alt ? styles.alt : ''} ${landing ? styles.landing : ''}`}>
                 {startsWith}
                 {i + 1}
               </div>

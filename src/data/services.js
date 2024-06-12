@@ -95,8 +95,8 @@ export const technologies = {
   ],
 };
 export const heroBanner = {
-  title: 'Послуги',
-  desc: 'Ми не просто створюємо сайти, ми надаємо повний комплекс маркетингових послуг',
+  title: 'heroBannerServices.title',
+  desc: 'heroBannerServices.desc',
   bg: '/img/hero-banner-1.jpg',
 };
 
