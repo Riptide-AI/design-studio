@@ -14,13 +14,14 @@ import { PriceCards } from '@/features/sections/PriceCards';
 import { SupportTypes } from '@/features/sections/SupportTypes';
 import { DevelopmentStages } from '@/features/sections/DevelopmentStages';
 
+
 export default function Landing() {
   return (
     <>
       <HeroBannerLight data={heroBanner} />
       <WorkWithUs data={workwithus} />
       <PriceCards data={priceCards} />
-      <SupportTypes data={achieveResults} />
+      <SupportTypes data={achieveResults} startsWith={'0'} landing={true} />
       <DevelopmentStages data={stages} length={9} />
       <Reviews data={reviews} />
       <ContactUs />

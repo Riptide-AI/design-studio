@@ -144,7 +144,7 @@ export const howitworks = [
   {
     title: 'How_we_work.cards.5.btn',
     desc: 'How_we_work.cards.5.desc',
-    wrench: '/img/How_we_work/wrench.png',
+    wrench: '/img/How_we_work/wrench2.png',
   },
 ];
 

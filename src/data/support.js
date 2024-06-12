@@ -1,6 +1,6 @@
 export const heroBanner = {
-  title: 'Підтримка сайтів',
-  desc: 'Стабільна робота сайту - це продажі, дзвінки і замовлення з інтернет ресурсу, і як наслідок, зріст вашого прибутку',
+  title: 'heroBannerSupport.title',
+  desc: 'heroBannerSupport.desc',
   bg: '/img/hero-banner-3.jpg',
 };
 export const supportTypes = {

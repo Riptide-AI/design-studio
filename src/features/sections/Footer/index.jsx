@@ -6,10 +6,12 @@ import Image from 'next/image';
 import { footer } from '@/data/footer';
 import Link from 'next/link';
 import FoterSocials from '@/components/FooterSocials';
+import { useTranslation } from 'react-i18next';
 
 
 
 export const Footer = () => {
+  const {t}=useTranslation();
   const [isMobile, setIsMobile] = useState(false);
 
   useEffect(() => {
@@ -39,7 +41,7 @@ export const Footer = () => {
                   quality="100"
                 />
               </div>
-              <p className={styles.footer__desc}>{footer.desc}</p>
+              <p className={styles.footer__desc}>{t(footer.desc)}</p>
               <a href={`mailto:${footer.email}`} className={styles.footer__contacts}>
                 {footer.email}
               </a>
@@ -54,18 +56,18 @@ export const Footer = () => {
                 <ul className={styles.footer__links}>
                   {footer.links.map((item) => (
                     <li className={styles['footer__link-item']} key={item.title}>
-                      <Link href={item.link}>{item.title}</Link>
+                      <Link href={item.link}>{t(item.title)}</Link>
                     </li>
                   ))}
                 </ul>
                 <ul className={styles.footer__subLinks}>
                   {footer.subLinks.map((group) => (
                     <li key={group.title}>
-                      <div className={styles['footer__link-item']}>{group.title}</div>
+                      <div className={styles['footer__link-item']}>{t(group.title)}</div>
                       <ul className={styles.footer__links}>
                         {group.list.map((subLink) => (
                           <li className={styles['footer__subLink-item']} key={subLink.title}>
-                            <Link href={subLink.link}>{subLink.title}</Link>
+                            <Link href={subLink.link}>{t(subLink.title)}</Link>
                           </li>
                         ))}
                       </ul>
@@ -76,7 +78,7 @@ export const Footer = () => {
             )}
           </div>
           <FoterSocials opacityCount ={1}/>
-          <div className={styles.footer__rights}>{footer.rights}</div>
+          <div className={styles.footer__rights}>{t(footer.rights)}</div>
         </div>
       </ContentWrapper>
     </div>

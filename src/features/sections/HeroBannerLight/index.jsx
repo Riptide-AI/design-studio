@@ -1,8 +1,10 @@
 import { ContentWrapper } from '@/components/ContentWrapper';
 import styles from './style.module.scss';
-import { t } from 'i18next';
+
+import { useTranslation } from 'react-i18next';
 
 export const HeroBannerLight = ({ data }) => {
+  const { t } = useTranslation();
   return (
     <section
       className={styles.wrapper}

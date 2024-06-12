@@ -1,5 +1,5 @@
 export const heroBanner = {
-  title: 'Створення сайту - квізу',
+  title: 'heroBannerQuiz.title',
   desc: '',
   bg: '/img/hero-banner-4.jpg',
 };

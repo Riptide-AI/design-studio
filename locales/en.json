@@ -1427,7 +1427,406 @@
       "5": "Development of site functionality",
       "6": "Launching the final result of the site",
       "7": "Optimization and further support"
-   
+    }
+  },
+  "heroBannerSeo": {
+    "title": "Promotion of sites in Lviv",
+    "desc": "SEO promotion of sites is a set of measures aimed at increasing the position of your site in the search results of users."
+  },
+  "heroBannerFront": {
+    "title": "Turnkey website development in Lviv",
+    "desc": "The cost and terms of creating a website for your business."
+  },
+  "approachSeo": {
+    "title": "Our approach",
+    "list": {
+      "1": {
+        "title": "We study the market",
+        "desc": "We set project objectives. We analyze niches and rivals' websites. We plan site development and advertising."
+      },
+      "2": {
+        "title": "Website analysis",
+        "desc": "In-depth analysis of technical, content and site link aspects. Correcting errors, crafting SEO texts, and optimizing."
+      },
+      "3": {
+        "title": "Work for the result",
+        "desc": "We ensure traffic and conversion growth by providing detailed monthly reports on SEO performance metrics."
+      }
+    }
+  },
+  "solutionsSeo": {
+    "title": "What tasks does SEO of site promotion solve?",
+    "btn": "Вирішити мою задачу",
+    "list": {
+      "1": "Increasing brand awareness strategies.",
+      "2": "Comprehensive promotion of a new project",
+      "3": "Attracting new potential customers",
+      "4": "Increase sales and conversions of your business"
+    }
+  },
+  "pricelistSeo": {
+    "title": "The cost of promoting the site",
+    "desc": "We have compiled 4 optimal rates for SEO promotion services. For effective work, you can change the set of services individually for each project.",
+    "orderBtn": "Order",
+    "list": {
+      "1": {
+        "title": "Plan A",
+        "subTitle": "ПPromotion of a young site",
+        "desc": "The age of the site directly affects its position in search results. It is very difficult for a young site (from 1 to 8 months) to occupy places on the first page of the issue of profile requests. This is especially true for competitive niches. The package includes standard services provided as part of SEO promotion of the site.",
+        "planType": "Start",
+        "due": "Term from 8 months",
+        "price": "from 500$",
+        "message": "Добрий день, пишу до Вас із зацікавленістю щодо замовлення послуги 'Plan A - Просування молодого сайту' за 500$ "
+      },
+      "2": {
+        "title": "Plan B",
+        "subTitle": "Competitiveness of the niche: Low",
+        "desc": "1.Correcting critical errors on the site is crucial. 2.Promotion of low-frequency requests is essential. 3.Working with up to 5 pages per month is recommended. 4.Writing SEO texts effectively boosts visibility. 5.Placing links on trusted sites is paramount for small business card websites.",
+        "planType": "Economy",
+        "due": "Term from 3 months",
+        "price": "from 600$",
+        "message": "Добрий день, пишу до Вас із зацікавленістю щодо замовлення послуги 'Plan B' за 600$ "
+      },
+      "3": {
+        "title": "Plan C",
+        "subTitle": "Competitiveness of the niche: Moderate",
+        "desc": "The package includes standard services provided as part of SEO promotion. As a result of the work performed, you will receive an increase in targeted organic traffic from search engines for selected groups of queries. For whom: corporate sites, service sites, various online stores, product catalogs.",
+        "planType": "Малий бізнес",
+        "due": "Term from 4 months",
+        "price": "from 800$",
+        "message": "Добрий день, пишу до Вас із зацікавленістю щодо замовлення послуги 'Plan C' за 800$"
+      },
+      "4": {
+        "title": "Plan D",
+        "subTitle": "Competitiveness of the niche: High",
+        "desc": "Exclusive work on your project. We do not limit ourselves to any limits. To receive an individual offer, leave a request, we will conduct a free audit of the site and determine the list of works that you need. Who it's for: Suitable for any resource that aims to be the most effective sales tool.",
+        "planType": "Business",
+        "due": "Term from 8 months",
+        "price": "from 950$",
+        "message": "Добрий день, пишу до Вас із зацікавленістю щодо замовлення послуги 'Plan D' за 950$"
+      }
+    }
+  },
+  "factorsSeo": {
+    "title": "The main factors that affect the final cost of works.",
+    "list": {
+      "1": {
+        "title": "Competition in a similar topic",
+        "desc": "When choosing the most optimal strategies and budgets for SEO promotion of the site, it is also important to take into account the competitive situation in your industry. Analysis of the TOP-10 in search engines such as Yandex or Google entails examining not only competitors but also aggregators, directories, and informational resources."
+      },
+      "2": {
+        "title": "Regionality",
+        "desc": "When developing a strategy for your online project, consider that the level of competition in search engines can significantly affect success, potentially requiring a larger budget, especially compared to other Ukrainian cities. Regional variances often necessitate careful financial adaptations for optimal growth strategies to succeed."
+      },
+      "3": {
+        "title": "Technical optimization and CMS",
+        "desc": "Our SEO specialists proficiently handle technical optimization for websites utilizing popular CMS systems like WordPress, 1C-Bitrix, Opencart, MODx, Drupal, Magento, PrestaShop, or Joomla, eliminating the need for additional programmer assistance. Also, they ensure seamless optimization across various CMS platforms."
+      },
+      "4": {
+        "title": "Number of links and age",
+        "desc": "Effective external links make promotion budget-friendly. New projects need to work on their own strategy to enter the TOP-10 of Google, where the influence of external links plays a significant role. Of course, young projects will need to develop an additional strategy to get into the TOP 10 of Google, which is especially sensitive to external links."
+      },
+      "5": {
+        "title": "Number of requests in progress",
+        "desc": "Every 5-10 search requests form a new landing page strategy, on each of which it is necessary to place content, get links, and optimize Title | Description meta-bodies (minimum work front) to ensure maximum visibility, engagement, and organic traffic growth, thereby enhancing overall website performance, relevance, and authority."
+      }
+    }
+  },
+  "factorsAds": {
+    "title": "What is included in ad settings?",
+    "desc": "Setting up contextual advertising takes 3-5 working days. The speed of launching an advertising company depends on the number of ads and the terms of their moderation.",
+    "list": {
+      "1": {
+        "title": "Competition in a similar topic",
+        "desc": "When choosing the most optimal strategies and budgets for SEO promotion of the site, it is also important to take into account the competitive situation in your industry. Analysis of the TOP-10 in search engines such as Yandex or Google entails examining not only competitors but also aggregators, directories, and informational resources."
+      },
+      "2": {
+        "title": "Regionality",
+        "desc": "When developing a strategy for your online project, consider that the level of competition in search engines can significantly affect success, potentially requiring a larger budget, especially compared to other Ukrainian cities. Regional variances often necessitate careful financial adaptations for optimal growth strategies to succeed."
+      },
+      "3": {
+        "title": "Technical optimization and CMS",
+        "desc": "Our SEO specialists proficiently handle technical optimization for websites utilizing popular CMS systems like WordPress, 1C-Bitrix, Opencart, MODx, Drupal, Magento, PrestaShop, or Joomla, eliminating the need for additional programmer assistance. Also, they ensure seamless optimization across various CMS platforms."
+      },
+      "4": {
+        "title": "Number of links and age",
+        "desc": "Effective external links make promotion budget-friendly. New projects need to work on their own strategy to enter the TOP-10 of Google, where the influence of external links plays a significant role. Of course, young projects will need to develop an additional strategy to get into the TOP 10 of Google, which is especially sensitive to external links."
+      },
+      "5": {
+        "title": "Number of requests in progress",
+        "desc": "Every 5-10 search requests form a new landing page strategy, on each of which it is necessary to place content, get links, and optimize Title | Description meta-bodies (minimum work front) to ensure maximum visibility, engagement, and organic traffic growth, thereby enhancing overall website performance, relevance, and authority."
+      }
+    }
+  },
+  "checksAds": {
+    "title": "Why does your business need contextual advertising?",
+    "list": {
+      "1": {
+        "title": "Economic efficiency",
+        "desc": "Unlike other communication channels, contextual advertising has a significantly higher economic effect. Payment is made only for actual clicks on ads, not for mere banner displays on the websites."
+      },
+      "2": {
+        "title": "Increase in sales",
+        "desc": "E-commerce sites get the opportunity to attract the attention of potential customers to the selected products, which ultimately leads to substantial growth in their overall sales volume."
+      },
+      "3": {
+        "title": "Increasing brand recognition",
+        "desc": "The use of advertising campaigns creates an opportunity to effectively inform a wide range of Internet users about your business, engage with them, captivate their attention, and attract their interest."
+      },
+      "4": {
+        "title": "Attracting customers in the service sector",
+        "desc": "Contextually responsive advertising helps identify online audiences interested in your products or services, tailor messaging to their preferences, and bring them to your website."
+      },
+      "5": {
+        "title": "Involvement of participants in events",
+        "desc": "Thanks to the quick launch of contextual advertising and high accuracy of settings, you can effectively use this tool to inform people about upcoming events, maximize outreach, and boost attendance rates."
+      },
+      "6": {
+        "title": "Interaction with the target audience",
+        "desc": "Display ads effectively reach your target audience using keywords and phrases, ensuring content is accurate, relevant, and timely to interested users, thereby enhancing engagement and conversion rates."
+      }
+    }
+  },
+  "ppcAds": {
+    "title": "Stages of work",
+    "list": {
+      "1": {
+        "title": "Technical preparation for work",
+        "desc": "Our company specializes in developing individual strategies for online business promotion. We provide a full range of services, starting with the technical analysis of the site to ensure its optimal functionality and efficiency. We also set up web analytics to ensure the collection and analysis of important traffic and user behavior data."
+      },
+      "2": {
+        "title": "Advertising settings",
+        "desc": "We provide a full range of services for setting up advertising campaigns for your business. This involves establishing various marketing initiatives such as search engine campaigns, banner advertisements across media platforms, YouTube video promotions, GSP, Facebook/Instagram ad campaigns, Google Shopping campaigns and of course targeted remarketing efforts."
+      },
+      "3": {
+        "title": "Daily monitoring",
+        "desc": "We provide full monitoring of advertising campaigns, including control of the use of daytime LCD, adjustment of the method of displaying ads (standard / accelerated), and the exception of irrelevant requests. We also exclude ineffective sites and YouTube channels, monitor performance indicators, and track user behavior on your site. Our experts constantly analyze data to ensure optimal performance and maximize the results of your advertising strategy."
+      },
+      "4": {
+        "title": "Summary of the month",
+        "desc": "We prepare a detailed report on the work performed, which includes the analysis of the results in Google Data Studio. We track key performance indicators and provide a task-by-task retrospective so you can understand how each component impacts your business. After that, we will get in touch with you to jointly make a plan for further actions. Our team uses a brainstorming method to brainstorm new ideas and prioritize tasks."
+      },
+      "5": {
+        "title": "Optimization and scaling",
+        "desc": "Our company is engaged in the optimization of advertising campaigns, including testing new hypotheses and scaling the advertising account. We use analytics and A/B testing techniques to improve the performance of your ads and deliver the best results. Our experts actively work on the implementation of innovative strategies and find new opportunities for the growth of your business through Internet advertising."
+      }
+    }
+  },
+  "pricelistAds": {
+    "title": "Types and tools of contextual advertising",
+    "orderBtn": "Order",
+    "list": {
+      "1": {
+        "title": "Advertising in Google Adwords",
+        "desc": "Our advertisements provide you with maximum visibility, as they are guaranteed to appear on the first page of the Google search engine when the user enters a thematic query. We offer a quick start of your advertising campaign in 3-5 working days so that you can quickly achieve your marketing goals and attract new customers.",
+        "price": "from 70$",
+        "message": "Добрий день, пишу до Вас із зацікавленістю щодо замовлення послуги 'Реклама в Google Adwords' за 70$ "
+      },
+      "2": {
+        "title": "Media advertising",
+        "desc": "Your ads are guaranteed to appear on the most popular sites in Ukraine, ensuring your brand wide recognition. Media advertising will allow you to showcase your product face to face, increasing its appeal to the audience. With a low cost per click ($0.01-0.2) and payment only for site conversions, you will be able to effectively manage your budget. Advertising will provide a wide audience reach, helping you attract new and diverse audiences.",
+        "price": "from 35$",
+        "message": "Добрий день, пишу до Вас із зацікавленістю щодо замовлення послуги 'Медійна реклама' за 35$ "
+      },
+      "3": {
+        "title": "Retargeting / remarketing",
+        "desc": "Our advertising strategy includes effective remarketing, which allows you to attract the attention of 5% to 25% of potential buyers back to your site. We use this approach to 'catch up' to this audience through advertising on other popular sites. In addition, we can provide remarketing on all major social networks, as well as YouTube, to make the most of the opportunities to reach your target audience and maximize engagement.",
+        "price": "from 20$",
+        "message": "Добрий день, пишу до Вас із зацікавленістю щодо замовлення послуги 'Ретаргетінг / ремаркетинг' за 20$ "
+      },
+      "4": {
+        "title": "Management of contextual advertising",
+        "desc": "For the maximum effectiveness of contextual advertising, we actively collect statistics, test new advertising formats and conduct A/B testing. Our approach is to constantly compare different advertising campaigns, change settings and track results to find out which changes affect the effectiveness of campaigns and key business indicators. This way, we can constantly improve our strategies and achieve the best results for your business.",
+        "price": "from \n 100$/mo",
+        "message": "Добрий день, пишу до Вас із зацікавленістю щодо замовлення послуги 'Ведення контекстної реклами' від 100$/міс "
+      }
+    }
+  },
+  "adsExplanation": {
+    "title": "What is contextual advertising?",
+    "desc": "Contextual advertising is a quick and effective way to attract the target audience to your site. Thanks to accurate targeting, it accelerates the arrival of new visitors and increases conversion."
+  },
+  "heroBannerAds": {
+    "title": "Contextual advertising in Google",
+    "desc": "An increase in customers already on the first day of the launch of the advertising campaign."
+  },
+  "heroBannerCard": {
+    "title": "Creation of a business card website",
+    "desc": ""
+  },"heroBannerCorporate": {
+    "title": "Creation of a corporate website",
+    "desc": ""
+  },
+  "heroBannerDesign": {
+    "title": "Branding and design",
+    "desc": ""
+  },
+  "heroBannerEcom": {
+    "title": "Creation of an eCommerce project",
+    "desc": ""
+  },
+  "heroBannerPartner": {
+    "title": "Partnership",
+    "desc": ""
+  },
+  "heroBannerQuiz": {
+    "title": "Creating a site is a quiz",
+    "desc": ""
+  },
+  "heroBannerServices": {
+    "title": "Services",
+    "desc": "We don't just create websites, we provide a full range of marketing services"
+  },
+  "heroBannerSmm": {
+    "title": "SMM - promotion",
+    "desc": ""
+  },
+  "heroBannerStore": {
+    "title": "Creation of an online store",
+    "desc": ""
+  },
+  "heroBannerSupport": {
+    "title": "Website support",
+    "desc": "Stable operation of the site means sales, calls and orders from the Internet resource, and as a result, an increase in your profit"
+  },
+  "infoCardsFront": {
+    "title": "A successful website is",
+    "list": {
+      "1": {
+        "title": "Thoughtful design and interface",
+        "desc": "A professionally designed website not only focuses on aesthetics but also meticulously refines its structure to enhance usability. Thoughtful placement of all elements ensures visitors can easily access essential information, significantly increasing the likelihood of converting visitors into your desired audience or customers. Moreover, intuitive navigation enhances engagement.",
+        "note": "Easy"
+      },
+      "2": {
+        "title": "Stable work",
+        "desc": "Ensuring maximum stability for your website is crucial for a thriving online presence. Our uptime guarantee safeguards against technical issues that could disrupt your website's functionality. Consistent reliability prevents potential service interruptions and helps retain customers. We are dedicated to ensuring your visitors consistently have positive interactions with your business.",
+        "note": "Way"
+      },
+      "3": {
+        "title": "Correspondence to user searches",
+        "desc": "Every visitor to your modern website comes to you with a specific purpose. The productivity of your site is to actively achieve this goal, whether through a convenient process of purchasing goods and providing services or quick access to the necessary information. By streamlining user experience, you increase conversion rates, ultimately enhancing overall website performance.",
+        "note": "To"
+      },
+      "4": {
+        "title": "Regular publication of articles",
+        "desc": "Your site must be actively living its life in order to impress visitors with its live activity and give them the impression of your constant activity. Updating your website with fresh news and interesting articles will not only keep your content relevant, but also have a positive impact on SEO. We will be able to help you with this. Trust the professionals who understand your needs!",
+        "note": "Boost"
+      },
+      "5": {
+        "title": "Online promotion of the site",
+        "desc": "Launching a website is just the beginning of success. FullStack - Innovations already at the stage of development of your website very actively focuses on SEO-promotion of the site. Our specialists develop strategies for SEO, contextual advertising and other tools, guaranteeing you stable and growing traffic. Trust us for successful and dynamic online promotion; guaranteed results.",
+        "note": "Your"
+      },
+      "6": {
+        "title": "Active life in social networks",
+        "desc": "According to statistics, every person has his own account in social networks. And it is extremely important that the company page is regularly updated with new and interesting content. This approach ensures visitors understand your business's development, fostering trust and significantly increasing the likelihood of converting visitors into satisfied and loyal clients.",
+        "note": "Business"
+      }
+    }
+  },
+  "workflow": {
+    "title": "Sequence of work",
+    "desc": "The entire work process has a clear plan, which makes it possible to consistently communicate with clients from the initial meeting to handing over the finished project.",
+    "list": {
+      "1": {
+        "title": "",
+        "desc": ""
+      },
+      "2": {
+        "title": "",
+        "desc": ""
+      },
+      "3": {
+        "title": "",
+        "desc": ""
+      },
+      "4": {
+        "title": "",
+        "desc": ""
+      }
+    }
+  },
+    "footer": {
+      "desc": "Development of sites, their support and comprehensive promotion of your business",
+      "rights": "FullStack - Innovations - All rights reserved.",
+      "links": {
+        "1": {
+          "title": "Services"
+        },
+        "2": {
+          "title": "Portfolio"
+        },
+        "3": {
+          "title": "Blog"
+        },
+        "4": {
+          "title": "About Us"
+        },
+        "5": {
+          "title": "Partnership"
+        },
+        "6": {
+          "title": "Contacts"
+        }
+      },
+      "subLinks": {
+        "1": {
+          "title": "Services",
+          "list": {
+            "1": {
+              "title": "Design"
+            },
+            "2": {
+              "title": "Development"
+            },
+            "3": {
+              "title": "Marketing"
+            },
+            "4": {
+              "title": "Support"
+            }
+          }
+        },
+        "2": {
+          "title": "Development",
+          "list": {
+            "1": {
+              "title": "Online store"
+            },
+            "2": {
+              "title": "Corporate website"
+            },
+            "3": {
+              "title": "Landing Page"
+            },
+            "4": {
+              "title": "Business card website"
+            },
+            "5": {
+              "title": "Quiz website"
+            }
+          }
+        },
+        "3": {
+          "title": "Additional services",
+          "list": {
+            "1": {
+              "title": "Technical improvements"
+            },
+            "2": {
+              "title": "Website acceleration"
+            },
+            "3": {
+              "title": "Website HTTPS migration"
+            },
+            "4": {
+              "title": "Virus cleaning"
+            },
+            "5": {
+              "title": "1C synchronization"
+            }
+          }
+        }
+      }
     }
   }
-}

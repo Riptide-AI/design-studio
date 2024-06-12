@@ -4,6 +4,7 @@
   margin-top: 140px;
   width: 100%;
   font-family: $main-font;
+  white-space: pre-line;
   @include media(phone) {
     margin-top: 80px;
   }
@@ -35,10 +36,10 @@
   }
   &__item {
     width: 100%;
-    padding: 38px 100px;
+    padding: 38px 90px;
     background-color: $pale-blue;
     display: grid;
-    grid-template-columns: 260px auto auto;
+    grid-template-columns: 320px auto auto;
     align-items: center;
     @include media(phone) {
       grid-template-columns: 1fr;
@@ -50,9 +51,10 @@
       display: flex;
       flex-direction: column;
     }
+
     &__price_wrap {
       align-items: flex-end;
-      max-width: 175px;
+      max-width: 220px;
       text-align: right;
       @include media(phone) {
         margin: 20px auto 10px;
@@ -106,7 +108,7 @@
       font-size: 40px;
       font-weight: 600;
       line-height: 125%;
-      white-space: nowrap;
+    
     }
     &__due,
     &__btn {

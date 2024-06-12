@@ -39,6 +39,7 @@
     margin-top: 40px;
   }
   &__item {
+    position: relative;
     display: grid;
     grid-template-columns: auto 1fr;
     grid-template-rows: auto 1fr;
@@ -46,7 +47,20 @@
     &.alt {
       gap: 4px 20px;
     }
+    &.landing{
+    grid-template-columns:  none;
+  }
 
+    &__order.landing{
+      position: absolute;
+      bottom: -20px;
+      font-weight: 500;
+      line-height: 100%;
+      right: 0px;
+      font-size: 90px;
+      color: rgba(255, 255, 255, 0.144);
+
+    }
     &__order {
       font-size: 24px;
       font-weight: 600;
@@ -67,6 +81,7 @@
     &.alt {
       // grid-column: 1;
     }
+    
     &__desc {
       color: $dark-grey;
       font-size: 16px;

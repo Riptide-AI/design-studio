@@ -1,5 +1,5 @@
 export const heroBanner = {
-  title: 'Створення інтернет-магазину',
+  title: 'heroBannerStore.title',
   desc: '',
   bg: '/img/hero-banner-12.jfif',
 };
