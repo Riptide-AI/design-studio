@@ -38,7 +38,7 @@ export const Navbar = () => {
       <div className={styles['nav-wrapper']}>
         <Link href="/home">
           <div className={styles.logo}>
-            <Image src="/img/logo.png" alt="logo" fill="true" quality="100" placeholder="empty" />
+            <Image src="/img/Logo.png" alt="logo" fill="true" quality="100" placeholder="empty" />
           </div>
         </Link>
         {!isMobile && <NavLinks links={navigation} />}
