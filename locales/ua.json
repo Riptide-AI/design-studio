@@ -1776,10 +1776,10 @@
       }
     }
   },
-
   "footer": {
     "desc": "Розробка сайтів, їхня підтримка  та всестороннє просування вашого бізнесу",
     "rights": "FullStack - Innovations - All rights reserved.",
+    "navigate": "Навігація",
     "links": {
       "1": {
         "title": "Послуги"
