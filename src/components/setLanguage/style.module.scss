@@ -83,6 +83,7 @@ $Dark-blue:#12273C;
     border: 0px solid transparent;
 
     a {
+     
       &:first-child {
         background: $Dark-blue;
         transition: all 0.3s;
@@ -115,6 +116,12 @@ $Dark-blue:#12273C;
       padding: 10px;
       cursor: pointer;
       background: $Dark-blue;
+      &:last-child{
+        border-bottom-right-radius: 6px;
+        border-bottom-left-radius: 6px;
+      }
+    
+   
       @media (max-width: 768px) {
        /*  padding: 5px; */
       }

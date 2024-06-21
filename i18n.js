@@ -13,6 +13,9 @@ i18n
       ua: {
         translation: require('./locales/ua.json'), // Path to Ukrainian translations
       },
+      ru: {
+        translation: require('./locales/ru.json'), // Path to Rusian translations
+      },
     },
     lng: 'en', // default language
     fallbackLng: 'en',

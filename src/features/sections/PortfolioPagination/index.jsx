@@ -1,13 +1,13 @@
 import { useState, useMemo, useRef, useEffect } from 'react';
 import { ContentWrapper } from '@/components/ContentWrapper';
 import { portfolioPagination } from '@/data/portfolio';
-import Link from 'next/link';
 import Image from 'next/image';
 import styles from './style.module.scss';
 import { useTranslation } from 'react-i18next';
+import Card from './Card';
 
 export const PortfolioPagination = () => {
-  const {t} = useTranslation();
+  const { t } = useTranslation();
   const refList = useRef({});
   const [currentFilter, setCurrentFilter] = useState('all');
   const allList = useMemo(() => {
@@ -79,7 +79,7 @@ export const PortfolioPagination = () => {
   useEffect(() => {
     const intervalId2 = setInterval(scrollFromX, 800);
     const intervalId = setInterval(scrollToX, 6000);
-    return () => clearInterval(intervalId,intervalId2);
+    return () => clearInterval(intervalId, intervalId2);
   }, []);
   return (
     <ContentWrapper>
@@ -98,15 +98,7 @@ export const PortfolioPagination = () => {
         </div>
         <div className={styles.pagination__list}>
           {currentItems.map((card, i) => (
-            <div className={styles.pagination__list__item} key={`card-${i}`}>
-              <Link href={`/portfolio/${card.id}`}>
-                <div className={styles.pagination__list__item__image}>
-                  <Image src={card.image} alt={card.alt} fill={true} />
-                </div>
-                <div className={styles.pagination__list__item__title}>{card.title}</div>
-                <div className={styles.pagination__list__item__desc}>{card.theme}</div>
-              </Link>
-            </div>
+            <Card key={`card-${i}`} card={card} i={i} />
           ))}
         </div>
         <div className={styles.pagination__nav}>

@@ -35,7 +35,7 @@ export const socialSMM = {
   imageTwo: '/img/smm-2.jfif',
 };
 export const checks = {
-  title: '',
+  title: 'checks.title',
   checkIcon: '/img/icons/check-2.svg',
   list: [
     {

@@ -169,6 +169,9 @@
   "Protfolio-heroBaner": {
     "title": "Portfolio"
   },
+  "InfiniteSlider.title":{
+    "title":"Our clients"
+  },
   "portfolioPagination": {
     "filters": {
       "1": "All",
@@ -1653,7 +1656,8 @@
   "heroBannerCard": {
     "title": "Creation of a business card website",
     "desc": ""
-  },"heroBannerCorporate": {
+  },
+  "heroBannerCorporate": {
     "title": "Creation of a corporate website",
     "desc": ""
   },
@@ -1746,89 +1750,88 @@
       }
     }
   },
-    "footer": {
-      "desc": "Development of sites, their support and comprehensive promotion of your business",
-      "rights": "FullStack - Innovations - All rights reserved.",
+  "footer": {
+    "desc": "Development of sites, their support and comprehensive promotion of your business",
+    "rights": "FullStack - Innovations.  All rights reserved.",
     "navigate": "Navigation",
-
-      "links": {
-        "1": {
-          "title": "Services"
-        },
-        "2": {
-          "title": "Portfolio"
-        },
-        "3": {
-          "title": "Blog"
-        },
-        "4": {
-          "title": "About Us"
-        },
-        "5": {
-          "title": "Partnership"
-        },
-        "6": {
-          "title": "Contacts"
+    "links": {
+      "1": {
+        "title": "Services"
+      },
+      "2": {
+        "title": "Portfolio"
+      },
+      "3": {
+        "title": "Blog"
+      },
+      "4": {
+        "title": "About Us"
+      },
+      "5": {
+        "title": "Partnership"
+      },
+      "6": {
+        "title": "Contacts"
+      }
+    },
+    "subLinks": {
+      "1": {
+        "title": "Services",
+        "list": {
+          "1": {
+            "title": "Design"
+          },
+          "2": {
+            "title": "Development"
+          },
+          "3": {
+            "title": "Marketing"
+          },
+          "4": {
+            "title": "Support"
+          }
         }
       },
-      "subLinks": {
-        "1": {
-          "title": "Services",
-          "list": {
-            "1": {
-              "title": "Design"
-            },
-            "2": {
-              "title": "Development"
-            },
-            "3": {
-              "title": "Marketing"
-            },
-            "4": {
-              "title": "Support"
-            }
+      "2": {
+        "title": "Development",
+        "list": {
+          "1": {
+            "title": "Online store"
+          },
+          "2": {
+            "title": "Corporate website"
+          },
+          "3": {
+            "title": "Landing Page"
+          },
+          "4": {
+            "title": "Business card website"
+          },
+          "5": {
+            "title": "Quiz website"
           }
-        },
-        "2": {
-          "title": "Development",
-          "list": {
-            "1": {
-              "title": "Online store"
-            },
-            "2": {
-              "title": "Corporate website"
-            },
-            "3": {
-              "title": "Landing Page"
-            },
-            "4": {
-              "title": "Business card website"
-            },
-            "5": {
-              "title": "Quiz website"
-            }
-          }
-        },
-        "3": {
-          "title": "Additional services",
-          "list": {
-            "1": {
-              "title": "Technical improvements"
-            },
-            "2": {
-              "title": "Website acceleration"
-            },
-            "3": {
-              "title": "Website HTTPS migration"
-            },
-            "4": {
-              "title": "Virus cleaning"
-            },
-            "5": {
-              "title": "1C synchronization"
-            }
+        }
+      },
+      "3": {
+        "title": "Additional services",
+        "list": {
+          "1": {
+            "title": "Technical improvements"
+          },
+          "2": {
+            "title": "Website acceleration"
+          },
+          "3": {
+            "title": "Website HTTPS migration"
+          },
+          "4": {
+            "title": "Virus cleaning"
+          },
+          "5": {
+            "title": "1C synchronization"
           }
         }
       }
     }
   }
+}
