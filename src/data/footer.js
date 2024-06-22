@@ -1,12 +1,12 @@
 export const footer = {
   desc: 'footer.desc',
   email: 'support@fullstack-innovations.com',
-  phone: '+380678358568',
-  phoneDisplay: '+ (380) 67 835 8568',
+  phone: '+380636826299',
+  phoneDisplay: '+ (380) 63 682 6299',
   rights: 'footer.rights',
-  telegramLink: 'https://google.com',
-  instagramLink: 'https://google.com',
-  linkedInmLink: 'https://google.com',
+  telegramLink: 'https://t.me/fullstack_innovations',
+  instagramLink: 'https://www.instagram.com/fullstack.innovations/',
+  linkedInmLink: 'https://www.linkedin.com/company/fullstack-innovation/',
   links: [
     { title: 'footer.links.1.title', link: '/services' },
     { title: 'footer.links.2.title', link: '/portfolio' },

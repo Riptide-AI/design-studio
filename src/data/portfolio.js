@@ -126,55 +126,55 @@ export const portfolioPagination = {
     logos: [
       {
         id: 28,
-        image: '/img/development-stage-1.jfif', // img link here
+        image: '/img/Logos/1.JPG', // img link here
         title: 'Назва',
         theme: 'Logos',
       },
       {
         id: 29,
-        image: '/img/development-stage-1.jfif', // img link here
+        image: '/img/Logos/10.png', // img link here
         title: 'Назва',
         theme: 'Logos',
       },
       {
         id: 30,
-        image: '/img/development-stage-1.jfif', // img link here
+        image: '/img/Logos/3.png', // img link here
         title: 'Назва',
         theme: 'Logos',
       },
       {
         id: 31,
-        image: '/img/development-stage-1.jfif', // img link here
+        image: '/img/Logos/4.png', // img link here
         title: 'Назва',
         theme: 'Logos',
       },
       {
         id: 32,
-        image: '/img/development-stage-1.jfif', // img link here
+        image: '/img/Logos/5.png', // img link here
         title: 'Назва',
         theme: 'Logos',
       },
       {
         id: 33,
-        image: '/img/development-stage-1.jfif', // img link here
+        image: '/img/Logos/6.png', // img link here
         title: 'Назва',
         theme: 'Logos',
       },
       {
         id: 34,
-        image: '/img/development-stage-1.jfif', // img link here
+        image: '/img/Logos/7.png', // img link here
         title: 'Назва',
         theme: 'Logos',
       },
       {
         id: 35,
-        image: '/img/development-stage-1.jfif', // img link here
+        image: '/img/Logos/8.png', // img link here
         title: 'Назва',
         theme: 'Logos',
       },
       {
         id: 36,
-        image: '/img/development-stage-1.jfif', // img link here
+        image: '/img/Logos/9.png', // img link here
         title: 'Назва',
         theme: 'Logos',
       },
@@ -182,55 +182,70 @@ export const portfolioPagination = {
     business_cards: [
       {
         id: 37,
-        image: '/img/development-stage-1.jfif', // img link here
+        image: '/img/Busines-cards/Bella_Smith/1.png',
+        backImage: '/img/Busines-cards/Bella_Smith/2.png', // img link here
         title: 'Назва',
         theme: 'Business cards',
       },
       {
         id: 38,
-        image: '/img/development-stage-1.jfif', // img link here
+        image: '/img/Busines-cards/leopolis/1.png',
+        backImage: '/img/Busines-cards/leopolis/2.png', // img link here
         title: 'Назва',
         theme: 'Business cards',
       },
       {
         id: 39,
-        image: '/img/development-stage-1.jfif', // img link here
+        image: '/img/Busines-cards/leopolis-2/1.png',
+        backImage: '/img/Busines-cards/leopolis-2/2.png', // img link here
         title: 'Назва',
         theme: 'Business cards',
       },
       {
         id: 40,
-        image: '/img/development-stage-1.jfif', // img link here
+        image: '/img/Busines-cards/leopolis-3/2.png',
+        backImage: '/img/Busines-cards/leopolis-3/1.png', // img link here
         title: 'Назва',
         theme: 'Business cards',
       },
       {
         id: 41,
-        image: '/img/development-stage-1.jfif', // img link here
+        image: '/img/Busines-cards/leopolis-4/1.png',
+        backImage: '/img/Busines-cards/leopolis-4/2.png', // img link here
         title: 'Назва',
         theme: 'Business cards',
       },
       {
         id: 42,
-        image: '/img/development-stage-1.jfif', // img link here
+        image: '/img/Busines-cards/leopolis-5/1.png',
+        backImage: '/img/Busines-cards/leopolis-5/2.png', // img link here
         title: 'Назва',
         theme: 'Business cards',
       },
       {
         id: 43,
-        image: '/img/development-stage-1.jfif', // img link here
+        image: '/img/Busines-cards/leopolis-6/1.png',
+        backImage: '/img/Busines-cards/leopolis-6/2.png', // img link here
         title: 'Назва',
         theme: 'Business cards',
       },
       {
         id: 44,
-        image: '/img/development-stage-1.jfif', // img link here
+        image: '/img/Busines-cards/leopolis-7/1.png',
+        backImage: '/img/Busines-cards/leopolis-7/2.png', // img link here
         title: 'Назва',
         theme: 'Business cards',
       },
       {
         id: 45,
-        image: '/img/development-stage-1.jfif', // img link here
+        image: '/img/Busines-cards/leopolis-8/1.png',
+        backImage: '/img/Busines-cards/leopolis-8/2.png', // img link here
+        title: 'Назва',
+        theme: 'Business cards',
+      }, {
+        id: 46,
+        image: '/img/Busines-cards/leopolis-10/1.png',
+        backImage: '/img/Busines-cards/leopolis-10/2.png', // img link here
         title: 'Назва',
         theme: 'Business cards',
       },

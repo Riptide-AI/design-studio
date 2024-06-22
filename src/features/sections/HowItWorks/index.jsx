@@ -36,7 +36,7 @@ export function HowItWorks() {
           {
             data.current == 'Analysis' ? setOpen(!open) : '';
             windowWidth<1440? top.current = '182px':'';
-            left.current = '125px';
+            left.current = '120px';
             data.current = datatype;
           }
           break;

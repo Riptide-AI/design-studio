@@ -24,6 +24,7 @@
     justify-content: center;
     align-items: center;
     gap: 40px;
+
     @include media(phone) {
       flex-direction: column;
       margin-top: 12px;
@@ -41,6 +42,15 @@
     padding: 20px;
     background-position: center;
     background-size: contain;
+    &:nth-child(2) {
+      .become-partner__program-image {
+        background-position: top;
+      }
+    } &:nth-child(3) {
+      .become-partner__program-image {
+        background-position: 100% 90%;
+      }
+    }
     &:hover {
       &:hover {
         .become-partner__program-title {
@@ -63,6 +73,7 @@
     margin-bottom: 32px;
     background-size: cover;
     background-position: center;
+
     @include media(phone) {
       margin-bottom: 12px;
     }

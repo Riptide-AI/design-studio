@@ -5,16 +5,19 @@ import { StatsCard } from '@/components/StatsCard';
 import { InfiniteSlider } from '@/components/InfiniteSlider';
 import { partners } from '@/data/homepage';
 import { useTranslation } from 'react-i18next';
+import { useState } from 'react';
 
 export const HeroBanner = () => {
-  const { t } = useTranslation();
+  const { t,i18n } = useTranslation();
+  const [lang, setLang] = useState(i18n.language);
+  
   return (
     <section className={styles.hero}>
       <ContentWrapper>
         <div className={styles.wrapper}>
           <div className={styles.hero__header}>
             <h1 className={styles.hero__title}>Fullstack <span>innovations</span></h1>
-            <h2 className={styles.hero__desc}>
+            <h2 className={lang == 'en'? styles.hero__desc + ' ' + styles.en_lang :styles.hero__desc}>
             {t(`hero-baner.subTitle`)} 
             </h2>
           </div>

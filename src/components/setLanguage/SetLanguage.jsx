@@ -8,8 +8,8 @@ const SetLanguage = () => {
   const items = [
     { id: 1, src: '/img/lang/FlagEN.png', code: 'en' },
     { id: 2, src: '/img/lang/FlagUA.png', code: 'ua' },
-    /*        { id: 3, src: '/img/lang/FlagIN.png', code: 'in' },
-        { id: 4, src: '/img/lang/FlagRU.png', code: 'ru' } */
+    { id: 3, src: '/img/lang/FlagRU.png', code: 'ru' },
+    /*{ id: 3, src: '/img/lang/FlagIN.png', code: 'in' },*/
   ];
   const { i18n } = useTranslation();
   const [lang, setLang] = useState(i18n.language);

@@ -166,6 +166,9 @@
     "title": "Працюймо разом!",
     "desc": "Ми завжди готові обговорити ваш наступний проєкт!  Пишіть нам на пошту <i>support@fullstack-innovations.com</i> чи заповніть форму. Наші експерти з нетерпінням чекають на можливість співпраці з вами."
   },
+  "InfiniteSlider.title":{
+    "title":"Наші клієнти"
+  },
   "Protfolio-heroBaner": {
     "title": "Портфоліо"
   },
@@ -1778,7 +1781,7 @@
   },
   "footer": {
     "desc": "Розробка сайтів, їхня підтримка  та всестороннє просування вашого бізнесу",
-    "rights": "FullStack - Innovations - All rights reserved.",
+    "rights": "FullStack - Innovations.  All rights reserved.",
     "navigate": "Навігація",
     "links": {
       "1": {
