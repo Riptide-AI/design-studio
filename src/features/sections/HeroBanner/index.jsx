@@ -9,7 +9,7 @@ import { useState } from 'react';
 
 export const HeroBanner = () => {
   const { t,i18n } = useTranslation();
-  const [lang, setLang] = useState(i18n.language);
+  const [lang] = useState(i18n.language);
   
   return (
     <section className={styles.hero}>
