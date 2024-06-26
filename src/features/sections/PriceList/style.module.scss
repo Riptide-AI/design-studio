@@ -79,6 +79,7 @@
       margin-bottom: 20px;
     }
     &__subtitle {
+      width: 325px;
       @include media(phone) {
         margin-bottom: 10px;
       }
@@ -108,6 +109,7 @@
       font-size: 40px;
       font-weight: 600;
       line-height: 125%;
+   
     
     }
     &__due,

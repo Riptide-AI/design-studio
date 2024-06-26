@@ -1158,7 +1158,7 @@
             }
           }
         },
-        "message": "Good afternoon, I am interested in creating an eCommerce project using ready-made templates, starting at $150",
+        "message": "Good afternoon, I am interested in creating an eCommerce project using ready-made templates, starting at $300",
         "sizeType": "Start",
         "title": "Ready-made solutions",
         "desc": "Development of unique eCommerce projects based on 'Templates'",
@@ -1168,7 +1168,7 @@
         "checks": {
           "1": "Why are ready solutions considered at the start of a business?",
           "2": "What exactly are the features for good and easy development?",
-          "3": "  How are ready-made solutions better than individual ones?"
+          "3": "How are ready-made solutions better than individual ones?"
         }
       },
       "2": {
@@ -1191,7 +1191,7 @@
             }
           }
         },
-        "message": "Good afternoon, I am interested in creating an eCommerce project with the help of individual development for small businesses, starting at $250",
+        "message": "Good afternoon, I am interested in creating an eCommerce project with the help of individual development for small businesses, starting at $500",
         "sizeType": "Small business",
         "title": "Individual development",
         "desc": "Development of a modern static site without a server and database.",
@@ -1224,7 +1224,7 @@
             }
           }
         },
-        "message": "Good afternoon, I am interested in creating an eCommerce project with the help of individual development for businesses, from $600",
+        "message": "Good afternoon, I am interested in creating an eCommerce project with the help of individual development for businesses, from $800",
         "sizeType": "Business",
         "title": "Individual development",
         "desc": "Development of a unique dynamic site with a server and database.",
@@ -1549,7 +1549,7 @@
         "planType": "Start",
         "due": "Term from 8 months",
         "price": "from 500$",
-        "message": "Добрий день, пишу до Вас із зацікавленістю щодо замовлення послуги 'Plan A - Просування молодого сайту' за 500$ "
+        "message": "Good afternoon, I am writing to you with interest in ordering the service 'Plan A - Promotion of a young website' for $500"
       },
       "2": {
         "title": "Plan B",
@@ -1558,7 +1558,7 @@
         "planType": "Economy",
         "due": "Term from 3 months",
         "price": "from 600$",
-        "message": "Добрий день, пишу до Вас із зацікавленістю щодо замовлення послуги 'Plan B' за 600$ "
+        "message": "Good afternoon, I am writing to you with interest in ordering the 'Plan B' service for $600"
       },
       "3": {
         "title": "Plan C",
@@ -1567,7 +1567,7 @@
         "planType": "Small business",
         "due": "Term from 4 months",
         "price": "from 800$",
-        "message": "Добрий день, пишу до Вас із зацікавленістю щодо замовлення послуги 'Plan C' за 800$"
+        "message": "Good afternoon, I am writing to you with interest in ordering the 'Plan C' service for $800"
       },
       "4": {
         "title": "Plan D",
@@ -1576,7 +1576,7 @@
         "planType": "Business",
         "due": "Term from 8 months",
         "price": "from 950$",
-        "message": "Добрий день, пишу до Вас із зацікавленістю щодо замовлення послуги 'Plan D' за 950$"
+        "message": "Good afternoon, I am writing to you with interest in ordering the 'Plan D' service for $950"
       }
     }
   },
@@ -1693,25 +1693,25 @@
         "title": "Advertising in Google Adwords",
         "desc": "Our advertisements provide you with maximum visibility, as they are guaranteed to appear on the first page of the Google search engine when the user enters a thematic query. We offer a quick start of your advertising campaign in 3-5 working days so that you can quickly achieve your marketing goals and attract new customers.",
         "price": "from 70$",
-        "message": "Добрий день, пишу до Вас із зацікавленістю щодо замовлення послуги 'Реклама в Google Adwords' за 70$ "
+        "message": "Good afternoon, I am writing to you with interest in ordering the service 'Advertising in Google Adwords' starting at $70"
       },
       "2": {
         "title": "Media advertising",
         "desc": "Your ads are guaranteed to appear on the most popular sites in Ukraine, ensuring your brand wide recognition. Media advertising will allow you to showcase your product face to face, increasing its appeal to the audience. With a low cost per click ($0.01-0.2) and payment only for site conversions, you will be able to effectively manage your budget. Advertising will provide a wide audience reach, helping you attract new and diverse audiences.",
         "price": "from 35$",
-        "message": "Добрий день, пишу до Вас із зацікавленістю щодо замовлення послуги 'Медійна реклама' за 35$ "
+        "message": "Good afternoon, I am writing to you with interest in ordering the 'Media advertising' service starting at $35"
       },
       "3": {
         "title": "Retargeting / remarketing",
         "desc": "Our advertising strategy includes effective remarketing, which allows you to attract the attention of 5% to 25% of potential buyers back to your site. We use this approach to 'catch up' to this audience through advertising on other popular sites. In addition, we can provide remarketing on all major social networks, as well as YouTube, to make the most of the opportunities to reach your target audience and maximize engagement.",
         "price": "from 20$",
-        "message": "Добрий день, пишу до Вас із зацікавленістю щодо замовлення послуги 'Ретаргетінг / ремаркетинг' за 20$ "
+        "message": "Good afternoon, I am writing to you with interest in ordering the Retargeting service Remarketing' from $20"
       },
       "4": {
         "title": "Management of contextual advertising",
         "desc": "For the maximum effectiveness of contextual advertising, we actively collect statistics, test new advertising formats and conduct A/B testing. Our approach is to constantly compare different advertising campaigns, change settings and track results to find out which changes affect the effectiveness of campaigns and key business indicators. This way, we can constantly improve our strategies and achieve the best results for your business.",
         "price": "from \n 100$/mo",
-        "message": "Добрий день, пишу до Вас із зацікавленістю щодо замовлення послуги 'Ведення контекстної реклами' від 100$/міс "
+        "message": "Good afternoon, I am writing to you with interest in ordering the service 'Maintenance of contextual advertising' starting at $100 per month"
       }
     }
   },
