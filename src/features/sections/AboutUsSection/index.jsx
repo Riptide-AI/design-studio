@@ -5,6 +5,7 @@ import Image from 'next/image';
 import { CustomButton } from '@/components/CustomButton';
 import { useTranslation } from 'react-i18next';
 import { useEffect, useState } from 'react';
+import Link from 'next/link';
 
 export const AboutUsSection = ({ children = null, isBtn }) => {
   const { t } = useTranslation();
@@ -46,11 +47,9 @@ export const AboutUsSection = ({ children = null, isBtn }) => {
         </div>
         {children}
         {isBtn && (
-          <CustomButton
-            title={t('buttons.aboutUsbtn')}
-            stylesClassName={styles.navbar__btn}
-            action={() => window.open('/contacts')}
-          />
+          <Link href={'/contacts'}>
+            <CustomButton title={t('buttons.aboutUsbtn')} stylesClassName={styles.navbar__btn} />
+          </Link>
         )}
       </section>
     </ContentWrapper>

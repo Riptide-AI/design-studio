@@ -45,12 +45,13 @@
     &__content {
       margin-bottom: 20px;
       color: $dark-grey;
-      text-align: justify;
+      text-align: center;
       font-family: Manrope;
       font-size: 16px;
+     font-style: italic;
       line-height: 140%;
       word-wrap: break-word;
-      word-break: break-all;
+     /*  word-break: break-all; */
     }
     &__author {
       margin-bottom: 4px;

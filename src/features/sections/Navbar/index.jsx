@@ -7,7 +7,7 @@ import { navigation } from '@/data/navigation';
 import { CustomButton } from '@/components/CustomButton';
 import { BurgerMenu } from '@/components/BurgerMenu';
 import { useTranslation } from 'react-i18next';
-import { scrollTo } from '@/scripts/scrollTo';
+/* import { scrollTo } from '@/scripts/scrollTo'; */
 import SetLanguage from '@/components/setLanguage/SetLanguage';
 
 export const Navbar = () => {
@@ -45,11 +45,12 @@ export const Navbar = () => {
         <div className={styles.navbar__right}>
         {!isMobile && <SetLanguage />}
           {!isMobile && (
+            <Link href={'/contacts'}>
             <CustomButton
               title={t('buttons.contactUs')}
               stylesClassName={styles.navbar__btn}
-              action={() => scrollTo('contact-form')}
-            />
+             /*  action={() => scrollTo('contact-form')} */
+            /></Link>
           )}  
           {isMobile && (
             <BurgerMenu links={navigation} isOpen={isMenuOpen} handleToggle={handleToggle} setOpen ={setIsMenuOpen}/>
