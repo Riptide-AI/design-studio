@@ -7,7 +7,7 @@ import { navigation } from '@/data/navigation';
 import { CustomButton } from '@/components/CustomButton';
 import { BurgerMenu } from '@/components/BurgerMenu';
 import { useTranslation } from 'react-i18next';
-import { scrollTo } from '@/scripts/scrollTo';
+/* import { scrollTo } from '@/scripts/scrollTo'; */
 import SetLanguage from '@/components/setLanguage/SetLanguage';
 
 export const Navbar = () => {
