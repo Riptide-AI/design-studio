@@ -38,7 +38,12 @@ const SetLanguage = () => {
             : styles.dropdown_header + ' ' + styles.dropdown_header_open
         }
       >
-        <Image width={40} height={24} src={selectedItem.src} alt="flag select country" />
+        <Image style={{
+                borderRadius: '5px',
+                borderStyle: 'solid',
+                borderWidth: '0.1px',
+                borderColor: 'white',
+              }} width={40} height={24} src={selectedItem.src} alt="flag select country" />
       </div>
       <div className={isOpen ? styles.dropdown_list + ' ' + styles.open : styles.dropdown_list}>
         {language.map((item) => (
