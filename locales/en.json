@@ -13,7 +13,7 @@
     "aboutUsbtn": "Become a client"
   },
   "hero-baner": {
-    "subTitle": "Website development and comprehensive promotion of your business to the leaders.",
+    "subTitle": "Website development and comprehensive promotion of your business to the leaders",
     "cards": {
       "first": {
         "name": "solving business problems",
@@ -169,8 +169,8 @@
   "Protfolio-heroBaner": {
     "title": "Portfolio"
   },
-  "InfiniteSlider.title":{
-    "title":"Our clients"
+  "InfiniteSlider.title": {
+    "title": "Our clients"
   },
   "portfolioPagination": {
     "filters": {
@@ -272,30 +272,100 @@
   "reviews": {
     "title": "Reviews of our customers",
     "desc": "From start to support, we're always by your side, ready to advise and assist. Your success is our priority.",
-    "slides": {
+    "servise_slides": {
       "1": {
-        "title": "Заголовок",
-        "author": "Павло Гук 1",
-        "position": "Менеджер компанії ",
-        "content": "Слайд 1"
+        "title": "Feedback from a marketing company",
+        "author": "Oksana Ivanchenko",
+        "position": "Director of Marketing and Development",
+        "content": "«Working with FullStack-Innovations is quality at the highest level. Their designer impressed with technical skill and efficiency. We always get not just solutions to problems, but an individual approach to our own needs»"
       },
       "2": {
-        "title": "Заголовок",
-        "author": "Павло Гук 2",
-        "position": "Менеджер компанії ",
-        "content": "Слайд 2"
+        "title": "Feedback from an event organization agency",
+        "author": "Oleksiy Ponomarenko",
+        "position": "Event management agency manager",
+        "content": "«Thanks to the team for providing us with impressive website development services. They carefully considered all our wishes and created a site that perfectly reflects our event agency. Thank you for your professionalism and concern for our needs!»"
       },
       "3": {
-        "title": "Заголовок",
-        "author": "Павло Гук 3",
-        "position": "Менеджер компанії ",
-        "content": "Слайд 3"
+        "title": "Feedback from a content marketing agency",
+        "author": "Maxim Ivanchenko",
+        "position": "Director of the content marketing agency",
+        "content": "«We are grateful to FullStack-Innovations for their professionalism in creating our logo. Their design approach provided us with not just a creation, but a true creation that reflects the essence of our brand and meets our unique needs»"
       },
       "4": {
-        "title": "Заголовок",
-        "author": "Павло Гук 4",
-        "position": "Менеджер компанії ",
-        "content": "Слайд 4"
+        "title": "Feedback from an analytics and research agency",
+        "author": "Sofia Ilnytska",
+        "position": "Business analyst at an analytical agency",
+        "content": "«Thank you for the innovative web design. Your solutions meet all requirements and provide a high user experience. Cooperation was productive and efficient. We were glad to choose you for this project»"
+      },
+      "5": {
+        "title": "Feedback from an affiliate marketing agency",
+        "author": "Artur Savka",
+        "position": "Senior manager in the marketing department",
+        "content": "«Thank you for your professionalism and dedication in developing our website. Your team demonstrated high efficiency and an exceptional ability to consider all our needs in detail. The results exceeded our expectations»"
+      }
+    },
+    "store_slides": {
+      "1": {
+        "title": "Impressive online store from professionals!",
+        "author": "Oleh Melnyk",
+        "position": "Senior Marketing Analyst",
+        "content": "«I am very impressed with the work of the IT company that created our online store. They demonstrated a high level of expertise and professionalism. The design and functionality of the store are made at a high level, which makes it easy to make purchases»"
+      },
+      "2": {
+        "title": "Excellent online store with excellent service!",
+        "author": "Maria Sydor",
+        "position": "Сhief Executive Officer",
+        "content": "«Our team is satisfied with the work result. They created an online store for us that not only met all of our requirements, but also exceeded our expectations. High professionalism is felt. We recommend their services!»"
+      },
+      "3": {
+        "title": "Professionalism and creative approach to store development",
+        "author": "Oleksiy Ivanenko",
+        "position": "Senior manager in the marketing department",
+        "content": "«I was pleasantly surprised by the work in creating our online store. They showed a high level of professionalism, offering not only effective technical solutions, but also a creative approach to design and functionality»"
+      },
+      "4": {
+        "title": "An extraordinary online store with an innovative approach!",
+        "author": "Natalia Kovaleva",
+        "position": "Senior manager in the sales department",
+        "content": "«Our online store has become a real achievement thanks to the IT company. They professionally approached the development, ensuring high quality and convenience for customers. Thanks for the excellent work!»"
+      },
+      "5": {
+        "title": "Professionalism and excellent service in creating a store!",
+        "author": "Oleksandr Petrenko",
+        "position": "Manager of marketing research",
+        "content": "«FullStack-Innovations demonstrated a high level of expertise and understanding of our needs. The design and functionality of the store is impressive, increasing our competitiveness. We recommend their services!»"
+      }
+    },
+    "corporate_slides": {
+      "1": {
+        "title": "Professionalism at the highest level!",
+        "author": "Ostap Petrenko",
+        "position": "General Director of Marketing",
+        "content": "«Your team amazes with the speed and quality of development of our corporate website. Thanks for the great cooperation!»"
+      },
+      "2": {
+        "title": "Great design and ease of use!",
+        "author": "Olena Kovalenko",
+        "position": "Head of the PR department",
+        "content": "«Thank you for making our corporate website modern and functional. You are truly professional in your field!»"
+      },
+      "3": {
+        "title": "Your team exceeded expectations!",
+        "author": "Lilia Mykhaylova",
+        "position": "Head of the HR department",
+        "content": "«Our new corporate site is the embodiment of our ideas and needs. Impressive design and user-friendly interface. Thank you!»"
+      },
+      "4": {
+        "title": "Professionalism at every stage!",
+        "author": "Mykhailo Samoilenko",
+        "position": "Head of Department",
+        "content": "«Your developers made our corporate website bright and functional. We appreciate your efficiency and creative approach!»"
+      },
+      "5": {
+        "title": "Professionalism and efficiency!",
+        "author": "Ivan Klopotenko",
+        "position": "Head of the procurement department",
+        "content": "«Professional approach to every detail, excellent design and convenient navigation. Thanks for the high quality work!»"
       }
     }
   },
