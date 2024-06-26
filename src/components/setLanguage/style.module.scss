@@ -18,6 +18,7 @@ $Dark-blue:#12273C;
     transition: 0.3s;
     position: relative;   height: 44px;
     img{
+      border-radius: 3px;
       align-self: center;
     }
     &::after,&::before{
@@ -110,6 +111,7 @@ $Dark-blue:#12273C;
         z-index: 1;
         top: -45px;
         opacity: 0;
+     
       }
     }
     .dropdown_item {

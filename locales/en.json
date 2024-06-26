@@ -73,7 +73,7 @@
     }
   },
   "businessCards": {
-    "title": "We create websites for various types of businesses.",
+    "title": "We create websites for various types of businesses",
     "cards": {
       "1": {
         "title": "Retail trading",
@@ -99,19 +99,19 @@
       },
       "2": {
         "btn": "Design",
-        "desc": "At this stage, the main focus is on creating the visual appearance and user interface of the website. Designers determine the color palette, fonts, layouts, and page structure. Important aspects of user experience are also taken into account, ensuring convenient navigation and an aesthetically appealing look. Designers consider adaptability and interactivity to optimize user interaction."
+        "desc": "At this stage, the main focus is on creating the visual appearance and user interface of the website. Designers determine the color palette, fonts, layouts, and page structure. Important aspects of user experience are also taken into account, ensuring convenient navigation and an aesthetically appealing look. Designers consider adaptability and interactivity to optimize user interaction, aiming to create a seamless and engaging browsing experience."
       },
       "3": {
         "btn": "Development",
-        "desc": "At this stage, the main focus is on understanding the unique needs of your business and achieving optimal functionality. Our team of experts is ready to tackle any type of web project, from creating engaging quiz sites that attract and increase audience interaction, to powerful e-commerce platforms that facilitate an efficient online commercial process."
+        "desc": "At this stage, the main focus is on understanding the unique needs of your business and achieving optimal functionality. Our team of experts is ready to tackle any type of web project, ensuring seamless integration and impactful results for your online presence. Whether creating engaging quiz sites or powerful e-commerce platforms, we prioritize enhancing audience interaction and facilitating efficient commercial processes."
       },
       "4": {
         "btn": "Release",
-        "desc": "At this stage, the main focus is on preparing the website for its public release. This includes uploading content, configuring hosting and domain name settings, as well as conducting final checks for errors and security. After completing this stage, the site becomes accessible to visitors, providing them with a positive interaction experience, reliable performance, and efficient content management."
+        "desc": "At this stage, the main focus is on preparing the website for its public release. This includes uploading content, configuring hosting and domain name settings, performing final checks for errors and security, and ensuring seamless integration. After completing this stage, the site becomes accessible to visitors, providing them with a positive interaction experience, reliable performance, and efficient content management."
       },
       "5": {
         "btn": "Maintenance",
-        "desc": "At this stage, the main focus is on supporting and further developing the website. Administrators and developers monitor the site's performance, fix errors, update content, and enhance functionality according to evolving user needs. Support may also involve optimizing performance, protecting against potential threats to ensure stability, and improving the user experience."
+        "desc": "At this stage, the main focus is on supporting and further developing the website. Administrators and developers monitor the site's performance, fix errors promptly, update content regularly, and enhance functionality according to evolving user needs. Ongoing support also includes optimizing performance, protecting against potential threats to ensure stability, and continuously improving the user experience for sustained success."
       }
     }
   },
@@ -602,11 +602,11 @@
       },
       "2": {
         "title": "Annual support",
-        "desc": "An individual analysis of the scope and list of tasks is carried out to ensure stable daily support throughout the year for projects for which it is important to continuously monitor and avoid failures in the work of websites with a large flow of visitors, ensuring reliability."
+        "desc": "An individual analysis of the scope and list of tasks is carried out to ensure the stable daily support and reliability throughout the year for projects for which it is important to continuously monitor and avoid failures in the work of websites with a large flow of visitors, ensuring reliability."
       },
       "3": {
         "title": "Payment per hour of work",
-        "desc": "Projects aimed at the performance of well-defined tasks and regular updating of the system, content, and semantic blocks. These are ideal for creating landing pages and simple design sites, ensuring stable, efficient, user-friendly, and visually appealing functionality."
+        "desc": "Projects aimed at the performance of well-defined tasks and regular updating of the system, content, and semantic blocks are ideal for creating landing pages and simple design sites, ensuring stable, efficient, user-friendly, and also visually appealing functionality throughout the duration."
       }
     }
   },
@@ -665,7 +665,7 @@
       },
       "2": {
         "title": "Prototype",
-        "desc": "User scenario development and prototyping are important steps in our workflow."
+        "desc": "Development of user scenarios and creation of prototypes are important stages of the work process."
       },
       "3": {
         "title": "Content",
@@ -738,7 +738,7 @@
             }
           }
         },
-        "message": "Добрий день, цікавлюсь створенням інтернет - магазину за допомогою готових шаблонів, що від 300$",
+        "message": "Good afternoon, I am interested in creating an online store using ready-made templates starting at $300",
         "sizeType": "Start",
         "title": "Ready-made solutions",
         "desc": "Development of modern online stores based on 'Templates'",
@@ -771,7 +771,7 @@
             }
           }
         },
-        "message": "Добрий день, цікавлюсь створенням інтернет - магазину за допомогою індивідуальної розробки для малого бізнесу, що від 500$",
+        "message": "Good afternoon, I am interested in creating an online store with the help of individual development for a small business, from $500",
         "sizeType": "Small business",
         "title": "Individual development",
         "desc": "Creating a uniquely designed online store for up to 1000 products.",
@@ -804,7 +804,7 @@
             }
           }
         },
-        "message": "Добрий день, цікавлюсь створенням інтернет - магазину за допомогою індивідуальної розробки для бізнесу, що від 800$",
+        "message": "Good afternoon, I am interested in creating an online store with the help of individual development for a business starting at $800",
         "sizeType": "Business",
         "title": "Individual development",
         "desc": "Сreating a unique design of an online store with more than 1,000 products.",
@@ -843,7 +843,7 @@
             }
           }
         },
-        "message": "Добрий день, цікавлюсь створенням корпоративного сайту за допомогою шаблонів, що від 200$",
+        "message": "Good afternoon, I am interested in creating a corporate website using ready-made templates starting at $200",
         "sizeType": "Start",
         "title": "Ready-made solutions",
         "desc": "Development of modern static site based on 'Templates'",
@@ -876,7 +876,7 @@
             }
           }
         },
-        "message": "Добрий день, цікавлюсь створенням корпоративного сайту за допомогою індивідуальної розробки для малих бізнесів, що від 400$",
+        "message": "Good afternoon, I am interested in creating a corporate website with the help of individual development for small businesses, starting at $400",
         "sizeType": "Small business",
         "title": "Individual development",
         "desc": "Development of a modern static site without a server and database.",
@@ -909,7 +909,7 @@
             }
           }
         },
-        "message": "Добрий день, цікавлюсь створенням корпоративного сайту за допомогою індивідуальної розробки для бізнесів, що від 800$",
+        "message": "Good afternoon, I am interested in creating a corporate website with the help of individual development for businesses, from $800",
         "sizeType": "Business",
         "title": "Individual development",
         "desc": "Development of a unique dynamic site with a server and database.",
@@ -948,7 +948,7 @@
             }
           }
         },
-        "message": "Добрий день, цікавлюсь створенням корпоративного сайту за допомогою шаблонів, що від 200$",
+        "message": "Good afternoon, I am interested in creating a quiz site using ready-made templates, starting at $150",
         "sizeType": "Start",
         "title": "Ready-made solutions",
         "desc": "Development of unique site - quizzes based on the 'Templates' database",
@@ -981,7 +981,7 @@
             }
           }
         },
-        "message": "Добрий день, цікавлюсь створенням корпоративного сайту за допомогою індивідуальної розробки для малих бізнесів, що від 400$",
+        "message": "Good afternoon, I am interested in creating a site-quiz with the help of individual development for small businesses, starting at $300",
         "sizeType": "Small business",
         "title": "Individual development",
         "desc": "Development of a modern static site without a server and database.",
@@ -1014,7 +1014,7 @@
             }
           }
         },
-        "message": "Добрий день, цікавлюсь створенням корпоративного сайту за допомогою індивідуальної розробки для бізнесів, що від 800$",
+        "message": "Good afternoon, I am interested in creating a site-quiz with the help of individual development for businesses, from $750",
         "sizeType": "Business",
         "title": "Individual development",
         "desc": "Development of a unique dynamic site with a server and database.",
@@ -1053,7 +1053,7 @@
             }
           }
         },
-        "message": "Добрий день, цікавлюсь створенням корпоративного сайту за допомогою шаблонів, що від 200$",
+        "message": "Good afternoon, I am interested in creating a business card site using ready-made templates, starting at $150",
         "sizeType": "Start",
         "title": "Ready-made solutions",
         "desc": "Development of interesting site business cards based on the 'Templates' database.",
@@ -1086,7 +1086,7 @@
             }
           }
         },
-        "message": "Добрий день, цікавлюсь створенням корпоративного сайту за допомогою індивідуальної розробки для малих бізнесів, що від 400$",
+        "message": "Good afternoon, I am interested in creating a business card website with the help of individual development for small businesses, starting at $250",
         "sizeType": "Small business",
         "title": "Individual development",
         "desc": "Development of a modern static site without a server and database.",
@@ -1119,7 +1119,7 @@
             }
           }
         },
-        "message": "Добрий день, цікавлюсь створенням корпоративного сайту за допомогою індивідуальної розробки для бізнесів, що від 800$",
+        "message": "Good afternoon, I am interested in creating a business card website using custom development for businesses from $600",
         "sizeType": "Business",
         "title": "Individual development",
         "desc": "Development of a unique dynamic site with a server and database.",
@@ -1158,7 +1158,7 @@
             }
           }
         },
-        "message": "Добрий день, цікавлюсь створенням корпоративного сайту за допомогою шаблонів, що від 200$",
+        "message": "Good afternoon, I am interested in creating an eCommerce project using ready-made templates, starting at $150",
         "sizeType": "Start",
         "title": "Ready-made solutions",
         "desc": "Development of unique eCommerce projects based on 'Templates'",
@@ -1191,7 +1191,7 @@
             }
           }
         },
-        "message": "Добрий день, цікавлюсь створенням корпоративного сайту за допомогою індивідуальної розробки для малих бізнесів, що від 400$",
+        "message": "Good afternoon, I am interested in creating an eCommerce project with the help of individual development for small businesses, starting at $250",
         "sizeType": "Small business",
         "title": "Individual development",
         "desc": "Development of a modern static site without a server and database.",
@@ -1224,7 +1224,7 @@
             }
           }
         },
-        "message": "Добрий день, цікавлюсь створенням корпоративного сайту за допомогою індивідуальної розробки для бізнесів, що від 800$",
+        "message": "Good afternoon, I am interested in creating an eCommerce project with the help of individual development for businesses, from $600",
         "sizeType": "Business",
         "title": "Individual development",
         "desc": "Development of a unique dynamic site with a server and database.",
@@ -1263,7 +1263,7 @@
             }
           }
         },
-        "message": "Добрий день, цікавлюсь створенням корпоративного сайту за допомогою шаблонів, що від 200$",
+        "message": "Good afternoon, I am interested in creating a Landing Page using ready-made templates starting at $100",
         "sizeType": "Start",
         "title": "Ready-made solutions",
         "desc": "Development of unique and modern Landing Pages based on 'Templates'",
@@ -1296,7 +1296,7 @@
             }
           }
         },
-        "message": "Добрий день, цікавлюсь створенням корпоративного сайту за допомогою індивідуальної розробки для малих бізнесів, що від 400$",
+        "message": "Good afternoon, I am interested in creating a Landing Page with the help of individual development for small businesses, starting at $250",
         "sizeType": "Small business",
         "title": "Individual development",
         "desc": "Development of a modern static site without a server and database.",
@@ -1329,7 +1329,7 @@
             }
           }
         },
-        "message": "Добрий день, цікавлюсь створенням корпоративного сайту за допомогою індивідуальної розробки для бізнесів, що від 800$",
+        "message": "Good afternoon, I am interested in creating a Landing Page with the help of individual development for businesses, from $300",
         "sizeType": "Business",
         "title": "Individual development",
         "desc": "Development of a unique dynamic site with a server and database.",
@@ -1507,7 +1507,7 @@
     "desc": "SEO promotion of sites is a set of measures aimed at increasing the position of your site in the search results of users."
   },
   "heroBannerFront": {
-    "title": "Turnkey website development in Lviv",
+    "title": "Creation of turnkey sites in Lviv",
     "desc": "The cost and terms of creating a website for your business."
   },
   "approachSeo": {
@@ -1544,7 +1544,7 @@
     "list": {
       "1": {
         "title": "Plan A",
-        "subTitle": "ПPromotion of a young site",
+        "subTitle": "Promotion of a young site",
         "desc": "The age of the site directly affects its position in search results. It is very difficult for a young site (from 1 to 8 months) to occupy places on the first page of the issue of profile requests. This is especially true for competitive niches. The package includes standard services provided as part of SEO promotion of the site.",
         "planType": "Start",
         "due": "Term from 8 months",
@@ -1564,7 +1564,7 @@
         "title": "Plan C",
         "subTitle": "Competitiveness of the niche: Moderate",
         "desc": "The package includes standard services provided as part of SEO promotion. As a result of the work performed, you will receive an increase in targeted organic traffic from search engines for selected groups of queries. For whom: corporate sites, service sites, various online stores, product catalogs.",
-        "planType": "Малий бізнес",
+        "planType": "Small business",
         "due": "Term from 4 months",
         "price": "from 800$",
         "message": "Добрий день, пишу до Вас із зацікавленістю щодо замовлення послуги 'Plan C' за 800$"
@@ -1581,7 +1581,7 @@
     }
   },
   "factorsSeo": {
-    "title": "The main factors that affect the final cost of works.",
+    "title": "The main factors that affect the final cost of works",
     "list": {
       "1": {
         "title": "Competition in a similar topic",

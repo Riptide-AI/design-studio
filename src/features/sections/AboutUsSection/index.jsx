@@ -46,7 +46,11 @@ export const AboutUsSection = ({ children = null, isBtn }) => {
         </div>
         {children}
         {isBtn && (
-          <CustomButton title={t('buttons.aboutUsbtn')} stylesClassName={styles.navbar__btn} />
+          <CustomButton
+            title={t('buttons.aboutUsbtn')}
+            stylesClassName={styles.navbar__btn}
+            action={() => window.open('/contacts')}
+          />
         )}
       </section>
     </ContentWrapper>
