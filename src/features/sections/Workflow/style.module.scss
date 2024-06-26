@@ -1,11 +1,15 @@
 @import '@/styles/vars.scss';
 
 .workflow {
+  margin: auto;
   margin-top: 140px;
   display: flex;
   flex-direction: column;
   align-items: center;
   font-family: $main-font;
+  max-width: 800px;
+  position: relative;
+
   @include media(phone) {
     margin-top: 80px;
   }
@@ -25,21 +29,83 @@
     color: $dark-grey;
     max-width: 800px;
     text-align: center;
+
   }
   &__list {
+    position: relative;
+    width: 100%;
     display: flex;
-    margin-top: 60px;
-    gap: 30px;
+    padding: 0px 100px;
+    scroll-behavior: smooth;
+    margin-top: 30px;
+    gap: 120px;
+    overflow: hidden;
+    overflow-x: scroll;
+    scrollbar-width: thin;
+    scrollbar-color: transparent transparent;
+
     @include media(phone) {
       flex-direction: column;
     }
   }
+  .paginationBtn {
+    top: 140px;
+    left: 45px;
+    position: absolute;
+    align-self: flex-end;
+    margin-top: 70px;
+    display: flex;
+    align-items: center;
+    gap: 550px;
+    justify-content: center;
+    @include media(phone) {
+      align-self: center;
+    }
+    .link__icon {
+      height: 80px;
+      width: 80px;
+      color: white;
+      transition-duration: 0.3s;
+    }
+    .prevBtn {
+      &:hover {
+        .link__icon {
+          
+          transform: scale(1.1) translateX(-10px);
+        }
+      }
+      cursor: pointer;
+      img {
+        transition-duration: 0.3s;
+      }
+    }
+    .nextBtn{
+      &:hover {
+        .link__icon {
+          
+          transform: scale(1.1) translateX(10px);
+        }
+      }
+      cursor: pointer;
+      img {
+        transition-duration: 0.3s;
+      }
+    }
+    .prevBtn {
+      img {
+        rotate: 180deg;
+      }
+    }
+  }
   &__item {
+    width: 520px;
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
     position: relative;
-    
-   
+    flex-shrink: 0;
+    margin: 0px 40px;
     &__order {
       position: absolute;
       color: $white;
@@ -57,16 +123,20 @@
       font-size: 25px;
       font-weight: 600;
       line-height: 125%;
-    
+
       text-align: left;
     }
     &__desc {
+      border: 1px solid #18496a;
       margin-top: 5px;
       color: $dark-grey;
       font-size: 16px;
       font-weight: 400;
+      padding: 10px 20px;
       line-height: 150%;
-      text-align: justify;
+      text-align: center;
+      border-radius: 10px;
+      font-style: italic;
     }
   }
 }

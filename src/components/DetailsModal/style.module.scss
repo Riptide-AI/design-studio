@@ -58,7 +58,8 @@
       font-size: 18px;
       line-height: 125%;
       max-width: 800px;
-      width: 100%;
+       text-align: justify;
+       width: 100%;
     }
   }
   &__grid {
@@ -103,7 +104,7 @@
         font-size: 18px;
         line-height: 125%;
         color: $white;
-        word-break: break-all;
+       text-align: justify;
       }
       &__order {
         position: absolute;

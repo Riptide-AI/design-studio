@@ -720,21 +720,21 @@
     "list": {
       "1": {
         "modal": {
-          "title": "Індивідуальна розробка",
-          "type": "Старт",
-          "desc": "************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************",
+          "title": "Ready-made solutions",
+          "type": "Start",
+          "desc": "At the first stage of creating a business, the choice between ready-made solutions and custom development plays a key role. Ready-made solutions offer quick and easy integration, which significantly saves time and money at the start of a project. They are already optimized to meet core business needs and provide significant benefits in terms of speed of implementation and lower overall costs compared to building a custom solution from scratch.",
           "grid": {
             "1": {
-              "title": "Продуманий дизайн і інтерфейс",
-              "desc": "****************************************************************************************************************************************************************************************************************************************************************************************************************************************************"
+              "title": "Ready-made solutions considered at the start of a business?",
+              "desc": "At the start of a business, off-the-shelf solutions are especially attractive due to their rapid integration and ability to reduce costs. Ready-made solutions help all companies get off to a quick start, avoiding the long process of developing."
             },
             "2": {
-              "title": "Швидке виконання роботи",
-              "desc": "****************************************************************************************************************************************************************************************************************************************************************************************************************************************************"
+              "title": "What features exist for easy and good development?",
+              "desc": "For good and easy development of business solutions, you must have an intuitive interface for web users, flexibility in making changes and also the ability to easily integrate with other systems, a high level of data security and user privacy."
             },
             "3": {
-              "title": "Якісне та деталізоване пропрацювання",
-              "desc": "****************************************************************************************************************************************************************************************************************************************************************************************************************************************************"
+              "title": "Ready-made solutions or custom development?",
+              "desc": "Off-the-shelf solutions offer quicker deployment, eliminate the need for infrastructure setup, reduce development and support expenses, and provide a website ready for immediate use with minimal setup effort and configuration."
             }
           }
         },
@@ -753,21 +753,21 @@
       },
       "2": {
         "modal": {
-          "title": "Individual development",
+          "title": "Ready-made solutions",
           "type": "Small business",
-          "desc": "************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************",
+          "desc": "Custom development of your online store with a unique design plays a key role in creating an attractive and functional interface for customers. The unique design of the site significantly enhances its attractiveness to visitors, creating a recognizable brand image and ensuring satisfaction of user needs.",
           "grid": {
             "1": {
-              "title": "Продуманий дизайн і інтерфейс",
-              "desc": "****************************************************************************************************************************************************************************************************************************************************************************************************************************************************"
+              "title": "What exactly makes an attractive design for clients?",
+              "desc": "Critical elements of web store design that attract customers include elegant aesthetics, intuitive, user-friendly navigation and captivating product visuals, efficient product search features, and a seamless user experience."
             },
             "2": {
-              "title": "Швидке виконання роботи",
-              "desc": "****************************************************************************************************************************************************************************************************************************************************************************************************************************************************"
+              "title": "How to ensure convenient search among 1000 products?",
+              "desc": "To ensure convenient searching among a variety of products in an online store, it is very important to use effective filtering and sorting tools. Advanced filters allow you to quickly find the desired positions on the site."
             },
             "3": {
-              "title": "Якісне та деталізоване пропрацювання",
-              "desc": "****************************************************************************************************************************************************************************************************************************************************************************************************************************************************"
+              "title": "Individual development or ready-made solutions?",
+              "desc": "Individual website development has significant advantages over ready-made solutions. It allows you to accurately reflect your corporate style and stand out from your competitors thanks to its unique design tailored to your specific needs and preferences."
             }
           }
         },
@@ -786,21 +786,21 @@
       },
       "3": {
         "modal": {
-          "title": "Індивідуальна розробка",
-          "type": "Бізнес",
-          "desc": "************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************",
+          "title": "Ready-made solutions",
+          "type": "Business",
+          "desc": "Custom development of your online store with a unique design plays a key role in creating an attractive and functional interface for customers. The unique design of the site significantly enhances its attractiveness to visitors, creating a recognizable brand image and ensuring satisfaction of user needs.",
           "grid": {
             "1": {
-              "title": "Продуманий дизайн і інтерфейс",
-              "desc": "****************************************************************************************************************************************************************************************************************************************************************************************************************************************************"
+              "title": "What exactly makes an attractive design for clients?",
+              "desc": "Critical elements of web store design that attract customers include elegant aesthetics, intuitive, user-friendly navigation and captivating product visuals, efficient product search features, and a seamless user experience."
             },
             "2": {
-              "title": "Швидке виконання роботи",
-              "desc": "****************************************************************************************************************************************************************************************************************************************************************************************************************************************************"
+              "title": "How to ensure convenient search more than 1000 products?",
+              "desc": "To ensure a convenient search for more than 1000 products in the online store, it is important to use effective filtering and sorting tools. Advanced filters allow people to quickly find the positions they need on the website."
             },
             "3": {
-              "title": "Якісне та деталізоване пропрацювання",
-              "desc": "****************************************************************************************************************************************************************************************************************************************************************************************************************************************************"
+              "title": "Individual development or ready-made solutions?",
+              "desc": "Individual website development has significant advantages over ready-made solutions. It allows you to accurately reflect your corporate style and stand out from your competitors thanks to its unique design tailored to your specific needs and preferences."
             }
           }
         },
@@ -825,21 +825,21 @@
     "list": {
       "1": {
         "modal": {
-          "title": "Індивідуальна розробка",
-          "type": "Старт",
-          "desc": "************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************",
+          "title": "Ready-made solutions",
+          "type": "Start",
+          "desc": "At the first stage of creating a business, the choice between ready-made solutions and custom development plays a key role. Ready-made solutions offer quick and easy integration, which significantly saves time and money at the start of a project. They are already optimized to meet core business needs and provide significant benefits in terms of speed of implementation and lower overall costs compared to building a custom solution from scratch.",
           "grid": {
             "1": {
-              "title": "Продуманий дизайн і інтерфейс",
-              "desc": "****************************************************************************************************************************************************************************************************************************************************************************************************************************************************"
+              "title": "Ready-made solutions considered at the start of a business?",
+              "desc": "At the start of a business, off-the-shelf solutions are especially attractive due to their rapid integration and ability to reduce costs. Ready-made solutions help all companies get off to a quick start, avoiding the long process of developing."
             },
             "2": {
-              "title": "Швидке виконання роботи",
-              "desc": "****************************************************************************************************************************************************************************************************************************************************************************************************************************************************"
+              "title": "What features exist for easy and good development?",
+              "desc": "For good and easy development of business solutions, you must have an intuitive interface for web users, flexibility in making changes and also the ability to easily integrate with other systems, a high level of data security and user privacy."
             },
             "3": {
-              "title": "Якісне та деталізоване пропрацювання",
-              "desc": "****************************************************************************************************************************************************************************************************************************************************************************************************************************************************"
+              "title": "Ready-made solutions or custom development?",
+              "desc": "Off-the-shelf solutions offer quicker deployment, eliminate the need for infrastructure setup, reduce development and support expenses, and provide a website ready for immediate use with minimal setup effort and configuration."
             }
           }
         },
@@ -858,21 +858,21 @@
       },
       "2": {
         "modal": {
-          "title": "Індивідуальна розробка",
-          "type": "Малий бізнес",
-          "desc": "************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************",
+          "title": "Ready-made solutions",
+          "type": "Small business",
+          "desc": "Developing a modern static site without a server or database is an effective approach to building fast and secure websites. This approach allows you to easily present projects on the network, keeping content management simple and reducing the need for complex infrastructure solutions.",
           "grid": {
             "1": {
-              "title": "Продуманий дизайн і інтерфейс",
-              "desc": "****************************************************************************************************************************************************************************************************************************************************************************************************************************************************"
+              "title": "Development of a static website without a server and database?",
+              "desc": "The development of a static website without a server, database is chosen through fast loading of pages and also convenient content management. This approach is ideal for projects where speed and minimization of server resources are important."
             },
             "2": {
-              "title": "Швидке виконання роботи",
-              "desc": "****************************************************************************************************************************************************************************************************************************************************************************************************************************************************"
+              "title": "What technologies are available when developing static sites?",
+              "desc": "Basic technologies for creating static sites include HTML for creating structure and content, CSS for styling the appearance of pages, and JavaScript also for adding interactive features (animation or form validation)."
             },
             "3": {
-              "title": "Якісне та деталізоване пропрацювання",
-              "desc": "****************************************************************************************************************************************************************************************************************************************************************************************************************************************************"
+              "title": "What are the advantages of a static site without a server?",
+              "desc": "Serverless static sites provide fast data loading and improved security by eliminating server-side page generation, thus minimizing operational overhead and resource requirements to a large extent, easily achieving efficiency."
             }
           }
         },
@@ -893,19 +893,19 @@
         "modal": {
           "title": "Індивідуальна розробка",
           "type": "Бізнес",
-          "desc": "************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************",
+          "desc": "aaaaaaaaaaaaaaaaaa********************************************************",
           "grid": {
             "1": {
               "title": "Продуманий дизайн і інтерфейс",
-              "desc": "****************************************************************************************************************************************************************************************************************************************************************************************************************************************************"
+              "desc": "aaaaaaaaaaaaaaaaaa"
             },
             "2": {
               "title": "Швидке виконання роботи",
-              "desc": "****************************************************************************************************************************************************************************************************************************************************************************************************************************************************"
+              "desc": "aaaaaaaaaaaaaaaaaa"
             },
             "3": {
               "title": "Якісне та деталізоване пропрацювання",
-              "desc": "****************************************************************************************************************************************************************************************************************************************************************************************************************************************************"
+              "desc": "aaaaaaaaaaaaaaaaaa"
             }
           }
         },
@@ -930,21 +930,21 @@
     "list": {
       "1": {
         "modal": {
-          "title": "Індивідуальна розробка",
-          "type": "Старт",
-          "desc": "************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************",
+          "title": "Ready-made solutions",
+          "type": "Start",
+          "desc": "At the first stage of creating a business, the choice between ready-made solutions and custom development plays a key role. Ready-made solutions offer quick and easy integration, which significantly saves time and money at the start of a project. They are already optimized to meet core business needs and provide significant benefits in terms of speed of implementation and lower overall costs compared to building a custom solution from scratch.",
           "grid": {
             "1": {
-              "title": "Продуманий дизайн і інтерфейс",
-              "desc": "****************************************************************************************************************************************************************************************************************************************************************************************************************************************************"
+              "title": "Ready-made solutions considered at the start of a business?",
+              "desc": "At the start of a business, off-the-shelf solutions are especially attractive due to their rapid integration and ability to reduce costs. Ready-made solutions help all companies get off to a quick start, avoiding the long process of developing."
             },
             "2": {
-              "title": "Швидке виконання роботи",
-              "desc": "****************************************************************************************************************************************************************************************************************************************************************************************************************************************************"
+              "title": "What features exist for easy and good development?",
+              "desc": "For good and easy development of business solutions, you must have an intuitive interface for web users, flexibility in making changes and also the ability to easily integrate with other systems, a high level of data security and user privacy."
             },
             "3": {
-              "title": "Якісне та деталізоване пропрацювання",
-              "desc": "****************************************************************************************************************************************************************************************************************************************************************************************************************************************************"
+              "title": "Ready-made solutions or custom development?",
+              "desc": "Off-the-shelf solutions offer quicker deployment, eliminate the need for infrastructure setup, reduce development and support expenses, and provide a website ready for immediate use with minimal setup effort and configuration."
             }
           }
         },
@@ -963,21 +963,21 @@
       },
       "2": {
         "modal": {
-          "title": "Індивідуальна розробка",
-          "type": "Малий бізнес",
-          "desc": "************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************",
+          "title": "Ready-made solutions",
+          "type": "Small business",
+          "desc": "Developing a modern static site without a server or database is an effective approach to building fast and secure websites. This approach allows you to easily present projects on the network, keeping content management simple and reducing the need for complex infrastructure solutions.",
           "grid": {
             "1": {
-              "title": "Продуманий дизайн і інтерфейс",
-              "desc": "****************************************************************************************************************************************************************************************************************************************************************************************************************************************************"
+              "title": "Development of a static website without a server and database?",
+              "desc": "The development of a static website without a server, database is chosen through fast loading of pages and also convenient content management. This approach is ideal for projects where speed and minimization of server resources are important."
             },
             "2": {
-              "title": "Швидке виконання роботи",
-              "desc": "****************************************************************************************************************************************************************************************************************************************************************************************************************************************************"
+              "title": "What technologies are available when developing static sites?",
+              "desc": "Basic technologies for creating static sites include HTML for creating structure and content, CSS for styling the appearance of pages, and JavaScript also for adding interactive features (animation or form validation)."
             },
             "3": {
-              "title": "Якісне та деталізоване пропрацювання",
-              "desc": "****************************************************************************************************************************************************************************************************************************************************************************************************************************************************"
+              "title": "What are the advantages of a static site without a server?",
+              "desc": "Serverless static sites provide fast data loading and improved security by eliminating server-side page generation, thus minimizing operational overhead and resource requirements to a large extent, easily achieving efficiency."
             }
           }
         },
@@ -998,19 +998,19 @@
         "modal": {
           "title": "Індивідуальна розробка",
           "type": "Бізнес",
-          "desc": "************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************",
+          "desc": "aaaaaaaaaaaaaaaaaa********************************************************",
           "grid": {
             "1": {
               "title": "Продуманий дизайн і інтерфейс",
-              "desc": "****************************************************************************************************************************************************************************************************************************************************************************************************************************************************"
+              "desc": "aaaaaaaaaaaaaaaaaa"
             },
             "2": {
               "title": "Швидке виконання роботи",
-              "desc": "****************************************************************************************************************************************************************************************************************************************************************************************************************************************************"
+              "desc": "aaaaaaaaaaaaaaaaaa"
             },
             "3": {
               "title": "Якісне та деталізоване пропрацювання",
-              "desc": "****************************************************************************************************************************************************************************************************************************************************************************************************************************************************"
+              "desc": "aaaaaaaaaaaaaaaaaa"
             }
           }
         },
@@ -1035,21 +1035,21 @@
     "list": {
       "1": {
         "modal": {
-          "title": "Індивідуальна розробка",
-          "type": "Старт",
-          "desc": "************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************",
+          "title": "Ready-made solutions",
+          "type": "Start",
+          "desc": "At the first stage of creating a business, the choice between ready-made solutions and custom development plays a key role. Ready-made solutions offer quick and easy integration, which significantly saves time and money at the start of a project. They are already optimized to meet core business needs and provide significant benefits in terms of speed of implementation and lower overall costs compared to building a custom solution from scratch.",
           "grid": {
             "1": {
-              "title": "Продуманий дизайн і інтерфейс",
-              "desc": "****************************************************************************************************************************************************************************************************************************************************************************************************************************************************"
+              "title": "Ready-made solutions considered at the start of a business?",
+              "desc": "At the start of a business, off-the-shelf solutions are especially attractive due to their rapid integration and ability to reduce costs. Ready-made solutions help all companies get off to a quick start, avoiding the long process of developing."
             },
             "2": {
-              "title": "Швидке виконання роботи",
-              "desc": "****************************************************************************************************************************************************************************************************************************************************************************************************************************************************"
+              "title": "What features exist for easy and good development?",
+              "desc": "For good and easy development of business solutions, you must have an intuitive interface for web users, flexibility in making changes and also the ability to easily integrate with other systems, a high level of data security and user privacy."
             },
             "3": {
-              "title": "Якісне та деталізоване пропрацювання",
-              "desc": "****************************************************************************************************************************************************************************************************************************************************************************************************************************************************"
+              "title": "Ready-made solutions or custom development?",
+              "desc": "Off-the-shelf solutions offer quicker deployment, eliminate the need for infrastructure setup, reduce development and support expenses, and provide a website ready for immediate use with minimal setup effort and configuration."
             }
           }
         },
@@ -1068,21 +1068,21 @@
       },
       "2": {
         "modal": {
-          "title": "Індивідуальна розробка",
-          "type": "Малий бізнес",
-          "desc": "************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************",
+          "title": "Ready-made solutions",
+          "type": "Small business",
+          "desc": "Developing a modern static site without a server or database is an effective approach to building fast and secure websites. This approach allows you to easily present projects on the network, keeping content management simple and reducing the need for complex infrastructure solutions.",
           "grid": {
             "1": {
-              "title": "Продуманий дизайн і інтерфейс",
-              "desc": "****************************************************************************************************************************************************************************************************************************************************************************************************************************************************"
+              "title": "Development of a static website without a server and database?",
+              "desc": "The development of a static website without a server, database is chosen through fast loading of pages and also convenient content management. This approach is ideal for projects where speed and minimization of server resources are important."
             },
             "2": {
-              "title": "Швидке виконання роботи",
-              "desc": "****************************************************************************************************************************************************************************************************************************************************************************************************************************************************"
+              "title": "What technologies are available when developing static sites?",
+              "desc": "Basic technologies for creating static sites include HTML for creating structure and content, CSS for styling the appearance of pages, and JavaScript also for adding interactive features (animation or form validation)."
             },
             "3": {
-              "title": "Якісне та деталізоване пропрацювання",
-              "desc": "****************************************************************************************************************************************************************************************************************************************************************************************************************************************************"
+              "title": "What are the advantages of a static site without a server?",
+              "desc": "Serverless static sites provide fast data loading and improved security by eliminating server-side page generation, thus minimizing operational overhead and resource requirements to a large extent, easily achieving efficiency."
             }
           }
         },
@@ -1103,19 +1103,19 @@
         "modal": {
           "title": "Індивідуальна розробка",
           "type": "Бізнес",
-          "desc": "************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************",
+          "desc": "aaaaaaaaaaaaaaaaaa********************************************************",
           "grid": {
             "1": {
               "title": "Продуманий дизайн і інтерфейс",
-              "desc": "****************************************************************************************************************************************************************************************************************************************************************************************************************************************************"
+              "desc": "aaaaaaaaaaaaaaaaaa"
             },
             "2": {
               "title": "Швидке виконання роботи",
-              "desc": "****************************************************************************************************************************************************************************************************************************************************************************************************************************************************"
+              "desc": "aaaaaaaaaaaaaaaaaa"
             },
             "3": {
               "title": "Якісне та деталізоване пропрацювання",
-              "desc": "****************************************************************************************************************************************************************************************************************************************************************************************************************************************************"
+              "desc": "aaaaaaaaaaaaaaaaaa"
             }
           }
         },
@@ -1140,21 +1140,21 @@
     "list": {
       "1": {
         "modal": {
-          "title": "Індивідуальна розробка",
-          "type": "Старт",
-          "desc": "************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************",
+          "title": "Ready-made solutions",
+          "type": "Start",
+          "desc": "At the first stage of creating a business, the choice between ready-made solutions and custom development plays a key role. Ready-made solutions offer quick and easy integration, which significantly saves time and money at the start of a project. They are already optimized to meet core business needs and provide significant benefits in terms of speed of implementation and lower overall costs compared to building a custom solution from scratch.",
           "grid": {
             "1": {
-              "title": "Продуманий дизайн і інтерфейс",
-              "desc": "****************************************************************************************************************************************************************************************************************************************************************************************************************************************************"
+              "title": "Ready-made solutions considered at the start of a business?",
+              "desc": "At the start of a business, off-the-shelf solutions are especially attractive due to their rapid integration and ability to reduce costs. Ready-made solutions help all companies get off to a quick start, avoiding the long process of developing."
             },
             "2": {
-              "title": "Швидке виконання роботи",
-              "desc": "****************************************************************************************************************************************************************************************************************************************************************************************************************************************************"
+              "title": "What features exist for easy and good development?",
+              "desc": "For good and easy development of business solutions, you must have an intuitive interface for web users, flexibility in making changes and also the ability to easily integrate with other systems, a high level of data security and user privacy."
             },
             "3": {
-              "title": "Якісне та деталізоване пропрацювання",
-              "desc": "****************************************************************************************************************************************************************************************************************************************************************************************************************************************************"
+              "title": "Ready-made solutions or custom development?",
+              "desc": "Off-the-shelf solutions offer quicker deployment, eliminate the need for infrastructure setup, reduce development and support expenses, and provide a website ready for immediate use with minimal setup effort and configuration."
             }
           }
         },
@@ -1173,21 +1173,21 @@
       },
       "2": {
         "modal": {
-          "title": "Індивідуальна розробка",
-          "type": "Малий бізнес",
-          "desc": "************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************",
+          "title": "Ready-made solutions",
+          "type": "Small business",
+          "desc": "Developing a modern static site without a server or database is an effective approach to building fast and secure websites. This approach allows you to easily present projects on the network, keeping content management simple and reducing the need for complex infrastructure solutions.",
           "grid": {
             "1": {
-              "title": "Продуманий дизайн і інтерфейс",
-              "desc": "****************************************************************************************************************************************************************************************************************************************************************************************************************************************************"
+              "title": "Development of a static website without a server and database?",
+              "desc": "The development of a static website without a server, database is chosen through fast loading of pages and also convenient content management. This approach is ideal for projects where speed and minimization of server resources are important."
             },
             "2": {
-              "title": "Швидке виконання роботи",
-              "desc": "****************************************************************************************************************************************************************************************************************************************************************************************************************************************************"
+              "title": "What technologies are available when developing static sites?",
+              "desc": "Basic technologies for creating static sites include HTML for creating structure and content, CSS for styling the appearance of pages, and JavaScript also for adding interactive features (animation or form validation)."
             },
             "3": {
-              "title": "Якісне та деталізоване пропрацювання",
-              "desc": "****************************************************************************************************************************************************************************************************************************************************************************************************************************************************"
+              "title": "What are the advantages of a static site without a server?",
+              "desc": "Serverless static sites provide fast data loading and improved security by eliminating server-side page generation, thus minimizing operational overhead and resource requirements to a large extent, easily achieving efficiency."
             }
           }
         },
@@ -1208,19 +1208,19 @@
         "modal": {
           "title": "Індивідуальна розробка",
           "type": "Бізнес",
-          "desc": "************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************",
+          "desc": "aaaaaaaaaaaaaaaaaa********************************************************",
           "grid": {
             "1": {
               "title": "Продуманий дизайн і інтерфейс",
-              "desc": "****************************************************************************************************************************************************************************************************************************************************************************************************************************************************"
+              "desc": "aaaaaaaaaaaaaaaaaa"
             },
             "2": {
               "title": "Швидке виконання роботи",
-              "desc": "****************************************************************************************************************************************************************************************************************************************************************************************************************************************************"
+              "desc": "aaaaaaaaaaaaaaaaaa"
             },
             "3": {
               "title": "Якісне та деталізоване пропрацювання",
-              "desc": "****************************************************************************************************************************************************************************************************************************************************************************************************************************************************"
+              "desc": "aaaaaaaaaaaaaaaaaa"
             }
           }
         },
@@ -1245,21 +1245,21 @@
     "list": {
       "1": {
         "modal": {
-          "title": "Індивідуальна розробка",
-          "type": "Старт",
-          "desc": "************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************",
+          "title": "Ready-made solutions",
+          "type": "Start",
+          "desc": "At the first stage of creating a business, the choice between ready-made solutions and custom development plays a key role. Ready-made solutions offer quick and easy integration, which significantly saves time and money at the start of a project. They are already optimized to meet core business needs and provide significant benefits in terms of speed of implementation and lower overall costs compared to building a custom solution from scratch.",
           "grid": {
             "1": {
-              "title": "Продуманий дизайн і інтерфейс",
-              "desc": "****************************************************************************************************************************************************************************************************************************************************************************************************************************************************"
+              "title": "Ready-made solutions considered at the start of a business?",
+              "desc": "At the start of a business, off-the-shelf solutions are especially attractive due to their rapid integration and ability to reduce costs. Ready-made solutions help all companies get off to a quick start, avoiding the long process of developing."
             },
             "2": {
-              "title": "Швидке виконання роботи",
-              "desc": "****************************************************************************************************************************************************************************************************************************************************************************************************************************************************"
+              "title": "What features exist for easy and good development?",
+              "desc": "For good and easy development of business solutions, you must have an intuitive interface for web users, flexibility in making changes and also the ability to easily integrate with other systems, a high level of data security and user privacy."
             },
             "3": {
-              "title": "Якісне та деталізоване пропрацювання",
-              "desc": "****************************************************************************************************************************************************************************************************************************************************************************************************************************************************"
+              "title": "Ready-made solutions or custom development?",
+              "desc": "Off-the-shelf solutions offer quicker deployment, eliminate the need for infrastructure setup, reduce development and support expenses, and provide a website ready for immediate use with minimal setup effort and configuration."
             }
           }
         },
@@ -1278,21 +1278,21 @@
       },
       "2": {
         "modal": {
-          "title": "Індивідуальна розробка",
-          "type": "Малий бізнес",
-          "desc": "************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************",
+          "title": "Ready-made solutions",
+          "type": "Small business",
+          "desc": "Developing a modern static site without a server or database is an effective approach to building fast and secure websites. This approach allows you to easily present projects on the network, keeping content management simple and reducing the need for complex infrastructure solutions.",
           "grid": {
             "1": {
-              "title": "Продуманий дизайн і інтерфейс",
-              "desc": "****************************************************************************************************************************************************************************************************************************************************************************************************************************************************"
+              "title": "Development of a static website without a server and database?",
+              "desc": "The development of a static website without a server, database is chosen through fast loading of pages and also convenient content management. This approach is ideal for projects where speed and minimization of server resources are important."
             },
             "2": {
-              "title": "Швидке виконання роботи",
-              "desc": "****************************************************************************************************************************************************************************************************************************************************************************************************************************************************"
+              "title": "What technologies are available when developing static sites?",
+              "desc": "Basic technologies for creating static sites include HTML for creating structure and content, CSS for styling the appearance of pages, and JavaScript also for adding interactive features (animation or form validation)."
             },
             "3": {
-              "title": "Якісне та деталізоване пропрацювання",
-              "desc": "****************************************************************************************************************************************************************************************************************************************************************************************************************************************************"
+              "title": "What are the advantages of a static site without a server?",
+              "desc": "Serverless static sites provide fast data loading and improved security by eliminating server-side page generation, thus minimizing operational overhead and resource requirements to a large extent, easily achieving efficiency."
             }
           }
         },
@@ -1313,19 +1313,19 @@
         "modal": {
           "title": "Індивідуальна розробка",
           "type": "Бізнес",
-          "desc": "************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************",
+          "desc": "aaaaaaaaaaaaaaaaaa********************************************************",
           "grid": {
             "1": {
               "title": "Продуманий дизайн і інтерфейс",
-              "desc": "****************************************************************************************************************************************************************************************************************************************************************************************************************************************************"
+              "desc": "aaaaaaaaaaaaaaaaaa"
             },
             "2": {
               "title": "Швидке виконання роботи",
-              "desc": "****************************************************************************************************************************************************************************************************************************************************************************************************************************************************"
+              "desc": "aaaaaaaaaaaaaaaaaa"
             },
             "3": {
               "title": "Якісне та деталізоване пропрацювання",
-              "desc": "****************************************************************************************************************************************************************************************************************************************************************************************************************************************************"
+              "desc": "aaaaaaaaaaaaaaaaaa"
             }
           }
         },
