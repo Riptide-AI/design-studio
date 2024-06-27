@@ -2,8 +2,10 @@ import React, { useState } from 'react';
 import styles from './style.module.scss';
 import Link from 'next/link';
 import Image from 'next/image';
+import { useTranslation } from 'react-i18next';
 
 export default function Card({ card, i }) {
+  const {t}=useTranslation();
   const [mouseOnCard, setMouseOnCard] = useState();
   const [mouseOnLogoCard, setMouseOnLogoCard] = useState();
 
@@ -25,13 +27,13 @@ export default function Card({ card, i }) {
   }
   return (
     <div
-      onMouseEnter={() => mouseOn(card.theme)}
-      onMouseLeave={() => mouseOut(card.theme)}
+      onMouseEnter={() => mouseOn(card.category)}
+      onMouseLeave={() => mouseOut(card.category)}
       className={styles.pagination__list__item}
     >
       <Link
         href={
-          card.theme == 'Business cards' || card.theme == 'Logos'
+          card.category == 'Business cards' || card.category == 'Logos'
             ? `/portfolio/`
             : `/portfolio/${card.id}`
         }
@@ -44,7 +46,7 @@ export default function Card({ card, i }) {
             fill={true}
             className={!mouseOnCard ? styles.base_image : styles.base_image + ' ' + styles.rotate}
           />
-          {card.theme == 'Business cards' && (
+          {card.category == 'Business cards' && (
             <div
               className={
                 !mouseOnCard ? styles.backImage : styles.backImage + ' ' + styles.backImage__vis
@@ -60,7 +62,7 @@ export default function Card({ card, i }) {
           )}
         </div>
         <div className={styles.pagination__list__item__title}>{card.title}</div>
-        <div className={styles.pagination__list__item__desc}>{card.theme}</div>
+        <div className={styles.pagination__list__item__desc}>{t(card.theme)}</div>
       </Link>
     </div>
   );

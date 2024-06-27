@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React, { useEffect, useRef, useState } from 'react';
 import styles from './style.module.scss';
 import { useTranslation } from 'react-i18next';
 import Image from 'next/image';
@@ -29,8 +29,20 @@ const SetLanguage = () => {
     setLanguage(items.filter((element) => element.id !== item.id));
   };
 
+  const ref = useRef(null);
+
+  useEffect(() => {
+    const handleClickOutside = (event) => {
+      if (!ref.current.contains(event.target)) {
+        setIsOpen(false);
+      }
+    };
+    document.addEventListener('click', handleClickOutside);
+    return () => document.removeEventListener('click', handleClickOutside);
+  }, []);
+
   return (
-    <div className={styles.dropdown_container} onClick={() => setIsOpen(!isOpen)}>
+    <div ref={ref} className={styles.dropdown_container} onClick={() => setIsOpen(!isOpen)}>
       <div
         className={
           isOpen
@@ -38,12 +50,18 @@ const SetLanguage = () => {
             : styles.dropdown_header + ' ' + styles.dropdown_header_open
         }
       >
-        <Image style={{
-                borderRadius: '5px',
-                borderStyle: 'solid',
-                borderWidth: '0.1px',
-                borderColor: 'white',
-              }} width={40} height={24} src={selectedItem.src} alt="flag select country" />
+        <Image
+          style={{
+            borderRadius: '5px',
+            borderStyle: 'solid',
+            borderWidth: '0.1px',
+            borderColor: 'white',
+          }}
+          width={40}
+          height={24}
+          src={selectedItem.src}
+          alt="flag select country"
+        />
       </div>
       <div className={isOpen ? styles.dropdown_list + ' ' + styles.open : styles.dropdown_list}>
         {language.map((item) => (

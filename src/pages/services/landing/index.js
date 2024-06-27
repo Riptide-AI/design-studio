@@ -11,8 +11,10 @@ import { ContactUs } from '@/features/sections/ContactUs';
 import { Reviews } from '@/features/sections/Reviews';
 import { WorkWithUs } from '@/features/sections/WorkWithUs';
 import { PriceCards } from '@/features/sections/PriceCards';
-import { SupportTypes } from '@/features/sections/SupportTypes';
+
 import { DevelopmentStages } from '@/features/sections/DevelopmentStages';
+import { Workflow } from '@/features/sections/Workflow';
+
 
 
 export default function Landing() {
@@ -21,7 +23,8 @@ export default function Landing() {
       <HeroBannerLight data={heroBanner} />
       <WorkWithUs data={workwithus} />
       <PriceCards data={priceCards} />
-      <SupportTypes data={achieveResults} startsWith={'0'} landing={true} />
+ 
+      <Workflow data={achieveResults} lengh={1820} top={'85px'} />
       <DevelopmentStages data={stages} length={9} />
       <Reviews data={reviews} />
       <ContactUs />

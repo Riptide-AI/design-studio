@@ -1,5 +1,5 @@
 import { HeroBannerLight } from '@/features/sections/HeroBannerLight';
-import { heroBanner } from '@/data/frontend';
+import { heroBanner, workflow } from '@/data/frontend';
 import { BusinessShowCase } from '@/features/sections/BusinessShowCase';
 import { OurWorks } from '@/features/sections/OurWorks';
 import { ContactUs } from '@/features/sections/ContactUs';
@@ -13,7 +13,7 @@ export default function Frontend() {
     <>
       <HeroBannerLight data={heroBanner} />
       <WeCreate />
-      <Workflow />
+      <Workflow data={workflow}/>
       <BusinessShowCase />
       <InfoCards data={infoCards} />
       <OurWorks />

@@ -1,6 +1,6 @@
 export const heroBanner = {
   title: 'heroBannerPartner.title',
-  bg: '/img/hero-banner-8.jfif',
+  bg: '/img/partner_page.png',
 };
 export const infoBlock = {
   desc: 'infoBlock',
