@@ -179,6 +179,12 @@
       "3": "Web Development",
       "4": "Logos",
       "5": "Business Cards"
+    },
+    "theme":{
+      "Web_design":"Web Design",
+      "Web_development":"Web Development",
+      "Logos":"Logos",
+      "Business_cards":"Business Cards"
     }
   },
   "infoBlock": "Are you a software development company, marketing agency, design studio, or any other IT-oriented company seeking a reliable partner with technical expertise and an excellent reputation?",

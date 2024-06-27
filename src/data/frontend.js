@@ -1,7 +1,7 @@
 export const heroBanner = {
   title: 'heroBannerFront.title',
   desc: 'heroBannerFront.desc',
-  bg: '/img/hero-banner-2.jpg',
+  bg: '/img/frontend_page.png,',
 };
 export const weCreate = {
   title: 'weCreate.title',
@@ -66,25 +66,22 @@ export const workflow = {
   desc: 'workflow.desc',
   list: [
     {
-      title: 'Зв’язок з нами',
-      desc: "Ми готові зв'язатися з вами по телефону або ж прийняти вашу заявку, опісля чого ми негайно зателефонуємо вам щодо обговорення деталей щодо вашого  проєкту.",
+      title: 'workflow.list.1.title',
+      desc: "workflow.list.1.desc",
     },
     {
-      title: 'Складання Т.З.',
-      desc: 'Згідно наданих вказівок, ми активно ставимо питання та ретельно описуємо всі деталі для вашого проєкту. Опісля чого все буде узгоджуватися з вами до початку реалізації.',
-    },
-    {
-      title: 'Договір',
-      desc: 'Після створення технічного опису укладаємо законний договір, завіряючи його в двох копіях, і приступаємо до виконання роботи. Юристи  можуть бути присутні.',
-    },
-    {
-      title: 'Демонстрація',
-      desc: `Презентуємо перші кроки та активно модифікуємо згідно із вашими вказівками. Наша неперевершена перевага це обов'язкова презентація раз на тиждень проєкту.`,
-    },
-    {
-      title: 'Здача роботи',
-      desc: 'Опісля завершення проекту, ми передаємо вам усі файли у вихідних форматах, окрім того ми забезпечуємо доступ до адміністративної панелі та розроблених матеріалів.',
-    },
+      title: 'workflow.list.2.title',
+      desc: "workflow.list.2.desc",
+    },{
+      title: 'workflow.list.3.title',
+      desc: "workflow.list.3.desc",
+    },{
+      title: 'workflow.list.4.title',
+      desc: "workflow.list.4.desc",
+    },{
+      title: 'workflow.list.5.title',
+      desc: "workflow.list.5.desc",
+    }
   ],
 };
 export const businessCards = {

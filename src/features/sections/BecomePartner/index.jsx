@@ -4,9 +4,10 @@ import { becomePartner } from '@/data/homepage';
 import { CustomButton } from '@/components/CustomButton';
 import Link from 'next/link';
 import { useTranslation } from 'react-i18next';
-export const BecomePartner = () => {
+export const BecomePartner = (/* props */) => {
   const { t } = useTranslation();
-
+/*   const { onDataChange } = props;
+ */
   return (
     <ContentWrapper>
       <div className={styles['become-partner']}>
@@ -20,7 +21,7 @@ export const BecomePartner = () => {
               ></div>
               <div className={styles['become-partner__program-title']}>{t(item.title)}</div>
               <div className={styles['become-partner__program-desc']}>{t(item.desc)}</div>
-              <Link href={'/contacts'}>
+              <Link href={'/contacts'} /* onClick={() => onDataChange('index++')} */>
                 <CustomButton
                   title={t(item.btn)}
                   stylesClassName={styles['become-partner__program-btn']}

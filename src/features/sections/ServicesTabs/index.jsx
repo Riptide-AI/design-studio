@@ -13,7 +13,7 @@ export const ServicesTabs = () => {
       <section className={styles.services}>
         <div className={styles.services__content}>
           <div className={styles.services__image}>
-            <Image src="/img/services-tabs.png" fill="true" alt="" placeholder="empty" />
+            <Image src="/img/services.png" fill="true" alt="" placeholder="empty" />
           </div>
           <div className={styles.services__desc}>
             <h3 className={styles.services__title}>{t('ServicesTabs.services')}</h3>

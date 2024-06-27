@@ -48,7 +48,7 @@ export const banner = {
 export const technologies = {
   title: 'technologies.title',
   desc: 'technologies.desc',
-  img: '/img/technologies.jpg',
+  img: '/img/Tehnology/tehnology_image.png',
   list: [
     {
       title: 'Design',
@@ -97,7 +97,7 @@ export const technologies = {
 export const heroBanner = {
   title: 'heroBannerServices.title',
   desc: 'heroBannerServices.desc',
-  bg: '/img/hero-banner-1.jpg',
+  bg: '/img/servise_page.png',
 };
 
 export const reviews = {
