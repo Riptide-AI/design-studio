@@ -26,6 +26,41 @@ export default function Card({ card, i }) {
     }
   }
   return (
+    card.category == 'Business cards' || card.category == 'Logos'
+    ?   <div
+    onMouseEnter={() => mouseOn(card.category)}
+    onMouseLeave={() => mouseOut(card.category)}
+    className={styles.pagination__list__item}
+  >
+   
+      <div data-card="BusinesdCard" className={styles.pagination__list__item__image}>
+        <Image
+          style={mouseOnLogoCard&&{ transform: 'scale(1.15)' }}
+          src={card.image}
+          alt={card.alt}
+          fill={true}
+          className={!mouseOnCard ? styles.base_image : styles.base_image + ' ' + styles.rotate}
+        />
+        {card.category == 'Business cards' && (
+          <div
+            className={
+              !mouseOnCard ? styles.backImage : styles.backImage + ' ' + styles.backImage__vis
+            }
+          >
+            <Image
+              src={card.backImage}
+              alt={card.alt + ' ' + i}
+              fill={true}
+              data-card="BusinesdCard"
+            />
+          </div>
+        )}
+      </div>
+      <div className={styles.pagination__list__item__title}>{card.title}</div>
+      <div className={styles.pagination__list__item__desc}>{t(card.theme)}</div>
+    
+  </div>
+    :
     <div
       onMouseEnter={() => mouseOn(card.category)}
       onMouseLeave={() => mouseOut(card.category)}
