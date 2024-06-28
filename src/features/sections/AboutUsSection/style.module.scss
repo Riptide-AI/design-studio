@@ -39,7 +39,7 @@
     color: $dark-grey;
     text-align: justify;
     word-wrap: break-word;
-    @include media(phone){
+    @include media(phone) {
       margin-top: 40px;
     }
   }
@@ -101,10 +101,13 @@
       line-height: 125%;
     }
   }
-  a{
+  a {
     position: absolute;
     right: 0px;
     bottom: -7px;
+    @include media(phone) {
+      bottom: 17px;
+    }
   }
   .navbar__btn {
     border-radius: 5px;
@@ -118,8 +121,7 @@
     line-height: 125%;
     text-align: center;
     color: #f0f0f0;
-   
-   
+
     @include media(phone) {
       position: relative;
     }
