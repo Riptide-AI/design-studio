@@ -852,7 +852,7 @@
         "message": "Good afternoon, I am interested in creating a corporate website using ready-made templates starting at $200",
         "sizeType": "Start",
         "title": "Ready-made solutions",
-        "desc": "Development of modern static site based on 'Templates'",
+        "desc": "Development of unique corporate site based on ready-made 'Templates'",
         "price": "from 300$",
         "order": "Order now",
         "details": "Details",
@@ -1405,15 +1405,15 @@
     "list": {
       "1": {
         "title": "Quick start",
-        "desc": "Launching a landing page is not only a quick, but also a productive way to ensure an instant flow of applications and sales."
+        "desc": "Launching a landing page is not only a quick, but also a productive way to ensure an instant flow of applications and sales. It provides a focused platform to capture leads, engage prospects, and convert them into customers efficiently, maximizing business opportunities."
       },
       "2": {
         "title": "Conversion",
-        "desc": "A landing page sells very well by focusing on a product or service. Effective insulation attracts attention."
+        "desc": "A landing page effectively sells products or services by highlighting their unique benefits. Its compelling design and persuasive content capture attention, engage visitors, and drive conversions effectively and persuasively for success."
       },
       "3": {
         "title": "Increase in profit",
-        "desc": "A landing page is a way to clearly present new products or services, setting them apart from the main site."
+        "desc": "A landing page is a way to clearly present new products or services, setting them apart from the main site. It focuses on key features, benefits, and calls-to-action, guiding visitors towards making informed decisions and boosting engagement."
       }
     }
   },
