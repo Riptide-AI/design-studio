@@ -17,7 +17,7 @@ export default function Ads() {
       <CheckList data={checks} />
       <PriceList data={pricelist} />
       <InfoCards data={ppc} />
-      <InfoCards data={adsDetails} />
+   {/*    <InfoCards data={adsDetails} /> */}
       <Reviews data={reviews} />
       <ContactUs />
     </>

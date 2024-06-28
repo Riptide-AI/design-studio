@@ -7,13 +7,15 @@ import { navigation } from '@/data/navigation';
 import { CustomButton } from '@/components/CustomButton';
 import { BurgerMenu } from '@/components/BurgerMenu';
 import { useTranslation } from 'react-i18next';
-/* import { scrollTo } from '@/scripts/scrollTo'; */
+import { scrollTo } from '@/scripts/scrollTo';
+import { usePathname } from 'next/navigation';
 import SetLanguage from '@/components/setLanguage/SetLanguage';
 
 export const Navbar = () => {
   const { t } = useTranslation();
   const [isMobile, setIsMobile] = useState(false);
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const path = usePathname();
   const handleToggle = () => {
     isMenuOpen
       ? document.body.classList.remove('overflow-hidden')
@@ -43,17 +45,30 @@ export const Navbar = () => {
         </Link>
         {!isMobile && <NavLinks links={navigation} />}
         <div className={styles.navbar__right}>
-        {!isMobile && <SetLanguage />}
-          {!isMobile && (
-            <Link href={'/contacts'}>
-            <CustomButton
-              title={t('buttons.contactUs')}
-              stylesClassName={styles.navbar__btn}
-             /*  action={() => scrollTo('contact-form')} */
-            /></Link>
-          )}  
+          {!isMobile && <SetLanguage />}
+          {!isMobile &&
+            (path == '/contacts' || path == '/blog' || path == '/about-us' ? (
+              <Link href={'/contacts'}>
+                <CustomButton
+                  title={t('buttons.contactUs')}
+                  stylesClassName={styles.navbar__btn}
+                  /*  action={() => scrollTo('contact-form')} */
+                />
+              </Link>
+            ) : (
+              <CustomButton
+                title={t('buttons.contactUs')}
+                stylesClassName={styles.navbar__btn}
+                action={() => scrollTo('contact-form')}
+              />
+            ))}
           {isMobile && (
-            <BurgerMenu links={navigation} isOpen={isMenuOpen} handleToggle={handleToggle} setOpen ={setIsMenuOpen}/>
+            <BurgerMenu
+              links={navigation}
+              isOpen={isMenuOpen}
+              handleToggle={handleToggle}
+              setOpen={setIsMenuOpen}
+            />
           )}
         </div>
       </div>

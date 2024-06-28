@@ -180,11 +180,11 @@
       "4": "Logos",
       "5": "Business Cards"
     },
-    "theme":{
-      "Web_design":"Web Design",
-      "Web_development":"Web Development",
-      "Logos":"Logos",
-      "Business_cards":"Business Cards"
+    "theme": {
+      "Web_design": "Web Design",
+      "Web_development": "Web Development",
+      "Logos": "Logos",
+      "Business_cards": "Business Cards"
     }
   },
   "infoBlock": "Are you a software development company, marketing agency, design studio, or any other IT-oriented company seeking a reliable partner with technical expertise and an excellent reputation?",
@@ -1062,7 +1062,7 @@
         "message": "Good afternoon, I am interested in creating a business card site using ready-made templates, starting at $150",
         "sizeType": "Start",
         "title": "Ready-made solutions",
-        "desc": "Development of interesting site business cards based on the 'Templates' database.",
+        "desc": "Development of modern site business cards based on the 'Templates' database.",
         "price": "from 150$",
         "order": "Order now",
         "details": "Details",
@@ -1809,20 +1809,24 @@
     "desc": "The entire work process has a clear plan, which makes it possible to consistently communicate with clients from the initial meeting to handing over the finished project.",
     "list": {
       "1": {
-        "title": "",
-        "desc": ""
+        "title": "Contact us",
+        "desc": "«We are ready to contact you by phone or accept your application. After this, our specialist will contact you immediately to discuss the details of your project. If you have any further questions, please contact us directly using the provided contact information»"
       },
       "2": {
-        "title": "",
-        "desc": ""
+        "title": "Writing technical specifications",
+        "desc": "«Following these guidelines, we carefully review all the details of your project and ask all the necessary questions to ensure complete understanding. After this, we will definitely agree on everything with you before starting the implementation of your web product»"
       },
       "3": {
-        "title": "",
-        "desc": ""
+        "title": "Agreement",
+        "desc": "«After creating the technical description, we conclude a legal contract, certifying it in duplicate, and promptly commence the work. If necessary, lawyers can be present during the signing of the contract to ensure legal correctness, clarity, and mutual understanding»"
       },
       "4": {
-        "title": "",
-        "desc": ""
+        "title": "Demonstration",
+        "desc": "«We present the initial steps and actively modify according to your instructions. Our undeniable advantage is a mandatory weekly presentation of the project progress for your control, discussion, prompt response, feedback, adjustment, and collaboration»"
+      },
+      "5": {
+        "title": "Submission of work",
+        "desc": "«Once the project is completed, we deliver all files to you in their original formats. Additionally, we provide access to the administrative panel and all developed materials for complete autonomy, seamless project management, and ongoing support»"
       }
     }
   },

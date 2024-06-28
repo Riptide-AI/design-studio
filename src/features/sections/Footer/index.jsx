@@ -33,13 +33,14 @@ export const Footer = () => {
           <div className={styles.footer__content}>
             <div className={styles.footer__info}>
               <div className={styles.footer__logo}>
+                <Link href={'/home'}>
                 <Image
                   src="/img/footer-logo.png"
                   alt="logo"
                   width={168}
                   height={38}
                   quality="100"
-                />
+                /></Link>
               </div>
               <p className={styles.footer__desc}>{t(footer.desc)}</p>
               <a href={`mailto:${footer.email}`} className={styles.footer__contacts}>
