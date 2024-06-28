@@ -1,5 +1,5 @@
 import { HeroBannerLight } from '@/features/sections/HeroBannerLight';
-import { adsDetails, adsExplanation, checks, heroBanner, ppc } from '@/data/ads';
+import { adsExplanation, checks, heroBanner, ppc } from '@/data/ads';
 import { ContactUs } from '@/features/sections/ContactUs';
 import { InfoCards } from '@/features/sections/InfoCards';
 import { PriceList } from '@/features/sections/PriceList';
