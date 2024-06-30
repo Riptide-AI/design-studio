@@ -25,7 +25,7 @@ export const Tabs = ({ items }) => {
             <div className={styles.tab__button}>
               <Link href={tab.link}>
                 <Image
-                  src="img/icons/arrow-circle.svg"
+                  src="/img/icons/arrow-circle.svg"
                   fill={true}
                   className={clsx(styles.link__icon, { [styles.active]: activeTab === index })}
                   alt=""

@@ -2,38 +2,38 @@ import React, { useEffect, useRef, useState } from 'react';
 import styles from './style.module.scss';
 import { useTranslation } from 'react-i18next';
 import Image from 'next/image';
+import { useRouter } from 'next/router';
 
 const SetLanguage = () => {
   const [isOpen, setIsOpen] = useState(false);
+  const router = useRouter();
   const items = [
     { id: 1, src: '/img/lang/FlagEN.png', code: 'en' },
     { id: 2, src: '/img/lang/FlagUA.png', code: 'ua' },
     { id: 3, src: '/img/lang/FlagRU.png', code: 'ru' },
-    /*{ id: 3, src: '/img/lang/FlagIN.png', code: 'in' },*/
   ];
   const { i18n } = useTranslation();
-  const [lang, setLang] = useState(i18n.language);
-  const [selectedItem, setSelectedItem] = useState(items.find((item) => item.code == lang));
+  const [selectedItem, setSelectedItem] = useState(items.find((item) => item.code === router.locale),
+  );
   const [language, setLanguage] = useState(
     items.filter((element) => element.id !== selectedItem.id),
   );
-
-  useEffect(() => {
-    i18n.changeLanguage(lang);
-  }, [lang, i18n]);
+  const { pathname, asPath, query } = router;
 
   const handleItemClick = (item) => {
     setIsOpen(false);
     setSelectedItem(item);
-    setLang(item.code);
     setLanguage(items.filter((element) => element.id !== item.id));
+    router.replace({ pathname, query }, asPath, { locale: item.code }).then(() => {
+      i18n.changeLanguage(item.code);
+    });
   };
 
   const ref = useRef(null);
 
   useEffect(() => {
     const handleClickOutside = (event) => {
-      if (!ref.current.contains(event.target)) {
+      if (ref.current && !ref.current.contains(event.target)) {
         setIsOpen(false);
       }
     };
