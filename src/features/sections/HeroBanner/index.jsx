@@ -23,7 +23,7 @@ export const HeroBanner = () => {
           </div>
           <div className={styles.hero__stats_list}>
             {statsCards.map((card, index) => (
-              <StatsCard card={card} id={index} key={index} />
+              <StatsCard card={card} id={index} key={card.desc} />
             ))}
           </div>
           <InfiniteSlider list={partners} opacityCount={0.9} />

@@ -11,8 +11,9 @@ const nextConfig = {
     ];
   },
   i18n: {
-    locales: ['en', 'uk'],
-    defaultLocale: 'en',
+    locales: ['en', 'ua', 'ru'],
+    defaultLocale: 'ua',
+    localeDetection: false,
   },
 };
 

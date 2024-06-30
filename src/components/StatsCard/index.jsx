@@ -12,7 +12,6 @@ export const StatsCard = ({ card, id }) => {
   useEffect(() => {
     if (typeof window !== 'undefined') {
       setwindowWidth(window.innerWidth);
-
       const updateWidth = () => setwindowWidth(window.innerWidth);
       window.addEventListener('resize', updateWidth);
       return () => window.removeEventListener('resize', updateWidth);

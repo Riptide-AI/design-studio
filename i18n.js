@@ -17,8 +17,8 @@ i18n
         translation: require('./locales/ru.json'), // Path to Rusian translations
       },
     },
-    lng: 'en', // default language
-    fallbackLng: 'en',
+    lng: 'ua', // default language
+    fallbackLng: 'ua',
     interpolation: {
       escapeValue: false, // not needed for React
     },
