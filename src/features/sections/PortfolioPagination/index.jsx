@@ -77,9 +77,7 @@ export const PortfolioPagination = () => {
   }
 
   useEffect(() => {
-    const intervalId2 = setInterval(scrollFromX, 800);
-    const intervalId = setInterval(scrollToX, 6000);
-    return () => clearInterval(intervalId, intervalId2);
+ 
   }, []);
   return (
     <ContentWrapper>

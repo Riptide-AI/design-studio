@@ -217,23 +217,23 @@
         "desc": "Minimize your financial expenses by opting out of hiring developers."
       },
       "2": {
-        "title": "If there's no project, you don't pay.",
+        "title": "If there's no project, you don't pay",
         "desc": "If there is no project, there is no salary for the developer"
       },
       "3": {
-        "title": "Offering new ideas for services.",
+        "title": "Offering new ideas for services",
         "desc": "IT development, high demand. Choose us for full solutions."
       },
       "4": {
-        "title": "Gain our expertise by working together.",
+        "title": "Gain our expertise by working together",
         "desc": "Our experts amassed extensive tech experience in three years."
       },
       "5": {
-        "title": "White labeling and NDA protection.",
+        "title": "White labeling and NDA protection",
         "desc": "Project Security: Absolute White Labeling, Confidentiality NDA."
       },
       "6": {
-        "title": "Get our full delivery potential.",
+        "title": "Get our full delivery potential",
         "desc": "We focus on development through the ability to hire 25 engineers."
       },
       "7": {
@@ -377,6 +377,7 @@
   },
   "banner": {
     "title": "Do you believe in hiring professionals?",
+    "title_mob": "Believe in hiring professionals?",
     "desc": "We are a team with extensive experience in developing custom software engineering solutions for websites, utilizing various technologies. Our experts possess a versatile stack, including JavaScript, Python, PHP, and employ frameworks such as React, Django, Next.js, and Laravel. We set ourselves the important task of ensuring stability and productivity for each project, utilizing optimized code and advanced caching techniques to ensure fast page loading and efficient website performance."
   },
   "technologies": {
