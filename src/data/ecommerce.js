@@ -131,7 +131,47 @@ export const offers = {
     },
   ],
 };
-
+export const offers_mob = {
+  title: 'ecomerceOffers_mob.title',
+  list: [
+    {
+      title: 'ecomerceOffers_mob.list.1.title',
+      desc: 'ecomerceOffers_mob.list.1.desc',
+      offerName: 'Design',
+      link: '/services/design',
+    },
+    {
+      title: 'ecomerceOffers_mob.list.2.title',
+      desc: 'ecomerceOffers_mob.list.2.desc',
+      offerName: 'Trends',
+      link: '',
+    },
+    {
+      title: 'ecomerceOffers_mob.list.3.title',
+      desc: 'ecomerceOffers_mob.list.3.desc',
+      offerName: 'Usability',
+      link: '',
+    },
+    {
+      title: 'ecomerceOffers_mob.list.4.title',
+      desc: 'ecomerceOffers_mob.list.4.desc',
+      offerName: 'CMS',
+      link: '',
+    },
+    {
+      title: 'ecomerceOffers_mob.list.5.title',
+      desc: 'ecomerceOffers_mob.list.5.desc',
+      offerName: 'SEO',
+      link: '/services/seo',
+    },
+    {
+      title: 'ecomerceOffers_mob.list.6.title',
+      desc: 'ecomerceOffers_mob.list.6.desc',
+      offerName: 'Mobile',
+      link: '',
+    },
+  ],
+};
 export const priceCards = {
   title: 'priceCardsEcomerce.title',
   desc: 'priceCardsEcomerce.desc',
