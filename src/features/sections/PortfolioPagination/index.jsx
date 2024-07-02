@@ -61,7 +61,7 @@ export const PortfolioPagination = () => {
     setCurrentPage(totalPages);
   };
 
-  async function scrollToX() {
+ /*  async function scrollToX() {
     if (refList.current) {
       requestAnimationFrame(() => {
         refList.current.scrollLeft += 500;
@@ -74,7 +74,7 @@ export const PortfolioPagination = () => {
         refList.current.scrollLeft -= 500;
       });
     }
-  }
+  } */
 
   useEffect(() => {
  
