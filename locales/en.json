@@ -1,4 +1,196 @@
 {
+  "meta": {
+    "/home": {
+      "title": "Home",
+      "description": "Description for the home page",
+      "keywords": "keywords, for, home, page",
+      "og": {
+        "title": "Open Graph Title for Home",
+        "description": "Open Graph description for Home",
+        "image": "/path/to/og-image-home.png"
+      }
+    },
+    "/about-us": {
+      "title": "About",
+      "description": "Description for the home page",
+      "keywords": "keywords, for, home, page",
+      "og": {
+        "title": "Open Graph Title for Home",
+        "description": "Open Graph description for Home",
+        "image": "/path/to/og-image-home.png"
+      }
+    },
+    "/blog": {
+      "title": "Blog",
+      "description": "Description for the home page",
+      "keywords": "keywords, for, home, page",
+      "og": {
+        "title": "Open Graph Title for Home",
+        "description": "Open Graph description for Home",
+        "image": "/path/to/og-image-home.png"
+      }
+    },
+    "/contacts": {
+      "title": "Contacts",
+      "description": "Description for the home page",
+      "keywords": "keywords, for, home, page",
+      "og": {
+        "title": "Open Graph Title for Home",
+        "description": "Open Graph description for Home",
+        "image": "/path/to/og-image-home.png"
+      }
+    },
+    "/partnership": {
+      "title": "Partnership",
+      "description": "Description for the home page",
+      "keywords": "keywords, for, home, page",
+      "og": {
+        "title": "Open Graph Title for Home",
+        "description": "Open Graph description for Home",
+        "image": "/path/to/og-image-home.png"
+      }
+    },
+    "/services": {
+      "title": "Services",
+      "description": "Description for the home page",
+      "keywords": "keywords, for, home, page",
+      "og": {
+        "title": "Open Graph Title for Home",
+        "description": "Open Graph description for Home",
+        "image": "/path/to/og-image-home.png"
+      }
+    },
+    "/portfolio": {
+      "title": "Portfolio",
+      "description": "Description for the home page",
+      "keywords": "keywords, for, home, page",
+      "og": {
+        "title": "Open Graph Title for Home",
+        "description": "Open Graph description for Home",
+        "image": "/path/to/og-image-home.png"
+      }
+    },
+    "/services/ads": {
+      "title": "Ads",
+      "description": "Description for the home page",
+      "keywords": "keywords, for, home, page",
+      "og": {
+        "title": "Open Graph Title for Home",
+        "description": "Open Graph description for Home",
+        "image": "/path/to/og-image-home.png"
+      }
+    },
+    "/services/card": {
+      "title": "Card",
+      "description": "Description for the home page",
+      "keywords": "keywords, for, home, page",
+      "og": {
+        "title": "Open Graph Title for Home",
+        "description": "Open Graph description for Home",
+        "image": "/path/to/og-image-home.png"
+      }
+    },
+    "/services/design": {
+      "title": "Design",
+      "description": "Description for the home page",
+      "keywords": "keywords, for, home, page",
+      "og": {
+        "title": "Open Graph Title for Home",
+        "description": "Open Graph description for Home",
+        "image": "/path/to/og-image-home.png"
+      }
+    },
+    "/services/ecommerce": {
+      "title": "eCommerce",
+      "description": "Description for the home page",
+      "keywords": "keywords, for, home, page",
+      "og": {
+        "title": "Open Graph Title for Home",
+        "description": "Open Graph description for Home",
+        "image": "/path/to/og-image-home.png"
+      }
+    },
+    "/services/frontend": {
+      "title": "Frontend",
+      "description": "Description for the home page",
+      "keywords": "keywords, for, home, page",
+      "og": {
+        "title": "Open Graph Title for Home",
+        "description": "Open Graph description for Home",
+        "image": "/path/to/og-image-home.png"
+      }
+    },
+    "/services/corporate": {
+      "title": "Corporate",
+      "description": "Description for the home page",
+      "keywords": "keywords, for, home, page",
+      "og": {
+        "title": "Open Graph Title for Home",
+        "description": "Open Graph description for Home",
+        "image": "/path/to/og-image-home.png"
+      }
+    },
+    "/services/landing": {
+      "title": "Landing",
+      "description": "Description for the home page",
+      "keywords": "keywords, for, home, page",
+      "og": {
+        "title": "Open Graph Title for Home",
+        "description": "Open Graph description for Home",
+        "image": "/path/to/og-image-home.png"
+      }
+    },
+    "/services/quiz": {
+      "title": "Quiz",
+      "description": "Description for the home page",
+      "keywords": "keywords, for, home, page",
+      "og": {
+        "title": "Open Graph Title for Home",
+        "description": "Open Graph description for Home",
+        "image": "/path/to/og-image-home.png"
+      }
+    },
+    "/services/seo": {
+      "title": "Seo",
+      "description": "Description for the home page",
+      "keywords": "keywords, for, home, page",
+      "og": {
+        "title": "Open Graph Title for Home",
+        "description": "Open Graph description for Home",
+        "image": "/path/to/og-image-home.png"
+      }
+    },
+    "/services/smm": {
+      "title": "Smm",
+      "description": "Description for the home page",
+      "keywords": "keywords, for, home, page",
+      "og": {
+        "title": "Open Graph Title for Home",
+        "description": "Open Graph description for Home",
+        "image": "/path/to/og-image-home.png"
+      }
+    },
+    "/services/store": {
+      "title": "Store",
+      "description": "Description for the home page",
+      "keywords": "keywords, for, home, page",
+      "og": {
+        "title": "Open Graph Title for Home",
+        "description": "Open Graph description for Home",
+        "image": "/path/to/og-image-home.png"
+      }
+    },
+    "/services/support": {
+      "title": "Support",
+      "description": "Description for the home page",
+      "keywords": "keywords, for, home, page",
+      "og": {
+        "title": "Open Graph Title for Home",
+        "description": "Open Graph description for Home",
+        "image": "/path/to/og-image-home.png"
+      }
+    }
+  },
   "navigation": {
     "home": "Home",
     "services": "Services",
@@ -55,7 +247,7 @@
   },
   "aboutUs": {
     "title": "About us",
-    "desc": "We are a team of professionals in web development and innovation, ready to turn your concepts into successful and profitable projects. Since late 2021, we have already implemented over 75 successful websites, demonstrating our high level of expertise and professionalism.<br \/> Our approach is based on individual attention to each client, ensuring the development of modern, productive, and unique web solutions. We thoroughly consider the latest trends and industry requirements to provide your project with a competitive edge.",
+    "desc": "We are a team of professionals in web development and innovation, ready to turn your concepts into successful and profitable projects. Since late 2021, we have already implemented over 75 successful websites, demonstrating our high level of expertise and professionalism.<br /> Our approach is based on individual attention to each client, ensuring the development of modern, productive, and unique web solutions. We thoroughly consider the latest trends and industry requirements to provide your project with a competitive edge.",
     "cards": {
       "1": {
         "desc": "completed projects"

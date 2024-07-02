@@ -15,7 +15,6 @@ export const Workflow = ({ data, lengh = 2950, top = '128px' }) => {
   // Update checkBorder to directly access cardList.current.scrollLeft
   const checkBorder = useCallback(() => {
     const currentScrollLeft = cardList.current?.scrollLeft || 0;
-    console.log(currentScrollLeft);
 
     if (currentScrollLeft === 0) {
       setStart(true);
