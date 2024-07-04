@@ -6,8 +6,8 @@
   height: 321px;
   position: relative;
   @include media(phone) {
-  height: 440px;
-}
+    height: 440px;
+  }
   &__slide {
     min-height: 321px;
     max-width: 814px;
@@ -25,7 +25,7 @@
       height: 440px;
     }
     &__title {
-  
+   
       text-align: center;
       font-family: Manrope;
       font-size: 24px;
@@ -45,14 +45,13 @@
         font-weight: 600;
         line-height: 125%;
         position: absolute;
-        bottom:0;
+        top: -10px;
         left: 50%;
         transform: translateX(-50%);
         @include media(phone) {
-        line-height: 85%;
-        bottom: 45px;
-        top: 0;
-
+          line-height: 85%;
+          bottom: 45px;
+          top: 0;
         }
       }
     }
@@ -100,7 +99,7 @@
       background-color: #0d345c;
     }
     @include media(phone) {
-      top:  455px;
+      top: 455px;
 
       transform: none;
     }

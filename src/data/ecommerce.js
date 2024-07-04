@@ -284,6 +284,118 @@ export const priceCards = {
     },
   ],
 };
+export const priceCards_mob = {
+  title: 'priceCardsEcomerce_mob.title',
+  desc: 'priceCardsEcomerce_mob.desc',
+  checkIcon: '/img/icons/check-3.svg',
+  list: [
+    {
+      modal: {
+        title: 'priceCardsEcomerce_mob.list.1.modal.title',
+        type: 'priceCardsEcomerce_mob.list.1.modal.type',
+        desc: 'priceCardsEcomerce_mob.list.1.modal.desc',
+        grid: [
+          {
+            title: 'priceCardsEcomerce_mob.list.1.modal.grid.1.title',
+            desc: 'priceCardsEcomerce_mob.list.1.modal.grid.1.desc',
+          },
+          {
+            title: 'priceCardsEcomerce_mob.list.1.modal.grid.2.title',
+            desc: 'priceCardsEcomerce_mob.list.1.modal.grid.2.desc',
+          },
+          {
+            title: 'priceCardsEcomerce_mob.list.1.modal.grid.3.title',
+            desc: 'priceCardsEcomerce_mob.list.1.modal.grid.3.desc',
+          },
+        ],
+        images: [{ src: '/img/modal1.png' }, { src: '/img/modal2.png' }],
+      },
+      color: '#9796ED',
+      message: 'priceCardsEcomerce_mob.list.1.message',
+      sizeType: 'priceCardsEcomerce_mob.list.1.sizeType',
+      title: 'priceCardsEcomerce_mob.list.1.title',
+      desc: 'priceCardsEcomerce_mob.list.1.desc',
+      price: 'priceCardsEcomerce_mob.list.1.price',
+      order: 'priceCardsEcomerce_mob.list.1.order',
+      details: 'priceCardsEcomerce_mob.list.1.details',
+      checks: [
+        { content: 'priceCardsEcomerce_mob.list.1.checks.1' },
+        { content: 'priceCardsEcomerce_mob.list.1.checks.2' },
+        { content: 'priceCardsEcomerce_mob.list.1.checks.3' },
+      ],
+    },
+    {
+      modal: {
+        title: 'priceCardsEcomerce_mob.list.2.modal.title',
+        type: 'priceCardsEcomerce_mob.list.2.modal.type',
+        desc: 'priceCardsEcomerce_mob.list.2.modal.desc',
+        grid: [
+          {
+            title: 'priceCardsEcomerce_mob.list.2.modal.grid.1.title',
+            desc: 'priceCardsEcomerce_mob.list.2.modal.grid.1.desc',
+          },
+          {
+            title: 'priceCardsEcomerce_mob.list.2.modal.grid.2.title',
+            desc: 'priceCardsEcomerce_mob.list.2.modal.grid.2.desc',
+          },
+          {
+            title: 'priceCardsEcomerce_mob.list.2.modal.grid.3.title',
+            desc: 'priceCardsEcomerce_mob.list.2.modal.grid.3.desc',
+          },
+        ],
+        images: [{ src: '/img/modal1.png' }, { src: '/img/modal2.png' }],
+      },
+      color: '#F0F0F0',
+      message: 'priceCardsEcomerce_mob.list.2.message',
+      sizeType: 'priceCardsEcomerce_mob.list.2.sizeType',
+      title: 'priceCardsEcomerce_mob.list.2.title',
+      desc: 'priceCardsEcomerce_mob.list.2.desc',
+      price: 'priceCardsEcomerce_mob.list.2.price',
+      order: 'priceCardsEcomerce_mob.list.2.order',
+      details: 'priceCardsEcomerce_mob.list.2.details',
+      checks: [
+        { content: 'priceCardsEcomerce_mob.list.2.checks.1' },
+        { content: 'priceCardsEcomerce_mob.list.2.checks.2' },
+        { content: 'priceCardsEcomerce_mob.list.2.checks.3' },
+      ],
+    },
+    {
+      modal: {
+        title: 'priceCardsEcomerce_mob.list.3.modal.title',
+        type: 'priceCardsEcomerce_mob.list.3.modal.type',
+        desc: 'priceCardsEcomerce_mob.list.3.modal.desc',
+        grid: [
+          {
+            title: 'priceCardsEcomerce_mob.list.3.modal.grid.1.title',
+            desc: 'priceCardsEcomerce_mob.list.3.modal.grid.1.desc',
+          },
+          {
+            title: 'priceCardsEcomerce_mob.list.3.modal.grid.2.title',
+            desc: 'priceCardsEcomerce_mob.list.3.modal.grid.2.desc',
+          },
+          {
+            title: 'priceCardsEcomerce_mob.list.3.modal.grid.3.title',
+            desc: 'priceCardsEcomerce_mob.list.3.modal.grid.3.desc',
+          },
+        ],
+        images: [{ src: '/img/modal1.png' }, { src: '/img/modal2.png' }],
+      },
+      color: '#FFA3A3',
+      message: 'priceCardsEcomerce_mob.list.3.message',
+      sizeType: 'priceCardsEcomerce_mob.list.3.sizeType',
+      title: 'priceCardsEcomerce_mob.list.3.title',
+      desc: 'priceCardsEcomerce_mob.list.3.desc',
+      price: 'priceCardsEcomerce_mob.list.3.price',
+      order: 'priceCardsEcomerce_mob.list.3.order',
+      details: 'priceCardsEcomerce_mob.list.3.details',
+      checks: [
+        { content: 'priceCardsEcomerce_mob.list.3.checks.1' },
+        { content: 'priceCardsEcomerce_mob.list.3.checks.2' },
+        { content: 'priceCardsEcomerce_mob.list.3.checks.3' },
+      ],
+    },
+  ],
+};
 export const securityList = {
   title: 'Ми захищаємо вас від двох пасток',
   desc: 'Відповідно до дослідження McKinsey Oxford',

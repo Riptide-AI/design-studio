@@ -14,6 +14,7 @@ export const PortfolioPagination = () => {
     let finalList = [];
     portfolioPagination.filters.map(
       (item) =>
+       
         item.id !== 'all' && (finalList = [...finalList, ...portfolioPagination.lists[item.id]]),
     );
     return finalList;

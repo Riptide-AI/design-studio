@@ -20,6 +20,23 @@ export const workwithus = {
     },
   ],
 };
+export const workwithus_mob = {
+  title: 'workwithus.title',
+  list: [
+    {
+      desc: 'workwithus.list.1.desc',
+      icon: '/img/icons/workwithus-1.png',
+    },
+    {
+      desc: 'workwithus.list.2.desc',
+      icon: '/img/icons/workwithus-2.png',
+    },
+    {
+      desc: 'workwithus.list.3.desc',
+      icon: '/img/icons/workwithus-3.png',
+    },
+  ],
+};
 export const reviews = {
   title: 'reviews.title',
   desc: 'reviews.desc',
@@ -210,7 +227,118 @@ export const priceCards = {
     },
   ],
 };
-
+export const priceCards_mob = {
+  title: 'priceCardsShops_mob.title',
+  desc: 'priceCardsShops_mob.desc',
+  checkIcon: '/img/icons/check-3.svg',
+  list: [
+    {
+      modal: {
+        title: 'priceCardsShops_mob.list.1.modal.title',
+        type: 'priceCardsShops_mob.list.1.modal.type',
+        desc: 'priceCardsShops_mob.list.1.modal.desc',
+        grid: [
+          {
+            title: 'priceCardsShops_mob.list.1.modal.grid.1.title',
+            desc: 'priceCardsShops_mob.list.1.modal.grid.1.desc',
+          },
+          {
+            title: 'priceCardsShops_mob.list.1.modal.grid.2.title',
+            desc: 'priceCardsShops_mob.list.1.modal.grid.2.desc',
+          },
+          {
+            title: 'priceCardsShops_mob.list.1.modal.grid.3.title',
+            desc: 'priceCardsShops_mob.list.1.modal.grid.3.desc',
+          },
+        ],
+        images: [{ src: '/img/modal1.png' }, { src: '/img/modal2.png' }],
+      },
+      color: '#59ACFF',
+      message: 'priceCardsShops_mob.list.1.message',
+      sizeType: 'priceCardsShops_mob.list.1.sizeType',
+      title: 'priceCardsShops_mob.list.1.title',
+      desc: 'priceCardsShops_mob.list.1.desc',
+      price: 'priceCardsShops_mob.list.1.price',
+      order: 'priceCardsShops_mob.list.1.order',
+      details: 'priceCardsShops_mob.list.1.details',
+      checks: [
+        { content: 'priceCardsShops_mob.list.1.checks.1' },
+        { content: 'priceCardsShops_mob.list.1.checks.2' },
+        { content: 'priceCardsShops_mob.list.1.checks.3' },
+      ],
+    },
+    {
+      modal: {
+        title: 'priceCardsShops_mob.list.2.modal.title',
+        type: 'priceCardsShops_mob.list.2.modal.type',
+        desc: 'priceCardsShops_mob.list.2.modal.desc',
+        grid: [
+          {
+            title: 'priceCardsShops_mob.list.2.modal.grid.1.title',
+            desc: 'priceCardsShops_mob.list.2.modal.grid.1.desc',
+          },
+          {
+            title: 'priceCardsShops_mob.list.2.modal.grid.2.title',
+            desc: 'priceCardsShops_mob.list.2.modal.grid.2.desc',
+          },
+          {
+            title: 'priceCardsShops_mob.list.2.modal.grid.3.title',
+            desc: 'priceCardsShops_mob.list.2.modal.grid.3.desc',
+          },
+        ],
+        images: [{ src: '/img/modal1.png' }, { src: '/img/modal2.png' }],
+      },
+      color: '#A5E38F',
+      message: 'priceCardsShops_mob.list.2.message',
+      sizeType: 'priceCardsShops_mob.list.2.sizeType',
+      title: 'priceCardsShops_mob.list.2.title',
+      desc: 'priceCardsShops_mob.list.2.desc',
+      price: 'priceCardsShops_mob.list.2.price',
+      order: 'priceCardsShops_mob.list.2.order',
+      details: 'priceCardsShops_mob.list.2.details',
+      checks: [
+        { content: 'priceCardsShops_mob.list.2.checks.1' },
+        { content: 'priceCardsShops_mob.list.2.checks.2' },
+        { content: 'priceCardsShops_mob.list.2.checks.3' },
+      ],
+    },
+    {
+      modal: {
+        title: 'priceCardsShops_mob.list.3.modal.title',
+        type: 'priceCardsShops_mob.list.3.modal.type',
+        desc: 'priceCardsShops_mob.list.3.modal.desc',
+        grid: [
+          {
+            title: 'priceCardsShops_mob.list.3.modal.grid.1.title',
+            desc: 'priceCardsShops_mob.list.3.modal.grid.1.desc',
+          },
+          {
+            title: 'priceCardsShops_mob.list.3.modal.grid.2.title',
+            desc: 'priceCardsShops_mob.list.3.modal.grid.2.desc',
+          },
+          {
+            title: 'priceCardsShops_mob.list.3.modal.grid.3.title',
+            desc: 'priceCardsShops_mob.list.3.modal.grid.3.desc',
+          },
+        ],
+        images: [{ src: '/img/modal1.png' }, { src: '/img/modal2.png' }],
+      },
+      color: '#F0F0F0',
+      message: 'priceCardsShops_mob.list.3.message',
+      sizeType: 'priceCardsShops_mob.list.3.sizeType',
+      title: 'priceCardsShops_mob.list.3.title',
+      desc: 'priceCardsShops_mob.list.3.desc',
+      price: 'priceCardsShops_mob.list.3.price',
+      order: 'priceCardsShops_mob.list.3.order',
+      details: 'priceCardsShops_mob.list.3.details',
+      checks: [
+        { content: 'priceCardsShops_mob.list.3.checks.1' },
+        { content: 'priceCardsShops_mob.list.3.checks.2' },
+        { content: 'priceCardsShops_mob.list.3.checks.3' },
+      ],
+    },
+  ],
+};
 export const securityList = {
   title: 'Ми захищаємо вас від двох пасток',
   desc: 'Відповідно до дослідження McKinsey Oxford',

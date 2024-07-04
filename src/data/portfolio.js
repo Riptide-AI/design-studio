@@ -14,131 +14,213 @@ export const portfolioPagination = {
     web_design: [
       {
         id: 10,
-        image: '/img/development-stage-1.jfif', // img link here
-        title: 'Назва',
+        image: '/img/portfolios/web_design/Ellty.png', // img link here
+        title: 'Веб-дизайн для компанії «Ellty»',
         theme: 'portfolioPagination.theme.Web_design',
         category: 'Web design',
+        link: 'https://www.figma.com/proto/jnCM95go0WrPe6dmgF9xDg/Ellty-LP-%D0%92%D0%B5%D1%80%D1%81%D1%82%D0%BA%D0%B0-(Copy)?page-id=1%3A2&node-id=3196-4237&t=Dd1o1u7q27FP5IKU-1&scaling=min-zoom&content-scaling=fixed',
       },
       {
         id: 11,
-        image: '/img/development-stage-1.jfif', // img link here
-        title: 'Назва',
+        image: '/img/portfolios/web_design/PressWawe.png', // img link here
+        title: 'Веб-дизайн для компанії «PressWave»',
         theme: 'portfolioPagination.theme.Web_design',
         category: 'Web design',
+        link: 'https://www.figma.com/proto/PI4nFuMn2OVuUuSdxHLRZL/Untitled?page-id=&node-id=0-2239&t=WuAzbyxCrBkUCJG7-1',
       },
       {
         id: 12,
-        image: '/img/development-stage-1.jfif', // img link here
-        title: 'Назва',
+        image: '/img/portfolios/web_design/alleva.png', // img link here
+        title: 'Веб-дизайн для компанії «Alleva»',
         theme: 'portfolioPagination.theme.Web_design',
         category: 'Web design',
+        link: 'https://www.figma.com/proto/ztDLb3Y7kMH7iBGcZmvuvq/PetStore-PC?page-id=0%3A1&node-id=3-13395&t=iRybJyT5Ldx6UIDT-1&scaling=min-zoom&content-scaling=fixed',
       },
       {
         id: 13,
-        image: '/img/development-stage-1.jfif', // img link here
-        title: 'Назва',
+        image: '/img/portfolios/web_design/web_shop.png', // img link here
+        title: 'Веб-дизайн для інтернет-магазину',
         theme: 'portfolioPagination.theme.Web_design',
         category: 'Web design',
+        link: 'https://www.figma.com/proto/e4uIj0DWtJCGzmhNbaEUjL/Teddy-bears-store?page-id=0%3A1&node-id=1-435&t=S3Kd9L98XnbJIGk4-1&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=1%3A435',
       },
       {
         id: 14,
-        image: '/img/development-stage-1.jfif', // img link here
-        title: 'Назва',
+        image: '/img/portfolios/web_design/lenova.png', // img link here
+        title: 'Веб-дизайн для масажиста Леванова',
         theme: 'portfolioPagination.theme.Web_design',
         category: 'Web design',
+        link: 'https://www.figma.com/proto/XoNFb1PicqRU8BKVl3acvq/Untitled?page-id=&node-id=1-2395&t=1ZjSG04UrTEQt2Y4-1',
       },
       {
         id: 15,
-        image: '/img/development-stage-1.jfif', // img link here
-        title: 'Назва',
+        image: '/img/portfolios/web_design/demyan.png', // img link here
+        title: 'Веб-дизайн для Центру Дем’яна Попова',
         theme: 'portfolioPagination.theme.Web_design',
         category: 'Web design',
+        link: 'https://www.figma.com/proto/2cjBsoA3ZBnHSG5ZdiZENy/Homeopat-%D0%9F%D0%9A?page-id=0%3A1&node-id=1-447&t=FNxyasbYezY5nlmR-1&scaling=min-zoom&content-scaling=fixed',
       },
       {
         id: 16,
-        image: '/img/development-stage-1.jfif', // img link here
-        title: 'Назва',
+        image: '/img/portfolios/web_design/cryptohub.png', // img link here
+        title: 'Веб-дизайн для компанії «CryptoHub»',
         theme: 'portfolioPagination.theme.Web_design',
         category: 'Web design',
+        link: 'https://www.figma.com/proto/xkvXslJqRLyLT8NXlpvjcC/Untitled?page-id=&node-id=60-2978&t=WZHCKkDYcz2QRFId-1',
       },
       {
         id: 17,
-        image: '/img/development-stage-1.jfif', // img link here
-        title: 'Назва',
+        image: '/img/portfolios/web_design/smmLab.png', // img link here
+        title: 'Веб-дизайн для «SMM-LAB»',
         theme: 'portfolioPagination.theme.Web_design',
         category: 'Web design',
+        link: 'https://www.figma.com/proto/leSCj3lwLrKKDCLbq2FVkX/Untitled?page-id=&node-id=0-3&t=X1bRpv8kj1OuZqMO-1',
       },
       {
         id: 18,
-        image: '/img/development-stage-1.jfif', // img link here
-        title: 'Назва',
+        image: '/img/portfolios/web_design/skyclean.png', // img link here
+        title: 'Веб-дизайн для компанії «Skyclean»',
         theme: 'portfolioPagination.theme.Web_design',
         category: 'Web design',
+        link: 'https://www.figma.com/proto/Qw2pUWQXtiRYSDQKmaD8Mo/window-washing-PC?page-id=0%3A1&node-id=1-883&t=HVOvDvIUyVjSGnTt-1&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=1%3A883',
+      },
+      {
+        id: 100,
+        image: '/img/portfolios/web_design/specialezed.png', // img link here
+        title: 'Веб-дизайн для компанії «Specialized»',
+        theme: 'portfolioPagination.theme.Web_design',
+        category: 'Web design',
+        link: 'https://www.figma.com/proto/N6OUybarUEcgNscehcKUpU/Bikes-PC?page-id=0%3A1&node-id=1-390&t=IPX7tQF2RXLjnj6z-1&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=1%3A390',
+      },
+      {
+        id: 101,
+        image: '/img/portfolios/web_design/charityFond.png', // img link here
+        title: 'Веб-дизайн для благодійного фонду',
+        theme: 'portfolioPagination.theme.Web_design',
+        category: 'Web design',
+        link: 'https://www.figma.com/proto/44bnxqYat9PKrczCtarGp0/Charitable-Foundation-PC?page-id=0%3A1&node-id=2-267&t=MLrPLE91i0GsTVyJ-1&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=2%3A267',
+      },
+      {
+        id: 102,
+        image: '/img/portfolios/web_design/shadowtime.png', // img link here
+        title: 'Веб-дизайн для компанії «ShadowTime»',
+        theme: 'portfolioPagination.theme.Web_design',
+        category: 'Web design',
+        link: 'https://www.figma.com/proto/BjaEKY8Xgx6C9AxevOQNwr/Shadow-sails-landing?page-id=0%3A1&node-id=1-183&t=FqbG3RVgXA1V7Yz0-1&scaling=min-zoom&content-scaling=fixed',
+      },
+      {
+        id: 103,
+        image: '/img/portfolios/web_design/studio.png', // img link here
+        title: 'Веб-дизайн для компанії «DanceStudio»',
+        theme: 'portfolioPagination.theme.Web_design',
+        category: 'Web design',
+        link: 'https://www.figma.com/proto/2eBEJe71inCCtrDONWuofI/Prototype%2FWebsite-Dance-studio?page-id=0%3A1&node-id=1-428&t=92IhiOVprBDTTC9e-1&scaling=min-zoom&content-scaling=fixed',
       },
     ],
     web_development: [
       {
         id: 19,
-        image: '/img/development-stage-1.jfif', // img link here
-        title: 'Проєкт 1',
-        theme: 'portfolioPagination.theme.Web_development',
+        image: '/img/portfolios/web_design/Ellty.png', // img link here
+        title: 'Веб-дизайн для компанії «Ellty»',
+          theme: 'portfolioPagination.theme.Web_development',
         category: 'Web development',
+        link: 'https://www.figma.com/proto/jnCM95go0WrPe6dmgF9xDg/Ellty-LP-%D0%92%D0%B5%D1%80%D1%81%D1%82%D0%BA%D0%B0-(Copy)?page-id=1%3A2&node-id=3196-4237&t=Dd1o1u7q27FP5IKU-1&scaling=min-zoom&content-scaling=fixed',
       },
       {
         id: 20,
-        image: '/img/development-stage-1.jfif', // img link here
-        title: 'Проєкт 2',
-        theme: 'portfolioPagination.theme.Web_development',
+        image: '/img/portfolios/web_design/PressWawe.png', // img link here
+        title: 'Веб-дизайн для компанії «PressWave»',
+          theme: 'portfolioPagination.theme.Web_development',
         category: 'Web development',
+        link: 'https://www.figma.com/proto/PI4nFuMn2OVuUuSdxHLRZL/Untitled?page-id=&node-id=0-2239&t=WuAzbyxCrBkUCJG7-1',
       },
       {
         id: 21,
-        image: '/img/development-stage-1.jfif', // img link here
-        title: 'Проєкт 3',
-        theme: 'portfolioPagination.theme.Web_development',
+        image: '/img/portfolios/web_design/alleva.png', // img link here
+        title: 'Веб-дизайн для компанії «Alleva»',
+          theme: 'portfolioPagination.theme.Web_development',
         category: 'Web development',
+        link: 'https://www.figma.com/proto/ztDLb3Y7kMH7iBGcZmvuvq/PetStore-PC?page-id=0%3A1&node-id=3-13395&t=iRybJyT5Ldx6UIDT-1&scaling=min-zoom&content-scaling=fixed',
       },
       {
         id: 22,
-        image: '/img/development-stage-1.jfif', // img link here
-        title: 'Проєкт 4',
-        theme: 'portfolioPagination.theme.Web_development',
+        image: '/img/portfolios/web_design/web_shop.png', // img link here
+        title: 'Веб-дизайн для інтернет-магазину',
+          theme: 'portfolioPagination.theme.Web_development',
         category: 'Web development',
+        link: 'https://www.figma.com/proto/e4uIj0DWtJCGzmhNbaEUjL/Teddy-bears-store?page-id=0%3A1&node-id=1-435&t=S3Kd9L98XnbJIGk4-1&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=1%3A435',
       },
       {
         id: 23,
-        image: '/img/development-stage-1.jfif', // img link here
-        title: 'Проєкт 5',
-        theme: 'portfolioPagination.theme.Web_development',
+        image: '/img/portfolios/web_design/lenova.png', // img link here
+        title: 'Веб-дизайн для масажиста Леванова',
+          theme: 'portfolioPagination.theme.Web_development',
         category: 'Web development',
+        link: 'https://www.figma.com/proto/XoNFb1PicqRU8BKVl3acvq/Untitled?page-id=&node-id=1-2395&t=1ZjSG04UrTEQt2Y4-1',
       },
       {
         id: 24,
-        image: '/img/development-stage-1.jfif', // img link here
-        title: 'Проєкт 6',
-        theme: 'portfolioPagination.theme.Web_development',
+        image: '/img/portfolios/web_design/demyan.png', // img link here
+        title: 'Веб-дизайн для Центру Дем’яна Попова',
+          theme: 'portfolioPagination.theme.Web_development',
         category: 'Web development',
+        link: 'https://www.figma.com/proto/2cjBsoA3ZBnHSG5ZdiZENy/Homeopat-%D0%9F%D0%9A?page-id=0%3A1&node-id=1-447&t=FNxyasbYezY5nlmR-1&scaling=min-zoom&content-scaling=fixed',
       },
       {
         id: 25,
-        image: '/img/development-stage-1.jfif', // img link here
-        title: 'Проєкт 7',
-        theme: 'portfolioPagination.theme.Web_development',
+        image: '/img/portfolios/web_design/cryptohub.png', // img link here
+        title: 'Веб-дизайн для компанії «CryptoHub»',
+          theme: 'portfolioPagination.theme.Web_development',
         category: 'Web development',
+        link: 'https://www.figma.com/proto/xkvXslJqRLyLT8NXlpvjcC/Untitled?page-id=&node-id=60-2978&t=WZHCKkDYcz2QRFId-1',
       },
       {
         id: 26,
-        image: '/img/development-stage-1.jfif', // img link here
-        title: 'Проєкт 8',
-        theme: 'portfolioPagination.theme.Web_development',
+        image: '/img/portfolios/web_design/smmLab.png', // img link here
+        title: 'Веб-дизайн для «SMM-LAB»',
+          theme: 'portfolioPagination.theme.Web_development',
         category: 'Web development',
+        link: 'https://www.figma.com/proto/leSCj3lwLrKKDCLbq2FVkX/Untitled?page-id=&node-id=0-3&t=X1bRpv8kj1OuZqMO-1',
       },
       {
         id: 27,
-        image: '/img/development-stage-1.jfif', // img link here
-        title: 'Проєкт 9',
-        theme: 'portfolioPagination.theme.Web_development',
+        image: '/img/portfolios/web_design/skyclean.png', // img link here
+        title: 'Веб-дизайн для компанії «Skyclean»',
+          theme: 'portfolioPagination.theme.Web_development',
         category: 'Web development',
+        link: 'https://www.figma.com/proto/Qw2pUWQXtiRYSDQKmaD8Mo/window-washing-PC?page-id=0%3A1&node-id=1-883&t=HVOvDvIUyVjSGnTt-1&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=1%3A883',
+      },
+      {
+        id: 200,
+        image: '/img/portfolios/web_design/specialezed.png', // img link here
+        title: 'Веб-дизайн для компанії «Specialized»',
+          theme: 'portfolioPagination.theme.Web_development',
+        category: 'Web development',
+        link: 'https://www.figma.com/proto/N6OUybarUEcgNscehcKUpU/Bikes-PC?page-id=0%3A1&node-id=1-390&t=IPX7tQF2RXLjnj6z-1&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=1%3A390',
+      },
+      {
+        id: 201,
+        image: '/img/portfolios/web_design/charityFond.png', // img link here
+        title: 'Веб-дизайн для благодійного фонду',
+          theme: 'portfolioPagination.theme.Web_development',
+        category: 'Web development',
+        link: 'https://www.figma.com/proto/44bnxqYat9PKrczCtarGp0/Charitable-Foundation-PC?page-id=0%3A1&node-id=2-267&t=MLrPLE91i0GsTVyJ-1&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=2%3A267',
+      },
+      {
+        id: 202,
+        image: '/img/portfolios/web_design/shadowtime.png', // img link here
+        title: 'Веб-дизайн для компанії «ShadowTime»',
+          theme: 'portfolioPagination.theme.Web_development',
+        category: 'Web development',
+        link: 'https://www.figma.com/proto/BjaEKY8Xgx6C9AxevOQNwr/Shadow-sails-landing?page-id=0%3A1&node-id=1-183&t=FqbG3RVgXA1V7Yz0-1&scaling=min-zoom&content-scaling=fixed',
+      },
+      {
+        id: 203,
+        image: '/img/portfolios/web_design/studio.png', // img link here
+        title: 'Веб-дизайн для компанії «DanceStudio»',
+          theme: 'portfolioPagination.theme.Web_development',
+        category: 'Web development',
+        link: 'https://www.figma.com/proto/2eBEJe71inCCtrDONWuofI/Prototype%2FWebsite-Dance-studio?page-id=0%3A1&node-id=1-428&t=92IhiOVprBDTTC9e-1&scaling=min-zoom&content-scaling=fixed',
       },
     ],
     logos: [
