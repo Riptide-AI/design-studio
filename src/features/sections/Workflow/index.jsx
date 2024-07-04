@@ -11,7 +11,16 @@ export const Workflow = ({ data, lengh = 2950, top = '128px' }) => {
   const [start, setStart] = useState(true);
   const [end, setEnd] = useState(true);
   const cardList = useRef();
+  const [windowWidth, setwindowWidth] = useState();
 
+  useEffect(() => {
+    if (typeof window !== 'undefined') {
+      setwindowWidth(window.innerWidth);
+      const updateWidth = () => setwindowWidth(window.innerWidth);
+      window.addEventListener('resize', updateWidth);
+      return () => window.removeEventListener('resize', updateWidth);
+    }
+  }, []);
   // Update checkBorder to directly access cardList.current.scrollLeft
   const checkBorder = useCallback(() => {
     const currentScrollLeft = cardList.current?.scrollLeft || 0;
@@ -51,7 +60,9 @@ export const Workflow = ({ data, lengh = 2950, top = '128px' }) => {
   async function scrollToNext() {
     if (cardList.current) {
       requestAnimationFrame(() => {
-        cardList.current.scrollLeft += 940;
+        windowWidth > 1440
+          ? (cardList.current.scrollLeft += 940)
+          : (cardList.current.scrollLeft += 1065);
       });
     }
   }
@@ -59,7 +70,9 @@ export const Workflow = ({ data, lengh = 2950, top = '128px' }) => {
   async function scrollToPrev() {
     if (cardList.current) {
       requestAnimationFrame(() => {
-        cardList.current.scrollLeft -= 940;
+        windowWidth > 1440
+          ? (cardList.current.scrollLeft -= 940)
+          : (cardList.current.scrollLeft -= 1065);
       });
     }
   }

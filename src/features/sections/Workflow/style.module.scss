@@ -47,18 +47,13 @@
     scrollbar-color: transparent transparent;
 
     @include media(phone) {
-      flex-direction: column;
-      overflow-x: hidden;
-      align-items: center;
-      justify-content: center;
-      gap: 10px;
-
+      text-align: center;
+      flex: 0 1 auto;
       padding: 0px;
     }
   }
   .paginationBtn {
     @include media(phone) {
-      display: none;
     }
 
     left: -30px;
@@ -70,13 +65,20 @@
     gap: 900px;
     justify-content: center;
     @include media(phone) {
+      gap: 260px;
+      left: calc(50% - 170px);
       align-self: center;
+      top: 50% !important;
     }
     .link__icon {
       height: 80px;
       width: 80px;
       color: white;
       transition-duration: 0.3s;
+      @include media(phone) {
+        height: 40px;
+        width: 40px;
+      }
     }
     .prevBtn {
       &:hover {
@@ -114,9 +116,13 @@
     align-items: center;
     position: relative;
     flex-shrink: 0;
-    /* margin-left: -10px; */
+
     @include media(phone) {
-      width: 85%;
+      width: 265px;
+      /*   margin-left:calc(50% - 132px); */
+      flex-grow: 1;
+     
+    
     }
     &__order {
       position: absolute;
@@ -152,6 +158,8 @@
       text-align: center;
       border-radius: 10px;
       font-style: italic;
+      @include media(phone) {
+      }
     }
   }
 }

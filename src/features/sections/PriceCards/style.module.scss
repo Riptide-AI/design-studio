@@ -3,7 +3,7 @@
 .price_cards {
   margin: 140px auto 0;
   width: 100%;
-  font-family: "Manrope";
+  font-family: 'Manrope';
   .paginationBtn {
     display: none;
   }
@@ -41,7 +41,7 @@
       }
     }
   }
- 
+
   &__title {
     text-align: center;
     font-size: 40px;
@@ -62,7 +62,7 @@
     margin: 0 auto;
     text-align: center;
     @include media(phone) {
-      text-align: justify;
+      text-align: center;
       font-weight: normal;
     }
   }
@@ -70,8 +70,8 @@
     display: flex;
     margin-top: 40px;
     gap: 40px;
-  scroll-behavior: smooth;
-  align-items: stretch;
+    scroll-behavior: smooth;
+    align-items: stretch;
     @include media(phone) {
       min-width: 300px;
       overflow: auto;
@@ -99,7 +99,7 @@
         border-top: 1px solid rgba($color: $bright-blue, $alpha: 0.25);
       }
     }
- 
+
     &__size_type {
       padding: 10px 20px;
       border-radius: 90px;
@@ -119,6 +119,9 @@
       line-height: 150%;
       color: $pale-blue;
       text-align: justify;
+      @include media(phone) {
+        text-align: left;
+      }
     }
     &__price {
       color: $pale-blue;
@@ -170,6 +173,9 @@
         text-align: justify;
         font-size: 16px;
         line-height: 140%;
+        @include media(phone) {
+          text-align: left;
+        }
       }
     }
   }

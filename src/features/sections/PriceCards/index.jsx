@@ -9,20 +9,19 @@ import { useRef, useState } from 'react';
 import { useTranslation } from 'react-i18next';
 
 export const PriceCards = ({ data }) => {
-  const {t} = useTranslation();
+  const { t } = useTranslation();
   const cardsRef = useRef('');
   function scrollToNext() {
     if (cardsRef.current) {
       requestAnimationFrame(() => {
-        cardsRef.current.scrollLeft += window.innerWidth;
+        cardsRef.current.scrollLeft += window.innerWidth < 422? window.innerWidth +10: 422;
       });
     }
   }
-
   function scrollToPrev() {
     if (cardsRef.current) {
       requestAnimationFrame(() => {
-        cardsRef.current.scrollLeft -= window.innerWidth;
+        cardsRef.current.scrollLeft -= window.innerWidth < 422? window.innerWidth +10: 422;
       });
     }
   }
@@ -59,7 +58,10 @@ export const PriceCards = ({ data }) => {
               <div className={styles.price_cards__item__desc}>{t(item.desc)}</div>
               <div className={styles.price_cards__item__price}>{t(item.price)}</div>
               <Link href={{ pathname: '/contacts', query: { message: t(item.message) } }}>
-                <CustomButton stylesClassName={styles.price_cards__item__btn} title={t(item.order)} />
+                <CustomButton
+                  stylesClassName={styles.price_cards__item__btn}
+                  title={t(item.order)}
+                />
               </Link>
               <CustomButton
                 stylesClassName={styles.price_cards__item__btn_alt}

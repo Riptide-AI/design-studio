@@ -212,6 +212,119 @@ export const priceCards = {
     },
   ],
 };
+export const priceCards_mob = {
+  title: 'priceCardsCorporate_mob.title',
+  desc: 'priceCardsCorporate_mob.desc',
+  checkIcon: '/img/icons/check-3.svg',
+  list: [
+    {
+      modal: {
+        title: 'priceCardsCorporate_mob.list.1.modal.title',
+        type: 'priceCardsCorporate_mob.list.1.modal.type',
+        desc: 'priceCardsCorporate_mob.list.1.modal.desc',
+        grid: [
+          {
+            title: 'priceCardsCorporate_mob.list.1.modal.grid.1.title',
+            desc: 'priceCardsCorporate_mob.list.1.modal.grid.1.desc',
+          },
+          {
+            title: 'priceCardsCorporate_mob.list.1.modal.grid.2.title',
+            desc: 'priceCardsCorporate_mob.list.1.modal.grid.2.desc',
+          },
+          {
+            title: 'priceCardsCorporate_mob.list.1.modal.grid.3.title',
+            desc: 'priceCardsCorporate_mob.list.1.modal.grid.3.desc',
+          },
+        ],
+        images: [{ src: '/img/modal1.png' }, { src: '/img/modal2.png' }],
+      },
+      color: '#A5E38F',
+      message: 'priceCardsCorporate_mob.list.1.message',
+      sizeType: 'priceCardsCorporate_mob.list.1.sizeType',
+      title: 'priceCardsCorporate_mob.list.1.title',
+      desc: 'priceCardsCorporate_mob.list.1.desc',
+      price: 'priceCardsCorporate_mob.list.1.price',
+      order: 'priceCardsCorporate_mob.list.1.order',
+      details: 'priceCardsCorporate_mob.list.1.details',
+      checks: [
+        { content: 'priceCardsCorporate_mob.list.1.checks.1' },
+        { content: 'priceCardsCorporate_mob.list.1.checks.2' },
+        { content: 'priceCardsCorporate_mob.list.1.checks.3' },
+      ],
+    },
+    {
+      modal: {
+        title: 'priceCardsCorporate_mob.list.2.modal.title',
+        type: 'priceCardsCorporate_mob.list.2.modal.type',
+        desc: 'priceCardsCorporate_mob.list.2.modal.desc',
+        grid: [
+          {
+            title: 'priceCardsCorporate_mob.list.2.modal.grid.1.title',
+            desc: 'priceCardsCorporate_mob.list.2.modal.grid.1.desc',
+          },
+          {
+            title: 'priceCardsCorporate_mob.list.2.modal.grid.2.title',
+            desc: 'priceCardsCorporate_mob.list.2.modal.grid.2.desc',
+          },
+          {
+            title: 'priceCardsCorporate_mob.list.2.modal.grid.3.title',
+            desc: 'priceCardsCorporate_mob.list.2.modal.grid.3.desc',
+          },
+        ],
+        images: [{ src: '/img/modal1.png' }, { src: '/img/modal2.png' }],
+      },
+      color: '#F0F0F0',
+
+      message: 'priceCardsCorporate_mob.list.2.message',
+      sizeType: 'priceCardsCorporate_mob.list.2.sizeType',
+      title: 'priceCardsCorporate_mob.list.2.title',
+      desc: 'priceCardsCorporate_mob.list.2.desc',
+      price: 'priceCardsCorporate_mob.list.2.price',
+      order: 'priceCardsCorporate_mob.list.2.order',
+      details: 'priceCardsCorporate_mob.list.2.details',
+      checks: [
+        { content: 'priceCardsCorporate_mob.list.2.checks.1' },
+        { content: 'priceCardsCorporate_mob.list.2.checks.2' },
+        { content: 'priceCardsCorporate_mob.list.2.checks.3' },
+      ],
+    },
+    {
+      modal: {
+        title: 'priceCardsCorporate_mob.list.3.modal.title',
+        type: 'priceCardsCorporate_mob.list.3.modal.type',
+        desc: 'priceCardsCorporate_mob.list.3.modal.desc',
+        grid: [
+          {
+            title: 'priceCardsCorporate_mob.list.3.modal.grid.1.title',
+            desc: 'priceCardsCorporate_mob.list.3.modal.grid.1.desc',
+          },
+          {
+            title: 'priceCardsCorporate_mob.list.3.modal.grid.2.title',
+            desc: 'priceCardsCorporate_mob.list.3.modal.grid.2.desc',
+          },
+          {
+            title: 'priceCardsCorporate_mob.list.3.modal.grid.3.title',
+            desc: 'priceCardsCorporate_mob.list.3.modal.grid.3.desc',
+          },
+        ],
+        images: [{ src: '/img/modal1.png' }, { src: '/img/modal2.png' }],
+      },
+      color: '#59ACFF',
+      message: 'priceCardsCorporate_mob.list.3.message',
+      sizeType: 'priceCardsCorporate_mob.list.3.sizeType',
+      title: 'priceCardsCorporate_mob.list.3.title',
+      desc: 'priceCardsCorporate_mob.list.3.desc',
+      price: 'priceCardsCorporate_mob.list.3.price',
+      order: 'priceCardsCorporate_mob.list.3.order',
+      details: 'priceCardsCorporate_mob.list.3.details',
+      checks: [
+        { content: 'priceCardsCorporate_mob.list.3.checks.1' },
+        { content: 'priceCardsCorporate_mob.list.3.checks.2' },
+        { content: 'priceCardsCorporate_mob.list.3.checks.3' },
+      ],
+    },
+  ],
+};
 export const achieveResults = {
   title: 'achieveResultsCorporate.title',
   list: [

@@ -963,6 +963,20 @@
       }
     }
   },
+  "workwithus_mob": {
+    "title": "Work with a team of specialist problem solvers",
+    "list": {
+      "1": {
+        "desc": "We meticulously analyze and envision the big picture before development begins to ensure long-term success."
+      },
+      "2": {
+        "desc": "Our professional designers are ready to help you - from the concept to the delivery of the product and beyond."
+      },
+      "3": {
+        "desc": "Making sure your product is built to matter is extremely important to us and our dedicated, skilled team."
+      }
+    }
+  },
   "priceCardsShops": {
     "title": "Internet-shop",
     "desc": "We specialize in the development of unique online stores of any level of complexity, as well as typical sites of the low price segment. We are ready to offer the best solution depending on the scale, complexity, budget and terms of your project.",
@@ -1068,9 +1082,218 @@
       }
     }
   },
+  "priceCardsShops_mob": {
+    "title": "Internet-shop",
+    "desc": "We specialize in creating unique online stores and affordable websites, tailoring solutions to fit your project's scale, complexity, budget, and timeline.",
+    "list": {
+      "1": {
+        "modal": {
+          "title": "Ready-made solutions",
+          "type": "Start",
+          "desc": "At the first stage of creating a business, the choice between ready-made solutions and custom development plays a key role. Ready-made solutions offer quick and easy integration, which significantly saves time and money at the start of a project. They are already optimized to meet core business needs and provide significant benefits in terms of speed of implementation and lower overall costs compared to building a custom solution from scratch.",
+          "grid": {
+            "1": {
+              "title": "Ready-made solutions considered at the start of a business?",
+              "desc": "At the start of a business, off-the-shelf solutions are especially attractive due to their rapid integration and ability to reduce costs. Ready-made solutions help all companies get off to a quick start, avoiding the long process of developing custom solutions from scratch. They provide scalability and flexibility, adapting easily to evolving business needs and market demands."
+            },
+            "2": {
+              "title": "What features exist for easy and good development?",
+              "desc": "For effective development of business solutions, it's essential to have an intuitive web interface for users, flexibility in making changes, seamless integration with other systems, and robust data security and user privacy measures in place. These elements ensure smooth operations and enhanced user experience while safeguarding sensitive information."
+            },
+            "3": {
+              "title": "Ready-made solutions or custom development?",
+              "desc": "Off-the-shelf solutions offer quicker deployment, eliminate the need for infrastructure setup, reduce development and support expenses, and provide a website ready for immediate use with minimal setup effort and configuration. They streamline the process, enabling businesses to focus more on core operations and less on technical complexities."
+            }
+          }
+        },
+        "message": "Good afternoon, I am interested in creating an online store using ready-made templates starting at $300",
+        "sizeType": "Start",
+        "title": "Ready-made solutions",
+        "desc": "Development of modern online stores based on 'Templates'",
+        "price": "from 300$",
+        "order": "Order now",
+        "details": "Details",
+        "checks": {
+          "1": "Why are ready solutions considered at the start of a business?",
+          "2": "What exactly are the features for good and easy development?",
+          "3": " How are ready-made solutions better than individual ones?"
+        }
+      },
+      "2": {
+        "modal": {
+          "title": "Ready-made solutions",
+          "type": "Small business",
+          "desc": "Custom development of your online store with a unique design plays a key role in creating an attractive and functional interface for customers. The unique design of the site significantly enhances its attractiveness to visitors, creating a recognizable brand image and ensuring satisfaction of user needs.",
+          "grid": {
+            "1": {
+              "title": "What exactly makes an attractive design for clients?",
+              "desc": "Critical elements of web store design that attract customers include elegant aesthetics, intuitive, user-friendly navigation and captivating product visuals, efficient product search features, and a seamless user experience."
+            },
+            "2": {
+              "title": "How to ensure convenient search among 1000 products?",
+              "desc": "To ensure convenient searching among a variety of products in an online store, it is very important to use effective filtering and sorting tools. Advanced filters allow you to quickly find the desired positions on the site."
+            },
+            "3": {
+              "title": "Individual development or ready-made solutions?",
+              "desc": "Individual website development has significant advantages over ready-made solutions. It allows you to accurately reflect your corporate style and stand out from your competitors thanks to its unique design tailored to your specific needs and preferences."
+            }
+          }
+        },
+        "message": "Good afternoon, I am interested in creating an online store with the help of individual development for a small business, from $500",
+        "sizeType": "Small business",
+        "title": "Individual development",
+        "desc": "Creating a uniquely designed online store for up to 1000 products.",
+        "price": "from 500$",
+        "order": "Order now",
+        "details": "Details",
+        "checks": {
+          "1": " What elements of site design make it attractive to customers?",
+          "2": "How to streamline search options for 1000 products effectively?",
+          "3": "Why are individual solutions better than ready-made solutions?"
+        }
+      },
+      "3": {
+        "modal": {
+          "title": "Ready-made solutions",
+          "type": "Business",
+          "desc": "Custom development of your online store with a unique design plays a key role in creating an attractive and functional interface for customers. The unique design of the site significantly enhances its attractiveness to visitors, creating a recognizable brand image and ensuring satisfaction of user needs.",
+          "grid": {
+            "1": {
+              "title": "What exactly makes an attractive design for clients?",
+              "desc": "Critical elements of web store design that attract customers include elegant aesthetics, intuitive, user-friendly navigation and captivating product visuals, efficient product search features, and a seamless user experience."
+            },
+            "2": {
+              "title": "How to ensure convenient search more than 1000 products?",
+              "desc": "To ensure a convenient search for more than 1000 products in the online store, it is important to use effective filtering and sorting tools. Advanced filters allow people to quickly find the positions they need on the website."
+            },
+            "3": {
+              "title": "Individual development or ready-made solutions?",
+              "desc": "Individual website development has significant advantages over ready-made solutions. It allows you to accurately reflect your corporate style and stand out from your competitors thanks to its unique design tailored to your specific needs and preferences."
+            }
+          }
+        },
+        "message": "Good afternoon, I am interested in creating an online store with the help of individual development for a business starting at $800",
+        "sizeType": "Business",
+        "title": "Individual development",
+        "desc": "Сreating a unique design of an online store with more than 1,000 products.",
+        "price": "from 800$",
+        "order": "Order now",
+        "details": "Details",
+        "checks": {
+          "1": "What design details will interest buyers and attract attention?",
+          "2": " How to streamline search options more than 1000 products effectively?",
+          "3": "Why are individual solutions better than ready-made solutions?"
+        }
+      }
+    }
+  },
   "priceCardsCorporate": {
     "title": "Corporate site",
     "desc": "Our team has high expertise in developing unique corporate websites at any level of complexity. We also specialize in creating standard projects in the low-budget segment.",
+    "list": {
+      "1": {
+        "modal": {
+          "title": "Ready-made solutions",
+          "type": "Start",
+          "desc": "At the first stage of creating a business, the choice between ready-made solutions and custom development plays a key role. Ready-made solutions offer quick and easy integration, which significantly saves time and money at the start of a project. They are already optimized to meet core business needs and provide significant benefits in terms of speed of implementation and lower overall costs compared to building a custom solution from scratch.",
+          "grid": {
+            "1": {
+              "title": "Ready-made solutions considered at the start of a business?",
+              "desc": "At the start of a business, off-the-shelf solutions are especially attractive due to their rapid integration and ability to reduce costs. Ready-made solutions help all companies get off to a quick start, avoiding the long process of developing."
+            },
+            "2": {
+              "title": "What features exist for easy and good development?",
+              "desc": "For good and easy development of business solutions, you must have an intuitive interface for web users, flexibility in making changes and also the ability to easily integrate with other systems, a high level of data security and user privacy."
+            },
+            "3": {
+              "title": "Ready-made solutions or custom development?",
+              "desc": "Off-the-shelf solutions offer quicker deployment, eliminate the need for infrastructure setup, reduce development and support expenses, and provide a website ready for immediate use with minimal setup effort and configuration."
+            }
+          }
+        },
+        "message": "Good afternoon, I am interested in creating a corporate website using ready-made templates starting at $200",
+        "sizeType": "Start",
+        "title": "Ready-made solutions",
+        "desc": "Development of unique corporate site based on ready-made 'Templates'",
+        "price": "from 300$",
+        "order": "Order now",
+        "details": "Details",
+        "checks": {
+          "1": "Why are ready solutions considered at the start of a business?",
+          "2": "What exactly are the features for good and easy development?",
+          "3": "  How are ready-made solutions better than individual ones?"
+        }
+      },
+      "2": {
+        "modal": {
+          "title": "Ready-made solutions",
+          "type": "Small business",
+          "desc": "Developing a modern static site without a server or database is an effective approach to building fast and secure websites. This approach allows you to easily present projects on the network, keeping content management simple and reducing the need for complex infrastructure solutions.",
+          "grid": {
+            "1": {
+              "title": "Development of a static website without a server and database?",
+              "desc": "The development of a static website without a server, database is chosen through fast loading of pages and also convenient content management. This approach is ideal for projects where speed and minimization of server resources are important."
+            },
+            "2": {
+              "title": "What technologies are available when developing static sites?",
+              "desc": "Basic technologies for creating static sites include HTML for creating structure and content, CSS for styling the appearance of pages, and JavaScript also for adding interactive features (animation or form validation)."
+            },
+            "3": {
+              "title": "What are the advantages of a static site without a server?",
+              "desc": "Serverless static sites provide fast data loading and improved security by eliminating server-side page generation, thus minimizing operational overhead and resource requirements to a large extent, easily achieving efficiency."
+            }
+          }
+        },
+        "message": "Good afternoon, I am interested in creating a corporate website with the help of individual development for small businesses, starting at $400",
+        "sizeType": "Small business",
+        "title": "Individual development",
+        "desc": "Development of a modern static site without a server and database.",
+        "price": "from 400$",
+        "order": "Order now",
+        "details": "Details",
+        "checks": {
+          "1": " Advantages of choosing a static site without server and database?",
+          "2": "Which technologies are used in static site development?",
+          "3": "  Advantages of a serverless static site compared to other types?"
+        }
+      },
+      "3": {
+        "modal": {
+          "title": "Індивідуальна розробка",
+          "type": "Бізнес",
+          "desc": "aaaaaaaaaaaaaaaaaa********************************************************",
+          "grid": {
+            "1": {
+              "title": "Продуманий дизайн і інтерфейс",
+              "desc": "aaaaaaaaaaaaaaaaaa"
+            },
+            "2": {
+              "title": "Швидке виконання роботи",
+              "desc": "aaaaaaaaaaaaaaaaaa"
+            },
+            "3": {
+              "title": "Якісне та деталізоване пропрацювання",
+              "desc": "aaaaaaaaaaaaaaaaaa"
+            }
+          }
+        },
+        "message": "Good afternoon, I am interested in creating a corporate website with the help of individual development for businesses, from $800",
+        "sizeType": "Business",
+        "title": "Individual development",
+        "desc": "Development of a unique dynamic site with a server and database.",
+        "price": "from 800$",
+        "order": "Order now",
+        "details": "Details",
+        "checks": {
+          "1": " Why are dynamic sites with a server and a database ideal?",
+          "2": " What technologies are used to create dynamic sites?",
+          "3": "  What are the advantages of a dynamic site with a server compared to others?"
+        }
+      }
+    }
+  }, "priceCardsCorporate_mob": {
+    "title": "Corporate site",
+    "desc": "We perfectly develop corporate sites of any complexity and standard projects in the low-budget segment.",
     "list": {
       "1": {
         "modal": {
@@ -1386,6 +1609,110 @@
   "priceCardsEcomerce": {
     "title": "eCommerce project",
     "desc": "We specialize in the development of unique eCommerce projects of any level of complexity, as well as typical sites of the low price segment. We are ready to offer the best solution depending on the complexity, budget and terms of your project.",
+    "list": {
+      "1": {
+        "modal": {
+          "title": "Ready-made solutions",
+          "type": "Start",
+          "desc": "At the first stage of creating a business, the choice between ready-made solutions and custom development plays a key role. Ready-made solutions offer quick and easy integration, which significantly saves time and money at the start of a project. They are already optimized to meet core business needs and provide significant benefits in terms of speed of implementation and lower overall costs compared to building a custom solution from scratch.",
+          "grid": {
+            "1": {
+              "title": "Ready-made solutions considered at the start of a business?",
+              "desc": "At the start of a business, off-the-shelf solutions are especially attractive due to their rapid integration and ability to reduce costs. Ready-made solutions help all companies get off to a quick start, avoiding the long process of developing."
+            },
+            "2": {
+              "title": "What features exist for easy and good development?",
+              "desc": "For good and easy development of business solutions, you must have an intuitive interface for web users, flexibility in making changes and also the ability to easily integrate with other systems, a high level of data security and user privacy."
+            },
+            "3": {
+              "title": "Ready-made solutions or custom development?",
+              "desc": "Off-the-shelf solutions offer quicker deployment, eliminate the need for infrastructure setup, reduce development and support expenses, and provide a website ready for immediate use with minimal setup effort and configuration."
+            }
+          }
+        },
+        "message": "Good afternoon, I am interested in creating an eCommerce project using ready-made templates, starting at $300",
+        "sizeType": "Start",
+        "title": "Ready-made solutions",
+        "desc": "Development of unique eCommerce projects based on 'Templates'",
+        "price": "from 300$",
+        "order": "Order now",
+        "details": "Details",
+        "checks": {
+          "1": "Why are ready solutions considered at the start of a business?",
+          "2": "What exactly are the features for good and easy development?",
+          "3": "How are ready-made solutions better than individual ones?"
+        }
+      },
+      "2": {
+        "modal": {
+          "title": "Ready-made solutions",
+          "type": "Small business",
+          "desc": "Developing a modern static site without a server or database is an effective approach to building fast and secure websites. This approach allows you to easily present projects on the network, keeping content management simple and reducing the need for complex infrastructure solutions.",
+          "grid": {
+            "1": {
+              "title": "Development of a static website without a server and database?",
+              "desc": "The development of a static website without a server, database is chosen through fast loading of pages and also convenient content management. This approach is ideal for projects where speed and minimization of server resources are important."
+            },
+            "2": {
+              "title": "What technologies are available when developing static sites?",
+              "desc": "Basic technologies for creating static sites include HTML for creating structure and content, CSS for styling the appearance of pages, and JavaScript also for adding interactive features (animation or form validation)."
+            },
+            "3": {
+              "title": "What are the advantages of a static site without a server?",
+              "desc": "Serverless static sites provide fast data loading and improved security by eliminating server-side page generation, thus minimizing operational overhead and resource requirements to a large extent, easily achieving efficiency."
+            }
+          }
+        },
+        "message": "Good afternoon, I am interested in creating an eCommerce project with the help of individual development for small businesses, starting at $500",
+        "sizeType": "Small business",
+        "title": "Individual development",
+        "desc": "Development of a modern static site without a server and database.",
+        "price": "from 500$",
+        "order": "Order now",
+        "details": "Details",
+        "checks": {
+          "1": " Advantages of choosing a static site without server and database?",
+          "2": "Which technologies are used in static site development?",
+          "3": "  Advantages of a serverless static site compared to other types?"
+        }
+      },
+      "3": {
+        "modal": {
+          "title": "Індивідуальна розробка",
+          "type": "Бізнес",
+          "desc": "aaaaaaaaaaaaaaaaaa********************************************************",
+          "grid": {
+            "1": {
+              "title": "Продуманий дизайн і інтерфейс",
+              "desc": "aaaaaaaaaaaaaaaaaa"
+            },
+            "2": {
+              "title": "Швидке виконання роботи",
+              "desc": "aaaaaaaaaaaaaaaaaa"
+            },
+            "3": {
+              "title": "Якісне та деталізоване пропрацювання",
+              "desc": "aaaaaaaaaaaaaaaaaa"
+            }
+          }
+        },
+        "message": "Good afternoon, I am interested in creating an eCommerce project with the help of individual development for businesses, from $800",
+        "sizeType": "Business",
+        "title": "Individual development",
+        "desc": "Development of a unique dynamic site with a server and database.",
+        "price": "from 800$",
+        "order": "Order now",
+        "details": "Details",
+        "checks": {
+          "1": " Why are dynamic sites with a server and a database ideal?",
+          "2": " What technologies are used to create dynamic sites?",
+          "3": "  What are the advantages of a dynamic site with a server compared to others?"
+        }
+      }
+    }
+  }, "priceCardsEcomerce_mob": {
+    "title": "eCommerce project",
+    "desc": "We specialize in the development of unique eCommerce projects of any level of complexity, as well as typical sites of the low price segment.",
     "list": {
       "1": {
         "modal": {
