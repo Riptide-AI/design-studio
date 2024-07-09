@@ -32,7 +32,13 @@ export const BurgerMenu = ({ links, isOpen, handleToggle, setOpen }) => {
                 key={item.title}
               >
                 <Image src={item.icon} width={20} height={20} alt="" />
-                <Link href={item.link} onClick={() => setTimeout(() => setOpen(false), 500)}>
+                
+                  <Link href={item.link}  onClick={() => {
+                setTimeout(() => {
+                  setOpen(false);
+                  handleToggle();
+                }, 500);
+              }}>
                   {t(`navigation.${item.title}`)}{' '}
                 </Link>
               </li>
@@ -44,6 +50,7 @@ export const BurgerMenu = ({ links, isOpen, handleToggle, setOpen }) => {
               onClick={() => {
                 setTimeout(() => {
                   setOpen(false);
+                  handleToggle();
                 }, 500);
               }}
             >
