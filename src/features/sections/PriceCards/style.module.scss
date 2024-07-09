@@ -62,10 +62,10 @@
     margin: 0 auto;
     text-align: center;
     @include media(phone) {
-      text-align: justify;
+      text-align: center;
       font-weight: normal;
       font-size: 14px;
-      word-break: break-all;
+ 
     }
   }
   &__list {

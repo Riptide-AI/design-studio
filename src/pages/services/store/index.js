@@ -38,7 +38,7 @@ export default function Store() {
         data={windowWidth < 1440 && i18n.language == 'en' ? workwithus_mob : workwithus}
       />
       <PriceCards
-        data={windowWidth < 1440 && i18n.language == 'en' ? priceCards_mob : priceCards}
+        data={windowWidth < 1440 ? priceCards_mob : priceCards}
       />
       <Offers data={offers} arrow={false} />
       <SupportTypes data={achieveResults} alt cols={2} startsWith="0" />
