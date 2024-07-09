@@ -18,15 +18,15 @@
     color: $white;
     margin-bottom: 20px;
     text-align: center;
-    font-family: Manrope;
+    font-family: "Manrope";
     margin-bottom: 12px;
     @include media(phone){
-    font-size: 35px;
+    font-size: 28px;
 
     }
   }
   &__desc {
-    font-family: Manrope;
+    font-family: "Manrope";
     font-size: 18px;
     font-weight: 600;
     line-height: 125%;
@@ -34,5 +34,9 @@
     max-width: 680px;
     text-align: center;
     margin-bottom: 40px;
+    @include media(phone){
+      font-size: 14px;
+      word-break: break-all;
+    }
   }
 }

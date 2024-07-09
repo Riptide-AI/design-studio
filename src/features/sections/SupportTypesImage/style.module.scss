@@ -18,7 +18,7 @@
     max-width: 800px;
     text-align: center;
     @include media(phone) {
-      font-size: 35px;
+      font-size: 28px;
     }
   }
   &__list {
@@ -64,6 +64,10 @@
       line-height: 150%;
       text-align: justify;
       margin-bottom: 40px;
+      @include media(phone) {
+        font-size: 14px;
+        word-break: break-all;
+      }
     }
 
     &__image {

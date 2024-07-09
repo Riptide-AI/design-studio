@@ -109,6 +109,7 @@
     @include media(phone) {
       font-size: 14px;
       margin-bottom: 12px;
+      word-break: break-all;
     }
   }
   &__program-btn {

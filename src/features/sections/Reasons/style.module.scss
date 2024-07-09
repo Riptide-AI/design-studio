@@ -211,7 +211,8 @@
       max-width: 340px;
       position: relative;
       @include media(phone) {
-        text-align: left;
+       font-size: 14px;
+       word-break: break-all;
       }
       &:hover {
         &::after {

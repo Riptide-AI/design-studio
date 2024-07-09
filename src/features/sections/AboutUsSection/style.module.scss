@@ -40,7 +40,10 @@
     text-align: justify;
     word-wrap: break-word;
     @include media(phone) {
-      margin-top: 40px;
+      margin-top: 10px;
+      font-size: 14px;
+      text-align: justify;
+      word-break: break-all;
     }
   }
   &__image {

@@ -83,7 +83,8 @@
     @include media(phone) {
       font-size: 14px;
       line-height: 125%;
-      text-align: left;
+      text-align: justify;
+      word-break: break-all;
     }
   }
   &.open {

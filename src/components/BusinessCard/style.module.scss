@@ -65,5 +65,8 @@
     line-height: 150%;
     color: $dark-grey;
     text-align: justify;
+    @include media(phone){
+      word-break: break-all;
+    }
   }
 }

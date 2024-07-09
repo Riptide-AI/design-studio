@@ -23,6 +23,7 @@
   color: #f0f0f0;
   @include media(phone) {
     margin-top: 40px;
+    font-size: 28px;
   }
 }
 
@@ -30,7 +31,6 @@
   overflow: hidden;
   position: relative;
   width: 100%;
-
 
   @include media(phone) {
     padding: 25px 0px;

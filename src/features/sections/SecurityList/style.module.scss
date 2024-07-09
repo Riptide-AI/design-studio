@@ -17,9 +17,9 @@
     font-weight: 600;
     line-height: 125%;
     color: $white;
-  @include media(phone) {
-  font-size: 35px;
-  }
+    @include media(phone) {
+      font-size: 28px;
+    }
   }
   &__desc {
     margin-top: 12px;
@@ -94,6 +94,10 @@
       text-align: justify;
       font-weight: 400;
       line-height: 140%;
+      @include media(phone) {
+        font-size: 14px;
+        word-break: break-all;
+      }
     }
     &__order {
       padding: 6px 11px;

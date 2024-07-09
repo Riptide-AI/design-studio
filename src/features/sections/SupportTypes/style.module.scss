@@ -18,7 +18,7 @@
     max-width: 800px;
     text-align: center;
     @include media(phone) {
-      font-size: 30px;
+      font-size: 28px;
     }
   }
   &__list {
@@ -89,7 +89,8 @@
       line-height: 150%;
       text-align: justify;
       @include media(phone){
-      text-align: left;
+    font-size: 14px;
+    word-break: break-all;
 
       }
       &.alt {
