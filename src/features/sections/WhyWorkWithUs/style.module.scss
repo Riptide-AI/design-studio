@@ -109,7 +109,8 @@
         max-width: 225px;
         @include media(phone){
         max-width: 290px;
-
+        font-size: 14px;
+          word-break: break-all;
         }
       }
     }
