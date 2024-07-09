@@ -5,6 +5,7 @@ import {
   priceCards,
   achieveResults,
   workwithus,
+  priceCards_mob,
   stages,
 } from '@/data/landing';
 import { ContactUs } from '@/features/sections/ContactUs';
@@ -14,16 +15,23 @@ import { PriceCards } from '@/features/sections/PriceCards';
 
 import { DevelopmentStages } from '@/features/sections/DevelopmentStages';
 import { Workflow } from '@/features/sections/Workflow';
-
-
+import { useEffect, useState } from 'react';
 
 export default function Landing() {
+  const [windowWidth, setwindowWidth] = useState();
+  useEffect(() => {
+    if (typeof window !== 'undefined') {
+      setwindowWidth(window.innerWidth);
+      const updateWidth = () => setwindowWidth(window.innerWidth);
+      window.addEventListener('resize', updateWidth);
+      return () => window.removeEventListener('resize', updateWidth);
+    }
+  }, []);
   return (
     <>
       <HeroBannerLight data={heroBanner} />
       <WorkWithUs data={workwithus} />
-      <PriceCards data={priceCards} />
- 
+      <PriceCards data={windowWidth < 1440 ? priceCards_mob : priceCards} />
       <Workflow data={achieveResults} lengh={1820} top={'85px'} />
       <DevelopmentStages data={stages} length={9} />
       <Reviews data={reviews} />

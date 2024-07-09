@@ -15,10 +15,10 @@ import { WorkWithUs } from '@/features/sections/WorkWithUs';
 import { PriceCards } from '@/features/sections/PriceCards';
 import { SecurityList } from '@/features/sections/SecurityList';
 import { useEffect, useState } from 'react';
-import { useTranslation } from 'react-i18next';
+
 export default function Ecommerce() {
   const [windowWidth, setwindowWidth] = useState();
-  const { i18n } = useTranslation();
+
 
   useEffect(() => {
     if (typeof window !== 'undefined') {
@@ -34,7 +34,7 @@ export default function Ecommerce() {
       <HeroBannerLight data={heroBanner} />
       <WorkWithUs data={workwithus} />
       <PriceCards
-        data={windowWidth < 1440 && i18n.language == 'en' ? priceCards_mob : priceCards}
+        data={windowWidth < 1440 ? priceCards_mob : priceCards}
       />
       <Offers data={windowWidth > 1440 ? offers : offers_mob} arrow={false} />
       <SecurityList />

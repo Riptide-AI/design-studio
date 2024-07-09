@@ -206,6 +206,119 @@ export const priceCards = {
       ],
     },
   ],
+};export const priceCards_mob = {
+  title: 'priceCardsBusinesCard_mob.title',
+  desc: 'priceCardsBusinesCard_mob.desc',
+  checkIcon: '/img/icons/check-3.svg',
+  list: [
+    {
+      modal: {
+        title: 'priceCardsBusinesCard_mob.list.1.modal.title',
+        type: 'priceCardsBusinesCard_mob.list.1.modal.type',
+        desc: 'priceCardsBusinesCard_mob.list.1.modal.desc',
+        grid: [
+          {
+            title: 'priceCardsBusinesCard_mob.list.1.modal.grid.1.title',
+            desc: 'priceCardsBusinesCard_mob.list.1.modal.grid.1.desc',
+          },
+          {
+            title: 'priceCardsBusinesCard_mob.list.1.modal.grid.2.title',
+            desc: 'priceCardsBusinesCard_mob.list.1.modal.grid.2.desc',
+          },
+          {
+            title: 'priceCardsBusinesCard_mob.list.1.modal.grid.3.title',
+            desc: 'priceCardsBusinesCard_mob.list.1.modal.grid.3.desc',
+          },
+        ],
+        images: [{ src: '/img/modal1.png' }, { src: '/img/modal2.png' }],
+      },
+      color: '#FFEDAD',
+
+      message: 'priceCardsBusinesCard_mob.list.1.message',
+      sizeType: 'priceCardsBusinesCard_mob.list.1.sizeType',
+      title: 'priceCardsBusinesCard_mob.list.1.title',
+      desc: 'priceCardsBusinesCard_mob.list.1.desc',
+      price: 'priceCardsBusinesCard_mob.list.1.price',
+      order: 'priceCardsBusinesCard_mob.list.1.order',
+      details: 'priceCardsBusinesCard_mob.list.1.details',
+      checks: [
+        { content: 'priceCardsBusinesCard_mob.list.1.checks.1' },
+        { content: 'priceCardsBusinesCard_mob.list.1.checks.2' },
+        { content: 'priceCardsBusinesCard_mob.list.1.checks.3' },
+      ],
+    },
+    {
+      modal: {
+        title: 'priceCardsBusinesCard_mob.list.2.modal.title',
+        type: 'priceCardsBusinesCard_mob.list.2.modal.type',
+        desc: 'priceCardsBusinesCard_mob.list.2.modal.desc',
+        grid: [
+          {
+            title: 'priceCardsBusinesCard_mob.list.2.modal.grid.1.title',
+            desc: 'priceCardsBusinesCard_mob.list.2.modal.grid.1.desc',
+          },
+          {
+            title: 'priceCardsBusinesCard_mob.list.2.modal.grid.2.title',
+            desc: 'priceCardsBusinesCard_mob.list.2.modal.grid.2.desc',
+          },
+          {
+            title: 'priceCardsBusinesCard_mob.list.2.modal.grid.3.title',
+            desc: 'priceCardsBusinesCard_mob.list.2.modal.grid.3.desc',
+          },
+        ],
+        images: [{ src: '/img/modal1.png' }, { src: '/img/modal2.png' }],
+      },
+      color: '#F0F0F0',
+
+      message: 'priceCardsBusinesCard_mob.list.2.message',
+      sizeType: 'priceCardsBusinesCard_mob.list.2.sizeType',
+      title: 'priceCardsBusinesCard_mob.list.2.title',
+      desc: 'priceCardsBusinesCard_mob.list.2.desc',
+      price: 'priceCardsBusinesCard_mob.list.2.price',
+      order: 'priceCardsBusinesCard_mob.list.2.order',
+      details: 'priceCardsBusinesCard_mob.list.2.details',
+      checks: [
+        { content: 'priceCardsBusinesCard_mob.list.2.checks.1' },
+        { content: 'priceCardsBusinesCard_mob.list.2.checks.2' },
+        { content: 'priceCardsBusinesCard_mob.list.2.checks.3' },
+      ],
+    },
+    {
+      modal: {
+        title: 'priceCardsBusinesCard_mob.list.3.modal.title',
+        type: 'priceCardsBusinesCard_mob.list.3.modal.type',
+        desc: 'priceCardsBusinesCard_mob.list.3.modal.desc',
+        grid: [
+          {
+            title: 'priceCardsBusinesCard_mob.list.3.modal.grid.1.title',
+            desc: 'priceCardsBusinesCard_mob.list.3.modal.grid.1.desc',
+          },
+          {
+            title: 'priceCardsBusinesCard_mob.list.3.modal.grid.2.title',
+            desc: 'priceCardsBusinesCard_mob.list.3.modal.grid.2.desc',
+          },
+          {
+            title: 'priceCardsBusinesCard_mob.list.3.modal.grid.3.title',
+            desc: 'priceCardsBusinesCard_mob.list.3.modal.grid.3.desc',
+          },
+        ],
+        images: [{ src: '/img/modal1.png' }, { src: '/img/modal2.png' }],
+      },
+      color: '#FFA3A3',
+      message: 'priceCardsBusinesCard_mob.list.3.message',
+      sizeType: 'priceCardsBusinesCard_mob.list.3.sizeType',
+      title: 'priceCardsBusinesCard_mob.list.3.title',
+      desc: 'priceCardsBusinesCard_mob.list.3.desc',
+      price: 'priceCardsBusinesCard_mob.list.3.price',
+      order: 'priceCardsBusinesCard_mob.list.3.order',
+      details: 'priceCardsBusinesCard_mob.list.3.details',
+      checks: [
+        { content: 'priceCardsBusinesCard_mob.list.3.checks.1' },
+        { content: 'priceCardsBusinesCard_mob.list.3.checks.2' },
+        { content: 'priceCardsBusinesCard_mob.list.3.checks.3' },
+      ],
+    },
+  ],
 };
 export const achieveResults = {
   title: 'achieveResultsBusinesCard.title',

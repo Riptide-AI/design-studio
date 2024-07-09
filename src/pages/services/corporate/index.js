@@ -15,11 +15,11 @@ import { WorkWithUs } from '@/features/sections/WorkWithUs';
 import { PriceCards } from '@/features/sections/PriceCards';
 import { SupportTypes } from '@/features/sections/SupportTypes';
 import { useEffect, useState } from 'react';
-import { useTranslation } from 'react-i18next';
+
 
 export default function Corporate() {
   const [windowWidth, setwindowWidth] = useState();
-  const { i18n } = useTranslation();
+
   useEffect(() => {
     if (typeof window !== 'undefined') {
       setwindowWidth(window.innerWidth);
@@ -33,7 +33,7 @@ export default function Corporate() {
       <HeroBannerLight data={heroBanner} />
       <WorkWithUs data={workwithus} />
       <PriceCards
-        data={windowWidth < 1440 && i18n.language == 'en' ? priceCards_mob : priceCards}
+        data={windowWidth < 1440? priceCards_mob : priceCards}
       />
 
       <Offers data={offers} arrow={false} />

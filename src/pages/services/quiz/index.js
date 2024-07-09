@@ -5,7 +5,7 @@ import {
   offers,
   priceCards,
   achieveResults,
-  workwithus,
+  workwithus,priceCards_mob,
   stages,
 } from '@/data/quiz';
 import { ContactUs } from '@/features/sections/ContactUs';
