@@ -4,7 +4,7 @@ import { useTranslation } from 'react-i18next';
 
 export const SupportTypes = ({ data, alt, cols = 3, startsWith = '00', landing=false, image=true }) => {
   const {t}=useTranslation();
-  
+
   return (
     <ContentWrapper>
       <div className={styles.support_types}>

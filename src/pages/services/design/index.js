@@ -11,7 +11,7 @@ export default function Design() {
     <>
       <HeroBannerLight data={heroBanner} />
       <WeProvide />
-      <SupportTypes data={supportTypes} alt cols={4} image={false} />
+      <SupportTypes data={supportTypes} alt cols={4}  />
       <SecurityList />
       <Reviews data={reviews} />
       <ContactUs />

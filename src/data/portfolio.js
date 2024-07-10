@@ -1,6 +1,6 @@
 export const heroBanner = {
   title: 'Protfolio-heroBaner.title',
-  bg: '/img/hero-banner-8.jfif',
+  bg: '/img/portfolios/portfolio_back.png',
 };
 export const portfolioPagination = {
   filters: [

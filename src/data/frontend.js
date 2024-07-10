@@ -1,7 +1,7 @@
 export const heroBanner = {
   title: 'heroBannerFront.title',
   desc: 'heroBannerFront.desc',
-  bg: '/img/frontend_page.png,',
+  bg: '/img/frontend_page.png',
 };
 export const weCreate = {
   title: 'weCreate.title',
