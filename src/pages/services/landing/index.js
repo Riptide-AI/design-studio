@@ -30,7 +30,8 @@ export default function Landing() {
   return (
     <>
       <HeroBannerLight data={heroBanner} />
-      <WorkWithUs data={workwithus} />
+      {windowWidth>1440 && <WorkWithUs data={workwithus} />} 
+
       <PriceCards data={windowWidth < 1440 ? priceCards_mob : priceCards} />
       <Workflow data={achieveResults} lengh={1820} top={'85px'} />
       <DevelopmentStages data={stages} length={9} />

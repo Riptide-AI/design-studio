@@ -1,4 +1,4 @@
-import { useState, useMemo, useRef, useEffect } from 'react';
+import { useState, useMemo, useRef } from 'react';
 import { ContentWrapper } from '@/components/ContentWrapper';
 import { portfolioPagination } from '@/data/portfolio';
 import Image from 'next/image';
@@ -14,7 +14,6 @@ export const PortfolioPagination = () => {
     let finalList = [];
     portfolioPagination.filters.map(
       (item) =>
-       
         item.id !== 'all' && (finalList = [...finalList, ...portfolioPagination.lists[item.id]]),
     );
     return finalList;
@@ -62,7 +61,7 @@ export const PortfolioPagination = () => {
     setCurrentPage(totalPages);
   };
 
- /*  async function scrollToX() {
+  /*  async function scrollToX() {
     if (refList.current) {
       requestAnimationFrame(() => {
         refList.current.scrollLeft += 500;
@@ -76,17 +75,21 @@ export const PortfolioPagination = () => {
       });
     }
   } */
-
-  useEffect(() => {
- 
-  }, []);
+  const [animate, setAnimate] = useState(false);
+  setInterval(() => {
+    setAnimate(!animate);
+  }, 5000);
   return (
     <ContentWrapper>
       <div className={styles.pagination}>
         <div ref={refList} className={styles.pagination__filters}>
           {portfolioPagination.filters.map((item) => (
             <div
-              className={styles.pagination__filters__item}
+              className={
+                animate
+                  ? styles.pagination__filters__item + ' ' + styles.animate
+                  : styles.pagination__filters__item
+              }
               key={`filter-${item.id}`}
               onClick={() => handleFilterChange(item.id)}
               style={{ color: item.id === currentFilter ? 'white' : '#B1B1B1' }}

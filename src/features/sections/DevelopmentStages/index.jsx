@@ -4,7 +4,7 @@ import styles from './style.module.scss';
 import { useTranslation } from 'react-i18next';
 
 export const DevelopmentStages = ({ data, length = 7 }) => {
-  const {t}=useTranslation();
+  const { t } = useTranslation();
   const [isMobile, setIsMobile] = useState(false);
 
   useEffect(() => {
@@ -28,8 +28,8 @@ export const DevelopmentStages = ({ data, length = 7 }) => {
           className={styles.stages__timeline}
           style={
             !isMobile
-              ? { gridTemplateColumns: `repeat(${length},1fr)` }
-              : { gridTemplateRows: `repeat(${length},1fr)`, gridTemplateColumns: `1fr` }
+              ? { gridTemplateColumns: `repeat(${length},1fr )` }
+              : { gridTemplateRows: `repeat(${length},170px)`, gridTemplateColumns: `1fr 1fr` }
           }
         >
           {data.list.map((item, i) => (
@@ -37,7 +37,9 @@ export const DevelopmentStages = ({ data, length = 7 }) => {
               <div data-count={i + 1} className={styles.stages__timeline__item__order}>
                 0
               </div>
-              <div className={styles.stages__timeline__item__title}>{t(item.title)}</div>
+              <div className={styles.stages__timeline__item__title}>
+                <span>{t(item.title)}</span>
+              </div>
             </div>
           ))}
         </div>

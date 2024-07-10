@@ -50,6 +50,7 @@
       text-align: center;
       flex: 0 1 auto;
       padding: 0px;
+      margin-left: 55px;
     }
   }
   .paginationBtn {
@@ -65,8 +66,10 @@
     gap: 900px;
     justify-content: center;
     @include media(phone) {
-      gap: 260px;
-      left: calc(50% - 170px);
+      display: flex;
+      gap:unset;
+      width: 100%;
+      justify-content: space-between;
       align-self: center;
       top: 50% !important;
     }
@@ -121,8 +124,6 @@
       width: 265px;
       /*   margin-left:calc(50% - 132px); */
       flex-grow: 1;
-     
-    
     }
     &__order {
       position: absolute;

@@ -31,7 +31,7 @@ export default function Corporate() {
   return (
     <>
       <HeroBannerLight data={heroBanner} />
-      <WorkWithUs data={workwithus} />
+      {windowWidth>1440 && <WorkWithUs data={workwithus} />} 
       <PriceCards
         data={windowWidth < 1440? priceCards_mob : priceCards}
       />
