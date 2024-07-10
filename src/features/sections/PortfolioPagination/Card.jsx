@@ -54,7 +54,7 @@ export default function Card({ card, i }) {
           </div>
         )}
       </div>
-      <div className={styles.pagination__list__item__title}>{card.title}</div>
+      <div className={styles.pagination__list__item__title}>{t(card.title)}</div>
       <div className={styles.pagination__list__item__desc}>{t(card.theme)}</div>
     </div>
   ) : (
@@ -95,7 +95,7 @@ export default function Card({ card, i }) {
             </div>
           )}
         </div>
-        <div className={styles.pagination__list__item__title}>{card.title}</div>
+        <div className={styles.pagination__list__item__title}>{t(card.title)}</div>
         <div className={styles.pagination__list__item__desc}>{t(card.theme)}</div>
       </Link>
     </div>

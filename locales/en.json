@@ -1291,7 +1291,8 @@
         }
       }
     }
-  }, "priceCardsCorporate_mob": {
+  },
+  "priceCardsCorporate_mob": {
     "title": "Corporate site",
     "desc": "We perfectly develop corporate sites of any complexity and standard projects in the low-budget segment.",
     "list": {
@@ -1710,7 +1711,8 @@
         }
       }
     }
-  }, "priceCardsEcomerce_mob": {
+  },
+  "priceCardsEcomerce_mob": {
     "title": "eCommerce project",
     "desc": "We specialize in the development of unique eCommerce projects of any level of complexity, as well as typical sites of the low price segment.",
     "list": {
@@ -2486,6 +2488,61 @@
           }
         }
       }
+    }
+  },
+  "portfolio": {
+    "web_design": {
+      "10": "Web design for the company «Ellty»",
+      "11": "Web design for the company «PressWave»",
+      "12": "Web design for the company «Alleva»",
+      "13": "Web design for an online store",
+      "14": "Web design for massage therapist Levanov",
+      "15": "Web design for the Demyan Popov Center",
+      "16": "Web design for the company «CryptoHub»",
+      "17": "Web design for the company «SMM-LAB»",
+      "18": "Web design for the company «Skyclean»",
+      "100": "Web design for the company «Specialized»",
+      "101": "Web design for a charitable foundation",
+      "102": "Web design for the company «ShadowTime»",
+      "103": "Web design for the company «DanceStudio»"
+    },
+    "web_development": {
+      "19": "Web site for the company «Ellty»",
+      "20": "Web site for the company «PressWave»",
+      "21": "Web site for the company «Alleva»",
+      "22": "Web site for an online store",
+      "23": "Web site for massage therapist Levanov",
+      "24": "Web site for the Demyan Popov Center",
+      "25": "Web site for the company «CryptoHub»",
+      "26": "Web site for the company «SMM-LAB»",
+      "27": "Web site for the company «Skyclean»",
+      "200": "Web site for the company «Specialized»",
+      "201": "Web site for a charitable foundation",
+      "202": "Web site for the company «ShadowTime»",
+      "203": "Web site for the company «DanceStudio»"
+    },
+    "logos": {
+      "28": "Creation for a travel company",
+      "29": "Creation for a trading company",
+      "30": "Creation for a dental clinic",
+      "31": "Creation for a cryptocurrency exchange",
+      "32": "Creation for an insurance company",
+      "33": "Creation for a support company",
+      "34": "Creation for a design studio",
+      "35": "Creation for a commercial company",
+      "36": "Creation for a holding company"
+    },
+    "business_cards": {
+      "37": "Creation for a public company",
+      "38": "Creation for a state company",
+      "39": "Creation for an event organization company",
+      "40": "Creation for a hair salon",
+      "41": "Creation for an event organization company",
+      "42": "Creation for a restaurant",
+      "43": "Creation for an entrepreneur-organizer",
+      "44": "Creation for an event organization company",
+      "45": "Creation for a real estate agency",
+      "46": "Creation for the photographer-entrepreneur"
     }
   }
 }

@@ -15,7 +15,7 @@ export const portfolioPagination = {
       {
         id: 10,
         image: '/img/portfolios/web_design/Ellty.png', // img link here
-        title: 'Веб-дизайн для компанії «Ellty»',
+        title: `portfolio.web_design.10`,
         theme: 'portfolioPagination.theme.Web_design',
         category: 'Web design',
         link: 'https://www.figma.com/proto/jnCM95go0WrPe6dmgF9xDg/Ellty-LP-%D0%92%D0%B5%D1%80%D1%81%D1%82%D0%BA%D0%B0-(Copy)?page-id=1%3A2&node-id=3196-4237&t=Dd1o1u7q27FP5IKU-1&scaling=min-zoom&content-scaling=fixed',
@@ -23,7 +23,7 @@ export const portfolioPagination = {
       {
         id: 11,
         image: '/img/portfolios/web_design/PressWawe.png', // img link here
-        title: 'Веб-дизайн для компанії «PressWave»',
+        title: 'portfolio.web_design.11',
         theme: 'portfolioPagination.theme.Web_design',
         category: 'Web design',
         link: 'https://www.figma.com/proto/PI4nFuMn2OVuUuSdxHLRZL/Untitled?page-id=&node-id=0-2239&t=WuAzbyxCrBkUCJG7-1',
@@ -31,7 +31,7 @@ export const portfolioPagination = {
       {
         id: 12,
         image: '/img/portfolios/web_design/alleva.png', // img link here
-        title: 'Веб-дизайн для компанії «Alleva»',
+        title: 'portfolio.web_design.12',
         theme: 'portfolioPagination.theme.Web_design',
         category: 'Web design',
         link: 'https://www.figma.com/proto/ztDLb3Y7kMH7iBGcZmvuvq/PetStore-PC?page-id=0%3A1&node-id=3-13395&t=iRybJyT5Ldx6UIDT-1&scaling=min-zoom&content-scaling=fixed',
@@ -39,7 +39,7 @@ export const portfolioPagination = {
       {
         id: 13,
         image: '/img/portfolios/web_design/web_shop.png', // img link here
-        title: 'Веб-дизайн для інтернет-магазину',
+        title: 'portfolio.web_design.13',
         theme: 'portfolioPagination.theme.Web_design',
         category: 'Web design',
         link: 'https://www.figma.com/proto/e4uIj0DWtJCGzmhNbaEUjL/Teddy-bears-store?page-id=0%3A1&node-id=1-435&t=S3Kd9L98XnbJIGk4-1&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=1%3A435',
@@ -47,7 +47,7 @@ export const portfolioPagination = {
       {
         id: 14,
         image: '/img/portfolios/web_design/lenova.png', // img link here
-        title: 'Веб-дизайн для масажиста Леванова',
+        title: 'portfolio.web_design.14',
         theme: 'portfolioPagination.theme.Web_design',
         category: 'Web design',
         link: 'https://www.figma.com/proto/XoNFb1PicqRU8BKVl3acvq/Untitled?page-id=&node-id=1-2395&t=1ZjSG04UrTEQt2Y4-1',
@@ -55,7 +55,7 @@ export const portfolioPagination = {
       {
         id: 15,
         image: '/img/portfolios/web_design/demyan.png', // img link here
-        title: 'Веб-дизайн для Центру Дем’яна Попова',
+        title: 'portfolio.web_design.15',
         theme: 'portfolioPagination.theme.Web_design',
         category: 'Web design',
         link: 'https://www.figma.com/proto/2cjBsoA3ZBnHSG5ZdiZENy/Homeopat-%D0%9F%D0%9A?page-id=0%3A1&node-id=1-447&t=FNxyasbYezY5nlmR-1&scaling=min-zoom&content-scaling=fixed',
@@ -63,7 +63,7 @@ export const portfolioPagination = {
       {
         id: 16,
         image: '/img/portfolios/web_design/cryptohub.png', // img link here
-        title: 'Веб-дизайн для компанії «CryptoHub»',
+        title: 'portfolio.web_design.16',
         theme: 'portfolioPagination.theme.Web_design',
         category: 'Web design',
         link: 'https://www.figma.com/proto/xkvXslJqRLyLT8NXlpvjcC/Untitled?page-id=&node-id=60-2978&t=WZHCKkDYcz2QRFId-1',
@@ -71,7 +71,7 @@ export const portfolioPagination = {
       {
         id: 17,
         image: '/img/portfolios/web_design/smmLab.png', // img link here
-        title: 'Веб-дизайн для «SMM-LAB»',
+        title: 'portfolio.web_design.17',
         theme: 'portfolioPagination.theme.Web_design',
         category: 'Web design',
         link: 'https://www.figma.com/proto/leSCj3lwLrKKDCLbq2FVkX/Untitled?page-id=&node-id=0-3&t=X1bRpv8kj1OuZqMO-1',
@@ -79,7 +79,7 @@ export const portfolioPagination = {
       {
         id: 18,
         image: '/img/portfolios/web_design/skyclean.png', // img link here
-        title: 'Веб-дизайн для компанії «Skyclean»',
+        title: 'portfolio.web_design.18',
         theme: 'portfolioPagination.theme.Web_design',
         category: 'Web design',
         link: 'https://www.figma.com/proto/Qw2pUWQXtiRYSDQKmaD8Mo/window-washing-PC?page-id=0%3A1&node-id=1-883&t=HVOvDvIUyVjSGnTt-1&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=1%3A883',
@@ -87,7 +87,7 @@ export const portfolioPagination = {
       {
         id: 100,
         image: '/img/portfolios/web_design/specialezed.png', // img link here
-        title: 'Веб-дизайн для компанії «Specialized»',
+        title: 'portfolio.web_design.100',
         theme: 'portfolioPagination.theme.Web_design',
         category: 'Web design',
         link: 'https://www.figma.com/proto/N6OUybarUEcgNscehcKUpU/Bikes-PC?page-id=0%3A1&node-id=1-390&t=IPX7tQF2RXLjnj6z-1&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=1%3A390',
@@ -95,7 +95,7 @@ export const portfolioPagination = {
       {
         id: 101,
         image: '/img/portfolios/web_design/charityFond.png', // img link here
-        title: 'Веб-дизайн для благодійного фонду',
+        title: 'portfolio.web_design.101',
         theme: 'portfolioPagination.theme.Web_design',
         category: 'Web design',
         link: 'https://www.figma.com/proto/44bnxqYat9PKrczCtarGp0/Charitable-Foundation-PC?page-id=0%3A1&node-id=2-267&t=MLrPLE91i0GsTVyJ-1&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=2%3A267',
@@ -103,7 +103,7 @@ export const portfolioPagination = {
       {
         id: 102,
         image: '/img/portfolios/web_design/shadowtime.png', // img link here
-        title: 'Веб-дизайн для компанії «ShadowTime»',
+        title: 'portfolio.web_design.102',
         theme: 'portfolioPagination.theme.Web_design',
         category: 'Web design',
         link: 'https://www.figma.com/proto/BjaEKY8Xgx6C9AxevOQNwr/Shadow-sails-landing?page-id=0%3A1&node-id=1-183&t=FqbG3RVgXA1V7Yz0-1&scaling=min-zoom&content-scaling=fixed',
@@ -111,7 +111,7 @@ export const portfolioPagination = {
       {
         id: 103,
         image: '/img/portfolios/web_design/studio.png', // img link here
-        title: 'Веб-дизайн для компанії «DanceStudio»',
+        title: 'portfolio.web_design.103',
         theme: 'portfolioPagination.theme.Web_design',
         category: 'Web design',
         link: 'https://www.figma.com/proto/2eBEJe71inCCtrDONWuofI/Prototype%2FWebsite-Dance-studio?page-id=0%3A1&node-id=1-428&t=92IhiOVprBDTTC9e-1&scaling=min-zoom&content-scaling=fixed',
@@ -121,7 +121,7 @@ export const portfolioPagination = {
       {
         id: 19,
         image: '/img/portfolios/web_design/Ellty.png', // img link here
-        title: 'Веб-дизайн для компанії «Ellty»',
+        title: 'portfolio.web_development.19',
           theme: 'portfolioPagination.theme.Web_development',
         category: 'Web development',
         link: 'https://www.figma.com/proto/jnCM95go0WrPe6dmgF9xDg/Ellty-LP-%D0%92%D0%B5%D1%80%D1%81%D1%82%D0%BA%D0%B0-(Copy)?page-id=1%3A2&node-id=3196-4237&t=Dd1o1u7q27FP5IKU-1&scaling=min-zoom&content-scaling=fixed',
@@ -129,7 +129,7 @@ export const portfolioPagination = {
       {
         id: 20,
         image: '/img/portfolios/web_design/PressWawe.png', // img link here
-        title: 'Веб-дизайн для компанії «PressWave»',
+        title: 'portfolio.web_development.20',
           theme: 'portfolioPagination.theme.Web_development',
         category: 'Web development',
         link: 'https://www.figma.com/proto/PI4nFuMn2OVuUuSdxHLRZL/Untitled?page-id=&node-id=0-2239&t=WuAzbyxCrBkUCJG7-1',
@@ -137,7 +137,7 @@ export const portfolioPagination = {
       {
         id: 21,
         image: '/img/portfolios/web_design/alleva.png', // img link here
-        title: 'Веб-дизайн для компанії «Alleva»',
+        title: 'portfolio.web_development.21',
           theme: 'portfolioPagination.theme.Web_development',
         category: 'Web development',
         link: 'https://www.figma.com/proto/ztDLb3Y7kMH7iBGcZmvuvq/PetStore-PC?page-id=0%3A1&node-id=3-13395&t=iRybJyT5Ldx6UIDT-1&scaling=min-zoom&content-scaling=fixed',
@@ -145,7 +145,7 @@ export const portfolioPagination = {
       {
         id: 22,
         image: '/img/portfolios/web_design/web_shop.png', // img link here
-        title: 'Веб-дизайн для інтернет-магазину',
+        title: 'portfolio.web_development.22',
           theme: 'portfolioPagination.theme.Web_development',
         category: 'Web development',
         link: 'https://www.figma.com/proto/e4uIj0DWtJCGzmhNbaEUjL/Teddy-bears-store?page-id=0%3A1&node-id=1-435&t=S3Kd9L98XnbJIGk4-1&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=1%3A435',
@@ -153,7 +153,7 @@ export const portfolioPagination = {
       {
         id: 23,
         image: '/img/portfolios/web_design/lenova.png', // img link here
-        title: 'Веб-дизайн для масажиста Леванова',
+        title: 'portfolio.web_development.23',
           theme: 'portfolioPagination.theme.Web_development',
         category: 'Web development',
         link: 'https://www.figma.com/proto/XoNFb1PicqRU8BKVl3acvq/Untitled?page-id=&node-id=1-2395&t=1ZjSG04UrTEQt2Y4-1',
@@ -161,7 +161,7 @@ export const portfolioPagination = {
       {
         id: 24,
         image: '/img/portfolios/web_design/demyan.png', // img link here
-        title: 'Веб-дизайн для Центру Дем’яна Попова',
+        title: 'portfolio.web_development.24',
           theme: 'portfolioPagination.theme.Web_development',
         category: 'Web development',
         link: 'https://www.figma.com/proto/2cjBsoA3ZBnHSG5ZdiZENy/Homeopat-%D0%9F%D0%9A?page-id=0%3A1&node-id=1-447&t=FNxyasbYezY5nlmR-1&scaling=min-zoom&content-scaling=fixed',
@@ -169,7 +169,7 @@ export const portfolioPagination = {
       {
         id: 25,
         image: '/img/portfolios/web_design/cryptohub.png', // img link here
-        title: 'Веб-дизайн для компанії «CryptoHub»',
+        title: 'portfolio.web_development.25',
           theme: 'portfolioPagination.theme.Web_development',
         category: 'Web development',
         link: 'https://www.figma.com/proto/xkvXslJqRLyLT8NXlpvjcC/Untitled?page-id=&node-id=60-2978&t=WZHCKkDYcz2QRFId-1',
@@ -177,7 +177,7 @@ export const portfolioPagination = {
       {
         id: 26,
         image: '/img/portfolios/web_design/smmLab.png', // img link here
-        title: 'Веб-дизайн для «SMM-LAB»',
+        title: 'portfolio.web_development.26',
           theme: 'portfolioPagination.theme.Web_development',
         category: 'Web development',
         link: 'https://www.figma.com/proto/leSCj3lwLrKKDCLbq2FVkX/Untitled?page-id=&node-id=0-3&t=X1bRpv8kj1OuZqMO-1',
@@ -185,7 +185,7 @@ export const portfolioPagination = {
       {
         id: 27,
         image: '/img/portfolios/web_design/skyclean.png', // img link here
-        title: 'Веб-дизайн для компанії «Skyclean»',
+        title: 'portfolio.web_development.27',
           theme: 'portfolioPagination.theme.Web_development',
         category: 'Web development',
         link: 'https://www.figma.com/proto/Qw2pUWQXtiRYSDQKmaD8Mo/window-washing-PC?page-id=0%3A1&node-id=1-883&t=HVOvDvIUyVjSGnTt-1&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=1%3A883',
@@ -193,7 +193,7 @@ export const portfolioPagination = {
       {
         id: 200,
         image: '/img/portfolios/web_design/specialezed.png', // img link here
-        title: 'Веб-дизайн для компанії «Specialized»',
+        title: 'portfolio.web_development.28',
           theme: 'portfolioPagination.theme.Web_development',
         category: 'Web development',
         link: 'https://www.figma.com/proto/N6OUybarUEcgNscehcKUpU/Bikes-PC?page-id=0%3A1&node-id=1-390&t=IPX7tQF2RXLjnj6z-1&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=1%3A390',
@@ -201,7 +201,7 @@ export const portfolioPagination = {
       {
         id: 201,
         image: '/img/portfolios/web_design/charityFond.png', // img link here
-        title: 'Веб-дизайн для благодійного фонду',
+        title: 'portfolio.web_development.201',
           theme: 'portfolioPagination.theme.Web_development',
         category: 'Web development',
         link: 'https://www.figma.com/proto/44bnxqYat9PKrczCtarGp0/Charitable-Foundation-PC?page-id=0%3A1&node-id=2-267&t=MLrPLE91i0GsTVyJ-1&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=2%3A267',
@@ -209,7 +209,7 @@ export const portfolioPagination = {
       {
         id: 202,
         image: '/img/portfolios/web_design/shadowtime.png', // img link here
-        title: 'Веб-дизайн для компанії «ShadowTime»',
+        title: 'portfolio.web_development.202',
           theme: 'portfolioPagination.theme.Web_development',
         category: 'Web development',
         link: 'https://www.figma.com/proto/BjaEKY8Xgx6C9AxevOQNwr/Shadow-sails-landing?page-id=0%3A1&node-id=1-183&t=FqbG3RVgXA1V7Yz0-1&scaling=min-zoom&content-scaling=fixed',
@@ -217,7 +217,7 @@ export const portfolioPagination = {
       {
         id: 203,
         image: '/img/portfolios/web_design/studio.png', // img link here
-        title: 'Веб-дизайн для компанії «DanceStudio»',
+        title: 'portfolio.web_development.203',
           theme: 'portfolioPagination.theme.Web_development',
         category: 'Web development',
         link: 'https://www.figma.com/proto/2eBEJe71inCCtrDONWuofI/Prototype%2FWebsite-Dance-studio?page-id=0%3A1&node-id=1-428&t=92IhiOVprBDTTC9e-1&scaling=min-zoom&content-scaling=fixed',
@@ -227,63 +227,63 @@ export const portfolioPagination = {
       {
         id: 28,
         image: '/img/Logos/1.JPG', // img link here
-        title: 'Назва',
+        title: 'portfolio.logos.28',
         theme: 'portfolioPagination.theme.Logos',
         category: 'Logos',
       },
       {
         id: 29,
         image: '/img/Logos/10.png', // img link here
-        title: 'Назва',
+        title: 'portfolio.logos.29',
         theme: 'portfolioPagination.theme.Logos',
         category: 'Logos',
       },
       {
         id: 30,
         image: '/img/Logos/3.png', // img link here
-        title: 'Назва',
+        title: 'portfolio.logos.30',
         theme: 'portfolioPagination.theme.Logos',
         category: 'Logos',
       },
       {
         id: 31,
         image: '/img/Logos/4.png', // img link here
-        title: 'Назва',
+        title: 'portfolio.logos.31',
         theme: 'portfolioPagination.theme.Logos',
         category: 'Logos',
       },
       {
         id: 32,
         image: '/img/Logos/5.png', // img link here
-        title: 'Назва',
+        title: 'portfolio.logos.32',
         theme: 'portfolioPagination.theme.Logos',
         category: 'Logos',
       },
       {
         id: 33,
         image: '/img/Logos/6.png', // img link here
-        title: 'Назва',
+        title: 'portfolio.logos.33',
         theme: 'portfolioPagination.theme.Logos',
         category: 'Logos',
       },
       {
         id: 34,
         image: '/img/Logos/7.png', // img link here
-        title: 'Назва',
+        title: 'portfolio.logos.34',
         theme: 'portfolioPagination.theme.Logos',
         category: 'Logos',
       },
       {
         id: 35,
         image: '/img/Logos/8.png', // img link here
-        title: 'Назва',
+        title: 'portfolio.logos.35',
         theme: 'portfolioPagination.theme.Logos',
         category: 'Logos',
       },
       {
         id: 36,
         image: '/img/Logos/9.png', // img link here
-        title: 'Назва',
+        title: 'portfolio.logos.36',
         theme: 'portfolioPagination.theme.Logos',
         category: 'Logos',
       },
@@ -293,7 +293,7 @@ export const portfolioPagination = {
         id: 37,
         image: '/img/Busines-cards/Bella_Smith/1.png',
         backImage: '/img/Busines-cards/Bella_Smith/2.png', // img link here
-        title: 'Назва',
+        title: 'portfolio.business_cards.37',
         theme: 'portfolioPagination.theme.Business_cards',
         category: 'Business cards',
       },
@@ -301,7 +301,7 @@ export const portfolioPagination = {
         id: 38,
         image: '/img/Busines-cards/leopolis/1.png',
         backImage: '/img/Busines-cards/leopolis/2.png', // img link here
-        title: 'Назва',
+        title: 'portfolio.business_cards.38',
         theme: 'portfolioPagination.theme.Business_cards',
         category: 'Business cards',
       },
@@ -309,7 +309,7 @@ export const portfolioPagination = {
         id: 39,
         image: '/img/Busines-cards/leopolis-2/1.png',
         backImage: '/img/Busines-cards/leopolis-2/2.png', // img link here
-        title: 'Назва',
+        title: 'portfolio.business_cards.39',
         theme: 'portfolioPagination.theme.Business_cards',
         category: 'Business cards',
       },
@@ -317,7 +317,7 @@ export const portfolioPagination = {
         id: 40,
         image: '/img/Busines-cards/leopolis-3/2.png',
         backImage: '/img/Busines-cards/leopolis-3/1.png', // img link here
-        title: 'Назва',
+        title: 'portfolio.business_cards.40',
         theme: 'portfolioPagination.theme.Business_cards',
         category: 'Business cards',
       },
@@ -325,7 +325,7 @@ export const portfolioPagination = {
         id: 41,
         image: '/img/Busines-cards/leopolis-4/1.png',
         backImage: '/img/Busines-cards/leopolis-4/2.png', // img link here
-        title: 'Назва',
+        title: 'portfolio.business_cards.41',
         theme: 'portfolioPagination.theme.Business_cards',
         category: 'Business cards',
       },
@@ -333,7 +333,7 @@ export const portfolioPagination = {
         id: 42,
         image: '/img/Busines-cards/leopolis-5/1.png',
         backImage: '/img/Busines-cards/leopolis-5/2.png', // img link here
-        title: 'Назва',
+        title: 'portfolio.business_cards.42',
         theme: 'portfolioPagination.theme.Business_cards',
         category: 'Business cards',
       },
@@ -341,7 +341,7 @@ export const portfolioPagination = {
         id: 43,
         image: '/img/Busines-cards/leopolis-6/1.png',
         backImage: '/img/Busines-cards/leopolis-6/2.png', // img link here
-        title: 'Назва',
+        title: 'portfolio.business_cards.43',
         theme: 'portfolioPagination.theme.Business_cards',
         category: 'Business cards',
       },
@@ -349,7 +349,7 @@ export const portfolioPagination = {
         id: 44,
         image: '/img/Busines-cards/leopolis-7/1.png',
         backImage: '/img/Busines-cards/leopolis-7/2.png', // img link here
-        title: 'Назва',
+        title: 'portfolio.business_cards.44',
         theme: 'portfolioPagination.theme.Business_cards',
         category: 'Business cards',
       },
@@ -357,7 +357,7 @@ export const portfolioPagination = {
         id: 45,
         image: '/img/Busines-cards/leopolis-8/1.png',
         backImage: '/img/Busines-cards/leopolis-8/2.png', // img link here
-        title: 'Назва',
+        title: 'portfolio.business_cards.45',
         theme: 'portfolioPagination.theme.Business_cards',
         category: 'Business cards',
       },
@@ -365,7 +365,7 @@ export const portfolioPagination = {
         id: 46,
         image: '/img/Busines-cards/leopolis-10/1.png',
         backImage: '/img/Busines-cards/leopolis-10/2.png', // img link here
-        title: 'Назва',
+        title: 'portfolio.business_cards.46',
         theme: 'portfolioPagination.theme.Business_cards',
         category: 'Business cards',
       },
