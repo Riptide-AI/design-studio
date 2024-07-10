@@ -13,7 +13,8 @@ const SetLanguage = () => {
     { id: 3, src: '/img/lang/FlagRU.png', code: 'ru' },
   ];
   const { i18n } = useTranslation();
-  const [selectedItem, setSelectedItem] = useState(items.find((item) => item.code === router.locale),
+  const [selectedItem, setSelectedItem] = useState(
+    items.find((item) => item.code === router.locale),
   );
   const [language, setLanguage] = useState(
     items.filter((element) => element.id !== selectedItem.id),
@@ -27,6 +28,10 @@ const SetLanguage = () => {
     router.replace({ pathname, query }, asPath, { locale: item.code }).then(() => {
       i18n.changeLanguage(item.code);
     });
+    isOpen
+      ? document.body.classList.remove('overflow-hidden')
+      : document.body.classList.add('overflow-hidden');
+    setIsOpen(!isOpen);
   };
 
   const ref = useRef(null);

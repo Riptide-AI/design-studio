@@ -34,12 +34,12 @@ export default function Store() {
   return (
     <>
       <HeroBannerLight data={heroBanner} />
-      <WorkWithUs
-        data={windowWidth < 1440 && i18n.language == 'en' ? workwithus_mob : workwithus}
-      />
-      <PriceCards
-        data={windowWidth < 1440 ? priceCards_mob : priceCards}
-      />
+      {windowWidth > 1440 && (
+        <WorkWithUs
+          data={windowWidth < 1440 && i18n.language == 'en' ? workwithus_mob : workwithus}
+        />
+      )}
+      <PriceCards data={windowWidth < 1440 ? priceCards_mob : priceCards} />
       <Offers data={offers} arrow={false} />
       <SupportTypes data={achieveResults} alt cols={2} startsWith="0" />
       <SecurityList />

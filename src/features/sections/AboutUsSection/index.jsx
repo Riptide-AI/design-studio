@@ -29,7 +29,9 @@ export const AboutUsSection = ({ children = null, isBtn }) => {
           <h3 className={styles.about_us__title}>{t(aboutUs.title)}</h3>
           <div
             className={styles.about_us__desc}
-            dangerouslySetInnerHTML={{ __html: t(aboutUs.desc) }}
+            dangerouslySetInnerHTML={{
+              __html: windowWidth > 1440 ? t(aboutUs.desc) : t(aboutUs.desc_mob),
+            }}
           />
         </div>
         <div className={styles.about_us__image}>

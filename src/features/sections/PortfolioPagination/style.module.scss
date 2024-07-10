@@ -17,6 +17,16 @@
     gap: 42px;
     scrollbar-width: none;
     -ms-overflow-style: none;
+    &:active {
+      &__item {
+        animation-play-state: paused;
+      }
+    }
+    &:hover {
+      &__item {
+        animation-play-state: paused;
+      }
+    }
     &::-webkit-scrollbar {
       display: none;
     }
@@ -28,6 +38,13 @@
       cursor: pointer;
       position: relative;
 
+      &.animate {
+        animation-name: scroll-horizontal;
+        animation-duration: 1s;
+        animation-iteration-count: 2;
+        animation-timing-function: ease-in-out;
+       
+      }
       &:last-child {
         &::after {
           display: none;
@@ -149,4 +166,15 @@
       }
     }
   }
+}
+@keyframes scroll-horizontal {
+  from {
+    transform: translateX(0);
+  } /* Початок анімації: без зміщення */
+  50% {
+    transform: translateX(-20px);
+  }
+  to {
+    transform: translateX(0px);
+  } /* Кінець анімації: перемістити елемент на 500 пікселів вправо */
 }

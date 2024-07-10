@@ -30,7 +30,8 @@ export default function Quiz() {
   return (
     <>
       <HeroBannerLight data={heroBanner} />
-      <WorkWithUs data={workwithus} />
+      {windowWidth>1440 && <WorkWithUs data={workwithus} />} 
+
       <PriceCards data={windowWidth < 1440 ? priceCards_mob : priceCards} />
       <Offers data={offers} arrow={false} />
       <DevelopmentStages data={stages} />

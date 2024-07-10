@@ -90,7 +90,7 @@ export const technologies = {
       title: 'Testing',
       icons: ['/img/Tehnology/check.png', '/img/Tehnology/check_arow.png'],
 
-      desc: 'JUnit | Cypress | Postman |TestRail | Selenium',
+      desc: 'JUnit | Cypress | Postman |TestRail | Selenium | Appium',
       styles: ['check', 'check_arrow'],
     },
   ],
