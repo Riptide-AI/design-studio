@@ -77,7 +77,7 @@ export const aboutUs = {
   title: 'aboutUs.title',
   desc: `aboutUs.desc`,
   desc_mob: `aboutUs.desc_mob`,
-  image: '/img/about-us-banner.png',
+  image: '/img/about-us-image.png',
   cards: [
     { counter: '75', desc: 'aboutUs.cards.1.desc' },
     { counter: '25', desc: 'aboutUs.cards.2.desc' },

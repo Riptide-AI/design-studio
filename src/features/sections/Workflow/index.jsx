@@ -24,15 +24,15 @@ export const Workflow = ({ data, lengh = 2950, top = '128px' }) => {
   // Update checkBorder to directly access cardList.current.scrollLeft
   const checkBorder = useCallback(() => {
     const currentScrollLeft = cardList.current?.scrollLeft || 0;
-
+const lenght =    windowWidth> 1440 ? lengh: 1300 
     if (currentScrollLeft === 0) {
       setStart(true);
     } else {
       setStart(false);
     }
 
-    if (currentScrollLeft > lengh) {
-      setEnd(true); // Assuming you have setEnd state
+    if (currentScrollLeft > lenght) {
+      setEnd(true);
     } else {
       setEnd(false);
     }
@@ -62,7 +62,7 @@ export const Workflow = ({ data, lengh = 2950, top = '128px' }) => {
       requestAnimationFrame(() => {
         windowWidth > 1440
           ? (cardList.current.scrollLeft += 940)
-          : (cardList.current.scrollLeft += 1065);
+          : (cardList.current.scrollLeft += 400);
       });
     }
   }
@@ -72,7 +72,7 @@ export const Workflow = ({ data, lengh = 2950, top = '128px' }) => {
       requestAnimationFrame(() => {
         windowWidth > 1440
           ? (cardList.current.scrollLeft -= 940)
-          : (cardList.current.scrollLeft -= 1065);
+          : (cardList.current.scrollLeft -= 400);
       });
     }
   }

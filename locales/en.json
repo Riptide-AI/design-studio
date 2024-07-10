@@ -565,6 +565,290 @@
         "position": "Head of the procurement department",
         "content": "«Professional approach to every detail, excellent design and convenient navigation. Thanks for the high quality work!»"
       }
+    },
+    "lending_slides": {
+      "1": {
+        "title": "Effective and stylish landing page for our project!",
+        "author": "Oleksiy Kovalchuk",
+        "position": "Senior manager in the marketing department",
+        "content": "«I want to express my impression of cooperation on the creation of a new landing page. The result turned out to be very successful and meets all our expectations»"
+      },
+      "2": {
+        "title": "Perfectly adaptive landing page for our project!",
+        "author": "Anna Vasilieva",
+        "position": "Сhief content manager",
+        "content": "«Thank you for your professionalism in developing our website. Your team demonstrated high efficiency and ability to consider all our needs in detail. The results exceeded our expectations»"
+      },
+      "3": {
+        "title": "Professional and modern web design!",
+        "author": "Volodymyr Melnyk",
+        "position": "Head of the production unit",
+        "content": "«The landing perfectly conveys our idea and corresponds to all modern trends. Thanks to transparent planning and well-structured information, a smooth navigation process is felt»"
+      },
+      "4": {
+        "title": "Incredible impression of cooperation with the team",
+        "author": "Dmytro Kozlov",
+        "position": "Advertising manager",
+        "content": "«We are delighted with the result! The landing perfectly reproduces our brand identity and provides a clear information flow. The choice of colors and fonts demonstrates a deep understanding of our needs»"
+      },
+      "5": {
+        "title": "Effective and visually attractive landing page",
+        "author": "Ihor Zakharenko",
+        "position": "HR manager",
+        "content": "«The new landing exceeded all expectations! A professional design that is great for our audience. The confidence we gained from interacting with your team inspires future success»"
+      }
+    },
+    "quiz_slides": {
+      "1": {
+        "title": "Perfectly adapted quiz site for our project",
+        "author": "Oleksandra Lytvynenko",
+        "position": "Anti-crisis manager",
+        "content": "«The impression of the new quiz site is simply fascinating! Its interactive format allows our users to easily and interestingly interact with the content. Thanks to the team for so many creative solutions and insightful design!»"
+      },
+      "2": {
+        "title": "Professional design and easy navigation",
+        "author": "Anastasia Vasylenko",
+        "position": "Product manager",
+        "content": "«The quiz site perfectly conveys our mission and meets all of our audience engagement requirements. The design is intuitive, and the structure of the content makes it easy to navigate»"
+      },
+      "3": {
+        "title": "The perfect combination of functionality and creativity",
+        "author": "Yulia Tkachenko",
+        "position": "Business coach",
+        "content": "«The professionalism and dedication of your team made it possible to create an unparalleled quiz site! Its innovative approach to interactivity and balanced design made it the perfect tool for our purposes»"
+      },
+      "4": {
+        "title": "Educational potential and a convenient interface",
+        "author": "Vitaly Kovalev",
+        "position": "IT manager",
+        "content": "«The new quiz site not only allows you to effectively test your knowledge, but also creates a stimulating educational experience for our users. Its user-friendly interface facilitates easy learning and interaction with the material»"
+      },
+      "5": {
+        "title": "A perfect tool for interacting with the audience",
+        "author": "Sergey Litvinov",
+        "position": "Operations manager",
+        "content": "«The new quiz site turned out to be the perfect tool for our audience! Not only does it attract attention with its modern look and ease of use, but it also allows our users to easily interact with important information»"
+      }
+    },
+    "businesCard_slides": {
+      "1": {
+        "title": "Perfectly adapted business card site for our project!",
+        "author": "Natalia Morozova",
+        "position": "Project manager",
+        "content": "«Excited by the new business card site! Its minimalist design and clear structure allow our customers to quickly find the necessary information. Thanks to the team for so many creative solutions and a thoughtful approach!»"
+      },
+      "2": {
+        "title": "Professional design and easy navigation",
+        "author": "Denis Lysenko",
+        "position": "The head of the company",
+        "content": "«The business card site perfectly reflects our company and provides convenient interaction with visitors. The design is intuitive, and the structure of the pages makes it easy to navigate our offer»"
+      },
+      "3": {
+        "title": "Professionalism in every pixel",
+        "author": "Natalia Kucher",
+        "position": "The head of the company",
+        "content": "«The professional and convenient business card site really impressed us with its effectiveness! Quick access to all the necessary information and flawless work on any devices is what we value in your work»"
+      },
+      "4": {
+        "title": "Convenient and stylish business card site",
+        "author": "Pavlo Morozov",
+        "position": "Sales Manager",
+        "content": "«Excited about your new business card site! It perfectly reflects our company and services. Thank you for making our brand stronger and more accessible to customers»"
+      },
+      "5": {
+        "title": "Modern design: our impressions",
+        "author": "Alina Honcharenko",
+        "position": "Service manager",
+        "content": "«The new business card site is simply wonderful! Its modern look and concise design make our brand more attractive to the audience. Thank you for your work and professionalism!»"
+      }
+    },
+    "ecomerce_slides": {
+      "1": {
+        "title": "New start of virtual trade!",
+        "author": "Vitaly Moroz",
+        "position": "Project manager",
+        "content": "«FullStack impresses with its professionalism and technical knowledge. They successfully implemented our ideas in a high-quality eCommerce project, providing a reliable and convenient platform for our customers. Thank you for the efficient work and excellent result!»"
+      },
+      "2": {
+        "title": "Innovative design and functionality at the highest level!",
+        "author": "Galina Polyakova",
+        "position": "Business Analyst",
+        "content": "«The team demonstrated a high level of professionalism and responsibility. They created for us an impressive eCommerce project with a modern design and an intuitive interface»"
+      },
+      "3": {
+        "title": "High reliability and speed of the project is our key to success!",
+        "author": "Alla Kravchenko",
+        "position": "Senior manager in the marketing department",
+        "content": "«You have demonstrated excellent communication and understanding of our technical requirements. Your solutions and architectural approaches allowed us to create a scalable and reliable platform for our eCommerce business»"
+      },
+      "4": {
+        "title": "Aesthetics and creativity in every detail!",
+        "author": "Evgenia Lysenko",
+        "position": "Sales manager",
+        "content": "«Your company has demonstrated a high level of attention to detail and thoroughness in completing tasks. Their testing and quality control allowed us to launch our eCommerce project without unnecessary failures and errors»"
+      },
+      "5": {
+        "title": "Flawless work — You made it possible!",
+        "author": "Artem Kravchenko",
+        "position": "IT manager",
+        "content": "«You showed incredible results in creating the design of our eCommerce project. Your decisions reflect a high standard of professionalism and a sense of style. We are impressed by the beauty and functionality of our new interface»"
+      }
+    },
+    "seo_slides": {
+      "1": {
+        "title": "High professionalism in website SEO optimization",
+        "author": "Kateryna Mozola",
+        "position": "Project manager",
+        "content": "«I would like to express my sincere thanks to FullStack-Innovations for their significant contribution to improving our website through SEO optimization. The results we got were far beyond our expectations»"
+      },
+      "2": {
+        "title": "High quality standards in SEO optimization",
+        "author": "Ivanna Prots",
+        "position": "Director of the Marketing Department",
+        "content": "«I want to express my sincere thanks to the company for their professional work on SEO optimization of our website. Thanks to their effective strategy, we significantly increased the visibility and traffic of our site, which had a direct impact on our business»"
+      },
+      "3": {
+        "title": "Professionalism in every detail of the SEO strategy",
+        "author": "Natalia Kovalchuk",
+        "position": "Business Аnalyst",
+        "content": "«Thank you very much for your high level of professionalism in the SEO optimization of our site. You have shown impressive knowledge and understanding in the field of search engine optimization, which has allowed us to significantly improve our positions in search engines»"
+      },
+      "4": {
+        "title": "Excellent work with SEO optimization",
+        "author": "Maryan Vavrynov",
+        "position": "Company director",
+        "content": "«Thank you for influencing the improvement of our website through SEO optimization. You have demonstrated high efficiency in working with keywords and content, which has proven to be critical to our brand online»"
+      },
+      "5": {
+        "title": "Strong impact on positions in search engines",
+        "author": "Iryna Pronko",
+        "position": "Content manager",
+        "content": "«I would like to express my deep gratitude to the company for their huge contribution to improving the SEO strategy of our business. They effectively optimized our website, which led to a significant increase in our search engine rankings»"
+      }
+    },"ppc_slides": {
+      "1": {
+        "title": "Effective contextual advertising",
+        "author": "Volodymyr Pospolitak",
+        "position": "Deputy director of the company",
+        "content": "«Thank you very much for the excellent work with contextual advertising. You demonstrated a high level of efficiency and responsibility, which led to a significant increase in our conversion rates. I recommend you with confidence»"
+      },
+      "2": {
+        "title": "Professionalism and results of contextual advertising",
+        "author": "Yulia Kostenko",
+        "position": "Director of the «Management and Administration» department",
+        "content": "«Thank you for your professionalism in contextual advertising. You carefully worked on every detail of advertising campaigns, which was marked by high performance indicators and an increase in our sales. We are impressed with the results»"
+      },
+      "3": {
+        "title": "Influential contextual strategy",
+        "author": "Mykhailo Senyo",
+        "position": "Economic analyst",
+        "content": "«Many thanks to the team for their impact on improving the performance of our contextual advertising. You have made a significant contribution to our business, providing us with a significant increase in conversions and increased sales»"
+      },
+      "4": {
+        "title": "Effective approaches to contextual advertising",
+        "author": "Andriy Ponomarenko",
+        "position": "Chief director of the company",
+        "content": "«Thank you for the individual approach to our contextual advertising. You have carefully analyzed our market and adapted strategies in such a way that we see a significant increase in traffic and conversions. Very satisfied with the cooperation»"
+      },
+      "5": {
+        "title": "Contextual advertising services at a high level",
+        "author": "Ilona Vasylenko",
+        "position": "Senior manager in the marketing department",
+        "content": "«I want to say a big thank you for your great contribution to our business through contextual advertising. You have increased the effectiveness of our advertising campaigns, which has led to a significant increase in conversions and improved visibility of our brand online»"
+      }
+    }, "brending_slides": {
+      "1": {
+        "title": "Impressive site design!",
+        "author": "Milana Portukhovich",
+        "position": "Chief Executive Officer",
+        "content": "«As a restaurant business owner, I am very pleased with the professionalism and creative approach to the design of our new website. They successfully combined aesthetics with functionality, which makes the site easy to use»"
+      },
+      "2": {
+        "title": "Professionalism at the highest level!",
+        "author": "Iryna Prokhoda",
+        "position": "Marketing manager",
+        "content": "«I advise everyone to contact this IT company for web design or other web technologies. They impress not only with their creative approach, but also with their attention to detail. Thanks for our great site!»"
+      },
+      "3": {
+        "title": "Modern and effective design!",
+        "author": "Marko Lysenko",
+        "position": "Company director",
+        "content": "«It's easy to work with professionals who understand business needs. Our new website is not only attractive in appearance, but also serves our purpose well. I am happy to recommend this IT company!»"
+      },
+      "4": {
+        "title": "Impressive design and excellent service!",
+        "author": "Oleksandr Mykhaylenko",
+        "position": "PR-менеджер",
+        "content": "«I am very satisfied with the cooperation with your company. The designers successfully conveyed our brand message through a stylish and easy-to-use website. Thank you very much to your specialists for their work»"
+      },
+      "5": {
+        "title": "Excellent result and professional approach!",
+        "author": "Andriy Melnyk",
+        "position": "Head of Business Development",
+        "content": "«Our company has been cooperating with your team for a long time, and we are always enthusiastic about each project. Your designers demonstrate a high level of skill and understand our needs. I sincerely recommend it!»"
+      }
+    },"smm_slides": {
+      "1": {
+        "title": "Заголовок",
+        "author": "Павло",
+        "position": "Менеджер",
+        "content": "Слайд"
+      },
+      "2": {
+        "title": "Заголовок",
+        "author": "Павло",
+        "position": "Менеджер",
+        "content": "Слайд"
+      },
+      "3": {
+        "title": "Заголовок",
+        "author": "Павло",
+        "position": "Менеджер",
+        "content": "Слайд"
+      },
+      "4": {
+        "title": "Заголовок",
+        "author": "Павло",
+        "position": "Менеджер",
+        "content": "Слайд"
+      },
+      "5": {
+        "title": "Заголовок",
+        "author": "Павло",
+        "position": "Менеджер",
+        "content": "Слайд"
+      }
+    },"suport_slides": {
+      "1": {
+        "title": "Заголовок",
+        "author": "Павло",
+        "position": "Менеджер",
+        "content": "Слайд"
+      },
+      "2": {
+        "title": "Заголовок",
+        "author": "Павло",
+        "position": "Менеджер",
+        "content": "Слайд"
+      },
+      "3": {
+        "title": "Заголовок",
+        "author": "Павло",
+        "position": "Менеджер",
+        "content": "Слайд"
+      },
+      "4": {
+        "title": "Заголовок",
+        "author": "Павло",
+        "position": "Менеджер",
+        "content": "Слайд"
+      },
+      "5": {
+        "title": "Заголовок",
+        "author": "Павло",
+        "position": "Менеджер",
+        "content": "Слайд"
+      }
     }
   },
   "banner": {

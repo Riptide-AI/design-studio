@@ -1,7 +1,7 @@
 export const heroBanner = {
   title: 'Landing page',
   desc: '',
-  bg: '/img/hero-banner-11.jfif',
+  bg: '/img/landing_back.png',
 };
 export const workwithus = {
   title: 'workwithus.title',
@@ -25,28 +25,34 @@ export const reviews = {
   desc: 'reviews.desc',
   slides: [
     {
-      title: 'Заголовок',
-      author: 'Павло Гук 1',
-      position: 'Менеджер компанії ',
-      content: 'Слайд 1',
+      title: 'reviews.quiz_slides.1.title',
+      author: 'reviews.quiz_slides.1.author',
+      position: 'reviews.quiz_slides.1.position',
+      content: 'reviews.quiz_slides.1.content',
     },
     {
-      title: 'Заголовок',
-      author: 'Павло Гук 2',
-      position: 'Менеджер компанії ',
-      content: 'Слайд 2',
+      title: 'reviews.quiz_slides.2.title',
+      author: 'reviews.quiz_slides.2.author',
+      position: 'reviews.quiz_slides.2.position',
+      content: 'reviews.quiz_slides.2.content',
     },
     {
-      title: 'Заголовок',
-      author: 'Павло Гук 3',
-      position: 'Менеджер компанії ',
-      content: 'Слайд 3',
+      title: 'reviews.quiz_slides.3.title',
+      author: 'reviews.quiz_slides.3.author',
+      position: 'reviews.quiz_slides.3.position',
+      content: 'reviews.quiz_slides.3.content',
     },
     {
-      title: 'Заголовок',
-      author: 'Павло Гук 4',
-      position: 'Менеджер компанії ',
-      content: 'Слайд 4',
+      title: 'reviews.quiz_slides.4.title',
+      author: 'reviews.quiz_slides.4.author',
+      position: 'reviews.quiz_slides.4.position',
+      content: 'reviews.quiz_slides.4.content',
+    },
+    {
+      title: 'reviews.quiz_slides.5.title',
+      author: 'reviews.quiz_slides.5.author',
+      position: 'reviews.quiz_slides.5.position',
+      content: 'reviews.quiz_slides.5.content',
     },
   ],
 };
@@ -164,7 +170,8 @@ export const priceCards = {
       ],
     },
   ],
-};export const priceCards_mob = {
+};
+export const priceCards_mob = {
   title: 'priceCardsLending_mob.title',
   desc: 'priceCardsLending_mob.desc',
   checkIcon: '/img/icons/check-3.svg',

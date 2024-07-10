@@ -1,7 +1,7 @@
 export const heroBanner = {
   title: 'heroBannerStore.title',
   desc: '',
-  bg: '/img/hero-banner-12.jfif',
+  bg: '/img/portfolios/store_back.png',
 };
 export const workwithus = {
   title: 'workwithus.title',
