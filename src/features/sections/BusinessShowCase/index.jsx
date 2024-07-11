@@ -22,7 +22,7 @@ export const BusinessShowCase = ({ left = true }) => {
     <ContentWrapper>
       <section className={styles.business}>
         <h3
-          style={{ textAlign: left && windowWidth < 1440 ? 'center' : 'left' }}
+          style={{ textAlign: left && windowWidth < 1440 ? 'center' : 'center' }}
           className={styles.business__title}
         >
           {t(businessCards.title)}
