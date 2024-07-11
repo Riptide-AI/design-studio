@@ -23,6 +23,9 @@
     @include media(phone) {
       padding: 50px 20px 20px;
       height: 440px;
+      border-top-left-radius: 20px;
+      border-top-right-radius: 20px;
+
     }
     &__title {
    

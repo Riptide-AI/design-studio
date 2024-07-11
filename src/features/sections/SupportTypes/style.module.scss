@@ -69,19 +69,17 @@
       grid-column: 1;
       grid-row: 1 / span 2;
     }
-    &.alt {
-      // grid-row: 1;
-    }
+
     &__title {
       color: $white;
       font-size: 24px;
       font-weight: 600;
       line-height: 150%;
+      @include media(phone){
+        font-size: 22px;
+        }
     }
-    &.alt {
-      // grid-column: 1;
-    }
-    
+ 
     &__desc {
       color: $dark-grey;
       font-size: 16px;

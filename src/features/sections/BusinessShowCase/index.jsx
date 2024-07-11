@@ -5,7 +5,7 @@ import { BusinessCard } from '@/components/BusinessCard';
 import { useTranslation } from 'react-i18next';
 import { useEffect, useState } from 'react';
 
-export const BusinessShowCase = ({ left = false }) => {
+export const BusinessShowCase = ({ left = true }) => {
   const { t } = useTranslation();
   const [windowWidth, setwindowWidth] = useState();
 

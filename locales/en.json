@@ -248,6 +248,7 @@
   "aboutUs": {
     "title": "About us",
     "desc": "We are a team of professionals in web development and innovation, ready to turn your concepts into successful and profitable projects. Since late 2021, we have already implemented over 75 successful websites, demonstrating our high level of expertise and professionalism.<br /> Our approach is based on individual attention to each client, ensuring the development of modern, productive, and unique web solutions. We thoroughly consider the latest trends and industry requirements to provide your project with a competitive edge.",
+    "desc_mob": "We are a team of professionals in web development and innovation, ready to turn your concepts into successful and profitable projects. Since late 2021, we have already implemented over 75 successful websites, demonstrating our high level of expertise and professionalism. Our approach is based on individual attention to each client, ensuring the development of modern, productive, and unique web solutions. We thoroughly consider the latest trends and industry requirements to provide your project with a competitive edge.",
     "cards": {
       "1": {
         "desc": "completed projects"
@@ -725,7 +726,8 @@
         "position": "Content manager",
         "content": "«I would like to express my deep gratitude to the company for their huge contribution to improving the SEO strategy of our business. They effectively optimized our website, which led to a significant increase in our search engine rankings»"
       }
-    },"ppc_slides": {
+    },
+    "ppc_slides": {
       "1": {
         "title": "Effective contextual advertising",
         "author": "Volodymyr Pospolitak",
@@ -756,7 +758,8 @@
         "position": "Senior manager in the marketing department",
         "content": "«I want to say a big thank you for your great contribution to our business through contextual advertising. You have increased the effectiveness of our advertising campaigns, which has led to a significant increase in conversions and improved visibility of our brand online»"
       }
-    }, "brending_slides": {
+    },
+    "brending_slides": {
       "1": {
         "title": "Impressive site design!",
         "author": "Milana Portukhovich",
@@ -787,7 +790,8 @@
         "position": "Head of Business Development",
         "content": "«Our company has been cooperating with your team for a long time, and we are always enthusiastic about each project. Your designers demonstrate a high level of skill and understand our needs. I sincerely recommend it!»"
       }
-    },"smm_slides": {
+    },
+    "smm_slides": {
       "1": {
         "title": "Заголовок",
         "author": "Павло",
@@ -818,7 +822,8 @@
         "position": "Менеджер",
         "content": "Слайд"
       }
-    },"suport_slides": {
+    },
+    "suport_slides": {
       "1": {
         "title": "Заголовок",
         "author": "Павло",
@@ -854,13 +859,42 @@
   "banner": {
     "title": "Do you believe in hiring professionals?",
     "title_mob": "Believe in hiring professionals?",
-    "desc": "We are a team with extensive experience in developing custom software engineering solutions for websites, utilizing various technologies. Our experts possess a versatile stack, including JavaScript, Python, PHP, and employ frameworks such as React, Django, Next.js, and Laravel. We set ourselves the important task of ensuring stability and productivity for each project, utilizing optimized code and advanced caching techniques to ensure fast page loading and efficient website performance."
+    "desc": "We are a team with extensive experience in developing custom software engineering solutions for websites, utilizing various technologies. Our experts possess a versatile stack, including JavaScript, Python, PHP, and employ frameworks such as React, Django, Next.js and Laravel. We set ourselves the important task of ensuring stability and productivity for each project, utilizing optimized code and advanced caching techniques to ensure fast page loading and efficient website performance.",
+    "desc_mob": "We are a team with extensive experience in developing custom software engineering solutions for websites, utilizing various technologies. Our experts possess a versatile stack, including JavaScript, Python, PHP, and employ frameworks such as React, Django, Next.js and Laravel. We set ourselves the important task of ensuring stability and productivity for each project, utilizing optimized code and advanced caching techniques to ensure fast page loading and efficient website performance."
   },
   "technologies": {
     "title": "Technologies",
     "desc": "Our company has extensive experience in developing specialized software engineering solutions, utilizing various technologies to ensure reliability and security."
   },
   "Offers": {
+    "list": {
+      "1": {
+        "title": "Development",
+        "desc": "Our experienced experts have vast experience in creating modern websites, stylish online stores, and innovative web services."
+      },
+      "2": {
+        "title": "Search promotion",
+        "desc": "Our experts effectively advertise sites on Google. Trust us with your brand and we guarantee the success of your online promotion."
+      },
+      "3": {
+        "title": "Contextual advertising",
+        "desc": "Secure high ranking ads in Google search for the impressive success of your brand! Increase your visibility exponentially with us."
+      },
+      "4": {
+        "title": "Branding and design",
+        "desc": "The visual experience is born in the hands of our specialists who combine creativity and high expert skill in the design process."
+      },
+      "5": {
+        "title": "Website support",
+        "desc": "We provide comprehensive technical support for the reliability and optimal operation of your resource. Your success is our greatest goal."
+      },
+      "6": {
+        "title": "Promotion in social networks",
+        "desc": "Our team has extensive experience in bringing attention to a relevant brand or product through various social platforms."
+      }
+    }
+  },
+  "Offers_mob": {
     "list": {
       "1": {
         "title": "Development",
@@ -1041,13 +1075,13 @@
         "title": "Protection against overspending",
         "title_mob": "Prevention of overspending",
         "desc": "Before starting work, we agree on a fixed amount to avoid misunderstandings and unforeseen costs. With us, you know exactly how much your project will cost and you can calmly work on its implementation. However, if you wish to add new functionality, we are willing to negotiate additional costs for these operational changes.",
-        "desc_mob": "We agree on a fixed price upfront to prevent unexpected costs. If additional features are desired, we can negotiate and price them separately accordingly."
+        "desc_mob": "We agree on a fixed price upfront to prevent unexpected costs. If additional features are desired, we can negotiate and price them separately."
       },
       "2": {
         "title": "Timeout protection",
         "title_mob": "Timeout protection",
         "desc": "We fix a clear schedule for your project, conduct a thorough analysis and planning of requirements to avoid possible delays. Thanks to our approach, you will always have a clear idea of the completion date, which allows you to manage expectations and ensure the successful implementation of the project within the agreed time frame.",
-        "desc_mob": "We maintain a precise schedule, conduct thorough analysis, and ensure timely project delivery for successful outcomes and client satisfaction guaranteed."
+        "desc_mob": "We maintain a precise schedule, conduct thorough analysis, and ensure timely project delivery for successful outcomes and client satisfaction."
       }
     }
   },
@@ -1077,6 +1111,34 @@
       "6": {
         "title": "Experience in your field",
         "desc": "Whatever niche you work in, chances are we already have experience promoting it. Or at least in an adjacent niche."
+      }
+    }
+  }, "socialSMM_mob": {
+    "title": "Promotion in social networks",
+    "list": {
+      "1": {
+        "title": "A team of experienced experts",
+        "desc": "We do not use external specialists for website development and exclusively collaborate only with our own in-house specialists and teams."
+      },
+      "2": {
+        "title": "Transparent cooperation",
+        "desc": "No hidden conditions, unpredictable changes in the cost of services, manipulation of reports, etc., are guaranteed against by us completely."
+      },
+      "3": {
+        "title": "Individual approach",
+        "desc": "Businesses are unique, so approaches to their promotion vary in each specific case depending on their industry, target audience, and dynamics."
+      },
+      "4": {
+        "title": "Individual strategy",
+        "desc": "The general concept and strategy of website promotion always entail customized solutions tailored specifically for each client's unique needs."
+      },
+      "5": {
+        "title": "Comprehensive analytics",
+        "desc": "We thoroughly research our clients' businesses, their niche, competitors, and analyze their promotion strategies to ensure comprehensive insights."
+      },
+      "6": {
+        "title": "Experience in your field",
+        "desc": "Whatever specific niche you work in, chances are we already have extensive experience effectively promoting it or a related adjacent niche."
       }
     }
   },
@@ -1131,7 +1193,7 @@
     "list": {
       "1": {
         "title": "Monthly support",
-        "desc": "If a client project has limited support, we'll assist during the initial months to promptly identify and resolve issues. Our experts are ready to help throughout this process."
+        "desc": "If a client project has limited support, we'll assist during the initial months to promptly identify and resolve issues. Our experts are ready to help you."
       },
       "2": {
         "title": "Annual support",
@@ -1139,7 +1201,7 @@
       },
       "3": {
         "title": "Payment per hour of work",
-        "desc": "Clear-tasked projects with regular updates ensure stable, efficient, user-friendly functionality for landing pages and simple design sites, maintaining visual appeal."
+        "desc": "Clear-tasked projects with regular updates ensure stable, efficient, user-friendly functionality for landing pages and simple design sites."
       }
     }
   },

@@ -84,7 +84,7 @@ export const portfolioPagination = {
         category: 'Web design',
         link: 'https://www.figma.com/proto/Qw2pUWQXtiRYSDQKmaD8Mo/window-washing-PC?page-id=0%3A1&node-id=1-883&t=HVOvDvIUyVjSGnTt-1&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=1%3A883',
       },
-       {
+      {
         id: 100,
         image: '/img/portfolios/web_design/specialezed.png', // img link here
         title: 'portfolio.web_design.100',
@@ -122,6 +122,7 @@ export const portfolioPagination = {
         id: 19,
         image: '/img/portfolios/web_design/Ellty.png', // img link here
         title: 'portfolio.web_development.19',
+        title_to_prev: '',
         theme: 'portfolioPagination.theme.Web_development',
         category: 'Web development',
         link: 'https://www.figma.com/proto/jnCM95go0WrPe6dmgF9xDg/Ellty-LP-%D0%92%D0%B5%D1%80%D1%81%D1%82%D0%BA%D0%B0-(Copy)?page-id=1%3A2&node-id=3196-4237&t=Dd1o1u7q27FP5IKU-1&scaling=min-zoom&content-scaling=fixed',
@@ -130,6 +131,7 @@ export const portfolioPagination = {
         id: 20,
         image: '/img/portfolios/web_design/PressWawe.png', // img link here
         title: 'portfolio.web_development.20',
+        title_to_prev: '',
         theme: 'portfolioPagination.theme.Web_development',
         category: 'Web development',
         link: 'https://www.figma.com/proto/PI4nFuMn2OVuUuSdxHLRZL/Untitled?page-id=&node-id=0-2239&t=WuAzbyxCrBkUCJG7-1',
@@ -177,7 +179,9 @@ export const portfolioPagination = {
       {
         id: 26,
         image: '/img/portfolios/web_design/smmLab.png', // img link here
+        image_vert: '/img/portfolios/web_design/vertical/smm.png', // img link here
         title: 'portfolio.web_development.26',
+        title_to_prev: '',
         theme: 'portfolioPagination.theme.Web_development',
         category: 'Web development',
         link: 'https://www.figma.com/proto/leSCj3lwLrKKDCLbq2FVkX/Untitled?page-id=&node-id=0-3&t=X1bRpv8kj1OuZqMO-1',
@@ -372,7 +376,43 @@ export const portfolioPagination = {
     ],
   },
 };
-
+export const portfolioPrev = {
+  list: [
+    {
+      id: 19,
+      image: '/img/portfolios/web_design/Ellty.png', // img link here
+      image_vert: '/img/portfolios/web_design/vertical/smm.png', // img link here
+      title: 'portfolio.web_development.19',
+      title_to_prev: 'Веб-сайт для компанії «Ellty»',
+      title_to_prev_mob: 'Веб-сайт для «Ellty»',
+      theme: 'portfolioPagination.theme.Web_development',
+      category: 'Web development',
+      link: 'https://www.figma.com/proto/jnCM95go0WrPe6dmgF9xDg/Ellty-LP-%D0%92%D0%B5%D1%80%D1%81%D1%82%D0%BA%D0%B0-(Copy)?page-id=1%3A2&node-id=3196-4237&t=Dd1o1u7q27FP5IKU-1&scaling=min-zoom&content-scaling=fixed',
+    },
+    {
+      id: 20,
+      image: '/img/portfolios/web_design/PressWawe.png', // img link here
+      image_vert: '/img/portfolios/web_design/vertical/smm.png', // img link here
+      title: 'portfolio.web_development.20',
+      title_to_prev: 'Веб-сайт для компанії «PressWave»',
+      title_to_prev_mob: 'Веб-сайт для «PressWave»',
+      theme: 'portfolioPagination.theme.Web_development',
+      category: 'Web development',
+      link: 'https://www.figma.com/proto/PI4nFuMn2OVuUuSdxHLRZL/Untitled?page-id=&node-id=0-2239&t=WuAzbyxCrBkUCJG7-1',
+    },
+    {
+      id: 26,
+      image: '/img/portfolios/web_design/smmLab.png', // img link here
+      image_vert: '/img/portfolios/web_design/vertical/smm.png', // img link here
+      title: 'portfolio.web_development.26',
+      title_to_prev: 'Веб-сайт для компанії «SMM-LAB»',
+      title_to_prev_mob: 'Веб-сайт для «SMM-LAB»',
+      theme: 'portfolioPagination.theme.Web_development',
+      category: 'Web development',
+      link: 'https://www.figma.com/proto/leSCj3lwLrKKDCLbq2FVkX/Untitled?page-id=&node-id=0-3&t=X1bRpv8kj1OuZqMO-1',
+    },
+  ],
+};
 export const portfolioList = {
   19: {
     title: 'Веб-сайт',
@@ -386,16 +426,20 @@ export const portfolioList = {
       sectionName: 'Завдання',
       list: [
         {
-          title: 'Створення структури веб-сайту з прийняттям до уваги потреб користувачів та власників «CryptoHub».',
+          title:
+            'Створення структури веб-сайту з прийняттям до уваги потреб користувачів та власників «CryptoHub».',
         },
         {
-          title: 'Розробка інтерфейсу для публікації онлайн-новин, включаючи функціонал фільтрації та пошуку за категоріями.',
+          title:
+            'Розробка інтерфейсу для публікації онлайн-новин, включаючи функціонал фільтрації та пошуку за категоріями.',
         },
         {
-          title: 'Розробка сучасного та інтерактивного інтерфейсу для вибору криптовалют і виконання обмінних операцій.',
+          title:
+            'Розробка сучасного та інтерактивного інтерфейсу для вибору криптовалют і виконання обмінних операцій.',
         },
         {
-          title: 'Створення крипто словника за алфавітним сортуванням для освіти користувачів в поточній галузі.',
+          title:
+            'Створення крипто словника за алфавітним сортуванням для освіти користувачів в поточній галузі.',
         },
       ],
     },

@@ -222,7 +222,7 @@
           transform: translate(-50%, -50%);
           z-index: 10;
           @include media(phone) {
-            top: calc(50% - 63px);
+            top: calc(50% - 20px);
           }
         }
       }
@@ -238,7 +238,7 @@
         transform: translate(-50%, -50%);
         transition: all 0.3s ease;
         @include media(phone) {
-          top: calc(50% - 63px);
+          top: calc(50% - 20px);
         }
       }
 
