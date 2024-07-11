@@ -84,7 +84,7 @@ export const portfolioPagination = {
         category: 'Web design',
         link: 'https://www.figma.com/proto/Qw2pUWQXtiRYSDQKmaD8Mo/window-washing-PC?page-id=0%3A1&node-id=1-883&t=HVOvDvIUyVjSGnTt-1&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=1%3A883',
       },
-      /*  {
+       {
         id: 100,
         image: '/img/portfolios/web_design/specialezed.png', // img link here
         title: 'portfolio.web_design.100',
@@ -115,7 +115,7 @@ export const portfolioPagination = {
         theme: 'portfolioPagination.theme.Web_design',
         category: 'Web design',
         link: 'https://www.figma.com/proto/2eBEJe71inCCtrDONWuofI/Prototype%2FWebsite-Dance-studio?page-id=0%3A1&node-id=1-428&t=92IhiOVprBDTTC9e-1&scaling=min-zoom&content-scaling=fixed',
-      }, */
+      },
     ],
     web_development: [
       {
@@ -375,27 +375,27 @@ export const portfolioPagination = {
 
 export const portfolioList = {
   19: {
-    title: 'Лого',
-    desc: 'Назва роботи та компанії',
-    background: '/img/portfolios/portfolio-1.jfif',
+    title: 'Веб-сайт',
+    desc: 'Створення веб-сайту для компанії «CryptoHub» ',
+    background: '/img/portfolios/pages/back_image.png',
     idea: {
       sectionName: 'Ідея',
-      desc: 'Створити сайт-каталог без купівлі товарів, але з можливістю уточнити вартість',
+      desc: 'Нашій компанії FullStack було поставлене завдання розробити веб-сайт для компанії CryptoHub. Створено інноваційний веб-сайт, який надає користувачам можливість краще зрозуміти криптовалютний ринок і займатися інвестуванням в цей перспективний сектор.',
     },
     task: {
       sectionName: 'Завдання',
       list: [
         {
-          title: 'Створити сайт-каталог без купівлі товарів, але з можливістю уточнити вартість',
+          title: 'Створення структури веб-сайту з прийняттям до уваги потреб користувачів та власників «CryptoHub».',
         },
         {
-          title: 'Оформити сайт відповідно до специфіки бізнесу.',
+          title: 'Розробка інтерфейсу для публікації онлайн-новин, включаючи функціонал фільтрації та пошуку за категоріями.',
         },
         {
-          title: 'Додати розділ під послуги унікального декорування інтер’єрів.',
+          title: 'Розробка сучасного та інтерактивного інтерфейсу для вибору криптовалют і виконання обмінних операцій.',
         },
         {
-          title: 'Додати розділ під послуги унікального декорування інтер’єрів.',
+          title: 'Створення крипто словника за алфавітним сортуванням для освіти користувачів в поточній галузі.',
         },
       ],
     },

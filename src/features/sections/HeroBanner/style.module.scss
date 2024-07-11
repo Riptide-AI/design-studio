@@ -75,7 +75,7 @@
     font-size: 16px;
     line-height: 24px;
     color: $light-grey;
-    max-width: 380px;
+    max-width: 400px;
     text-align: center;
     font-weight: 400;
     &.en_lang{
@@ -89,6 +89,7 @@
       line-height: 125%;
       text-align: center;
       color: $light-grey;
+      
     }
   }
   &__stats_list {

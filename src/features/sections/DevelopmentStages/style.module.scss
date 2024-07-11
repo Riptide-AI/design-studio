@@ -103,7 +103,8 @@
           max-width: 130px;
           text-align: center;
         }
-        
+        height: 100px;
+
       }
       &__order[data-count='1'] {
         counter-increment: count 01;

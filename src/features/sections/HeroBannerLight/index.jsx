@@ -9,7 +9,7 @@ export const HeroBannerLight = ({ data }) => {
     <section
       className={styles.wrapper}
       style={{
-        background: `linear-gradient(0deg, rgba(18, 39, 60, 0.80) 0%, rgba(18, 39, 60, 0.80) 100%), url(${data.bg}) , lightgray 50% / cover`,
+        background: `linear-gradient(0deg, rgba(10, 22, 34, 0.80) 0%, rgba(10, 22, 34, 0.80) 100%), url(${data.bg}) , lightgray 50% / cover`,
         backgroundPosition: 'center',
         backgroundSize: '100% auto',
         backgroundRepeat: 'no-repeat',

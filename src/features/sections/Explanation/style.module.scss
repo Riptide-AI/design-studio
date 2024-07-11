@@ -9,7 +9,9 @@
   align-items: center;
   @include media(phone) {
     margin-top: 80px;
+  display: none;
   }
+
   &__title {
     text-align: center;
     max-width: 650px;
