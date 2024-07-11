@@ -1,8 +1,11 @@
 import { ContentWrapper } from '@/components/ContentWrapper';
 import Image from 'next/image';
 import styles from './style.module.scss';
+import { useTranslation } from 'react-i18next';
 
 export const PortfolioResult = ({ currentItem }) => {
+  const {t}=useTranslation();
+
   return (
     <div className={styles.wrapper}>
       <ContentWrapper>
@@ -12,13 +15,13 @@ export const PortfolioResult = ({ currentItem }) => {
           </div>
           <div className={styles.result__content}>
             <div className={styles.result__content__section_title}>
-              {currentItem.results.sectionName}
+              {t(currentItem.results.sectionName)}
             </div>
-            <div className={styles.result__content__title}>{currentItem.results.title}</div>
+            <div className={styles.result__content__title}>{t(currentItem.results.title)}</div>
             <div className={styles.result__content__list}>
               {currentItem.results.list.map((item, i) => (
                 <div className={styles.result__content__item} key={`item-${i}`}>
-                  <div className={styles.result__content__item__desc}>{item.desc}</div>
+                  <div className={styles.result__content__item__desc}>{t(item.desc)}</div>
                   <div className={styles.result__content__item__image}>
                     <Image src={item.image} alt="" fill={true} />
                   </div>

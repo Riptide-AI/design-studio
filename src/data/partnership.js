@@ -124,4 +124,38 @@ export const whyWorkWithUs = {
       styles: ['spidometr', 'spidometr_arrow'],
     },
   ],
+};export const whyWorkWithUs_mob = {
+  title: 'whyWorkWithUs_mob.title',
+  list: [
+    {
+      title: 'whyWorkWithUs_mob.list.1.title',
+      desc: 'whyWorkWithUs_mob.list.1.desc',
+      icons: ['/img/Why_cooperate_with_us/money1.png', '/img/Why_cooperate_with_us/money_top.png'],
+      styles: ['money', 'money_top'],
+    },
+    {
+      title: 'whyWorkWithUs_mob.list.2.title',
+      desc: 'whyWorkWithUs_mob.list.2.desc',
+      icons: [
+        '/img/Why_cooperate_with_us/light_white.png',
+        '/img/Why_cooperate_with_us/light_center.png',
+      ],
+      styles: ['light_white', 'light_center'],
+    },
+    {
+      title: 'whyWorkWithUs_mob.list.3.title',
+      desc: 'whyWorkWithUs_mob.list.3.desc',
+      icons: ['/img/Why_cooperate_with_us/wrench.png'],
+      styles: ['wrench'],
+    },
+    {
+      title: 'whyWorkWithUs_mob.list.4.title',
+      desc: 'whyWorkWithUs_mob.list.4.desc',
+      icons: [
+        '/img/Why_cooperate_with_us/spidometr.png',
+        '/img/Why_cooperate_with_us/spidometr_arrow2.png',
+      ],
+      styles: ['spidometr', 'spidometr_arrow'],
+    },
+  ],
 };

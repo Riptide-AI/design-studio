@@ -402,6 +402,27 @@
       }
     }
   },
+  "whyWorkWithUs_mob": {
+    "title": "Почему следует сотрудничать с нами?",
+    "list": {
+      "1": {
+        "title": "Профессионализм",
+        "desc": "Мы имеем значительный опыт в создании инновационных проектов, которые отличаются уникальностью и выдающимися результатами."
+      },
+      "2": {
+        "title": "Творчество",
+        "desc": "Мы разрабатываем уникальный и современный вид сайта, который предлагает инновационные решения и отличается своими подходами."
+      },
+      "3": {
+        "title": "Поддержка",
+        "desc": "Мы гарантируем надежную тех.поддержку вашего сайта, обеспечивая бесперебойную работу и оперативное реагирование на вопросы."
+      },
+      "4": {
+        "title": "Скорость работы",
+        "desc": "Мы обеспечиваем быструю загрузку страниц сайта, что обеспечивает комфортное пользовательское взаимодействие и улучшает SEO."
+      }
+    }
+  },
   "whatYouGet": {
     "title": "Что вы получите?",
     "list": {
@@ -439,6 +460,43 @@
       }
     }
   },
+  "whatYouGet_mob": {
+    "title": "Что вы получите?",
+    "list": {
+      "1": {
+        "title": "До 30% экономии ваших средств",
+        "desc": "Минимизируйте финансовые расходы, экономя на найме разработчиков благодаря нашим инструментам и решениям для автоматизации и оптимизации веб-разработки."
+      },
+      "2": {
+        "title": "Нет проекта = нет оплаты",
+        "desc": "Вы можете избежать необходимости выплаты зарплаты разработчикам в периоды без новых проектов, что позволяет существенно сократить расходы вашей компании."
+      },
+      "3": {
+        "title": "Предлагайте новые идеи по услугам",
+        "desc": "ИТ-новинка в разработке пользуется большим спросом. Выбирайте нас для полного спектра ИТ-решений к вашему веб-проекту с высоким уровнем нашей экспертизы."
+      },
+      "4": {
+        "title": "Получите наш опыт, работая вместе",
+        "desc": "На протяжении трех лет наши эксперты накопили уникальный технологический опыт, который мы успешно применяем в каждом проекте с высокой эффективностью."
+      },
+      "5": {
+        "title": "Белая маркировка и NDA система",
+        "desc": "Безопасность вашего проекта обеспечивается абсолютной белой маркировкой и строгим соблюдением NDA по конфиденциальности, гарантируя полную защиту ваших данных."
+      },
+      "6": {
+        "title": "Получите наш потенциал доставки",
+        "desc": "Мы ориентируемся на развитие, планируя нанять 25 инженеров и 2 менеджера, чтобы укрепить нашу команду и обеспечить успешную реализацию проектов в будущем."
+      },
+      "7": {
+        "title": "Современный специалист ",
+        "desc": "Производительный департамент нашего рекрутинга нацелен на очень быстрый и точный подбор кандидатов, обеспечивая формирование сильных команд для наших клиентов."
+      },
+      "8": {
+        "title": "Качество и поддержка в течение проекта",
+        "desc": "Мы успешно доставим ваш продукт и готовы предоставить качественную техническую поддержку от нашей компании, обеспечивая надежность и бесперебойную работу."
+      }
+    }
+  },
   "reasons": {
     "title": "Почему выбирают нас?",
     "items": {
@@ -467,7 +525,8 @@
         "desc": "Ваш успех – в наших надежных технологиях. Тестируем каждый аспект, чтобы гарантировать безупречность."
       }
     }
-  }, "reasons_mob": {
+  },
+  "reasons_mob": {
     "title": "Почему выбирают нас?",
     "items": {
       "1": {
@@ -3280,6 +3339,522 @@
       "44": "Для компании из организаций событий",
       "45": "Создание для агентства по недвижимости",
       "46": "Создание для фотографа-предпринимателя"
+    }
+  },
+  "portfolio_mob": {
+    "web_design": {
+      "10": "Веб-дизайн для компании «Ellty»",
+      "11": "Веб-дизайн для компании «PressWave»",
+      "12": "Веб-дизайн для компании «Alleva»",
+      "13": "Веб-дизайн для интернет-магазина",
+      "14": "Веб-дизайн для массажиста Леванова",
+      "15": "Веб-дизайн для Центра Демьяна Попова",
+      "16": "Веб-дизайн для компании «CryptoHub»",
+      "17": "Веб-дизайн для «SMM-LAB»",
+      "18": "Веб-дизайн для компании «Skyclean»",
+      "100": "Веб-дизайн для компании «Specialized»",
+      "101": "Веб-дизайн для благотворительного фонда",
+      "102": "Веб-дизайн для компании «ShadowTime»",
+      "103": "Веб-дизайн для компании «DanceStudio»"
+    },
+    "web_development": {
+      "19": "Веб-сайт для компании «Ellty»",
+      "20": "Веб-сайт для компании «PressWave»",
+      "21": "Веб-сайт для компании «Alleva»",
+      "22": "Веб-сайт для интернет-магазина",
+      "23": "Веб-сайт для массажиста Леванова",
+      "24": "Веб-сайт для Центра Демьяна Попова",
+      "25": "Веб-сайт для компании «CryptoHub»",
+      "26": "Веб-сайт для «SMM-LAB»",
+      "27": "Веб-сайт для компании «Skyclean»",
+      "200": "Веб-сайт для компании «Specialized»",
+      "201": "Веб-сайт для благотворительного фонда",
+      "202": "Веб-сайт для компании «ShadowTime»",
+      "203": "Веб-сайт для компании «DanceStudio»"
+    },
+    "logos": {
+      "28": "Создание для туристической компании",
+      "29": "Создание для торговой компании",
+      "30": "Создание для стоматологической клиники",
+      "31": "Создание для криптовалютной биржи",
+      "32": "Создание для страховой компании",
+      "33": "Создание для компании по поддержке",
+      "34": "Создание для дизайн-студии",
+      "35": "Создание для коммерческой компании",
+      "36": "Создание для холдинговой компании"
+    },
+    "business_cards": {
+      "37": "Создание для публичной компании",
+      "38": "Создание для государственной компании",
+      "39": "Создание для компании из организаций событий",
+      "40": "Создание для парикмахерской",
+      "41": "Для компании из организаций событий",
+      "42": "Создание для ресторана",
+      "43": "Создание для предпринимателя-организатора",
+      "44": "Для компании из организаций событий",
+      "45": "Создание для агентства по недвижимости",
+      "46": "Создание для фотографа-предпринимателя"
+    }
+  },
+  "portfolioList": {
+    "19": {
+      "title": "aaaaaaaaaa",
+      "desc": "aaaaaaaaaa",
+      "idea": {
+        "sectionName": "Ідея",
+        "desc": "aaaaaaaaaa"
+      },
+      "task": {
+        "sectionName": "Завдання",
+        "list": {
+          "1": {
+            "title": "aaaaaaaaaa"
+          },
+          "2": {
+            "title": "Розaaaaaaaaaa"
+          },
+          "3": {
+            "title": "aaaaaaaaaa"
+          },
+          "4": {
+            "title": "aaaaaaaaaa"
+          }
+        }
+      },
+    "results": {
+        "sectionName": "Результат",
+        "title": "aaaaaaaaaa",
+        "list": {
+          "1": {
+            "desc": "aaaaaaaaaa"
+          },
+          "2": {
+            "desc": "aaaaaaaaaa"
+          }
+        }
+      },
+      "projects": {
+        "sectionName": "Проєкти",
+        "title": "aaaaaaaaaa",
+        "desc": "aaaaaaaaaa"
+      },
+      "catalog": {
+        "sectionName": "Каталог",
+        "desc": "aaaaaaaaaa"
+      },
+      "adaptive": {
+        "sectionName": "Адаптив",
+        "title": "aaaaaaaaaa",
+        "desc": "aaaaaaaaaa"
+      }
+    },
+    "20": {
+      "title": "aaaaaaaaaa",
+      "desc": "aaaaaaaaaa",
+      "idea": {
+        "sectionName": "Ідея",
+        "desc": "aaaaaaaaaa"
+      },
+      "task": {
+        "sectionName": "Завдання",
+        "list": {
+          "1": {
+            "title": "aaaaaaaaaa"
+          },
+          "2": {
+            "title": "Розaaaaaaaaaa"
+          },
+          "3": {
+            "title": "aaaaaaaaaa"
+          },
+          "4": {
+            "title": "aaaaaaaaaa"
+          }
+        }
+      },
+    "results": {
+        "sectionName": "Результат",
+        "title": "aaaaaaaaaa",
+        "list": {
+          "1": {
+            "desc": "aaaaaaaaaa"
+          },
+          "2": {
+            "desc": "aaaaaaaaaa"
+          }
+        }
+      },
+      "projects": {
+        "sectionName": "Проєкти",
+        "title": "aaaaaaaaaa",
+        "desc": "aaaaaaaaaa"
+      },
+      "catalog": {
+        "sectionName": "Каталог",
+        "desc": "aaaaaaaaaa"
+      },
+      "adaptive": {
+        "sectionName": "Адаптив",
+        "title": "aaaaaaaaaa",
+        "desc": "aaaaaaaaaa"
+      }
+    },
+    "21": {
+      "title": "aaaaaaaaaa",
+      "desc": "aaaaaaaaaa",
+      "idea": {
+        "sectionName": "Ідея",
+        "desc": "aaaaaaaaaa"
+      },
+      "task": {
+        "sectionName": "Завдання",
+        "list": {
+          "1": {
+            "title": "aaaaaaaaaa"
+          },
+          "2": {
+            "title": "Розaaaaaaaaaa"
+          },
+          "3": {
+            "title": "aaaaaaaaaa"
+          },
+          "4": {
+            "title": "aaaaaaaaaa"
+          }
+        }
+      },
+    "results": {
+        "sectionName": "Результат",
+        "title": "aaaaaaaaaa",
+        "list": {
+          "1": {
+            "desc": "aaaaaaaaaa"
+          },
+          "2": {
+            "desc": "aaaaaaaaaa"
+          }
+        }
+      },
+      "projects": {
+        "sectionName": "Проєкти",
+        "title": "aaaaaaaaaa",
+        "desc": "aaaaaaaaaa"
+      },
+      "catalog": {
+        "sectionName": "Каталог",
+        "desc": "aaaaaaaaaa"
+      },
+      "adaptive": {
+        "sectionName": "Адаптив",
+        "title": "aaaaaaaaaa",
+        "desc": "aaaaaaaaaa"
+      }
+    },
+    "22": {
+      "title": "aaaaaaaaaa",
+      "desc": "aaaaaaaaaa",
+      "idea": {
+        "sectionName": "Ідея",
+        "desc": "aaaaaaaaaa"
+      },
+      "task": {
+        "sectionName": "Завдання",
+        "list": {
+          "1": {
+            "title": "aaaaaaaaaa"
+          },
+          "2": {
+            "title": "Розaaaaaaaaaa"
+          },
+          "3": {
+            "title": "aaaaaaaaaa"
+          },
+          "4": {
+            "title": "aaaaaaaaaa"
+          }
+        }
+      },
+    "results": {
+        "sectionName": "Результат",
+        "title": "aaaaaaaaaa",
+        "list": {
+          "1": {
+            "desc": "aaaaaaaaaa"
+          },
+          "2": {
+            "desc": "aaaaaaaaaa"
+          }
+        }
+      },
+      "projects": {
+        "sectionName": "Проєкти",
+        "title": "aaaaaaaaaa",
+        "desc": "aaaaaaaaaa"
+      },
+      "catalog": {
+        "sectionName": "Каталог",
+        "desc": "aaaaaaaaaa"
+      },
+      "adaptive": {
+        "sectionName": "Адаптив",
+        "title": "aaaaaaaaaa",
+        "desc": "aaaaaaaaaa"
+      }
+    },
+    "23": {
+      "title": "aaaaaaaaaa",
+      "desc": "aaaaaaaaaa",
+      "idea": {
+        "sectionName": "Ідея",
+        "desc": "aaaaaaaaaa"
+      },
+      "task": {
+        "sectionName": "Завдання",
+        "list": {
+          "1": {
+            "title": "aaaaaaaaaa"
+          },
+          "2": {
+            "title": "Розaaaaaaaaaa"
+          },
+          "3": {
+            "title": "aaaaaaaaaa"
+          },
+          "4": {
+            "title": "aaaaaaaaaa"
+          }
+        }
+      },
+    "results": {
+        "sectionName": "Результат",
+        "title": "aaaaaaaaaa",
+        "list": {
+          "1": {
+            "desc": "aaaaaaaaaa"
+          },
+          "2": {
+            "desc": "aaaaaaaaaa"
+          }
+        }
+      },
+      "projects": {
+        "sectionName": "Проєкти",
+        "title": "aaaaaaaaaa",
+        "desc": "aaaaaaaaaa"
+      },
+      "catalog": {
+        "sectionName": "Каталог",
+        "desc": "aaaaaaaaaa"
+      },
+      "adaptive": {
+        "sectionName": "Адаптив",
+        "title": "aaaaaaaaaa",
+        "desc": "aaaaaaaaaa"
+      }
+    },
+    "24": {
+      "title": "aaaaaaaaaa",
+      "desc": "aaaaaaaaaa",
+      "idea": {
+        "sectionName": "Ідея",
+        "desc": "aaaaaaaaaa"
+      },
+      "task": {
+        "sectionName": "Завдання",
+        "list": {
+          "1": {
+            "title": "aaaaaaaaaa"
+          },
+          "2": {
+            "title": "Розaaaaaaaaaa"
+          },
+          "3": {
+            "title": "aaaaaaaaaa"
+          },
+          "4": {
+            "title": "aaaaaaaaaa"
+          }
+        }
+      },
+    "results": {
+        "sectionName": "Результат",
+        "title": "aaaaaaaaaa",
+        "list": {
+          "1": {
+            "desc": "aaaaaaaaaa"
+          },
+          "2": {
+            "desc": "aaaaaaaaaa"
+          }
+        }
+      },
+      "projects": {
+        "sectionName": "Проєкти",
+        "title": "aaaaaaaaaa",
+        "desc": "aaaaaaaaaa"
+      },
+      "catalog": {
+        "sectionName": "Каталог",
+        "desc": "aaaaaaaaaa"
+      },
+      "adaptive": {
+        "sectionName": "Адаптив",
+        "title": "aaaaaaaaaa",
+        "desc": "aaaaaaaaaa"
+      }
+    },
+    "25": {
+      "title": "aaaaaaaaaa",
+      "desc": "aaaaaaaaaa",
+      "idea": {
+        "sectionName": "Ідея",
+        "desc": "aaaaaaaaaa"
+      },
+      "task": {
+        "sectionName": "Завдання",
+        "list": {
+          "1": {
+            "title": "aaaaaaaaaa"
+          },
+          "2": {
+            "title": "Розaaaaaaaaaa"
+          },
+          "3": {
+            "title": "aaaaaaaaaa"
+          },
+          "4": {
+            "title": "aaaaaaaaaa"
+          }
+        }
+      },
+    "results": {
+        "sectionName": "Результат",
+        "title": "aaaaaaaaaa",
+        "list": {
+          "1": {
+            "desc": "aaaaaaaaaa"
+          },
+          "2": {
+            "desc": "aaaaaaaaaa"
+          }
+        }
+      },
+      "projects": {
+        "sectionName": "Проєкти",
+        "title": "aaaaaaaaaa",
+        "desc": "aaaaaaaaaa"
+      },
+      "catalog": {
+        "sectionName": "Каталог",
+        "desc": "aaaaaaaaaa"
+      },
+      "adaptive": {
+        "sectionName": "Адаптив",
+        "title": "aaaaaaaaaa",
+        "desc": "aaaaaaaaaa"
+      }
+    },
+    "26": {
+      "title": "aaaaaaaaaa",
+      "desc": "aaaaaaaaaa",
+      "idea": {
+        "sectionName": "Ідея",
+        "desc": "aaaaaaaaaa"
+      },
+      "task": {
+        "sectionName": "Завдання",
+        "list": {
+          "1": {
+            "title": "aaaaaaaaaa"
+          },
+          "2": {
+            "title": "Розaaaaaaaaaa"
+          },
+          "3": {
+            "title": "aaaaaaaaaa"
+          },
+          "4": {
+            "title": "aaaaaaaaaa"
+          }
+        }
+      },
+    "results": {
+        "sectionName": "Результат",
+        "title": "aaaaaaaaaa",
+        "list": {
+          "1": {
+            "desc": "aaaaaaaaaa"
+          },
+          "2": {
+            "desc": "aaaaaaaaaa"
+          }
+        }
+      },
+      "projects": {
+        "sectionName": "Проєкти",
+        "title": "aaaaaaaaaa",
+        "desc": "aaaaaaaaaa"
+      },
+      "catalog": {
+        "sectionName": "Каталог",
+        "desc": "aaaaaaaaaa"
+      },
+      "adaptive": {
+        "sectionName": "Адаптив",
+        "title": "aaaaaaaaaa",
+        "desc": "aaaaaaaaaa"
+      }
+    },
+    "27": {
+      "title": "aaaaaaaaaa",
+      "desc": "aaaaaaaaaa",
+      "idea": {
+        "sectionName": "Ідея",
+        "desc": "aaaaaaaaaa"
+      },
+      "task": {
+        "sectionName": "Завдання",
+        "list": {
+          "1": {
+            "title": "aaaaaaaaaa"
+          },
+          "2": {
+            "title": "Розaaaaaaaaaa"
+          },
+          "3": {
+            "title": "aaaaaaaaaa"
+          },
+          "4": {
+            "title": "aaaaaaaaaa"
+          }
+        }
+      },
+    "results": {
+        "sectionName": "Результат",
+        "title": "aaaaaaaaaa",
+        "list": {
+          "1": {
+            "desc": "aaaaaaaaaa"
+          },
+          "2": {
+            "desc": "aaaaaaaaaa"
+          }
+        }
+      },
+      "projects": {
+        "sectionName": "Проєкти",
+        "title": "aaaaaaaaaa",
+        "desc": "aaaaaaaaaa"
+      },
+      "catalog": {
+        "sectionName": "Каталог",
+        "desc": "aaaaaaaaaa"
+      },
+      "adaptive": {
+        "sectionName": "Адаптив",
+        "title": "aaaaaaaaaa",
+        "desc": "aaaaaaaaaa"
+      }
     }
   }
 }
