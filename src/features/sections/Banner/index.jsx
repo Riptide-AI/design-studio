@@ -25,7 +25,7 @@ export const Banner = () => {
           <div className={styles.banner__title}>
             {windowWidth > 1440 ? t(banner.title) : t(banner.title_mob)}
           </div>
-          <div className={styles.banner__desc}>{t(banner.desc)}</div>
+          <div className={styles.banner__desc}> {windowWidth > 1440 ? t(banner.desc) : t(banner.desc_mob)}</div>
         </div>
         <div className={styles.banner__image}>
           <Image src={banner.image} fill="true" alt="" placeholder="empty" />

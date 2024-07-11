@@ -14,14 +14,14 @@ export const PriceCards = ({ data }) => {
   function scrollToNext() {
     if (cardsRef.current) {
       requestAnimationFrame(() => {
-        cardsRef.current.scrollLeft += window.innerWidth < 422? window.innerWidth +10: 422;
+        cardsRef.current.scrollLeft += window.innerWidth < 422 ? window.innerWidth + 10 : 422;
       });
     }
   }
   function scrollToPrev() {
     if (cardsRef.current) {
       requestAnimationFrame(() => {
-        cardsRef.current.scrollLeft -= window.innerWidth < 422? window.innerWidth +10: 422;
+        cardsRef.current.scrollLeft -= window.innerWidth < 422 ? window.innerWidth + 10 : 422;
       });
     }
   }
@@ -34,6 +34,10 @@ export const PriceCards = ({ data }) => {
     setModalContent(content);
     setModalOpen(true);
   };
+  const [animate, setAnimate] = useState(false);
+  setInterval(() => {
+    setAnimate(!animate);
+  }, 5000);
   return (
     <ContentWrapper>
       {modalContent && (
@@ -49,7 +53,9 @@ export const PriceCards = ({ data }) => {
         <div ref={cardsRef} className={styles.price_cards__list}>
           {data.list.map((item, i) => (
             <div
-              className={styles.price_cards__item}
+              className={
+                animate ? styles.price_cards__item + ' ' + styles.animate : styles.price_cards__item
+              }
               key={`item-${i}`}
               style={{ backgroundColor: item.color }}
             >

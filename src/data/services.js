@@ -37,12 +37,52 @@ export const offers = {
       link: '/services/smm',
     },
   ],
+};export const offers_mob = {
+  list: [
+    {
+      title: 'Offers_mob.list.1.title',
+      desc: 'Offers_mob.list.1.desc',
+      offerName: 'WEB',
+      link: '/services/frontend',
+    },
+    {
+      title: 'Offers_mob.list.2.title',
+      desc: 'Offers_mob.list.2.desc',
+      offerName: 'SEO',
+      link: '/services/seo',
+    },
+    {
+      title: 'Offers_mob.list.3.title',
+      desc: 'Offers_mob.list.3.desc',
+      offerName: 'PPC',
+      link: '/services/ads',
+    },
+    {
+      title: 'Offers_mob.list.4.title',
+      desc: 'Offers_mob.list.4.desc',
+      offerName: 'BRANDING',
+      link: '/services/design',
+    },
+    {
+      title: 'Offers_mob.list.5.title',
+      desc: 'Offers_mob.list.5.desc',
+      offerName: 'SUPPORT',
+      link: '/services/support',
+    },
+    {
+      title: 'Offers_mob.list.6.title',
+      desc: 'Offers_mob.list.6.desc',
+      offerName: 'SMM',
+      link: '/services/smm',
+    },
+  ],
 };
 
 export const banner = {
   title: 'banner.title',
   title_mob: 'banner.title_mob',
   desc: 'banner.desc',
+  desc_mob: 'banner.desc_mob',
   image: '/img/banner-1.png',
 };
 
