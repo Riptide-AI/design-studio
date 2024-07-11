@@ -1,23 +1,43 @@
-import { useState, useMemo, useRef } from 'react';
+import { useState, useMemo, useRef, useEffect } from 'react';
 import { ContentWrapper } from '@/components/ContentWrapper';
-import { portfolioPagination } from '@/data/portfolio';
+import { portfolioPagination, portfolioPagination_mob } from '@/data/portfolio';
 import Image from 'next/image';
 import styles from './style.module.scss';
 import { useTranslation } from 'react-i18next';
 import Card from './Card';
 
 export const PortfolioPagination = () => {
+  const [windowWidth, setwindowWidth] = useState();
+
+  useEffect(() => {
+    if (typeof window !== 'undefined') {
+      setwindowWidth(window.innerWidth);
+      const updateWidth = () => setwindowWidth(window.innerWidth);
+      window.addEventListener('resize', updateWidth);
+      return () => window.removeEventListener('resize', updateWidth);
+    }
+  }, []);
   const { t } = useTranslation();
   const refList = useRef({});
   const [currentFilter, setCurrentFilter] = useState('all');
   const allList = useMemo(() => {
-    let finalList = [];
-    portfolioPagination.filters.map(
-      (item) =>
-        item.id !== 'all' && (finalList = [...finalList, ...portfolioPagination.lists[item.id]]),
-    );
-    return finalList;
-  }, []);
+    if (windowWidth > 1440) {
+      let finalList = [];
+      portfolioPagination.filters.map(
+        (item) =>
+          item.id !== 'all' && (finalList = [...finalList, ...portfolioPagination.lists[item.id]]),
+      );
+      return finalList;
+    } else {
+      let finalList = [];
+      portfolioPagination_mob.filters.map(
+        (item) =>
+          item.id !== 'all' &&
+          (finalList = [...finalList, ...portfolioPagination_mob.lists[item.id]]),
+      );
+      return finalList;
+    }
+  }, [windowWidth]);
   const [currentList, setCurrentList] = useState(allList);
 
   const itemsPerPage = 9; // Adjust this value according to your design
@@ -83,20 +103,35 @@ export const PortfolioPagination = () => {
     <ContentWrapper>
       <div className={styles.pagination}>
         <div ref={refList} className={styles.pagination__filters}>
-          {portfolioPagination.filters.map((item) => (
-            <div
-              className={
-                animate
-                  ? styles.pagination__filters__item + ' ' + styles.animate
-                  : styles.pagination__filters__item
-              }
-              key={`filter-${item.id}`}
-              onClick={() => handleFilterChange(item.id)}
-              style={{ color: item.id === currentFilter ? 'white' : '#B1B1B1' }}
-            >
-              {t(item.filterName)}
-            </div>
-          ))}
+          {windowWidth > 1440
+            ? portfolioPagination.filters.map((item) => (
+                <div
+                  className={
+                    animate
+                      ? styles.pagination__filters__item + ' ' + styles.animate
+                      : styles.pagination__filters__item
+                  }
+                  key={`filter-${item.id}`}
+                  onClick={() => handleFilterChange(item.id)}
+                  style={{ color: item.id === currentFilter ? 'white' : '#B1B1B1' }}
+                >
+                  {t(item.filterName)}
+                </div>
+              ))
+            : portfolioPagination_mob.filters.map((item) => (
+                <div
+                  className={
+                    animate
+                      ? styles.pagination__filters__item + ' ' + styles.animate
+                      : styles.pagination__filters__item
+                  }
+                  key={`filter-${item.id}`}
+                  onClick={() => handleFilterChange(item.id)}
+                  style={{ color: item.id === currentFilter ? 'white' : '#B1B1B1' }}
+                >
+                  {t(item.filterName)}
+                </div>
+              ))}
         </div>
         <div className={styles.pagination__list}>
           {currentItems.map((card, i) => (
