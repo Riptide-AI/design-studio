@@ -33,6 +33,37 @@ export const socialSMM = {
   ],
   imageOne: '/img/smm-1.jfif',
   imageTwo: '/img/smm-2.jfif',
+};export const socialSMM_mob = {
+  title: 'socialSMM_mob.title',
+  checkIcon: '/img/icons/check-2.svg',
+  list: [
+    {
+      title: 'socialSMM_mob.list.1.title',
+      desc: 'socialSMM_mob.list.1.desc',
+    },
+    {
+      title: 'socialSMM_mob.list.2.title',
+      desc: 'socialSMM_mob.list.2.desc',
+    },
+    {
+      title: 'socialSMM_mob.list.3.title',
+      desc: 'socialSMM_mob.list.3.desc',
+    },
+    {
+      title: 'socialSMM_mob.list.4.title',
+      desc: 'socialSMM_mob.list.4.desc',
+    },
+    {
+      title: 'socialSMM_mob.list.5.title',
+      desc: 'socialSMM_mob.list.5.desc',
+    },
+    {
+      title: 'socialSMM_mob.list.6.title',
+      desc: 'socialSMM_mob.list.6.desc',
+    },
+  ],
+  imageOne: '/img/smm-1.jfif',
+  imageTwo: '/img/smm-2.jfif',
 };
 export const checks = {
   title: 'checks.title',
