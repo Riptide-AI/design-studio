@@ -22,8 +22,9 @@ export default function Page({ currentItem }) {
 }
 
 export async function getStaticPaths() {
-  const locales = ['en', 'ua','ru'];
+  const locales = ['en', 'ua', 'ru'];
   const paths = [];
+
   locales.forEach((locale) => {
     Object.keys(portfolioList).forEach((id) => {
       paths.push({ params: { id }, locale });
