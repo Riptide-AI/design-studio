@@ -2,20 +2,29 @@ import { ContentWrapper } from '@/components/ContentWrapper';
 import styles from './style.module.scss';
 import { CustomButton } from '@/components/CustomButton';
 import { ourWorks } from '@/data/homepage';
-import { portfolioPagination, portfolioPrev } from '@/data/portfolio';
+import { portfolioPrev } from '@/data/portfolio';
 import Link from 'next/link';
-import { useMemo } from 'react';
+import { useEffect, useState } from 'react';
 import { useTranslation } from 'react-i18next';
 
 export const OurWorks = () => {
   const { t } = useTranslation();
 
-  const lastProjects = useMemo(() => {
+ /*  const lastProjects = useMemo(() => {
     return portfolioPagination.lists.web_development.filter((el) => {
       el.id ==  19
     });
+  }, []); */
+  const [windowWidth, setwindowWidth] = useState();
+
+  useEffect(() => {
+    if (typeof window !== 'undefined') {
+      setwindowWidth(window.innerWidth);
+      const updateWidth = () => setwindowWidth(window.innerWidth);
+      window.addEventListener('resize', updateWidth);
+      return () => window.removeEventListener('resize', updateWidth);
+    }
   }, []);
-  console.log(lastProjects);
   return (
     <ContentWrapper>
       <div className={styles.ourworks}>
@@ -29,7 +38,7 @@ export const OurWorks = () => {
               key={index}
             >
               <div>
-                <div className={styles.ourworks__item__title}>{t(item.title)}</div>
+                <div className={styles.ourworks__item__title}>{windowWidth>1440?t(item.title_to_prev):t(item.title_to_prev_mob)}</div>
                 <div className={styles.ourworks__item__desc}>{t(item.theme)}</div>
               </div>
             </Link>

@@ -94,6 +94,35 @@ export const checks = {
       desc: 'checks.list.6.desc',
     },
   ],
+};export const checks_mob = {
+  title: 'checks_mob.title',
+  checkIcon: '/img/icons/check-2.svg',
+  list: [
+    {
+      title: 'checks_mob.list.1.title',
+      desc: 'checks_mob.list.1.desc',
+    },
+    {
+      title: 'checks_mob.list.2.title',
+      desc: 'checks_mob.list.2.desc',
+    },
+    {
+      title: 'checks_mob.list.3.title',
+      desc: 'checks_mob.list.3.desc',
+    },
+    {
+      title: 'checks_mob.list.4.title',
+      desc: 'checks_mob.list.4.desc',
+    },
+    {
+      title: 'checks_mob.list.5.title',
+      desc: 'checks_mob.list.5.desc',
+    },
+    {
+      title: 'checks_mob.list.6.title',
+      desc: 'checks_mob.list.6.desc',
+    },
+  ],
 };
 
 export const securityList = {
