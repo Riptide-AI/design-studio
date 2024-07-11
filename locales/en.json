@@ -468,6 +468,35 @@
       }
     }
   },
+  "reasons_mob": {
+    "title": "Why choose us?",
+    "items": {
+      "1": {
+        "title": "Customer orientation",
+        "desc": "Our deep understanding of business is our strength. We specialize in developing websites aimed at maximizing conversions, sales efficiency and effectiveness."
+      },
+      "2": {
+        "title": "Сreativity",
+        "desc": "Every website is a unique masterpiece. Our creative design captures attention and consistently impresses with innovative solutions, approaches and aesthetics."
+      },
+      "3": {
+        "title": "Advanced approaches and technologies",
+        "desc": "If you want your website to be transformed into a contemporary and dynamic digital platform, we will utilize cutting-edge technology and innovative solutions."
+      },
+      "4": {
+        "title": "Readiness for challenges",
+        "desc": "We guarantee effective solutions to your tasks and elegant website design, consistently embracing modernity, innovation, and excellence in each project!"
+      },
+      "5": {
+        "title": "High-quality and prompt execution",
+        "desc": "High efficiency and speed are the cornerstones of success in collaborating with us. Our individualized approach is guaranteed for every our client!"
+      },
+      "6": {
+        "title": "Thorough testing of solutions",
+        "desc": "Your success heavily relies on our dependable technologies. We meticulously test every aspect to ensure absolute flawlessness and optimal performance."
+      }
+    }
+  },
   "reviews": {
     "title": "Reviews of our customers",
     "desc": "From start to support, we're always by your side, ready to advise and assist. Your success is our priority.",
