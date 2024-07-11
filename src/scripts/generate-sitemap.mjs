@@ -51,9 +51,16 @@ const generateSitemap = async () => {
 
   const smStream = new SitemapStream({ hostname });
 
-  paths.forEach((path) => {
-    smStream.write({ url: path.url, changefreq: 'yearly', priority: 1 });
-  });
+  // Define languages
+  const languages = ['ua', 'en', 'ru'];
+
+  // Generate sitemap for each language
+  for (let lang of languages) {
+    paths.forEach((path) => {
+      const url = `${hostname}/${lang}${path.url}`; // Prefix each path with language code
+      smStream.write({ url, changefreq: 'yearly', priority: 1 });
+    });
+  }
 
   smStream.end();
 

@@ -2,4 +2,4 @@ User-agent: *
 Disallow: /_next/
 Disallow: /api/
 
-Sitemap: https://design-studio-beta.vercel.app/sitemap.xml
+Sitemap: http://localhost:3000/sitemap.xml
