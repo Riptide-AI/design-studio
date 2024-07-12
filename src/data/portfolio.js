@@ -1164,7 +1164,7 @@ export const portfolioList = {
     results: {
       sectionName: 'portfolioList.25.results.sectionName',
       title: 'portfolioList.25.results.title',
-      image: '/img/portfolios/mainImage-1.png',
+      image: '/img/portfolios/pages/cryptoHub/main_page.png',
       list: [
         {
           desc: 'portfolioList.25.results.list.1.desc',
