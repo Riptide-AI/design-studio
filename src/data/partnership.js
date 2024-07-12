@@ -89,6 +89,66 @@ export const whatYouGet = {
       styles: ['some_center', 'some_bottom', 'some_gear'],
     },
   ],
+};export const whatYouGet_mob = {
+  title: 'whatYouGet_mob.title',
+  list: [
+    {
+      title: 'whatYouGet_mob.list.1.title',
+      desc: 'whatYouGet_mob.list.1.desc',
+      icons: ['/img/What_you_get/money.png'],
+      styles: ['money'],
+    },
+    {
+      title: 'whatYouGet_mob.list.2.title',
+      desc: 'whatYouGet_mob.list.2.desc',
+      icons: ['/img/What_you_get/card.png'],
+      styles: ['card'],
+    },
+    {
+      title: 'whatYouGet_mob.list.3.title',
+      desc: 'whatYouGet_mob.list.3.desc',
+      icons: [
+        '/img/What_you_get/rocket.png',
+        '/img/What_you_get/rocket_fire.png',
+        '/img/What_you_get/rocket_active_fire.png',
+      ],
+      styles: ['rocket', 'rocket_fire', 'rocket_active_fire'],
+    },
+    {
+      title: 'whatYouGet_mob.list.4.title',
+      desc: 'whatYouGet_mob.list.4.desc',
+      icons: ['/img/What_you_get/notebook.png', '/img/What_you_get/notebook_note.png'],
+      styles: ['notebook', 'notebook_note'],
+    },
+    {
+      title: 'whatYouGet_mob.list.5.title',
+      desc: 'whatYouGet_mob.list.5.desc',
+      icons: ['/img/What_you_get/shield.png', '/img/What_you_get/shield_Daw.png'],
+      styles: ['shield', 'shield_Daw'],
+    },
+    {
+      title: 'whatYouGet_mob.list.6.title',
+      desc: 'whatYouGet_mob.list.6.desc',
+      icons: ['/img/What_you_get/lighting.png'],
+      styles: ['lighting'],
+    },
+    {
+      title: 'whatYouGet_mob.list.7.title',
+      desc: 'whatYouGet_mob.list.7.desc',
+      icons: ['/img/What_you_get/man_head.png', '/img/What_you_get/man.png'],
+      styles: ['man_head', 'man'],
+    },
+    {
+      title: 'whatYouGet_mob.list.8.title',
+      desc: 'whatYouGet_mob.list.8.desc',
+      icons: [
+        '/img/What_you_get/some_center.png',
+        '/img/What_you_get/some_bottom.png',
+        '/img/What_you_get/some_gear.png',
+      ],
+      styles: ['some_center', 'some_bottom', 'some_gear'],
+    },
+  ],
 };
 export const whyWorkWithUs = {
   title: 'whyWorkWithUs.title',
