@@ -1168,11 +1168,11 @@ export const portfolioList = {
       list: [
         {
           desc: 'portfolioList.25.results.list.1.desc',
-          image: '/img/portfolios/pages/cryptoHub/result_1.jpg',
+          image: '/img/portfolios/pages/cryptoHub/result_1.webp',
         },
         {
           desc: 'portfolioList.25.results.list.2.desc',
-          image: '/img/portfolios/pages/cryptoHub/result_2.jpg',
+          image: '/img/portfolios/pages/cryptoHub/result_2.webp',
 
         },
       ],
@@ -1181,14 +1181,14 @@ export const portfolioList = {
       sectionName: 'portfolioList.25.projects.sectionName',
       title: 'portfolioList.25.projects.title',
       desc: 'portfolioList.25.projects.desc',
-      image: '/img/portfolios/pages/cryptoHub/vocabulary.jpg',
+      image: '/img/portfolios/pages/cryptoHub/vocabulary.webp',
 
     },
     catalog: {
       sectionName: 'portfolioList.25.catalog.sectionName',
       desc: 'portfolioList.25.catalog.desc',
-      imageOne: '/img/portfolios/pages/cryptoHub/other_page_1.jpg',
-      imageTwo: '/img/portfolios/pages/cryptoHub/other_page_2.jpg',
+      imageOne: '/img/portfolios/pages/cryptoHub/other_page_1.webp',
+      imageTwo: '/img/portfolios/pages/cryptoHub/other_page_2.webp',
     },
     adaptive: {
       sectionName: 'portfolioList.25.adaptive.sectionName',
