@@ -11,7 +11,7 @@ export const PortfolioResult = ({ currentItem }) => {
       <ContentWrapper>
         <div className={styles.result}>
           <div className={styles.result__banner_image}>
-            <Image src={currentItem.results.image} alt="" fill={true} />
+            <Image src={currentItem.results.image} alt="" width={100} height={100}/>
             
           </div>
           <div className={styles.result__content}>
