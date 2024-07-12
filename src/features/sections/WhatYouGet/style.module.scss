@@ -167,6 +167,7 @@
           padding-bottom: 5px;
           @include media(phone) {
             margin-bottom: 70px;
+            height: 51px;
           }
         }
         .card_text {

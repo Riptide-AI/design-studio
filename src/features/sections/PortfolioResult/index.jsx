@@ -11,8 +11,7 @@ export const PortfolioResult = ({ currentItem }) => {
       <ContentWrapper>
         <div className={styles.result}>
           <div className={styles.result__banner_image}>
-            <Image src={currentItem.results.image} alt="" width={100} height={100}/>
-            
+            <Image src={currentItem.results.image} alt="" width={1000} height={1000}/>
           </div>
           <div className={styles.result__content}>
             <div className={styles.result__content__section_title}>
@@ -24,7 +23,7 @@ export const PortfolioResult = ({ currentItem }) => {
                 <div className={styles.result__content__item} key={`item-${i}`}>
                   <div className={styles.result__content__item__desc}>{t(item.desc)}</div>
                   <div className={styles.result__content__item__image}>
-                    <Image src={item.image} alt="" fill={true} />
+                    <Image src={item.image} alt=""  width={1000} height={1000} />
                   </div>
                 </div>
               ))}
