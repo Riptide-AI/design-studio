@@ -142,4 +142,38 @@ export const infoCards = {
       note: 'infoCardsFront.list.6.note',
     },
   ],
+};export const infoCards_mob = {
+  title: 'infoCardsFront_mob.title',
+  list: [
+    {
+      title: 'infoCardsFront_mob.list.1.title',
+      desc: 'infoCardsFront_mob.list.1.desc',
+      note: 'infoCardsFront_mob.list.1.note',
+    },
+    {
+      title: 'infoCardsFront_mob.list.2.title',
+      desc: 'infoCardsFront_mob.list.2.desc',
+      note: 'infoCardsFront_mob.list.2.note',
+    },
+    {
+      title: 'infoCardsFront_mob.list.3.title',
+      desc: 'infoCardsFront_mob.list.3.desc',
+      note: 'infoCardsFront_mob.list.3.note',
+    },
+    {
+      title: 'infoCardsFront_mob.list.4.title',
+      desc: 'infoCardsFront_mob.list.4.desc',
+      note: 'infoCardsFront_mob.list.4.note',
+    },
+    {
+      title: 'infoCardsFront_mob.list.5.title',
+      desc: 'infoCardsFront_mob.list.5.desc',
+      note: 'infoCardsFront_mob.list.5.note',
+    },
+    {
+      title: 'infoCardsFront_mob.list.6.title',
+      desc: 'infoCardsFront_mob.list.6.desc',
+      note: 'infoCardsFront_mob.list.6.note',
+    },
+  ],
 };

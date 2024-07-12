@@ -44,7 +44,7 @@ export const OurWorks = () => {
             </Link>
           ))}
         </div>
-        <Link href={ourWorks.btnLink}>
+        <Link href={ourWorks.btnLink} className={styles.link_btn}>
           <CustomButton title={t(ourWorks.btn)} stylesClassName={styles.ourworks__btn} />
         </Link>
       </div>
