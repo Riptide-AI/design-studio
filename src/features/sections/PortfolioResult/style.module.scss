@@ -24,9 +24,10 @@
     width: 100%;
 
     img {
+      position: relative;
       z-index: 1;
       height: 100%;
-      width: auto !important;
+      width: auto;
       margin: 0 auto;
     }
   }
