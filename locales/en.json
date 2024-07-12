@@ -880,66 +880,66 @@
     },
     "smm_slides": {
       "1": {
-        "title": "Заголовок",
-        "author": "Павло",
-        "position": "Менеджер",
-        "content": "Слайд"
+        "title": "Impressive SMM promotion!",
+        "author": "Oleksandra Kovalchuk",
+        "position": "Director of the online store",
+        "content": "«Your team of specialists did an excellent job promoting our products on social networks. Their strategies and creative approaches helped grow our audience and increase engagement. Thank you for your professionalism!»"
       },
       "2": {
-        "title": "Заголовок",
-        "author": "Павло",
-        "position": "Менеджер",
-        "content": "Слайд"
+        "title": "Effective SMM solution!",
+        "author": "Vitaly Savchenko",
+        "position": "Senior manager of the online store",
+        "content": "«Great job on social media promotion. Your strategies have allowed our brand to increase exposure and improve customer engagement. I recommend your services to anyone looking for effective SMM!»"
       },
       "3": {
-        "title": "Заголовок",
-        "author": "Павло",
-        "position": "Менеджер",
-        "content": "Слайд"
+        "title": "Perfect SMM promotion!",
+        "author": "Julia Pylypenko",
+        "position": "Director of the online store",
+        "content": "«Your team provided us with perfect SMM strategies that allowed our business to grow and attract new customers. I am very grateful for your professionalism and creative approach!»"
       },
       "4": {
-        "title": "Заголовок",
-        "author": "Павло",
-        "position": "Менеджер",
-        "content": "Слайд"
+        "title": "Professional SMM development!",
+        "author": "Andriy Kravchuk",
+        "position": "The owner of an online store",
+        "content": "«Your team not only effectively manages our social networks, but also helps implement innovative approaches to promotion. Very satisfied with the results and cooperation with you!»"
       },
       "5": {
-        "title": "Заголовок",
-        "author": "Павло",
-        "position": "Менеджер",
-        "content": "Слайд"
+        "title": "The perfect choice for SMM!",
+        "author": "Mykhailo Doroshchuk",
+        "position": "Head of business development",
+        "content": "«Your social media promotion strategies and ideas exceeded our expectations. You are professionals in your field, and we are grateful for your work and dedication»"
       }
     },
     "suport_slides": {
       "1": {
-        "title": "Заголовок",
-        "author": "Павло",
-        "position": "Менеджер",
-        "content": "Слайд"
+        "title": "Feedback from a marketing company",
+        "author": "Oksana Ivanchenko",
+        "position": "Director of Marketing and Development",
+        "content": "«Working with FullStack-Innovations is quality at the highest level. Their designer impressed with technical skill and efficiency. We always get not just solutions to problems, but an individual approach to our own needs»"
       },
       "2": {
-        "title": "Заголовок",
-        "author": "Павло",
-        "position": "Менеджер",
-        "content": "Слайд"
+        "title": "Feedback from an event organization agency",
+        "author": "Oleksiy Ponomarenko",
+        "position": "Event management agency manager",
+        "content": "«Thanks to the team for providing us with impressive website development services. They carefully considered all our wishes and created a site that perfectly reflects our event agency. Thank you for your professionalism and concern for our needs!»"
       },
       "3": {
-        "title": "Заголовок",
-        "author": "Павло",
-        "position": "Менеджер",
-        "content": "Слайд"
+        "title": "Feedback from a content marketing agency",
+        "author": "Maxim Ivanchenko",
+        "position": "Director of the content marketing agency",
+        "content": "«We are grateful to FullStack-Innovations for their professionalism in creating our logo. Their design approach provided us with not just a creation, but a true creation that reflects the essence of our brand and meets our unique needs»"
       },
       "4": {
-        "title": "Заголовок",
-        "author": "Павло",
-        "position": "Менеджер",
-        "content": "Слайд"
+        "title": "Feedback from an analytics and research agency",
+        "author": "Sofia Ilnytska",
+        "position": "Business analyst at an analytical agency",
+        "content": "«Thank you for the innovative web design. Your solutions meet all requirements and provide a high user experience. Cooperation was productive and efficient. We were glad to choose you for this project»"
       },
       "5": {
-        "title": "Заголовок",
-        "author": "Павло",
-        "position": "Менеджер",
-        "content": "Слайд"
+        "title": "Feedback from an affiliate marketing agency",
+        "author": "Artur Savka",
+        "position": "Senior manager in the marketing department",
+        "content": "«Thank you for your professionalism and dedication in developing our website. Your team demonstrated high efficiency and an exceptional ability to consider all our needs in detail. The results exceeded our expectations»"
       }
     }
   },
@@ -3158,6 +3158,41 @@
       }
     }
   },
+  "infoCardsFront_mob": {
+    "title": "A successful website is",
+    "list": {
+      "1": {
+        "title": "Thoughtful design and interface",
+        "desc": "A professionally designed website not only focuses on aesthetics but also meticulously refines its structure to enhance usability. Thoughtful placement of all elements ensures visitors can easily access essential information, significantly increasing the likelihood of converting visitors into your desired audience.",
+        "note": "Easy"
+      },
+      "2": {
+        "title": "Stable work",
+        "desc": "Ensuring maximum stability for your website is crucial for a thriving online presence. Our uptime guarantee safeguards against technical issues that could disrupt your website's functionality. Consistent reliability prevents potential service interruptions and helps retain customers. We are dedicated to ensuring your visitors consistently have positive interactions.",
+        "note": "Way"
+      },
+      "3": {
+        "title": "Correspondence to user searches",
+        "desc": "Every visitor to your modern website comes to you with a specific purpose. The productivity of your site is to actively achieve this goal, whether through a convenient process of purchasing goods and providing services or quick access to the necessary information.",
+        "note": "To"
+      },
+      "4": {
+        "title": "Regular publication of articles",
+        "desc": "Your site must be actively living its life in order to impress visitors with its live activity and give them the impression of your constant activity. Updating your website with fresh news and interesting articles will not only keep your content relevant, but also have a positive impact on SEO. We will be able to help you with this.",
+        "note": "Boost"
+      },
+      "5": {
+        "title": "Online promotion of the site",
+        "desc": "Launching a website is just the beginning of success. FullStack - Innovations already at the stage of development of your website very actively focuses on SEO-promotion of the site. Our specialists develop strategies for SEO, contextual advertising and other tools, guaranteeing you stable and growing traffic.",
+        "note": "Your"
+      },
+      "6": {
+        "title": "Active life in social networks",
+        "desc": "According to statistics, every person has his own account in social networks. And it is extremely important that the company page is regularly updated with new and interesting content. This approach ensures visitors understand your business's development, fostering trust and significantly increasing the likelihood of converting visitors into satisfied and loyal clients.",
+        "note": "Business"
+      }
+    }
+  },
   "workflow": {
     "title": "Sequence of work",
     "desc": "The entire work process has a clear plan, which makes it possible to consistently communicate with clients from the initial meeting to handing over the finished project.",
@@ -3403,7 +3438,7 @@
           }
         }
       },
-    "results": {
+      "results": {
         "sectionName": "Результат",
         "title": "aaaaaaaaaa",
         "list": {
@@ -3454,7 +3489,7 @@
           }
         }
       },
-    "results": {
+      "results": {
         "sectionName": "Результат",
         "title": "aaaaaaaaaa",
         "list": {
@@ -3505,7 +3540,7 @@
           }
         }
       },
-    "results": {
+      "results": {
         "sectionName": "Результат",
         "title": "aaaaaaaaaa",
         "list": {
@@ -3556,7 +3591,7 @@
           }
         }
       },
-    "results": {
+      "results": {
         "sectionName": "Результат",
         "title": "aaaaaaaaaa",
         "list": {
@@ -3607,7 +3642,7 @@
           }
         }
       },
-    "results": {
+      "results": {
         "sectionName": "Результат",
         "title": "aaaaaaaaaa",
         "list": {
@@ -3658,7 +3693,7 @@
           }
         }
       },
-    "results": {
+      "results": {
         "sectionName": "Результат",
         "title": "aaaaaaaaaa",
         "list": {
@@ -3709,7 +3744,7 @@
           }
         }
       },
-    "results": {
+      "results": {
         "sectionName": "Результат",
         "title": "aaaaaaaaaa",
         "list": {
@@ -3760,7 +3795,7 @@
           }
         }
       },
-    "results": {
+      "results": {
         "sectionName": "Результат",
         "title": "aaaaaaaaaa",
         "list": {
@@ -3811,7 +3846,7 @@
           }
         }
       },
-    "results": {
+      "results": {
         "sectionName": "Результат",
         "title": "aaaaaaaaaa",
         "list": {
@@ -3837,6 +3872,20 @@
         "title": "aaaaaaaaaa",
         "desc": "aaaaaaaaaa"
       }
+    }
+  },
+  "portfolioPrev": {
+    "19": {
+      "title_to_prev": "A website for a company «Ellty»",
+      "title_to_prev_mob": "Website for «Ellty»"
+    },
+    "20": {
+      "title_to_prev": "A website for a company «PressWave»",
+      "title_to_prev_mob": "Website for «PressWave»"
+    },
+    "26": {
+      "title_to_prev": "A website for a company «SMM-LAB»",
+      "title_to_prev_mob": "Website for «SMM-LAB»"
     }
   }
 }

@@ -755,18 +755,18 @@ export const portfolioPrev = {
     {
       id: 19,
       image: '/img/portfolios/web_design/Ellty.png', // img link here
-      image_vert: '/img/portfolios/web_design/vertical/smm.png', // img link here
-      title_to_prev: 'Веб-сайт для компанії «Ellty»',
-      title_to_prev_mob: 'Веб-сайт для «Ellty»',
+      image_vert: '/img/portfolios/web_design/vertical/ellty.png', // img link here
+      title_to_prev: 'portfolioPrev.19.title_to_prev',
+      title_to_prev_mob: 'portfolioPrev.19.title_to_prev_mob',
       theme: 'portfolioPagination.theme.Web_development',
       link: 'https://www.figma.com/proto/jnCM95go0WrPe6dmgF9xDg/Ellty-LP-%D0%92%D0%B5%D1%80%D1%81%D1%82%D0%BA%D0%B0-(Copy)?page-id=1%3A2&node-id=3196-4237&t=Dd1o1u7q27FP5IKU-1&scaling=min-zoom&content-scaling=fixed',
     },
     {
       id: 20,
       image: '/img/portfolios/web_design/PressWawe.png', // img link here
-      image_vert: '/img/portfolios/web_design/vertical/smm.png', // img link here
-      title_to_prev: 'Веб-сайт для компанії «PressWave»',
-      title_to_prev_mob: 'Веб-сайт для «PressWave»',
+      image_vert: '/img/portfolios/web_design/vertical/pressWawe.png', // img link here
+      title_to_prev: 'portfolioPrev.20.title_to_prev',
+      title_to_prev_mob: 'portfolioPrev.20.title_to_prev_mob',
       theme: 'portfolioPagination.theme.Web_development',
       link: 'https://www.figma.com/proto/PI4nFuMn2OVuUuSdxHLRZL/Untitled?page-id=&node-id=0-2239&t=WuAzbyxCrBkUCJG7-1',
     },
@@ -774,8 +774,8 @@ export const portfolioPrev = {
       id: 26,
       image: '/img/portfolios/web_design/smmLab.png', // img link here
       image_vert: '/img/portfolios/web_design/vertical/smm.png', // img link here
-      title_to_prev: 'Веб-сайт для компанії «SMM-LAB»',
-      title_to_prev_mob: 'Веб-сайт для «SMM-LAB»',
+      title_to_prev: 'portfolioPrev.26.title_to_prev',
+      title_to_prev_mob: 'portfolioPrev.26.title_to_prev_mob',
       theme: 'portfolioPagination.theme.Web_development',
       link: 'https://www.figma.com/proto/leSCj3lwLrKKDCLbq2FVkX/Untitled?page-id=&node-id=0-3&t=X1bRpv8kj1OuZqMO-1',
     },
@@ -1168,11 +1168,12 @@ export const portfolioList = {
       list: [
         {
           desc: 'portfolioList.25.results.list.1.desc',
-          image: '/img/portfolios/results-1.1.jfif',
+          image: '/img/portfolios/pages/cryptoHub/result_1.jpg',
         },
         {
           desc: 'portfolioList.25.results.list.2.desc',
-          image: '/img/portfolios/results-1.2.jfif',
+          image: '/img/portfolios/pages/cryptoHub/result_2.jpg',
+
         },
       ],
     },
@@ -1180,13 +1181,14 @@ export const portfolioList = {
       sectionName: 'portfolioList.25.projects.sectionName',
       title: 'portfolioList.25.projects.title',
       desc: 'portfolioList.25.projects.desc',
-      image: '/img/portfolios/projects-1.jfif',
+      image: '/img/portfolios/pages/cryptoHub/vocabulary.jpg',
+
     },
     catalog: {
       sectionName: 'portfolioList.25.catalog.sectionName',
       desc: 'portfolioList.25.catalog.desc',
-      imageOne: '/img/portfolios/catalog-1.1.jfif',
-      imageTwo: '/img/portfolios/catalog-1.2.jfif',
+      imageOne: '/img/portfolios/pages/cryptoHub/other_page_1.jpg',
+      imageTwo: '/img/portfolios/pages/cryptoHub/other_page_2.jpg',
     },
     adaptive: {
       sectionName: 'portfolioList.25.adaptive.sectionName',

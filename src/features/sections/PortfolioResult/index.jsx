@@ -12,6 +12,7 @@ export const PortfolioResult = ({ currentItem }) => {
         <div className={styles.result}>
           <div className={styles.result__banner_image}>
             <Image src={currentItem.results.image} alt="" fill={true} />
+            
           </div>
           <div className={styles.result__content}>
             <div className={styles.result__content__section_title}>
