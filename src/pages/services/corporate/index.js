@@ -7,6 +7,7 @@ import {
   achieveResults,
   workwithus,
   priceCards_mob,
+  achieveResults_mob,
 } from '@/data/corporate';
 import { ContactUs } from '@/features/sections/ContactUs';
 import { Offers } from '@/features/sections/Offers';
@@ -37,7 +38,7 @@ export default function Corporate() {
       />
 
       <Offers data={offers} arrow={false} />
-      <SupportTypes data={achieveResults} alt cols={2} startsWith="0" />
+      <SupportTypes data={windowWidth < 1440? achieveResults: achieveResults_mob} alt cols={2} startsWith="0" />
       <Reviews data={reviews} />
       <ContactUs />
     </>

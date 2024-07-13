@@ -6,7 +6,7 @@ import Link from 'next/link';
 import { useTranslation } from 'react-i18next';
 
 export const Tabs = ({ items }) => {
-  const [activeTab, setActiveTab] = useState(0);
+  const [activeTab, setActiveTab] = useState(3);
   const toggleTab = (index) => {
     setActiveTab(activeTab === index ? null : index);
   };

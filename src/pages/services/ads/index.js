@@ -1,5 +1,5 @@
 import { HeroBannerLight } from '@/features/sections/HeroBannerLight';
-import { adsExplanation, adsExplanation_mob, checks, heroBanner, ppc } from '@/data/ads';
+import { adsExplanation, adsExplanation_mob, checks, checks_mob, heroBanner, ppc, ppc_mob } from '@/data/ads';
 import { ContactUs } from '@/features/sections/ContactUs';
 import { InfoCards } from '@/features/sections/InfoCards';
 import { PriceList } from '@/features/sections/PriceList';
@@ -26,9 +26,9 @@ export default function Ads() {
     <>
       <HeroBannerLight data={heroBanner} />
       <Explanation data={windowWidth > 1440 ? adsExplanation : adsExplanation_mob} />
-      <CheckList data={checks} />
+      <CheckList data={windowWidth > 1440 ?checks:checks_mob} />
       <PriceList data={pricelist} />
-      <InfoCards data={ppc} />
+      <InfoCards data={windowWidth > 1440 ?ppc:ppc_mob} />
       {/*    <InfoCards data={adsDetails} /> */}
       <Reviews data={reviews} />
       <ContactUs />

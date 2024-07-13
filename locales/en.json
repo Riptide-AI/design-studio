@@ -947,7 +947,7 @@
     "title": "Do you believe in hiring professionals?",
     "title_mob": "Believe in hiring professionals?",
     "desc": "We are a team with extensive experience in developing custom software engineering solutions for websites, utilizing various technologies. Our experts possess a versatile stack, including JavaScript, Python, PHP, and employ frameworks such as React, Django, Next.js and Laravel. We set ourselves the important task of ensuring stability and productivity for each project, utilizing optimized code and advanced caching techniques to ensure fast page loading and efficient website performance.",
-    "desc_mob": "We are a team with extensive experience in developing custom software engineering solutions for websites, utilizing various technologies. Our experts possess a versatile stack, including JavaScript, Python, PHP, and employ frameworks such as React, Django, Next.js and Laravel. We set ourselves the important task of ensuring stability and productivity for each project, utilizing optimized code and advanced caching techniques to ensure fast page loading and efficient website performance."
+    "desc_mob": "We are a team with extensive experience in developing custom software engineering solutions for websites, utilizing various technologies. Our experts possess a versatile stack, including JavaScript, Python, PHP, and employ frameworks such as React, Django, Next.js and Laravel. We set ourselves the important task of ensuring stability and productivity for each project, utilizing optimized code and advanced caching techniques to ensure fast page loading."
   },
   "technologies": {
     "title": "Technologies",
@@ -2829,10 +2829,44 @@
         "desc": "Before launching a corporate site, we conduct testing to identify and correct any flaws, guaranteeing its smooth operation."
       }
     }
+  },"achieveResultsCorporate_mob": {
+    "title": "How the result is achieved",
+    "list": {
+      "1": {
+        "title": "Research",
+        "desc": "Effective analysis of the market and competitors is the key to success. We constantly study the market and competitors, seeking new opportunities."
+      },
+      "2": {
+        "title": "Design",
+        "desc": "We create a unique design for each corporate site, and we also focus on the theme and development of an attractive and functional interface."
+      },
+      "3": {
+        "title": "Development",
+        "desc": "We use modern advanced technologies for maximum performance, and we also ensure fast and uninterrupted operation of the corporate site in all browsers."
+      },
+      "4": {
+        "title": "Testing",
+        "desc": "Before launching a corporate site, we conduct testing to identify and correct any flaws, guaranteeing its smooth operation."
+      }
+    }
   },
   "stagesLand": {
     "title": "Stages of creating a Landing page",
     "desc": "We use a number of proven methods, systematically built processes and algorithms in combination with innovative technologies to create a high-quality landing page that will please both you and users and effectively solve business tasks.",
+    "list": {
+      "1": "Analysis of competitors",
+      "2": "Defining audience goals",
+      "3": "Creating a prototype",
+      "4": "Writing sales texts",
+      "5": "Design development",
+      "6": "Programming and layout",
+      "7": "Site performance testing",
+      "8": "Project release",
+      "9": "Setting up and running ads"
+    }
+  },  "stagesLand_mob": {
+    "title": "Stages of creating a Landing page",
+    "desc": "We use proven techniques and innovative technologies to create an effective Landing page that will satisfy your business goals.",
     "list": {
       "1": "Analysis of competitors",
       "2": "Defining audience goals",
@@ -2935,6 +2969,48 @@
         "message": "Good afternoon, I am writing to you with interest in ordering the 'Plan D' service for $950"
       }
     }
+  },"pricelistSeo_mob": {
+    "title": "The cost of promoting the site",
+    "desc": "We have compiled 4 optimal rates for SEO promotion services. For effective work, you can change the set of services individually for each project.",
+    "orderBtn": "Order",
+    "list": {
+      "1": {
+        "title": "Plan A",
+        "subTitle": "Promotion of a young site",
+        "desc": "The age of the site directly affects its position in search results. It is very difficult for a young site (from 1 to 8 months) to occupy places on the first page of the issue of profile requests. This is especially true for competitive niches. The package includes standard services provided as part of SEO promotion of the site.",
+        "planType": "Start",
+        "due": "Term from 8 months",
+        "price": "from 500$",
+        "message": "Good afternoon, I am writing to you with interest in ordering the service 'Plan A - Promotion of a young website' for $500"
+      },
+      "2": {
+        "title": "Plan B",
+        "subTitle": "Competitiveness of the niche: Low",
+        "desc": "1.Correcting critical errors on the site is crucial. 2.Promotion of low-frequency requests is essential. 3.Working with up to 5 pages per month is recommended. 4.Writing SEO texts effectively boosts visibility. 5.Placing links on trusted sites is paramount for small business card websites.",
+        "planType": "Economy",
+        "due": "Term from 3 months",
+        "price": "from 600$",
+        "message": "Good afternoon, I am writing to you with interest in ordering the 'Plan B' service for $600"
+      },
+      "3": {
+        "title": "Plan C",
+        "subTitle": "Competitiveness of the niche: Moderate",
+        "desc": "The package includes standard services provided as part of SEO promotion. As a result of the work performed, you will receive an increase in targeted organic traffic from search engines for selected groups of queries. For whom: corporate sites, service sites, various online stores.",
+        "planType": "Small business",
+        "due": "Term from 4 months",
+        "price": "from 800$",
+        "message": "Good afternoon, I am writing to you with interest in ordering the 'Plan C' service for $800"
+      },
+      "4": {
+        "title": "Plan D",
+        "subTitle": "Competitiveness of the niche: High",
+        "desc": "Exclusive work on your project. We do not limit ourselves to any limits. To receive an individual offer, leave a request, we will conduct a free audit of the site and determine the list of works that you need. Who it's for: Suitable for any resource that aims to be the most effective sales tool.",
+        "planType": "Business",
+        "due": "Term from 8 months",
+        "price": "from 950$",
+        "message": "Good afternoon, I am writing to you with interest in ordering the 'Plan D' service for $950"
+      }
+    }
   },
   "factorsSeo": {
     "title": "The main factors that affect the final cost of works",
@@ -2958,6 +3034,30 @@
       "5": {
         "title": "Number of requests in progress",
         "desc": "Every 5-10 search requests form a new landing page strategy, on each of which it is necessary to place content, get links, and optimize Title | Description meta-bodies (minimum work front) to ensure maximum visibility, engagement, and organic traffic growth, thereby enhancing overall website performance, relevance, and authority."
+      }
+    }
+  }, "factorsSeo_mob": {
+    "title": "The main factors that affect the final cost of works",
+    "list": {
+      "1": {
+        "title": "Competition in a similar topic",
+        "desc": "When choosing the most optimal strategies and budgets for SEO promotion of the site, it is also important to take into account the competitive situation in your industry. Analysis of the TOP-10 in search engines such as Yandex or Google entails examining not only competitors but also aggregators, directories."
+      },
+      "2": {
+        "title": "Regionality",
+        "desc": "When developing a strategy for your online project, consider that the level of competition in search engines can significantly affect success, potentially requiring a larger budget, especially compared to other Ukrainian cities. Regional variances often necessitate careful financial adaptations for optimal growth strategies."
+      },
+      "3": {
+        "title": "Technical optimization and CMS",
+        "desc": "Our SEO specialists proficiently handle technical optimization for websites utilizing popular CMS systems like WordPress, 1C-Bitrix, Opencart, MODx, Drupal, Magento, PrestaShop, or Joomla, eliminating the need for additional programmer assistance. Also, they ensure seamless optimization across various CMS platforms."
+      },
+      "4": {
+        "title": "Number of links and age",
+        "desc": "Effective external links make promotion budget-friendly. New projects need to work on their own strategy to enter the TOP-10 of Google, where the influence of external links plays a significant role. Of course, young projects will need to develop an additional strategy to get into the TOP 10 of Google, which is especially sensitive to external effective online-links."
+      },
+      "5": {
+        "title": "Number of requests in progress",
+        "desc": "Every 5-10 search requests form a new landing page strategy, on each of which it is necessary to place content, get links, and optimize Title | Description meta-bodies (minimum work front) to ensure maximum visibility, engagement, and organic traffic growth, thereby enhancing overall website performance, relevance."
       }
     }
   },
@@ -3015,6 +3115,34 @@
         "desc": "Display ads effectively reach your target audience using keywords and phrases, ensuring content is accurate, relevant, and timely to interested users, thereby enhancing engagement and conversion rates."
       }
     }
+  }, "checksAds_mob": {
+    "title": "Why does your business need contextual advertising?",
+    "list": {
+      "1": {
+        "title": "Economic efficiency",
+        "desc": "Unlike other communication channels, contextual advertising has a significantly higher economic effect. Payment is made only for clicks on ads, not for banner displays on the websites."
+      },
+      "2": {
+        "title": "Increase in sales",
+        "desc": "E-commerce sites get the opportunity to attract the attention of potential customers to the selected products, which ultimately leads to substantial growth in their overall sales volume."
+      },
+      "3": {
+        "title": "Increasing brand recognition",
+        "desc": "The use of advertising campaigns creates an opportunity to effectively inform a wide range of Internet users about your business, engage with them, captivate their attention."
+      },
+      "4": {
+        "title": "Attracting customers in the service sector",
+        "desc": "Contextually responsive advertising helps identify online audiences interested in your products or services, tailor messaging to their preferences, and bring them to your website."
+      },
+      "5": {
+        "title": "Involvement of participants in events",
+        "desc": "Thanks to the quick launch of contextual advertising and high accuracy of settings, you can effectively use this tool to inform people about upcoming events, maximize outreach."
+      },
+      "6": {
+        "title": "Interaction with the target audience",
+        "desc": "Display ads effectively reach target audiences using keywords and phrases, ensuring accuracy and timeliness of content for interested users, thereby increasing engagement."
+      }
+    }
   },
   "ppcAds": {
     "title": "Stages of work",
@@ -3034,6 +3162,30 @@
       "4": {
         "title": "Summary of the month",
         "desc": "We prepare a detailed report on the work performed, which includes the analysis of the results in Google Data Studio. We track key performance indicators and provide a task-by-task retrospective so you can understand how each component impacts your business. After that, we will get in touch with you to jointly make a plan for further actions. Our team uses a brainstorming method to brainstorm new ideas and prioritize tasks."
+      },
+      "5": {
+        "title": "Optimization and scaling",
+        "desc": "Our company is engaged in the optimization of advertising campaigns, including testing new hypotheses and scaling the advertising account. We use analytics and A/B testing techniques to improve the performance of your ads and deliver the best results. Our experts actively work on the implementation of innovative strategies and find new opportunities for the growth of your business through Internet advertising."
+      }
+    }
+  }, "ppcAds_mob": {
+    "title": "Stages of work",
+    "list": {
+      "1": {
+        "title": "Technical preparation for work",
+        "desc": "Our company specializes in developing individual strategies for online business promotion. We provide a full range of services, starting with the technical analysis of the site to ensure its optimal functionality and efficiency. We also set up web analytics to ensure the collection and analysis of important traffic."
+      },
+      "2": {
+        "title": "Advertising settings",
+        "desc": "We provide a full range of services for setting up advertising campaigns for your business. This involves establishing various marketing initiatives such as search engine campaigns, banner advertisements across media platforms, YouTube video promotions, GSP, Facebook/Instagram ad campaigns, Google Shopping campaigns and of course targeted remarketing efforts."
+      },
+      "3": {
+        "title": "Daily monitoring",
+        "desc": "We provide full monitoring of advertising campaigns, including control of the use of daytime LCD, adjustment of the method of displaying ads (standard / accelerated), and the exception of irrelevant requests. We also exclude ineffective sites and YouTube channels, monitor performance indicators, and track user behavior on your site. Our experts constantly analyze data to ensure optimal performance and maximize the results of your advertising strategy."
+      },
+      "4": {
+        "title": "Summary of the month",
+        "desc": "We prepare a detailed report on the work performed, which includes the analysis of the results in Google Data Studio. We track key performance indicators and provide a task-by-task retrospective so you can understand how each component impacts your business. After that, we will get in touch with you to jointly make a plan for further actions. Our team uses a brainstorming method to brainstorm new ideas."
       },
       "5": {
         "title": "Optimization and scaling",

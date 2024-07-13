@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="5" height="542" viewBox="0 0 5 542">
+  <defs>
+    <image id="image" width="5" height="104" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAABoCAYAAAA5BTphAAABjklEQVRIib2VTU7CQBTH/2+YquzaeIEuXYByBDyBHIEDmGD1ALo3od4AOYInEG5Q4+fOujaxLFGmfWamUzSRGBHal3Ty+jrJ/H99H0PNMBmAuQsAGah7f+wNBQMxrBHB154EY4LiQ+5XZ9QKk1YKtPSJNSCKAi8SCjgAswYYGB+AWKTpn0ECXMOezWZXwnFybqVuqmVvnL+2ScpT/cJZNr472T6TJMgHc9vsECJeAfPXYGWmU+wqm+IMmDwEXiR1gJivregRgP0yMKUE4pT5goWYMH/VfyVm2FMgtIdNbgMvkNDlZ3vTdl5QBruIAi9WGfn2aZeFTHrZCRO/CDwFXqwx4TA/f99YSor1kjFfLql6PWbYG/2kB4JLgF8DAhNs9t80u/kpaqPul8YOUFFLeDysv1TLvhiTaN5p8mO6KrvFRMTW4SovqhwzTDoM7GlfTafDQlKP7LB2NrdGhfi5thRwfwT19bMkOys1FDWpxyTS9+l4PWB/MMO+GyZ6gnWMEsZRLimfYibvGWgBEYBPM5GWCJP7IMgAAAAASUVORK5CYII="/>
+    <image id="image-2" width="5" height="41" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAApCAYAAAD9AeOoAAAArklEQVQokbWSTQrCMBBGv/EPuktukKULBY/Qo3gAQXKR5goeqeBCd8YLmC5FakeSpuCiZNPmQSB8hJl5YehgnPgCBj3NVUu9AiDAfIyhBaAXGGFqWGtp245UPOXYozkgX2NrnBpq3bW0XhNr5sdfA8qhGRp1zJdcekmC+65yZxAEAWoJ6BDuq5d3D5/SbgqVzR2gYZdwOxXPOfWSJDSJ/Fr3M37eU92jJmqOF2Y0P9ncMcQksTpyAAAAAElFTkSuQmCC"/>
+  </defs>
+  <use id="Шар_1" data-name="Шар 1" y="437" xlink:href="#image"/>
+  <use id="Шар_2" data-name="Шар 2" y="437" xlink:href="#image"/>
+  <use id="Шар_3" data-name="Шар 3" y="400" xlink:href="#image-2"/>
+  <use id="Шар_4" data-name="Шар 4" y="354" xlink:href="#image-2"/>
+  <use id="Шар_5" data-name="Шар 5" y="307" xlink:href="#image-2"/>
+  <use id="Шар_6" data-name="Шар 6" y="260" xlink:href="#image-2"/>
+  <use id="Шар_7" data-name="Шар 7" y="213" xlink:href="#image-2"/>
+  <use id="Шар_8" data-name="Шар 8" y="166" xlink:href="#image-2"/>
+  <use id="Шар_9" data-name="Шар 9" y="119" xlink:href="#image-2"/>
+  <use id="Шар_10" data-name="Шар 10" y="72" xlink:href="#image-2"/>
+  <use id="Шар_11" data-name="Шар 11" y="25" xlink:href="#image-2"/>
+  <use id="Шар_12" data-name="Шар 12" y="-22" xlink:href="#image-2"/>
+</svg>

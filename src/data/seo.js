@@ -51,6 +51,35 @@ export const factors = {
       note: '',
     },
   ],
+};export const factors_mob = {
+  title: 'factorsSeo_mob.title',
+  list: [
+    {
+      title: 'factorsSeo_mob.list.1.title',
+      desc: 'factorsSeo_mob.list.1.desc',
+      note: '',
+    },
+    {
+      title: 'factorsSeo_mob.list.2.title',
+      desc: 'factorsSeo_mob.list.2.desc',
+      note: '',
+    },
+    {
+      title: 'factorsSeo_mob.list.3.title',
+      desc: 'factorsSeo_mob.list.3.desc',
+      note: '',
+    },
+    {
+      title: 'factorsSeo_mob.list.4.title',
+      desc: 'factorsSeo_mob.list.4.desc',
+      note: '',
+    },
+    {
+      title: 'factorsSeo_mob.list.5.title',
+      desc: 'factorsSeo_mob.list.5.desc',
+      note: '',
+    },
+  ],
 };
 
 export const solutions = {
@@ -117,6 +146,48 @@ export const pricelist = {
       due: 'pricelistSeo.list.4.due',
       price: 'pricelistSeo.list.4.price',
       message: 'pricelistSeo.list.4.message',
+    },
+  ],
+};export const pricelist_mob = {
+  title: 'pricelistSeo_mob.title',
+  desc: 'pricelistSeo_mob.desc',
+  orderBtn: 'pricelistSeo_mob.orderBtn',
+  list: [
+    {
+      title: 'pricelistSeo_mob.list.1.title',
+      subTitle: 'pricelistSeo_mob.list.1.subTitle',
+      desc: 'pricelistSeo_mob.list.1.desc',
+      planType: 'pricelistSeo_mob.list.1.planType',
+      due: 'pricelistSeo_mob.list.1.due',
+      price: 'pricelistSeo_mob.list.1.price',
+      message: 'pricelistSeo_mob.list.1.message',
+    },
+    {
+      title: 'pricelistSeo_mob.list.2.title',
+      subTitle: 'pricelistSeo_mob.list.2.subTitle',
+      desc: 'pricelistSeo_mob.list.2.desc',
+      planType: 'pricelistSeo_mob.list.2.planType',
+      due: 'pricelistSeo_mob.list.2.due',
+      price: 'pricelistSeo_mob.list.2.price',
+      message: 'pricelistSeo_mob.list.2.message',
+    },
+    {
+      title: 'pricelistSeo_mob.list.3.title',
+      subTitle: 'pricelistSeo_mob.list.3.subTitle',
+      desc: 'pricelistSeo_mob.list.3.desc',
+      planType: 'pricelistSeo_mob.list.3.planType',
+      due: 'pricelistSeo_mob.list.3.due',
+      price: 'pricelistSeo_mob.list.3.price',
+      message: 'pricelistSeo_mob.list.3.message',
+    },
+    {
+      title: 'pricelistSeo_mob.list.4.title',
+      subTitle: 'pricelistSeo_mob.list.4.subTitle',
+      desc: 'pricelistSeo_mob.list.4.desc',
+      planType: 'pricelistSeo_mob.list.4.planType',
+      due: 'pricelistSeo_mob.list.4.due',
+      price: 'pricelistSeo_mob.list.4.price',
+      message: 'pricelistSeo_mob.list.4.message',
     },
   ],
 };
