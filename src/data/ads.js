@@ -48,6 +48,36 @@ export const ppc = {
     },
   ],
 };
+export const ppc_mob = {
+  title: 'ppcAds_mob.title',
+  list: [
+    {
+      title: 'ppcAds_mob.list.1.title',
+      desc: 'ppcAds_mob.list.1.desc',
+      note: '',
+    },
+    {
+      title: 'ppcAds_mob.list.2.title',
+      desc: 'ppcAds_mob.list.2.desc',
+      note: '',
+    },
+    {
+      title: 'ppcAds_mob.list.3.title',
+      desc: 'ppcAds_mob.list.3.desc',
+      note: '',
+    },
+    {
+      title: 'ppcAds_mob.list.4.title',
+      desc: 'ppcAds_mob.list.4.desc',
+      note: '',
+    },
+    {
+      title: 'ppcAds_mob.list.5.title',
+      desc: 'ppcAds_mob.list.5.desc',
+      note: '',
+    },
+  ],
+};
 
 export const adsDetails = {
   title: 'factorsAds.title',
@@ -107,6 +137,36 @@ export const checks = {
     {
       title: 'checksAds.list.6.title',
       desc: 'checksAds.list.6.desc',
+    },
+  ],
+};
+export const checks_mob = {
+  title: 'checksAds_mob.title',
+  checkIcon: '/img/icons/check.png',
+  list: [
+    {
+      title: 'checksAds_mob.list.1.title',
+      desc: 'checksAds_mob.list.1.desc',
+    },
+    {
+      title: 'checksAds_mob.list.2.title',
+      desc: 'checksAds_mob.list.2.desc',
+    },
+    {
+      title: 'checksAds_mob.list.3.title',
+      desc: 'checksAds_mob.list.3.desc',
+    },
+    {
+      title: 'checksAds_mob.list.4.title',
+      desc: 'checksAds_mob.list.4.desc',
+    },
+    {
+      title: 'checksAds_mob.list.5.title',
+      desc: 'checksAds_mob.list.5.desc',
+    },
+    {
+      title: 'checksAds_mob.list.6.title',
+      desc: 'checksAds_mob.list.6.desc',
     },
   ],
 };

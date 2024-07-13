@@ -31,7 +31,26 @@
   &__list {
     display: flex;
     margin-top: 24px;
+    position: relative;
     flex-direction: column;
+    @include media(phone) {
+      overflow: hidden;
+    }
+    &::after {
+      content: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='3' height='328' viewBox='0 0 3 328' fill='none'%3E%3Cpath d='M1.5 0V150' stroke='%232D8EEE' stroke-width='3' stroke-dasharray='6 6'/%3E%3C/svg%3E");
+      position: absolute;
+      height: 100%;
+      width: 0;
+      top: 80px;
+      left: 40px;
+      @include media(phone) {
+        content: url('/img/vertical_dashe_line.svg');
+        width: 0;
+        top: 60px;
+        left: 30px;
+        height: inherit;
+      }
+    }
   }
   &__image {
     border-radius: 10px;
@@ -58,21 +77,9 @@
     @include media(phone) {
       grid-template-columns: 100px auto auto;
     }
-    &::after {
-      content: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='3' height='328' viewBox='0 0 3 328' fill='none'%3E%3Cpath d='M1.5 0V150' stroke='%232D8EEE' stroke-width='3' stroke-dasharray='6 6'/%3E%3C/svg%3E");
-      position: absolute;
-      height: 100%;
-      width: 0;
-      top: 80px;
-      left: 40px;
-      @include media(phone) {
-        content: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='3' height='328' viewBox='0 0 3 328' fill='none'%3E%3Cpath d='M1.5 0V328' stroke='%232D8EEE' stroke-width='3' stroke-dasharray='6 6'/%3E%3C/svg%3E");
-        width: 0;
-        top: 60px;
-        left: 30px;
-      }
-    }
+
     &:last-child {
+      margin-bottom: 0px;
       &::after {
         content: '';
       }

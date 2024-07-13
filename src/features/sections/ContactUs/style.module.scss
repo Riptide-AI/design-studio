@@ -4,6 +4,8 @@
   margin-top: 140px;
   padding: 50px 0;
   font-family: $main-font;
+  background-repeat: no-repeat;
+  
   @include media(phone){
   margin-top: 80px;
 
@@ -23,5 +25,8 @@
     font-size: 24px;
     font-weight: 600;
     width: 100%;
+    @include media(phone){
+      font-size: 28px;
+    }
   }
 }

@@ -337,4 +337,37 @@ export const stages = {
       title: 'stagesLand.list.9',
     },
   ],
+};export const stages_mob = {
+  title: 'stagesLand_mob.title',
+  desc: 'stagesLand_mob.desc',
+  list: [
+    {
+      title: 'stagesLand_mob.list.1',
+    },
+    {
+      title: 'stagesLand_mob.list.2',
+    },
+    {
+      title: 'stagesLand_mob.list.3',
+    },
+    {
+      title: 'stagesLand_mob.list.4',
+    },
+    {
+      title: 'stagesLand_mob.list.5',
+    },
+    {
+      title: 'stagesLand_mob.list.6',
+    },
+    {
+      title: 'stagesLand_mob.list.7',
+    },
+    {
+      title: 'stagesLand_mob.list.8',
+    },
+    {
+      title: 'stagesLand_mob.list.9',
+    },
+  ],
 };
+

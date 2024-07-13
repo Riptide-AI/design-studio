@@ -345,4 +345,24 @@ export const achieveResults = {
       desc: 'achieveResultsCorporate.list.4.desc',
     },
   ],
+};export const achieveResults_mob = {
+  title: 'achieveResultsCorporate.title',
+  list: [
+    {
+      title: 'achieveResultsCorporate.list.1.title',
+      desc: 'achieveResultsCorporate.list.1.desc',
+    },
+    {
+      title: 'achieveResultsCorporate.list.2.title',
+      desc: 'achieveResultsCorporate.list.2.desc',
+    },
+    {
+      title: 'achieveResultsCorporate.list.3.title',
+      desc: 'achieveResultsCorporate.list.3.desc',
+    },
+    {
+      title: 'achieveResultsCorporate.list.4.title',
+      desc: 'achieveResultsCorporate.list.4.desc',
+    },
+  ],
 };
