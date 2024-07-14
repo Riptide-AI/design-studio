@@ -35,7 +35,7 @@ export const AboutUsSection = ({ children = null, isBtn }) => {
           />
         </div>
         <div className={styles.about_us__image}>
-          <Image src={aboutUs.image} fill="true" alt="" placeholder="empty" />
+          <Image src={aboutUs.image}  width={1000} height={1000} alt="" placeholder="empty" />
         </div>
         <div className={styles.about_us__cards_list}>
           {aboutUs.cards.map((card, index) => (

@@ -7,7 +7,7 @@ export const BusinessCard = ({ card }) => {
   return (
     <div className={styles.card}>
       <div className={styles.card__image}>
-        <Image fill="true" src={card.image} alt="" />
+        <Image width={1000} height={1000} src={card.image} alt="" />
         <div className={styles.card__icon}>
           <Image src={card.icon} height={32} width={32} alt="" placeholder="empty" />
         </div>
