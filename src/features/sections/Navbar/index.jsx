@@ -40,7 +40,7 @@ export const Navbar = () => {
       <div className={styles['nav-wrapper']}>
         <Link href="/home">
           <div className={styles.logo}>
-            <Image src="/img/logo.png" alt="logo" width={1000} height={1000} quality="100" placeholder="empty" />
+            <Image src="/img/logo.png" alt="logo" width={125} height={30} quality="100" placeholder="empty" />
           </div>
         </Link>
         {!isMobile && <NavLinks links={navigation} />}
