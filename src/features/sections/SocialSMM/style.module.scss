@@ -115,6 +115,8 @@
     overflow: hidden;
     aspect-ratio: 600/ 336;
     img {
+      width: 100%;
+      height: 100%;
       object-fit: cover;
     }
   }
