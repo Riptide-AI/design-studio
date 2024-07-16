@@ -20,7 +20,7 @@
       max-height: 100vh;
       height: 100%;
       position: absolute;
-      overflow-y: auto;
+      overflow-y: hidden;
       background-color: $dark-blue;
       @include media(phone) {
         width:100%;
