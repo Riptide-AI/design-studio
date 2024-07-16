@@ -29,6 +29,7 @@
     margin: 40px auto 0;
     @include media(phone) {
       grid-template-columns: 1fr !important;
+        justify-items: center;
     }
   }
   &__image {

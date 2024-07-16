@@ -25,7 +25,7 @@ export const SupportTypesImage = ({ data, alt, cols = 3 }) => {
                 {t(item.desc)}
               </div>
               <div className={styles.support_types__item__image}>
-                <Image src={item.image} alt=""  width={1000} height={1000} />
+                <Image src={item.image} alt=""  width={387} height={387} />
               </div>
             </div>
           ))}

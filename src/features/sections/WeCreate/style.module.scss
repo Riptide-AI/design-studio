@@ -70,9 +70,12 @@
     gap: 40px;
     @include media(phone) {
       grid-template-columns: 1fr;
+     
     }
     a {
-      color: white;
+     
+     
+        color: white;
       .card {
         max-width: 380px;
         width: 100%;

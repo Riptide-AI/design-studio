@@ -6,7 +6,7 @@
   height: 321px;
   position: relative;
   @include media(phone) {
-    height: 440px;
+    height: 490px;
   }
   &__slide {
     min-height: 321px;
@@ -22,7 +22,7 @@
     align-items: center;
     @include media(phone) {
       padding: 50px 20px 20px;
-      height: 440px;
+      height: 490px;
       border-top-left-radius: 20px;
       border-top-right-radius: 20px;
 
@@ -102,7 +102,7 @@
       background-color: #0d345c;
     }
     @include media(phone) {
-      top: 455px;
+      top: 510px;
 
       transform: none;
     }

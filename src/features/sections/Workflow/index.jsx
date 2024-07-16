@@ -36,7 +36,7 @@ const lenght =    windowWidth> 1440 ? lengh: 1300
     } else {
       setEnd(false);
     }
-  }, [cardList, lengh]);
+  }, [cardList, lengh,windowWidth]);
 
   useEffect(() => {
     const element = cardList.current;

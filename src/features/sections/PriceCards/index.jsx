@@ -5,11 +5,22 @@ import Link from 'next/link';
 import styles from './style.module.scss';
 import { DetailsModal } from '@/components/DetailsModal';
 import arrow from 'public/img/icons/arrow-circle.svg';
-import { useRef, useState } from 'react';
+import { useEffect, useRef, useState } from 'react';
 import { useTranslation } from 'react-i18next';
 
 export const PriceCards = ({ data }) => {
   const { t } = useTranslation();
+  const [windowWidth, setwindowWidth] = useState();
+
+  useEffect(() => {
+    if (typeof window !== 'undefined') {
+      setwindowWidth(window.innerWidth);
+      const updateWidth = () => setwindowWidth(window.innerWidth);
+      window.addEventListener('resize', updateWidth);
+
+      return () => window.removeEventListener('resize', updateWidth);
+    }
+  }, []);
   const cardsRef = useRef('');
   function scrollToNext() {
     if (cardsRef.current) {
@@ -35,9 +46,14 @@ export const PriceCards = ({ data }) => {
     setModalOpen(true);
   };
   const [animate, setAnimate] = useState(false);
-  setInterval(() => {
-    setAnimate(!animate);
-  }, 5000);
+  useEffect(() => {
+    windowWidth < 1440
+      ? setInterval(() => {
+        setAnimate(!animate);
+      }, 6000)
+      : ''
+  }, [windowWidth, animate]);
+
   return (
     <ContentWrapper>
       {modalContent && (

@@ -11,14 +11,14 @@ export const InfoCards = ({ data }) => {
  async function scrollToNext() {
     if (cardList.current) {
       requestAnimationFrame(() => {
-        cardList.current.scrollLeft += 390;
+        cardList.current.scrollLeft += 395;
       });
     }
   }
  async function scrollToPrev() {
     if (cardList.current) {
       requestAnimationFrame(() => {
-        cardList.current.scrollLeft -= 390;
+        cardList.current.scrollLeft -= 395;
       });
     }
   }

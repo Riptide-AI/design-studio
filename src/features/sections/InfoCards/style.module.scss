@@ -7,7 +7,8 @@
   align-items: center;
   font-family: $main-font;
   width: 100%;
-  max-width: 1440px;
+  max-width: 1240px;
+  overflow: hidden;
   @include media(phone) {
     font-size: 24px;
     align-items: center;
