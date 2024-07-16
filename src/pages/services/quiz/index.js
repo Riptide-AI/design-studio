@@ -7,6 +7,7 @@ import {
   achieveResults,
   workwithus,priceCards_mob,
   stages,
+  stages_mob,
 } from '@/data/quiz';
 import { ContactUs } from '@/features/sections/ContactUs';
 import { Offers } from '@/features/sections/Offers';
@@ -34,7 +35,7 @@ export default function Quiz() {
 
       <PriceCards data={windowWidth < 1440 ? priceCards_mob : priceCards} />
       <Offers data={offers} arrow={false} />
-      <DevelopmentStages data={stages} />
+      <DevelopmentStages data={windowWidth>1440?stages:stages_mob} />
       <SupportTypes data={achieveResults} alt cols={2} startsWith="0" />
       <Reviews data={reviews} />
       <ContactUs />
