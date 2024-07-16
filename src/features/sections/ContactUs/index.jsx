@@ -23,7 +23,7 @@ export const ContactUs = () => {
       id="contact-form"
       style={{
         background: `linear-gradient(0deg, rgba(18, 39, 60, 0.82) 0%, rgba(18, 39, 60, 0.82) 100%), url(${contactUs.bgImage}), lightgray 50% / cover`,
-        backgroundSize: windowWidth>1440?'100% auto':'auto 100% ',
+        backgroundSize: windowWidth>720?'100% auto':'auto 100% ',
         backgroundPosition: 'center',
       }}
     >

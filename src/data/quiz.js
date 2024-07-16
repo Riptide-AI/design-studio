@@ -376,3 +376,30 @@ export const stages = {
     },
   ],
 };
+export const stages_mob = {
+  title: 'stagesQuiz_mob.title',
+  desc: 'stagesQuiz_mob.desc',
+  list: [
+    {
+      title: 'stagesQuiz_mob.list.1',
+    },
+    {
+      title: 'stagesQuiz_mob.list.2',
+    },
+    {
+      title: 'stagesQuiz_mob.list.3',
+    },
+    {
+      title: 'stagesQuiz_mob.list.4',
+    },
+    {
+      title: 'stagesQuiz_mob.list.5',
+    },
+    {
+      title: 'stagesQuiz_mob.list.6',
+    },
+    {
+      title: 'stagesQuiz_mob.list.7',
+    },
+  ],
+};

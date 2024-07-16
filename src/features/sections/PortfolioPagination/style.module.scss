@@ -43,7 +43,6 @@
         animation-duration: 1s;
         animation-iteration-count: 2;
         animation-timing-function: ease-in-out;
-       
       }
       &:last-child {
         &::after {
@@ -77,6 +76,14 @@
       grid-auto-rows: 1fr;
       align-items: center;
     }
+    @media (min-width: 768px) {
+      grid-template-columns: 1fr 1fr;
+    
+    }
+    @media (min-width: 900px) {
+      grid-template-columns: 1fr 1fr 1fr;
+
+    }
     &__item {
       @include media(phone) {
         // max-width: 328px;
@@ -85,6 +92,9 @@
       &__image {
         aspect-ratio: 387/253;
         width: 100%;
+        @include media(phone) {
+          width: unset;
+        }
         border-radius: 15px;
         overflow: hidden;
         background-color: $pale-blue;

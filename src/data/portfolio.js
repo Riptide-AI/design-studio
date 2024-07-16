@@ -1190,12 +1190,12 @@ export const portfolioList = {
       imageOne: '/img/portfolios/pages/cryptoHub/other_page_1.webp',
       imageTwo: '/img/portfolios/pages/cryptoHub/other_page_2.webp',
     },
-    adaptive: {
+   /*  adaptive: {
       sectionName: 'portfolioList.25.adaptive.sectionName',
       title: 'portfolioList.25.adaptive.title',
       desc: 'portfolioList.25.adaptive.desc',
       image: '/img/portfolios/adaptive-1.png',
-    },
+    }, */
   },
   26: {
     title: 'portfolioList.26.title',
