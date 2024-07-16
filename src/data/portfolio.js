@@ -810,15 +810,16 @@ export const portfolioList = {
     results: {
       sectionName: 'portfolioList.19.results.sectionName',
       title: 'portfolioList.19.results.title',
-      image: '/img/portfolios/mainImage-1.png',
+      image: '/img/portfolios/pages/19/main_page.png',
       list: [
         {
           desc: 'portfolioList.19.results.list.1.desc',
-          image: '/img/portfolios/results-1.1.jfif',
+          image: '/img/portfolios/pages/19/result_1.png',
         },
         {
           desc: 'portfolioList.19.results.list.2.desc',
-          image: '/img/portfolios/results-1.2.jfif',
+          image: '/img/portfolios/pages/19/result_2.png',
+
         },
       ],
     },
@@ -826,19 +827,20 @@ export const portfolioList = {
       sectionName: 'portfolioList.19.projects.sectionName',
       title: 'portfolioList.19.projects.title',
       desc: 'portfolioList.19.projects.desc',
-      image: '/img/portfolios/projects-1.jfif',
+      image: '/img/portfolios/pages/19/project.png',
+
     },
     catalog: {
       sectionName: 'portfolioList.19.catalog.sectionName',
       desc: 'portfolioList.19.catalog.desc',
-      imageOne: '/img/portfolios/catalog-1.1.jfif',
-      imageTwo: '/img/portfolios/catalog-1.2.jfif',
+      imageOne: '/img/portfolios/pages/19/catalog_1.png',
+      imageTwo: '/img/portfolios/pages/19/catalog_2.png',
     },
     adaptive: {
       sectionName: 'portfolioList.19.adaptive.sectionName',
       title: 'portfolioList.19.adaptive.title',
       desc: 'portfolioList.19.adaptive.desc',
-      image: '/img/portfolios/adaptive-1.png',
+      image: '/img/portfolios/pages/19/adapt_all.png',
     },
   },
   20: {
@@ -1129,12 +1131,7 @@ export const portfolioList = {
       imageOne: '/img/portfolios/catalog-1.1.jfif',
       imageTwo: '/img/portfolios/catalog-1.2.jfif',
     },
-    adaptive: {
-      sectionName: 'portfolioList.24.adaptive.sectionName',
-      title: 'portfolioList.24.adaptive.title',
-      desc: 'portfolioList.24.adaptive.desc',
-      image: '/img/portfolios/adaptive-1.png',
-    },
+  
   },
   25: {
     title: 'portfolioList.25.title',
@@ -1164,15 +1161,15 @@ export const portfolioList = {
     results: {
       sectionName: 'portfolioList.25.results.sectionName',
       title: 'portfolioList.25.results.title',
-      image: '/img/portfolios/pages/cryptoHub/main_page.png',
+      image: '/img/portfolios/pages/25/main_page.png',
       list: [
         {
           desc: 'portfolioList.25.results.list.1.desc',
-          image: '/img/portfolios/pages/cryptoHub/result_1.webp',
+          image: '/img/portfolios/pages/25/result_1.png',
         },
         {
           desc: 'portfolioList.25.results.list.2.desc',
-          image: '/img/portfolios/pages/cryptoHub/result_2.webp',
+          image: '/img/portfolios/pages/25/result_2.png',
 
         },
       ],
@@ -1181,14 +1178,14 @@ export const portfolioList = {
       sectionName: 'portfolioList.25.projects.sectionName',
       title: 'portfolioList.25.projects.title',
       desc: 'portfolioList.25.projects.desc',
-      image: '/img/portfolios/pages/cryptoHub/vocabulary.webp',
+      image: '/img/portfolios/pages/25/vocabulary.jpg',
 
     },
     catalog: {
       sectionName: 'portfolioList.25.catalog.sectionName',
       desc: 'portfolioList.25.catalog.desc',
-      imageOne: '/img/portfolios/pages/cryptoHub/other_page_1.webp',
-      imageTwo: '/img/portfolios/pages/cryptoHub/other_page_2.webp',
+      imageOne: '/img/portfolios/pages/25/other_page_1.jpg',
+      imageTwo: '/img/portfolios/pages/25/other_page_2.jpg',
     },
    /*  adaptive: {
       sectionName: 'portfolioList.25.adaptive.sectionName',

@@ -17,9 +17,9 @@
 
     &--open {
       width: 100vw;   
-      height: 100vh;
+      height: 100%;
       position: absolute;
-      overflow-y: hidden;
+      overflow: hidden;
       background-color: $dark-blue;
       @include media(phone) {
         width: 100%;

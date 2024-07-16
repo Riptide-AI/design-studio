@@ -7,10 +7,11 @@ export const PortfolioProjects = ({ currentItem }) => {
   const { t } = useTranslation();
 
   return (
+    currentItem.projects &&
     <ContentWrapper>
       <div className={styles.projects}>
         <div className={styles.projects__image}>
-          <Image src={currentItem.projects.image} alt="" fill={true} />
+          <Image src={currentItem.projects.image} alt="" width={1600} height={1400} />
         </div>
         <div className={styles.projects__content}>
           <div className={styles.projects__section_name}>{t(currentItem.projects.sectionName)}</div>
