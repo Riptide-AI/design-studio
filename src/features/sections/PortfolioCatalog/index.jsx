@@ -17,10 +17,10 @@ export const PortfolioCatalog = ({ currentItem }) => {
           </div>
           <div className={styles.catalog__images}>
             <div className={styles.catalog__image}>
-              <Image src={currentItem.catalog.imageOne} alt="" fill={true} />
+              <Image src={currentItem.catalog.imageOne} alt="" width={1600} height={1400} />
             </div>
             <div className={styles.catalog__image}>
-              <Image src={currentItem.catalog.imageTwo} alt="" fill={true} />
+              <Image src={currentItem.catalog.imageTwo} alt="" width={1600} height={1400} />
             </div>
           </div>
         </div>
