@@ -40,10 +40,10 @@ export const SocialSMM = () => {
         </div>
         <div className={styles.social_smm__images}>
           <div className={styles.social_smm__image}>
-            <Image src={socialSMM.imageOne} fill={true} alt={''} />
+            <Image src={socialSMM.imageOne} width={600} height={340} alt={''} />
           </div>
           <div className={styles.social_smm__image}>
-            <Image src={socialSMM.imageTwo} fill={true} alt={''} />
+            <Image src={socialSMM.imageTwo} width={600} height={340} alt={''} />
           </div>
         </div>
       </div>
