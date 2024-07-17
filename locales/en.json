@@ -3579,462 +3579,433 @@
   },
   "portfolioList": {
     "19": {
-      "title": "aaaaaaaaaa",
-      "desc": "aaaaaaaaaa",
+      "title": "Website",
+      "desc": "Creating a website for the company «Ellty» ",
       "idea": {
-        "sectionName": "Ідея",
-        "desc": "aaaaaaaaaa"
+        "sectionName": "Idea",
+        "desc": "Our team was very enthusiastic about creating a web platform for Ellty, a leader in the field of graphic design. Our approach was to deeply study the needs and characteristics of this creative sector to provide users with the most valuable, innovative and personalized solution."
       },
       "task": {
-        "sectionName": "Завдання",
+        "sectionName": "Tasks",
         "list": {
           "1": {
-            "title": "aaaaaaaaaa"
+            "title": "Filtering services: Create a filtering system to quickly find graphic services by project type and design style."
           },
           "2": {
-            "title": "Розaaaaaaaaaa"
+            "title": "Authentication: Integrating the ability to log in with a variety of accounts for the convenience of users."
           },
           "3": {
-            "title": "aaaaaaaaaa"
+            "title": "Purchase of design plans: Implementation of an interface for the secure purchase of services through a bank card on the platform."
           },
           "4": {
-            "title": "aaaaaaaaaa"
+            "title": "Testing: Comprehensive testing of new website functions and performance optimization for system reliability."
           }
         }
       },
       "results": {
-        "sectionName": "Результат",
-        "title": "aaaaaaaaaa",
+        "sectionName": "Result",
+        "title": "A modern website for a company «Ellty»",
         "list": {
           "1": {
-            "desc": "aaaaaaaaaa"
+            "desc": "We developed an innovative authentication mechanism for Ellty through various social networks, which allows their users to easily and securely log into their account.This convenient tool not only simplifies the authorization process, but also provides a high level of security thanks to the use of trusted social networks such as Facebook, Apple and Google."
           },
           "2": {
-            "desc": "aaaaaaaaaa"
+            "desc": "We also developed the company's blog, website content management system, terms of use, and prepared and configured ready-to-use web templates for editing, providing an intuitive and engaging environment for your web audience. Our templates offer effortless customization for graphic designers, ensuring seamless integration across diverse platforms."
           }
         }
       },
       "projects": {
-        "sectionName": "Проєкти",
-        "title": "aaaaaaaaaa",
-        "desc": "aaaaaaaaaa"
+        "sectionName": "Paid plans",
+        "title": "We show the work of our company",
+        "desc": "We have already designed a variety of paid plans, allowing users to choose the best option according to their needs. In the future, we successfully integrated the possibility of connecting a credit card for quick and convenient online payment of services. In addition, the database and other important system components have been carefully tuned to ensure smooth operation and reliability of user service."
       },
       "catalog": {
-        "sectionName": "Каталог",
-        "desc": "aaaaaaaaaa"
+        "sectionName": "Other pages",
+        "desc": "In the first photo you can see the result of our work - a variety of ready-made templates for social networks, including Instagram (posts and stories), Facebook and Pinterest. These templates are designed to create stylish and attractive posts that perfectly match the formats and requirements of each platform. They help increase the attention of your audience and improve the effectiveness of marketing campaigns in social networks. \n \n The second photo shows our custom 404 error page. This element is extremely important to ensure proper indexing in search engines, especially Google. It makes it easy for users to find the information they need on the site, even if the URL is incorrect, ensuring seamless navigation through your site."
       },
       "adaptive": {
-        "sectionName": "Адаптив",
-        "title": "aaaaaaaaaa",
-        "desc": "aaaaaaaaaa"
+        "sectionName": "Adaptive",
+        "title": "The  «Ellty»  website looks great on any device",
+        "desc": "Adaptation of the website of the graphics company Ellty for various devices, including smartphones, tablets, laptops and desktop computers, is a key step in ensuring optimal display and convenient use of the site for all users. This approach ensures the unity of design and functionality, which allows users to easily find the necessary information and interact with the content even on different devices. This approach not only increases the convenience of interaction with the site, but also helps attract a larger audience and improve the overall user experience on the Ellty platform."
       }
     },
     "20": {
-      "title": "aaaaaaaaaa",
-      "desc": "aaaaaaaaaa",
+      "title": "Website",
+      "desc": "Creating a website for the company «Press Wave» ",
       "idea": {
-        "sectionName": "Ідея",
-        "desc": "aaaaaaaaaa"
+        "sectionName": "Idea",
+        "desc": "We created a website for Press Wave, a company specializing in global news. We created a website for Press Wave, a company specializing in global news. The website was built using Next.js, a popular language, and features an administrative panel for easy site management, content updates, and publication control. Our work also included the creation of an interface that provides fairly quick access to relevant and reliable information for readers around the world."
       },
       "task": {
-        "sectionName": "Завдання",
+        "sectionName": "Tasks",
         "list": {
           "1": {
-            "title": "aaaaaaaaaa"
+            "title": "Creation of a unique website design and administrative panel that matches the corporate style of the company."
           },
           "2": {
-            "title": "Розaaaaaaaaaa"
+            "title": "Development of filtering for effective news search by various criteria, which simplifies site navigation for users."
           },
           "3": {
-            "title": "aaaaaaaaaa"
+            "title": "Creating a section, namely TV, which includes the possibility of live video broadcasting, ensuring the relevance of information."
           },
           "4": {
-            "title": "aaaaaaaaaa"
+            "title": "Setting up SEO optimization to increase the visibility of the site in search engines, which helps to attract a larger audience."
           }
         }
       },
       "results": {
-        "sectionName": "Результат",
-        "title": "aaaaaaaaaa",
+        "sectionName": "Result",
+        "title": "A modern website for the company «Press Wave»",
         "list": {
           "1": {
-            "desc": "aaaaaaaaaa"
+            "desc": "The design for the news forum includes an aesthetically pleasing interface that promotes ease of navigation and use. It includes harmonious color solutions, an expressive font and ease of interaction with page elements, which allows users to focus on the content of the news."
           },
           "2": {
-            "desc": "aaaaaaaaaa"
+            "desc": "Our company has created a dynamic site with a complex and modern design that meets modern web development trends. Our work also included the development of an interactive interface that provides efficient navigation and user-friendliness. Each design element was created with the uniqueness and relevance of the company's brand in mind."
           }
         }
       },
       "projects": {
-        "sectionName": "Проєкти",
-        "title": "aaaaaaaaaa",
-        "desc": "aaaaaaaaaa"
+        "sectionName": "Audio",
+        "title": "We show the work of our company",
+        "desc": "The site owners also provided the idea to add audio to the website, which would include podcast music and news audio. This extension will allow users to enjoy audio content directly on the site, providing convenient access to current news."
       },
       "catalog": {
-        "sectionName": "Каталог",
-        "desc": "aaaaaaaaaa"
+        "sectionName": "Other pages",
+        "desc": "The first photo just shows a TV that broadcasts in real time, which makes the site even more interactive and relevant for users who are interested in fresh information. This section allows viewers to keep up to date with events in real time without having to switch to other platforms. \n \n And the second photo shows the search on the entire site - this provides the convenience of searching for quick access to various web news and information, which allows you to find the information you need quickly and efficiently. This function increases the usability of the site for each user."
       },
       "adaptive": {
-        "sectionName": "Адаптив",
-        "title": "aaaaaaaaaa",
-        "desc": "aaaaaaaaaa"
+        "sectionName": "Adaptive",
+        "title": "The  «Press Wave»  website looks great on any device",
+        "desc": "The  «Press Wave»  website looks great on any device"
       }
     },
     "21": {
-      "title": "aaaaaaaaaa",
-      "desc": "aaaaaaaaaa",
+      "title": "Website",
+      "desc": "Creating a website for the company «Alleva»",
       "idea": {
-        "sectionName": "Ідея",
-        "desc": "aaaaaaaaaa"
+        "sectionName": "Idea",
+        "desc": "We have created an innovative website dedicated to pet products, featuring a wide range of products for the care, feeding and comfort of your pets. Our site provides easy navigation and the ability to quickly find the products you need, as well as useful tips."
       },
       "task": {
-        "sectionName": "Завдання",
+        "sectionName": "Tasks",
         "list": {
           "1": {
-            "title": "aaaaaaaaaa"
+            "title": "Create a site using Next.js programming language with database integration for content management."
           },
           "2": {
-            "title": "Розaaaaaaaaaa"
+            "title": "Implement a complete catalog of products, where each product will be described in detail with a high-quality image."
           },
           "3": {
-            "title": "aaaaaaaaaa"
+            "title": "Provide product filtering by various web parameters such as category, price range, etc."
           },
           "4": {
-            "title": "aaaaaaaaaa"
+            "title": "Creating an alphabetically sorted crypto dictionary to educate users in the current industry."
           }
         }
       },
       "results": {
-        "sectionName": "Результат",
-        "title": "aaaaaaaaaa",
+        "sectionName": "Result",
+        "title": "A modern website for the company «Alleva»",
         "list": {
           "1": {
-            "desc": "aaaaaaaaaa"
+            "desc": "In this photo, you can see a demo of the template for creating an order, which includes all the necessary fields for entering customer data, product selection, as well as web options for convenient selection of quantity and delivery. This intuitive interface simplifies the purchase process, ensuring the convenience."
           },
           "2": {
-            "desc": "aaaaaaaaaa"
+            "desc": "In this photo, we can see how our order went through all the necessary stages, starting from entering the customer's personal data and choosing the required product, ending with delivery options and determining the quantity. The interface is intuitive and provides instant order processing with accuracy to detail."
           }
         }
       },
       "projects": {
-        "sectionName": "Проєкти",
-        "title": "aaaaaaaaaa",
-        "desc": "aaaaaaaaaa"
+        "sectionName": "Design",
+        "title": "We show the work of our company",
+        "desc": "We've developed a groundbreaking product design for company Alleva, pushing the boundaries of their capabilities in their field. Our approach combines modern technologies with a deep understanding of consumer needs, which allows us to implement unique ideas and ensure the success of our clients. As a result of our cooperation, Alleva received not only a stylish and ergonomic design, but also a powerful tool for taking leadership positions in the market."
       },
       "catalog": {
-        "sectionName": "Каталог",
-        "desc": "aaaaaaaaaa"
-      },
-      "adaptive": {
-        "sectionName": "Адаптив",
-        "title": "aaaaaaaaaa",
-        "desc": "aaaaaaaaaa"
+        "sectionName": "Catalogue",
+        "desc": "In the first photo, we can see the created cabinet of Alleva company wholesalers. Our web design looks not only aesthetically pleasing, but also maximally functional. Every detail reflects the importance for the needs of users and the desire to provide comfort and efficiency at work. In the second photo, we see some product filtering that includes various web sorting classes. This intelligent solution allows Alleva wholesalers to conveniently."
       }
     },
     "22": {
-      "title": "aaaaaaaaaa",
-      "desc": "aaaaaaaaaa",
+      "title": "Website",
+      "desc": "Creating a website for the company «Big Teddy Bear» ",
       "idea": {
-        "sectionName": "Ідея",
-        "desc": "aaaaaaaaaa"
+        "sectionName": "Idea",
+        "desc": "We created a website for a company that specializes in the sale of teddy bears of various sizes. Their website offers a wide selection of products, from the smallest teddy bears for gifts to large toys that will become a favorite collection."
       },
       "task": {
-        "sectionName": "Завдання",
+        "sectionName": "Tasks",
         "list": {
           "1": {
-            "title": "aaaaaaaaaa"
+            "title": "Develop an intuitive web interface for managing blog articles, including the ability to edit articles."
           },
           "2": {
-            "title": "Розaaaaaaaaaa"
+            "title": "Provide category and tag management functionality to facilitate navigation for their readers."
           },
           "3": {
-            "title": "aaaaaaaaaa"
+            "title": "Implement the ability to manage comments: add, moderate and delete comments from the admin panel."
           },
           "4": {
-            "title": "aaaaaaaaaa"
+            "title": "Include statistics and web analytics that will allow admins to track article visits and topic popularity."
           }
         }
       },
       "results": {
-        "sectionName": "Результат",
-        "title": "aaaaaaaaaa",
+        "sectionName": "Result",
+        "title": "A modern website for the company «Big Teddy Bear»",
         "list": {
           "1": {
-            "desc": "aaaaaaaaaa"
+            "desc": "In this photo you can see various models of bears and their characteristics in the catalog. The company provides a diverse range of soft toys, featuring detailed parameters for customers to select based on size, material, and other specific characteristics, ensuring a personalized shopping experience."
           },
           "2": {
-            "desc": "aaaaaaaaaa"
+            "desc": "You can see the payment and shipping information in this photo. They provide extensive information on the various payment methods available to their customers, including credit cards, electronic payment systems and other options. You can also familiarize yourself with the terms of delivery of goods."
           }
         }
       },
       "projects": {
-        "sectionName": "Проєкти",
-        "title": "aaaaaaaaaa",
-        "desc": "aaaaaaaaaa"
+        "sectionName": "About the company",
+        "title": "We show the work of our company",
+        "desc": "Their company specializes in the sale of soft bears of various sizes. They offer a wide range of plush toys that are suitable for both gifting and collecting. The company is committed to providing customers with the highest quality products and shopping experience while providing a convenient and engaging online experience for customers."
       },
       "catalog": {
-        "sectionName": "Каталог",
-        "desc": "aaaaaaaaaa"
-      },
-      "adaptive": {
-        "sectionName": "Адаптив",
-        "title": "aaaaaaaaaa",
-        "desc": "aaaaaaaaaa"
+        "sectionName": "Reviews",
+        "desc": "In these two pictures, you can see customer reviews of their company and how to contact them. Their company actively strives to maintain open and trusting relationships with clients. They listen to every feedback and promptly respond to their requests and various needs to ensure high quality service."
       }
     },
     "23": {
-      "title": "aaaaaaaaaa",
-      "desc": "aaaaaaaaaa",
+      "title": "Website",
+      "desc": "Creating a website for the company «Levanov» ",
       "idea": {
-        "sectionName": "Ідея",
-        "desc": "aaaaaaaaaa"
+        "sectionName": "Creating a website for the company «Levanov» ",
+        "desc": "Our company has developed a website for massage therapist Levanov, who provides massage services. On this website, clients can familiarize themselves with the services offered, view the hours of operation, contact for an appointment online, and obtain additional information about the massage therapist and his professional experience."
       },
       "task": {
-        "sectionName": "Завдання",
+        "sectionName": "Tasks",
         "list": {
           "1": {
-            "title": "aaaaaaaaaa"
+            "title": "Develop an attractive interface with convenient navigation that matches the style of masseur Levanov."
           },
           "2": {
-            "title": "Розaaaaaaaaaa"
+            "title": "Create sections about massage services, opening hours, prices and contact details for online booking."
           },
           "3": {
-            "title": "aaaaaaaaaa"
+            "title": "Provide an online form for booking a massage and the possibility of publishing useful content about health and massage."
           },
           "4": {
-            "title": "aaaaaaaaaa"
+            "title": "Provide an online form for booking a massage and the possibility of publishing useful content about health and massage."
           }
         }
       },
       "results": {
-        "sectionName": "Результат",
-        "title": "aaaaaaaaaa",
+        "sectionName": "Result",
+        "title": "A modern website for the company «Levanov»",
         "list": {
           "1": {
-            "desc": "aaaaaaaaaa"
+            "desc": "In this photo, you can see an overview biography of massage therapist Levanov, who devoted many years to the study and practice of massage. He began his professional and thorny path with an education in the field of physiotherapy, after which he actively worked with various clients."
           },
           "2": {
-            "desc": "aaaaaaaaaa"
+            "desc": "In this photo, you can also see the various services provided by this massage therapist. He specializes in various types of massage, including classical, sports, therapeutic and relaxation massage. Each of his wonderful procedures reflects his experience and professionalism aimed at improving the condition."
           }
         }
       },
       "projects": {
-        "sectionName": "Проєкти",
-        "title": "aaaaaaaaaa",
-        "desc": "aaaaaaaaaa"
+        "sectionName": "Contacts",
+        "title": "We show the work of our company",
+        "desc": "In this photo, you can see two maps of the placement of massage rooms offered by Levanov. Each room is designed with the comfort and tranquility of customers in mind, creating the perfect environment for relaxation and also recovery. They are equipped with modern amenities and equipment that allow the massage therapist to provide a high standard of service. Everyone works in detail with Levanov in order to ensure maximum comfort."
       },
       "catalog": {
-        "sectionName": "Каталог",
-        "desc": "aaaaaaaaaa"
+        "sectionName": "Office",
+        "desc": "In these two photos, clients can see photos of the rooms and the tools used during the massage. Such offices are designed with comfort and peace in mind, creating an atmosphere for relaxation and recovery. Massage facilities include modern equipment and professional accessories that help the massage therapist provide high-quality service to their clients."
       },
       "adaptive": {
-        "sectionName": "Адаптив",
-        "title": "aaaaaaaaaa",
-        "desc": "aaaaaaaaaa"
+        "sectionName": "Adaptive",
+        "title": "The «Levanov» website looks great on any device",
+        "desc": "We have adapted this website so that it is displayed perfectly on all devices, including computers, tablets and smartphones. Regardless of which device you are on, you will be able to easily and conveniently access information about the services of massage therapist Levanov, view photos of rooms and massage tools, and also make an appointment for sessions. Our team has done everything possible to make your experience using the website as convenient."
       }
     },
     "24": {
-      "title": "aaaaaaaaaa",
-      "desc": "aaaaaaaaaa",
+      "title": "Website",
+      "desc": "Creating a website for the company «Demyan Popov Center» ",
       "idea": {
-        "sectionName": "Ідея",
-        "desc": "aaaaaaaaaa"
+        "sectionName": "Idea",
+        "desc": "Creating a web-site for the «Demyan Popov Center» is an online platform that provides access to the most modern medical services and consultations for patients. The site was developed taking into account innovative technologies and web design, which will contribute to the convenience of users and ease of interaction with the platform."
       },
       "task": {
-        "sectionName": "Завдання",
+        "sectionName": "Tasks",
         "list": {
           "1": {
-            "title": "aaaaaaaaaa"
+            "title": "Develop an interactive work schedule of doctors with the possibility of dynamic updating and display of working hours."
           },
           "2": {
-            "title": "Розaaaaaaaaaa"
+            "title": "Implement online appointments with others doctors through a convenient form, where patients choose a doctor and hour."
           },
           "3": {
-            "title": "aaaaaaaaaa"
+            "title": "Build a reliable database for storing information about patients and appointments, ensuring confidentiality."
           },
           "4": {
-            "title": "aaaaaaaaaa"
+            "title": "Develop a website in three languages. It allows visitors to view content in different languages ​​and is a convenient interaction."
           }
         }
       },
       "results": {
-        "sectionName": "Результат",
-        "title": "aaaaaaaaaa",
+        "sectionName": "Result",
+        "title": "Modern website for the «Demyan Popov Center» ",
         "list": {
           "1": {
-            "desc": "aaaaaaaaaa"
+            "desc": "A modern unique website for the Demyan Popov Center was developed with the possibility of online appointments. We have created a schedule of appointments that users can view and choose a convenient time for them. All records are automatically entered into the database."
           },
           "2": {
-            "desc": "aaaaaaaaaa"
+            "desc": "We have developed an innovative appointment template that includes convenient fields for entering personal data such as name, contact phone number and email address. In addition, users can indicate their age, choose a preferred doctor and choose a convenient time for the visit."
           }
         }
       },
       "projects": {
-        "sectionName": "Проєкти",
-        "title": "aaaaaaaaaa",
-        "desc": "aaaaaaaaaa"
+        "sectionName": "Application for training",
+        "title": "We show the work of our company",
+        "desc": "Our company has designed a training application template tailored for students and practicing doctors seeking to enhance their skills. This template enables applicants to specify their educational background, professional experience, areas of interest, and study objectives. This method efficiently manages the selection process and enables us to better meet the needs of our clients."
       },
       "catalog": {
-        "sectionName": "Каталог",
-        "desc": "aaaaaaaaaa"
-      },
-      "adaptive": {
-        "sectionName": "Адаптив",
-        "title": "aaaaaaaaaa",
-        "desc": "aaaaaaaaaa"
+        "sectionName": "Other pages",
+        "desc": "In the first photo, you will see information about the history of the Center, which describes its formation and achievements over time. In the second photo, you can meet their specialists who work in their company. These are highly qualified specialists with deep knowledge in their field of activity, ready to provide quality medical care and professional support to their patients."
       }
     },
     "25": {
-      "title": "aaaaaaaaaa",
-      "desc": "aaaaaaaaaa",
+      "title": "Website",
+      "desc": "Creating a website for the company «CryptoHub» ",
       "idea": {
-        "sectionName": "Ідея",
-        "desc": "aaaaaaaaaa"
+        "sectionName": "Idea",
+        "desc": "Our company FullStack was tasked with developing a website for CryptoHub. An innovative website has been created that provides users with the opportunity to better understand the cryptocurrency market and invest in this promising sector."
       },
       "task": {
-        "sectionName": "Завдання",
+        "sectionName": "Tasks",
         "list": {
           "1": {
-            "title": "aaaaaaaaaa"
+            "title": "Creation of the structure of the website, taking into account the needs of users and owners of «CryptoHub»."
           },
           "2": {
-            "title": "Розaaaaaaaaaa"
+            "title": "Development of an interface for publishing online news, including the functionality of filtering and searching by category."
           },
           "3": {
-            "title": "aaaaaaaaaa"
+            "title": "Development of a modern and interactive interface for choosing cryptocurrencies and performing exchange operations."
           },
           "4": {
-            "title": "aaaaaaaaaa"
+            "title": "Creating an alphabetically sorted crypto dictionary to educate users in the current industry."
           }
         }
       },
       "results": {
-        "sectionName": "Результат",
-        "title": "aaaaaaaaaa",
+        "sectionName": "Result",
+        "title": "A modern website for the company «CryptoHub»",
         "list": {
           "1": {
-            "desc": "aaaaaaaaaa"
+            "desc": "The design for the news forum includes an aesthetically pleasing interface that promotes ease of navigation and use. It includes harmonious color solutions, an expressive font and ease of interaction with page elements, which allows users to focus on the content of the news and conveniently interact through the functionality of commenting and discussion."
           },
           "2": {
-            "desc": "aaaaaaaaaa"
+            "desc": "Certainly, our web team has effectively deployed a backend solution for an online cryptocurrency exchange. Our backend ensures smooth transaction processing and supports multiple cryptocurrency platforms. We've placed a strong emphasis on user security and privacy by integrating advanced cryptographic technologies to protect personal data."
           }
         }
       },
       "projects": {
-        "sectionName": "Проєкти",
-        "title": "aaaaaaaaaa",
-        "desc": "aaaaaaaaaa"
+        "sectionName": "Dictionary",
+        "title": "We show the work of our company",
+        "desc": "We have also successfully implemented alphabetical sorting of key terms in our backend application. This allows our users to easily find the information they need and it provides a more convenient navigation on the cryptocurrency exchange platform. This approach enhances the user experience."
       },
       "catalog": {
-        "sectionName": "Каталог",
-        "desc": "aaaaaaaaaa"
-      },
-      "adaptive": {
-        "sectionName": "Адаптив",
-        "title": "aaaaaaaaaa",
-        "desc": "aaaaaaaaaa"
+        "sectionName": "Other pages",
+        "desc": "Here are previews of the remaining two pages of our custom-designed CryptoHub website. In the first photo, you can see the cryptocurrency exchange menu, which includes various options for fast and convenient trading. The second photo shows a live cryptocurrency price update section that provides users with up-to-date information in real time."
       }
     },
     "26": {
-      "title": "aaaaaaaaaa",
-      "desc": "aaaaaaaaaa",
+      "title": "Website",
+      "desc": "Creating a website for the company «IT-SMM» ",
       "idea": {
-        "sectionName": "Ідея",
-        "desc": "aaaaaaaaaa"
+        "sectionName": "Idea",
+        "desc": "We have developed this website for the best leading IT-SMM company that specializes in increasing likes, views and followers on various social networks. Their platform offers robust tools to automate ad campaigns, allowing clients to effectively grow their audience."
       },
       "task": {
-        "sectionName": "Завдання",
+        "sectionName": "Tasks",
         "list": {
           "1": {
-            "title": "aaaaaaaaaa"
+            "title": "Create a website in the Next.js programming language using the MongoDB database for information storage and management."
           },
           "2": {
-            "title": "Розaaaaaaaaaa"
+            "title": "Create the integration of the website with the telegram-bot to ensure interaction with users through the messenger."
           },
           "3": {
-            "title": "aaaaaaaaaa"
+            "title": "Develop a unique and also innovative website design that meets current trends and user requirements."
           },
           "4": {
-            "title": "aaaaaaaaaa"
+            "title": "Creating an alphabetically sorted crypto dictionary to educate users in the current industry."
           }
         }
       },
       "results": {
-        "sectionName": "Результат",
-        "title": "aaaaaaaaaa",
+        "sectionName": "Result",
+        "title": "A modern website for the company «IT-SMM»",
         "list": {
           "1": {
-            "desc": "aaaaaaaaaa"
+            "desc": "In the first photo, we can see how the company provides SMM (Social Media Marketing) services, focusing in particular on generating likes, views and followers on various social networks. Their approach is based on advanced technologies and strategies that allow you to effectively attract and increase the audience of customers, ensuring long-term interaction."
           },
           "2": {
-            "desc": "aaaaaaaaaa"
+            "desc": "In the second photo, we can see why this company is chosen: over the past three years, it has proven itself among a wide range of clients and received a high rating of satisfaction thanks to reliable innovations, a personalized approach to each project, and excellent service. Their successful interactions with clients have become the foundation of their reputation."
           }
         }
       },
-      "projects": {
-        "sectionName": "Проєкти",
-        "title": "aaaaaaaaaa",
-        "desc": "aaaaaaaaaa"
-      },
+    
       "catalog": {
-        "sectionName": "Каталог",
-        "desc": "aaaaaaaaaa"
+        "sectionName": "Catalogue",
+        "desc": "In these two pictures, you can see that this company specializes primarily in tricking likes, views, and followers on popular social networks like Instagram, Telegram, Facebook, and TikTok. Their expertise in these platforms enables them to effectively engage audiences and increase customer engagement, helping them succeed in the digital space. This company uses advanced strategies and technologies to ensure the reliability and effectiveness of its services."
       },
       "adaptive": {
-        "sectionName": "Адаптив",
-        "title": "aaaaaaaaaa",
-        "desc": "aaaaaaaaaa"
+        "sectionName": "Adaptive",
+        "title": "The  «IT-SMM»  website looks great on any device",
+        "desc": "We have carefully adapted this site for all devices to ensure that it functions smoothly and is easy to use for every user, regardless of whether they are visiting it from their desktop computer, tablet or smartphone. Our development team took into account different screen sizes and features of interaction with touch screens to ensure maximum comfort and convenience when viewing content and interacting with the site. Now, all features and information are available anytime, anywhere."
       }
     },
     "27": {
-      "title": "aaaaaaaaaa",
-      "desc": "aaaaaaaaaa",
+      "title": "Website",
+      "desc": "Creating a website for the company «Scyclean» ",
       "idea": {
-        "sectionName": "Ідея",
-        "desc": "aaaaaaaaaa"
+        "sectionName": "Idea",
+        "desc": "We recently designed a website for Scyclean service, a company specializing in highly professional cleaning of homes, businesses and more. Their website helps them attract new customers and keep in touch with current ones by presenting Scyclean services in an attractive and understandable format."
       },
       "task": {
-        "sectionName": "Завдання",
+        "sectionName": "Tasks",
         "list": {
           "1": {
-            "title": "aaaaaaaaaa"
+            "title": "Develop an intuitive web interface for managing blog articles, including the ability to edit articles."
           },
           "2": {
-            "title": "Розaaaaaaaaaa"
+            "title": "Provide category and tag management functionality to facilitate navigation for their readers."
           },
           "3": {
-            "title": "aaaaaaaaaa"
+            "title": "Implement the ability to manage comments: add, moderate and delete comments from the admin panel."
           },
           "4": {
-            "title": "aaaaaaaaaa"
+            "title": "Include statistics and web analytics that will allow admins to track article visits and topic popularity."
           }
         }
       },
       "results": {
-        "sectionName": "Результат",
-        "title": "aaaaaaaaaa",
+        "sectionName": "Result",
+        "title": "A modern website for the company «Scyclean»",
         "list": {
           "1": {
-            "desc": "aaaaaaaaaa"
+            "desc": "This photo shows the different types of services that their company provides, specializing in cleaning for households and different types of businesses. They provide a comprehensive array of cleaning services, such as daily office cleaning, housekeeping, post-renovation and post-event cleanup."
           },
           "2": {
-            "desc": "aaaaaaaaaa"
+            "desc": "In this photo you can see that washing windows at a considerable height is not a problem for them. Their company specializes in professional cleaning for households and businesses, including properties with lots of windows and glass surfaces. They have the necessary equipment and experience to ensure safety."
           }
         }
       },
       "projects": {
-        "sectionName": "Проєкти",
-        "title": "aaaaaaaaaa",
-        "desc": "aaaaaaaaaa"
+        "sectionName": "About the company",
+        "title": "We show the work of our company",
+        "desc": "Their company began its journey with a great desire to achieve high standards of service in the field of cleaning. Initially focusing on a small circle of customers, they successfully expanded their capabilities and geography of service. Their success is based on the considerable professionalism of the team, the individual approach to each client and the ability to perform even the most difficult tasks, in particular, washing windows at a very high height. "
       },
       "catalog": {
-        "sectionName": "Каталог",
-        "desc": "aaaaaaaaaa"
-      },
-      "adaptive": {
-        "sectionName": "Адаптив",
-        "title": "aaaaaaaaaa",
-        "desc": "aaaaaaaaaa"
+        "sectionName": "Reviews",
+        "desc": "In these two pictures, you can see customer reviews of their company and how to contact them. Their company actively strives to maintain open and trusting relationships with clients. They listen to every feedback and promptly respond to their requests and various needs to ensure high quality service."
       }
     }
   },
