@@ -48,7 +48,7 @@
   
     @include media(phone) {
       font-size: 20px;
-      text-align: right;
+      text-align: justify;
       word-break: break-all;
     }
   }
@@ -60,7 +60,7 @@
     text-align: justify;
     @include media(phone) {
       font-size: 14px;
-    text-align: right;
+      text-align: justify;
     word-break: break-all;
 
     }
