@@ -79,7 +79,7 @@
     -ms-overflow-style: none;
     @include media(phone) {
       max-width: 360px;
-      padding: 0 16px;
+      padding: 0 16px!important;
       animation: anim 12s linear 0s infinite;
     }
 

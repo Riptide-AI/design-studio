@@ -3,7 +3,7 @@ import {
   heroBanner,
   reviews,
   priceCards,
-  achieveResults,
+ /*  achieveResults, */
   workwithus,
   priceCards_mob,
   stages,
@@ -15,7 +15,7 @@ import { WorkWithUs } from '@/features/sections/WorkWithUs';
 import { PriceCards } from '@/features/sections/PriceCards';
 
 import { DevelopmentStages } from '@/features/sections/DevelopmentStages';
-import { Workflow } from '@/features/sections/Workflow';
+/* import { Workflow } from '@/features/sections/Workflow'; */
 import { useEffect, useState } from 'react';
 
 export default function Landing() {
@@ -34,7 +34,7 @@ export default function Landing() {
       {windowWidth > 1440 && <WorkWithUs data={workwithus} />}
 
       <PriceCards data={windowWidth < 1440 ? priceCards_mob : priceCards} />
-      {windowWidth > 1440 && <Workflow data={achieveResults} lengh={1820} top={'85px'} />}
+     {/*  {windowWidth > 1440 && <Workflow data={achieveResults} lengh={1820} top={'85px'} />} */}
       <DevelopmentStages data={windowWidth > 1440 ? stages : stages_mob} length={9} />
       <Reviews data={reviews} />
       <ContactUs />
