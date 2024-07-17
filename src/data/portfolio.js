@@ -954,12 +954,6 @@ export const portfolioList = {
       imageOne: '/img/portfolios/catalog-1.1.jfif',
       imageTwo: '/img/portfolios/catalog-1.2.jfif',
     },
-    adaptive: {
-      sectionName: 'portfolioList.21.adaptive.sectionName',
-      title: 'portfolioList.21.adaptive.title',
-      desc: 'portfolioList.21.adaptive.desc',
-      image: '/img/portfolios/adaptive-1.png',
-    },
   },
   22: {
     title: 'portfolioList.22.title',
@@ -1012,12 +1006,6 @@ export const portfolioList = {
       desc: 'portfolioList.22.catalog.desc',
       imageOne: '/img/portfolios/catalog-1.1.jfif',
       imageTwo: '/img/portfolios/catalog-1.2.jfif',
-    },
-    adaptive: {
-      sectionName: 'portfolioList.22.adaptive.sectionName',
-      title: 'portfolioList.22.adaptive.title',
-      desc: 'portfolioList.22.adaptive.desc',
-      image: '/img/portfolios/adaptive-1.png',
     },
   },
   23: {
@@ -1234,12 +1222,7 @@ export const portfolioList = {
         },
       ],
     },
-    projects: {
-      sectionName: 'portfolioList.26.projects.sectionName',
-      title: 'portfolioList.26.projects.title',
-      desc: 'portfolioList.26.projects.desc',
-      image: '/img/portfolios/projects-1.jfif',
-    },
+ 
     catalog: {
       sectionName: 'portfolioList.26.catalog.sectionName',
       desc: 'portfolioList.26.catalog.desc',
@@ -1304,12 +1287,6 @@ export const portfolioList = {
       desc: 'portfolioList.27.catalog.desc',
       imageOne: '/img/portfolios/catalog-1.1.jfif',
       imageTwo: '/img/portfolios/catalog-1.2.jfif',
-    },
-    adaptive: {
-      sectionName: 'portfolioList.27.adaptive.sectionName',
-      title: 'portfolioList.27.adaptive.title',
-      desc: 'portfolioList.27.adaptive.desc',
-      image: '/img/portfolios/adaptive-1.png',
     },
   },
 };
