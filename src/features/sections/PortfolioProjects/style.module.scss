@@ -46,6 +46,7 @@
     color: $white;
     max-width: 400px;
     margin-bottom: 12px;
+    white-space: nowrap;
     @include media(phone) {
       font-size: 20px;
     }
@@ -71,7 +72,7 @@
     aspect-ratio: 600/400;
     width: 100%;
     img {
-      height: auto !important ;
+      height: 100% !important ;
       width: 100%;
     }
   }

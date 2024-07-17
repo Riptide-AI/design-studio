@@ -107,7 +107,9 @@ export const PortfolioPagination = () => {
             ? portfolioPagination.filters.map((item) => (
                 <div
                   className={
-                    animate
+                    windowWidth > 1440
+                      ? styles.pagination__filters__item
+                      : animate
                       ? styles.pagination__filters__item + ' ' + styles.animate
                       : styles.pagination__filters__item
                   }

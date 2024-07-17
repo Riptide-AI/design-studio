@@ -4,7 +4,7 @@ import Image from 'next/image';
 import arrow from 'public/img/icons/arrow-circle.svg';
 import { useTranslation } from 'react-i18next';
 
-export const InfoCards = ({ data }) => {
+export const InfoCards = ({ data,padding =100 }) => {
   const {t}=useTranslation();
   const cardList = useRef();
 
@@ -28,7 +28,8 @@ export const InfoCards = ({ data }) => {
     <div className={styles.success}>
       <div className={styles.success__title}>{t(data.title)}</div>
       {t(data.desc) && <div className={styles.success__desc}>{t(data.desc)}</div>}
-      <div ref={cardList} className={styles.success__list}>
+      <div ref={cardList} className={styles.success__list}
+      style={{padding:`0px ${padding}px`}}>
         {data.list.map((item, i) => (
           <div className={styles.success__card} key={`card-${i}`}>
             <div className={styles.success__card__title}>{t(item.title)}</div>

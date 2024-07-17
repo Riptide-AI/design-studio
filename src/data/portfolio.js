@@ -869,7 +869,7 @@ export const portfolioList = {
     results: {
       sectionName: 'portfolioList.20.results.sectionName',
       title: 'portfolioList.20.results.title',
-      image: '/img/portfolios/mainImage-1.png',
+      image: '/img/portfolios/pages/20/main_page.png',
       list: [
         {
           desc: 'portfolioList.20.results.list.1.desc',

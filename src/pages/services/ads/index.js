@@ -28,7 +28,7 @@ export default function Ads() {
       <Explanation data={windowWidth > 1440 ? adsExplanation : adsExplanation_mob} />
       <CheckList data={windowWidth > 1440 ?checks:checks_mob} />
       <PriceList data={pricelist} />
-      <InfoCards data={windowWidth > 1440 ?ppc:ppc_mob} />
+      <InfoCards data={windowWidth > 1440 ?ppc:ppc_mob} padding={0} />
       {/*    <InfoCards data={adsDetails} /> */}
       <Reviews data={reviews} />
       <ContactUs />
