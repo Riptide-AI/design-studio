@@ -57,6 +57,10 @@
     color: $white;
     text-align: justify;
     @include media(phone) {
+      text-align: justify;
+      word-break: break-all;
+    }
+    @include media(phone) {
       font-size: 14px;
     }
   }

@@ -810,7 +810,7 @@ export const portfolioList = {
     results: {
       sectionName: 'portfolioList.19.results.sectionName',
       title: 'portfolioList.19.results.title',
-      image: '/img/portfolios/pages/19/main_page4.png',
+      image: '/img/portfolios/pages/19/main_page1.png',
       list: [
         {
           desc: 'portfolioList.19.results.list.1.desc',
