@@ -30,7 +30,7 @@
     @include media(phone) {
       font-size: 14px;
       word-break: break-all;
-      text-align: justify;
+      text-align: center;
     }
   }
   &__timeline {

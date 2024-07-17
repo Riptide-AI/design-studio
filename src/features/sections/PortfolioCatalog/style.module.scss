@@ -47,7 +47,10 @@
     line-height: 125%;
     position: relative;
     margin-bottom: 24px;
-    &::after {
+      @include media(phone) {
+        font-size: 24px;
+      }
+        &::after {
       height: 34px;
       width: 1px;
       background-color: $bright-blue;
