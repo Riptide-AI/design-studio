@@ -11,6 +11,6 @@ module.exports = {
   plugins: ['react', 'prettier'],
 
   rules: {
-    'linebreak-style': ['error', 'unix'],
+    'linebreak-style': ['error', 'windows'],
   },
 };
