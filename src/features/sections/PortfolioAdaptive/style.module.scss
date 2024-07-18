@@ -45,7 +45,7 @@
     color: $white;
     margin: auto;
     margin-bottom: 12px;
-  
+
     @include media(phone) {
       font-size: 20px;
       text-align: justify;
@@ -61,19 +61,40 @@
     @include media(phone) {
       font-size: 14px;
       text-align: justify;
-    word-break: break-all;
-
+      word-break: break-all;
     }
   }
   &__image {
     position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
     border-radius: 12px;
     overflow: hidden;
-    aspect-ratio: 1240 / 600;
     width: 100%;
+    @media (max-width: 720px) {
+      flex-direction: column-reverse;
+    }
     img {
       height: auto !important ;
-      width: 100%;
+      &:nth-child(1) {
+        width: 60vw;
+        @media (max-width: 720px) {
+          width: 100%;
+        }
+      }
+      &:nth-child(2) {
+        width: 20vw;
+        max-width: 240px;
+        max-height: 440px;
+        @include media(phone){
+          max-width: 200px;
+        max-height: 400px;
+        }
+        @media (max-width: 720px) {
+          width: 45vw;
+        }
+      }
     }
   }
 }

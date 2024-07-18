@@ -59,9 +59,7 @@
       max-width: 800px;
       text-align: justify;
       width: 100%;
-      @include media(phone) {
-        word-break: break-all;
-      }
+   
     }
   }
   &__grid {
@@ -110,9 +108,7 @@
         line-height: 125%;
         color: $white;
         text-align: justify;
-        @include media(phone) {
-          word-break: break-all;
-        }
+        word-break: break-all;
       }
       &__order {
         position: absolute;
