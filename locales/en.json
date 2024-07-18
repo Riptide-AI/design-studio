@@ -1720,23 +1720,23 @@
           "3": "  Advantages of a serverless static site compared to other types?"
         }
       },
-      "3": {
+       "3": {
         "modal": {
-          "title": "Індивідуальна розробка",
-          "type": "Бізнес",
-          "desc": "aaaaaaaaaaaaaaaaaa********************************************************",
+          "title": "Ready-made solutions",
+          "type": "Business",
+          "desc": "Developing a modern static site with a server and a database consists of creating a website that consists of fixed HTML pages, CSS styles and JavaScript scripts, as well as using a server to process user requests and a database to store and manage information.",
           "grid": {
             "1": {
-              "title": "Продуманий дизайн і інтерфейс",
-              "desc": "aaaaaaaaaaaaaaaaaa"
+              "title": "Are dynamic sites with a server and a database an ideal option?",
+              "desc": "Dynamic sites with a server and a database are suitable for complex functions and interactivity, but require more attention to security and optimization of resources. Such sites can efficiently process large amounts of data and interact with users in real time."
             },
             "2": {
-              "title": "Швидке виконання роботи",
-              "desc": "aaaaaaaaaaaaaaaaaa"
+              "title": "What technologies exist when creating dynamic sites?",
+              "desc": "To create dynamic sites, server programming languages ​​(for example, PHP, Python), databases (MySQL, PostgreSQL) and client technologies (HTML, CSS, JavaScript) are used, which allow creating interactive content and processing user requests."
             },
             "3": {
-              "title": "Якісне та деталізоване пропрацювання",
-              "desc": "aaaaaaaaaaaaaaaaaa"
+              "title": "What are the advantages of a dynamic site with a server?",
+              "desc": "Dynamic, server-based sites provide interactivity and personalization by responding to user actions and changing content in real time. Dynamic sites with a server simplify content management and provide greater interaction with users thanks to actual information updates."
             }
           }
         },
@@ -1827,21 +1827,21 @@
       },
       "3": {
         "modal": {
-          "title": "Індивідуальна розробка",
-          "type": "Бізнес",
-          "desc": "aaaaaaaaaaaaaaaaaa********************************************************",
+          "title": "Ready-made solutions",
+          "type": "Business",
+          "desc": "Developing a modern static site with a server and a database consists of creating a website that consists of fixed HTML pages, CSS styles and JavaScript scripts, as well as using a server to process user requests and a database to store and manage information.",
           "grid": {
             "1": {
-              "title": "Продуманий дизайн і інтерфейс",
-              "desc": "aaaaaaaaaaaaaaaaaa"
+              "title": "Are dynamic sites with a server and a database an ideal option?",
+              "desc": "Dynamic sites with a server and a database are suitable for complex functions and interactivity, but require more attention to security and optimization of resources. Such sites can efficiently process large amounts of data and interact with users in real time."
             },
             "2": {
-              "title": "Швидке виконання роботи",
-              "desc": "aaaaaaaaaaaaaaaaaa"
+              "title": "What technologies exist when creating dynamic sites?",
+              "desc": "To create dynamic sites, server programming languages ​​(for example, PHP, Python), databases (MySQL, PostgreSQL) and client technologies (HTML, CSS, JavaScript) are used, which allow creating interactive content and processing user requests."
             },
             "3": {
-              "title": "Якісне та деталізоване пропрацювання",
-              "desc": "aaaaaaaaaaaaaaaaaa"
+              "title": "What are the advantages of a dynamic site with a server?",
+              "desc": "Dynamic, server-based sites provide interactivity and personalization by responding to user actions and changing content in real time. Dynamic sites with a server simplify content management and provide greater interaction with users thanks to actual information updates."
             }
           }
         },
@@ -1930,23 +1930,23 @@
           "3": "  Advantages of a serverless static site compared to other types?"
         }
       },
-      "3": {
+       "3": {
         "modal": {
-          "title": "Індивідуальна розробка",
-          "type": "Бізнес",
-          "desc": "aaaaaaaaaaaaaaaaaa********************************************************",
+          "title": "Ready-made solutions",
+          "type": "Business",
+          "desc": "Developing a modern static site with a server and a database consists of creating a website that consists of fixed HTML pages, CSS styles and JavaScript scripts, as well as using a server to process user requests and a database to store and manage information.",
           "grid": {
             "1": {
-              "title": "Продуманий дизайн і інтерфейс",
-              "desc": "aaaaaaaaaaaaaaaaaa"
+              "title": "Are dynamic sites with a server and a database an ideal option?",
+              "desc": "Dynamic sites with a server and a database are suitable for complex functions and interactivity, but require more attention to security and optimization of resources. Such sites can efficiently process large amounts of data and interact with users in real time."
             },
             "2": {
-              "title": "Швидке виконання роботи",
-              "desc": "aaaaaaaaaaaaaaaaaa"
+              "title": "What technologies exist when creating dynamic sites?",
+              "desc": "To create dynamic sites, server programming languages ​​(for example, PHP, Python), databases (MySQL, PostgreSQL) and client technologies (HTML, CSS, JavaScript) are used, which allow creating interactive content and processing user requests."
             },
             "3": {
-              "title": "Якісне та деталізоване пропрацювання",
-              "desc": "aaaaaaaaaaaaaaaaaa"
+              "title": "What are the advantages of a dynamic site with a server?",
+              "desc": "Dynamic, server-based sites provide interactivity and personalization by responding to user actions and changing content in real time. Dynamic sites with a server simplify content management and provide greater interaction with users thanks to actual information updates."
             }
           }
         },
@@ -2035,23 +2035,23 @@
           "3": "  Advantages of a serverless static site compared to other types?"
         }
       },
-      "3": {
+       "3": {
         "modal": {
-          "title": "Індивідуальна розробка",
-          "type": "Бізнес",
-          "desc": "aaaaaaaaaaaaaaaaaa********************************************************",
+          "title": "Ready-made solutions",
+          "type": "Business",
+          "desc": "Developing a modern static site with a server and a database consists of creating a website that consists of fixed HTML pages, CSS styles and JavaScript scripts, as well as using a server to process user requests and a database to store and manage information.",
           "grid": {
             "1": {
-              "title": "Продуманий дизайн і інтерфейс",
-              "desc": "aaaaaaaaaaaaaaaaaa"
+              "title": "Are dynamic sites with a server and a database an ideal option?",
+              "desc": "Dynamic sites with a server and a database are suitable for complex functions and interactivity, but require more attention to security and optimization of resources. Such sites can efficiently process large amounts of data and interact with users in real time."
             },
             "2": {
-              "title": "Швидке виконання роботи",
-              "desc": "aaaaaaaaaaaaaaaaaa"
+              "title": "What technologies exist when creating dynamic sites?",
+              "desc": "To create dynamic sites, server programming languages ​​(for example, PHP, Python), databases (MySQL, PostgreSQL) and client technologies (HTML, CSS, JavaScript) are used, which allow creating interactive content and processing user requests."
             },
             "3": {
-              "title": "Якісне та деталізоване пропрацювання",
-              "desc": "aaaaaaaaaaaaaaaaaa"
+              "title": "What are the advantages of a dynamic site with a server?",
+              "desc": "Dynamic, server-based sites provide interactivity and personalization by responding to user actions and changing content in real time. Dynamic sites with a server simplify content management and provide greater interaction with users thanks to actual information updates."
             }
           }
         },
@@ -2140,23 +2140,23 @@
           "3": "  Advantages of a serverless static site compared to other types?"
         }
       },
-      "3": {
+       "3": {
         "modal": {
-          "title": "Індивідуальна розробка",
-          "type": "Бізнес",
-          "desc": "aaaaaaaaaaaaaaaaaa********************************************************",
+          "title": "Ready-made solutions",
+          "type": "Business",
+          "desc": "Developing a modern static site with a server and a database consists of creating a website that consists of fixed HTML pages, CSS styles and JavaScript scripts, as well as using a server to process user requests and a database to store and manage information.",
           "grid": {
             "1": {
-              "title": "Продуманий дизайн і інтерфейс",
-              "desc": "aaaaaaaaaaaaaaaaaa"
+              "title": "Are dynamic sites with a server and a database an ideal option?",
+              "desc": "Dynamic sites with a server and a database are suitable for complex functions and interactivity, but require more attention to security and optimization of resources. Such sites can efficiently process large amounts of data and interact with users in real time."
             },
             "2": {
-              "title": "Швидке виконання роботи",
-              "desc": "aaaaaaaaaaaaaaaaaa"
+              "title": "What technologies exist when creating dynamic sites?",
+              "desc": "To create dynamic sites, server programming languages ​​(for example, PHP, Python), databases (MySQL, PostgreSQL) and client technologies (HTML, CSS, JavaScript) are used, which allow creating interactive content and processing user requests."
             },
             "3": {
-              "title": "Якісне та деталізоване пропрацювання",
-              "desc": "aaaaaaaaaaaaaaaaaa"
+              "title": "What are the advantages of a dynamic site with a server?",
+              "desc": "Dynamic, server-based sites provide interactivity and personalization by responding to user actions and changing content in real time. Dynamic sites with a server simplify content management and provide greater interaction with users thanks to actual information updates."
             }
           }
         },
@@ -2245,23 +2245,23 @@
           "3": "  Advantages of a serverless static site compared to other types?"
         }
       },
-      "3": {
+       "3": {
         "modal": {
-          "title": "Індивідуальна розробка",
-          "type": "Бізнес",
-          "desc": "aaaaaaaaaaaaaaaaaa********************************************************",
+          "title": "Ready-made solutions",
+          "type": "Business",
+          "desc": "Developing a modern static site with a server and a database consists of creating a website that consists of fixed HTML pages, CSS styles and JavaScript scripts, as well as using a server to process user requests and a database to store and manage information.",
           "grid": {
             "1": {
-              "title": "Продуманий дизайн і інтерфейс",
-              "desc": "aaaaaaaaaaaaaaaaaa"
+              "title": "Are dynamic sites with a server and a database an ideal option?",
+              "desc": "Dynamic sites with a server and a database are suitable for complex functions and interactivity, but require more attention to security and optimization of resources. Such sites can efficiently process large amounts of data and interact with users in real time."
             },
             "2": {
-              "title": "Швидке виконання роботи",
-              "desc": "aaaaaaaaaaaaaaaaaa"
+              "title": "What technologies exist when creating dynamic sites?",
+              "desc": "To create dynamic sites, server programming languages ​​(for example, PHP, Python), databases (MySQL, PostgreSQL) and client technologies (HTML, CSS, JavaScript) are used, which allow creating interactive content and processing user requests."
             },
             "3": {
-              "title": "Якісне та деталізоване пропрацювання",
-              "desc": "aaaaaaaaaaaaaaaaaa"
+              "title": "What are the advantages of a dynamic site with a server?",
+              "desc": "Dynamic, server-based sites provide interactivity and personalization by responding to user actions and changing content in real time. Dynamic sites with a server simplify content management and provide greater interaction with users thanks to actual information updates."
             }
           }
         },
@@ -2350,23 +2350,23 @@
           "3": "  Advantages of a serverless static site compared to other types?"
         }
       },
-      "3": {
+       "3": {
         "modal": {
-          "title": "Індивідуальна розробка",
-          "type": "Бізнес",
-          "desc": "aaaaaaaaaaaaaaaaaa********************************************************",
+          "title": "Ready-made solutions",
+          "type": "Business",
+          "desc": "Developing a modern static site with a server and a database consists of creating a website that consists of fixed HTML pages, CSS styles and JavaScript scripts, as well as using a server to process user requests and a database to store and manage information.",
           "grid": {
             "1": {
-              "title": "Продуманий дизайн і інтерфейс",
-              "desc": "aaaaaaaaaaaaaaaaaa"
+              "title": "Are dynamic sites with a server and a database an ideal option?",
+              "desc": "Dynamic sites with a server and a database are suitable for complex functions and interactivity, but require more attention to security and optimization of resources. Such sites can efficiently process large amounts of data and interact with users in real time."
             },
             "2": {
-              "title": "Швидке виконання роботи",
-              "desc": "aaaaaaaaaaaaaaaaaa"
+              "title": "What technologies exist when creating dynamic sites?",
+              "desc": "To create dynamic sites, server programming languages ​​(for example, PHP, Python), databases (MySQL, PostgreSQL) and client technologies (HTML, CSS, JavaScript) are used, which allow creating interactive content and processing user requests."
             },
             "3": {
-              "title": "Якісне та деталізоване пропрацювання",
-              "desc": "aaaaaaaaaaaaaaaaaa"
+              "title": "What are the advantages of a dynamic site with a server?",
+              "desc": "Dynamic, server-based sites provide interactivity and personalization by responding to user actions and changing content in real time. Dynamic sites with a server simplify content management and provide greater interaction with users thanks to actual information updates."
             }
           }
         },
@@ -2455,23 +2455,23 @@
           "3": "  Advantages of a serverless static site compared to other types?"
         }
       },
-      "3": {
+       "3": {
         "modal": {
-          "title": "Індивідуальна розробка",
-          "type": "Бізнес",
-          "desc": "aaaaaaaaaaaaaaaaaa********************************************************",
+          "title": "Ready-made solutions",
+          "type": "Business",
+          "desc": "Developing a modern static site with a server and a database consists of creating a website that consists of fixed HTML pages, CSS styles and JavaScript scripts, as well as using a server to process user requests and a database to store and manage information.",
           "grid": {
             "1": {
-              "title": "Продуманий дизайн і інтерфейс",
-              "desc": "aaaaaaaaaaaaaaaaaa"
+              "title": "Are dynamic sites with a server and a database an ideal option?",
+              "desc": "Dynamic sites with a server and a database are suitable for complex functions and interactivity, but require more attention to security and optimization of resources. Such sites can efficiently process large amounts of data and interact with users in real time."
             },
             "2": {
-              "title": "Швидке виконання роботи",
-              "desc": "aaaaaaaaaaaaaaaaaa"
+              "title": "What technologies exist when creating dynamic sites?",
+              "desc": "To create dynamic sites, server programming languages ​​(for example, PHP, Python), databases (MySQL, PostgreSQL) and client technologies (HTML, CSS, JavaScript) are used, which allow creating interactive content and processing user requests."
             },
             "3": {
-              "title": "Якісне та деталізоване пропрацювання",
-              "desc": "aaaaaaaaaaaaaaaaaa"
+              "title": "What are the advantages of a dynamic site with a server?",
+              "desc": "Dynamic, server-based sites provide interactivity and personalization by responding to user actions and changing content in real time. Dynamic sites with a server simplify content management and provide greater interaction with users thanks to actual information updates."
             }
           }
         },
@@ -2560,23 +2560,23 @@
           "3": "  Advantages of a serverless static site compared to other types?"
         }
       },
-      "3": {
+       "3": {
         "modal": {
-          "title": "Індивідуальна розробка",
-          "type": "Бізнес",
-          "desc": "aaaaaaaaaaaaaaaaaa********************************************************",
+          "title": "Ready-made solutions",
+          "type": "Business",
+          "desc": "Developing a modern static site with a server and a database consists of creating a website that consists of fixed HTML pages, CSS styles and JavaScript scripts, as well as using a server to process user requests and a database to store and manage information.",
           "grid": {
             "1": {
-              "title": "Продуманий дизайн і інтерфейс",
-              "desc": "aaaaaaaaaaaaaaaaaa"
+              "title": "Are dynamic sites with a server and a database an ideal option?",
+              "desc": "Dynamic sites with a server and a database are suitable for complex functions and interactivity, but require more attention to security and optimization of resources. Such sites can efficiently process large amounts of data and interact with users in real time."
             },
             "2": {
-              "title": "Швидке виконання роботи",
-              "desc": "aaaaaaaaaaaaaaaaaa"
+              "title": "What technologies exist when creating dynamic sites?",
+              "desc": "To create dynamic sites, server programming languages ​​(for example, PHP, Python), databases (MySQL, PostgreSQL) and client technologies (HTML, CSS, JavaScript) are used, which allow creating interactive content and processing user requests."
             },
             "3": {
-              "title": "Якісне та деталізоване пропрацювання",
-              "desc": "aaaaaaaaaaaaaaaaaa"
+              "title": "What are the advantages of a dynamic site with a server?",
+              "desc": "Dynamic, server-based sites provide interactivity and personalization by responding to user actions and changing content in real time. Dynamic sites with a server simplify content management and provide greater interaction with users thanks to actual information updates."
             }
           }
         },
@@ -2665,23 +2665,23 @@
           "3": "  Advantages of a serverless static site compared to other types?"
         }
       },
-      "3": {
+       "3": {
         "modal": {
-          "title": "Індивідуальна розробка",
-          "type": "Бізнес",
-          "desc": "aaaaaaaaaaaaaaaaaa********************************************************",
+          "title": "Ready-made solutions",
+          "type": "Business",
+          "desc": "Developing a modern static site with a server and a database consists of creating a website that consists of fixed HTML pages, CSS styles and JavaScript scripts, as well as using a server to process user requests and a database to store and manage information.",
           "grid": {
             "1": {
-              "title": "Продуманий дизайн і інтерфейс",
-              "desc": "aaaaaaaaaaaaaaaaaa"
+              "title": "Are dynamic sites with a server and a database an ideal option?",
+              "desc": "Dynamic sites with a server and a database are suitable for complex functions and interactivity, but require more attention to security and optimization of resources. Such sites can efficiently process large amounts of data and interact with users in real time."
             },
             "2": {
-              "title": "Швидке виконання роботи",
-              "desc": "aaaaaaaaaaaaaaaaaa"
+              "title": "What technologies exist when creating dynamic sites?",
+              "desc": "To create dynamic sites, server programming languages ​​(for example, PHP, Python), databases (MySQL, PostgreSQL) and client technologies (HTML, CSS, JavaScript) are used, which allow creating interactive content and processing user requests."
             },
             "3": {
-              "title": "Якісне та деталізоване пропрацювання",
-              "desc": "aaaaaaaaaaaaaaaaaa"
+              "title": "What are the advantages of a dynamic site with a server?",
+              "desc": "Dynamic, server-based sites provide interactivity and personalization by responding to user actions and changing content in real time. Dynamic sites with a server simplify content management and provide greater interaction with users thanks to actual information updates."
             }
           }
         },

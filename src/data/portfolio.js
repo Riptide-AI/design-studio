@@ -838,7 +838,8 @@ export const portfolioList = {
       sectionName: 'portfolioList.19.adaptive.sectionName',
       title: 'portfolioList.19.adaptive.title',
       desc: 'portfolioList.19.adaptive.desc',
-      image: '/img/portfolios/pages/19/adapt_all1.png',
+      image_laptop: '/img/portfolios/pages/19/main_page1.png',
+      image_mob: '/img/portfolios/pages/19/phone.png',
     },
   },
   20: {

@@ -17,7 +17,8 @@ export const PortfolioAdaptive = ({ currentItem }) => {
             <div className={styles.adaptive__desc}> {t(currentItem.adaptive.desc)}</div>
           </div>
           <div className={styles.adaptive__image}>
-            <Image src={currentItem.adaptive.image} alt="" width={1600} height={1000} />
+          <Image src={currentItem.adaptive.image_laptop} alt="" width={800} height={600} />
+          <Image src={currentItem.adaptive.image_mob} alt="" width={200} height={450} />
           </div>
         </div>
       </ContentWrapper>
