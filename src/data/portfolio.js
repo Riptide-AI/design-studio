@@ -814,11 +814,11 @@ export const portfolioList = {
       list: [
         {
           desc: 'portfolioList.19.results.list.1.desc',
-          image: '/img/portfolios/pages/19/result_1.jpeg',
+          image: '/img/portfolios/pages/19/result_1.png',
         },
         {
           desc: 'portfolioList.19.results.list.2.desc',
-          image: '/img/portfolios/pages/19/result_2.jpeg',
+          image: '/img/portfolios/pages/19/result_2.png',
         },
       ],
     },
@@ -826,20 +826,20 @@ export const portfolioList = {
       sectionName: 'portfolioList.19.projects.sectionName',
       title: 'portfolioList.19.projects.title',
       desc: 'portfolioList.19.projects.desc',
-      image: '/img/portfolios/pages/19/project.jpeg',
+      image: '/img/portfolios/pages/19/project.png',
     },
     catalog: {
       sectionName: 'portfolioList.19.catalog.sectionName',
       desc: 'portfolioList.19.catalog.desc',
-      imageOne: '/img/portfolios/pages/19/catalog_1.jpeg',
-      imageTwo: '/img/portfolios/pages/19/catalog_2.jpeg',
+      imageOne: '/img/portfolios/pages/19/catalog_1.png',
+      imageTwo: '/img/portfolios/pages/19/catalog_2.png',
     },
     adaptive: {
       sectionName: 'portfolioList.19.adaptive.sectionName',
       title: 'portfolioList.19.adaptive.title',
       desc: 'portfolioList.19.adaptive.desc',
-      image_laptop: '/img/portfolios/pages/19/main_page1.png',
-      image_mob: '/img/portfolios/pages/19/phone.png',
+      image_laptop: '/img/portfolios/pages/19/image_laptop.png',
+      image_mob: '/img/portfolios/pages/19/image_mob.png',
     },
   },
   20: {
@@ -874,11 +874,11 @@ export const portfolioList = {
       list: [
         {
           desc: 'portfolioList.20.results.list.1.desc',
-          image: '/img/portfolios/results-1.1.jfif',
+          image: '/img/portfolios/pages/20/result_1.png',
         },
         {
           desc: 'portfolioList.20.results.list.2.desc',
-          image: '/img/portfolios/results-1.2.jfif',
+          image: '/img/portfolios/pages/20/result_2.png',
         },
       ],
     },
@@ -886,19 +886,20 @@ export const portfolioList = {
       sectionName: 'portfolioList.20.projects.sectionName',
       title: 'portfolioList.20.projects.title',
       desc: 'portfolioList.20.projects.desc',
-      image: '/img/portfolios/projects-1.jfif',
+      image: '/img/portfolios/pages/20/project.png',
     },
     catalog: {
       sectionName: 'portfolioList.20.catalog.sectionName',
       desc: 'portfolioList.20.catalog.desc',
-      imageOne: '/img/portfolios/catalog-1.1.jfif',
-      imageTwo: '/img/portfolios/catalog-1.2.jfif',
+      imageOne: '/img/portfolios/pages/20/catalog_1.png',
+      imageTwo: '/img/portfolios/pages/20/catalog_2.png',
     },
     adaptive: {
       sectionName: 'portfolioList.20.adaptive.sectionName',
       title: 'portfolioList.20.adaptive.title',
       desc: 'portfolioList.20.adaptive.desc',
-      image: '/img/portfolios/adaptive-1.png',
+      image_laptop: '/img/portfolios/pages/20/image_laptop.png',
+      image_mob: '/img/portfolios/pages/20/image_mob.png',
     },
   },
   21: {
@@ -929,15 +930,15 @@ export const portfolioList = {
     results: {
       sectionName: 'portfolioList.21.results.sectionName',
       title: 'portfolioList.21.results.title',
-      image: '/img/portfolios/mainImage-1.png',
+      image: '/img/portfolios/pages/21/main_page.png',
       list: [
         {
           desc: 'portfolioList.21.results.list.1.desc',
-          image: '/img/portfolios/results-1.1.jfif',
+         image: '/img/portfolios/pages/21/result_1.png',
         },
         {
           desc: 'portfolioList.21.results.list.2.desc',
-          image: '/img/portfolios/results-1.2.jfif',
+          image: '/img/portfolios/pages/21/result_2.png',
         },
       ],
     },
@@ -945,13 +946,13 @@ export const portfolioList = {
       sectionName: 'portfolioList.21.projects.sectionName',
       title: 'portfolioList.21.projects.title',
       desc: 'portfolioList.21.projects.desc',
-      image: '/img/portfolios/projects-1.jfif',
+       image: '/img/portfolios/pages/21/project.png',
     },
     catalog: {
       sectionName: 'portfolioList.21.catalog.sectionName',
       desc: 'portfolioList.21.catalog.desc',
-      imageOne: '/img/portfolios/catalog-1.1.jfif',
-      imageTwo: '/img/portfolios/catalog-1.2.jfif',
+     imageOne: '/img/portfolios/pages/21/catalog_1.png',
+      imageTwo: '/img/portfolios/pages/21/catalog_2.png',
     },
   },
   22: {
@@ -982,15 +983,15 @@ export const portfolioList = {
     results: {
       sectionName: 'portfolioList.22.results.sectionName',
       title: 'portfolioList.22.results.title',
-      image: '/img/portfolios/mainImage-1.png',
+      image: '/img/portfolios/pages/22/main_page.png',
       list: [
         {
           desc: 'portfolioList.22.results.list.1.desc',
-          image: '/img/portfolios/results-1.1.jfif',
+         image: '/img/portfolios/pages/22/result_1.png',
         },
         {
           desc: 'portfolioList.22.results.list.2.desc',
-          image: '/img/portfolios/results-1.2.jfif',
+          image: '/img/portfolios/pages/22/result_2.png',
         },
       ],
     },
@@ -998,13 +999,13 @@ export const portfolioList = {
       sectionName: 'portfolioList.22.projects.sectionName',
       title: 'portfolioList.22.projects.title',
       desc: 'portfolioList.22.projects.desc',
-      image: '/img/portfolios/projects-1.jfif',
+       image: '/img/portfolios/pages/22/project.png',
     },
     catalog: {
       sectionName: 'portfolioList.22.catalog.sectionName',
       desc: 'portfolioList.22.catalog.desc',
-      imageOne: '/img/portfolios/catalog-1.1.jfif',
-      imageTwo: '/img/portfolios/catalog-1.2.jfif',
+     imageOne: '/img/portfolios/pages/22/catalog_1.png',
+      imageTwo: '/img/portfolios/pages/22/catalog_2.png',
     },
   },
   23: {
@@ -1035,15 +1036,15 @@ export const portfolioList = {
     results: {
       sectionName: 'portfolioList.23.results.sectionName',
       title: 'portfolioList.23.results.title',
-      image: '/img/portfolios/mainImage-1.png',
+      image: '/img/portfolios/pages/23/main_page.png',
       list: [
         {
           desc: 'portfolioList.23.results.list.1.desc',
-          image: '/img/portfolios/results-1.1.jfif',
+         image: '/img/portfolios/pages/23/result_1.png',
         },
         {
           desc: 'portfolioList.23.results.list.2.desc',
-          image: '/img/portfolios/results-1.2.jfif',
+          image: '/img/portfolios/pages/23/result_2.png',
         },
       ],
     },
@@ -1051,19 +1052,20 @@ export const portfolioList = {
       sectionName: 'portfolioList.23.projects.sectionName',
       title: 'portfolioList.23.projects.title',
       desc: 'portfolioList.23.projects.desc',
-      image: '/img/portfolios/projects-1.jfif',
+       image: '/img/portfolios/pages/23/project.png',
     },
     catalog: {
       sectionName: 'portfolioList.23.catalog.sectionName',
       desc: 'portfolioList.23.catalog.desc',
-      imageOne: '/img/portfolios/catalog-1.1.jfif',
-      imageTwo: '/img/portfolios/catalog-1.2.jfif',
+     imageOne: '/img/portfolios/pages/23/catalog_1.png',
+      imageTwo: '/img/portfolios/pages/23/catalog_2.png',
     },
     adaptive: {
       sectionName: 'portfolioList.23.adaptive.sectionName',
       title: 'portfolioList.23.adaptive.title',
       desc: 'portfolioList.23.adaptive.desc',
-      image: '/img/portfolios/adaptive-1.png',
+      image_laptop: '/img/portfolios/pages/23/image_laptop.png',
+      image_mob: '/img/portfolios/pages/23/image_mob.png',
     },
   },
   24: {
@@ -1094,15 +1096,15 @@ export const portfolioList = {
     results: {
       sectionName: 'portfolioList.24.results.sectionName',
       title: 'portfolioList.24.results.title',
-      image: '/img/portfolios/mainImage-1.png',
+      image: '/img/portfolios/pages/24/main_page.png',
       list: [
         {
           desc: 'portfolioList.24.results.list.1.desc',
-          image: '/img/portfolios/results-1.1.jfif',
+         image: '/img/portfolios/pages/24/result_1.png',
         },
         {
           desc: 'portfolioList.24.results.list.2.desc',
-          image: '/img/portfolios/results-1.2.jfif',
+          image: '/img/portfolios/pages/24/result_2.png',
         },
       ],
     },
@@ -1110,13 +1112,13 @@ export const portfolioList = {
       sectionName: 'portfolioList.24.projects.sectionName',
       title: 'portfolioList.24.projects.title',
       desc: 'portfolioList.24.projects.desc',
-      image: '/img/portfolios/projects-1.jfif',
+       image: '/img/portfolios/pages/24/project.png',
     },
     catalog: {
       sectionName: 'portfolioList.24.catalog.sectionName',
       desc: 'portfolioList.24.catalog.desc',
-      imageOne: '/img/portfolios/catalog-1.1.jfif',
-      imageTwo: '/img/portfolios/catalog-1.2.jfif',
+     imageOne: '/img/portfolios/pages/24/catalog_1.png',
+      imageTwo: '/img/portfolios/pages/24/catalog_2.png',
     },
   },
   25: {
@@ -1163,19 +1165,20 @@ export const portfolioList = {
       sectionName: 'portfolioList.25.projects.sectionName',
       title: 'portfolioList.25.projects.title',
       desc: 'portfolioList.25.projects.desc',
-      image: '/img/portfolios/pages/25/vocabulary.jpg',
+      image: '/img/portfolios/pages/25/project.png',
     },
     catalog: {
       sectionName: 'portfolioList.25.catalog.sectionName',
       desc: 'portfolioList.25.catalog.desc',
-      imageOne: '/img/portfolios/pages/25/other_page_1.jpg',
-      imageTwo: '/img/portfolios/pages/25/other_page_2.jpg',
+      imageOne: '/img/portfolios/pages/25/catalog_1.png',
+      imageTwo: '/img/portfolios/pages/25/catalog_2.png',
     },
     /*  adaptive: {
       sectionName: 'portfolioList.25.adaptive.sectionName',
       title: 'portfolioList.25.adaptive.title',
       desc: 'portfolioList.25.adaptive.desc',
-      image: '/img/portfolios/adaptive-1.png',
+       image_laptop: '/img/portfolios/pages/19/image_laptop.png',
+      image_mob: '/img/portfolios/pages/19/image_mob.png',
     }, */
   },
   26: {
@@ -1206,15 +1209,15 @@ export const portfolioList = {
     results: {
       sectionName: 'portfolioList.26.results.sectionName',
       title: 'portfolioList.26.results.title',
-      image: '/img/portfolios/mainImage-1.png',
+      image: '/img/portfolios/pages/26/main_page.png',
       list: [
         {
           desc: 'portfolioList.26.results.list.1.desc',
-          image: '/img/portfolios/results-1.1.jfif',
+         image: '/img/portfolios/pages/26/result_1.png',
         },
         {
           desc: 'portfolioList.26.results.list.2.desc',
-          image: '/img/portfolios/results-1.2.jfif',
+          image: '/img/portfolios/pages/26/result_2.png',
         },
       ],
     },
@@ -1222,14 +1225,15 @@ export const portfolioList = {
     catalog: {
       sectionName: 'portfolioList.26.catalog.sectionName',
       desc: 'portfolioList.26.catalog.desc',
-      imageOne: '/img/portfolios/catalog-1.1.jfif',
-      imageTwo: '/img/portfolios/catalog-1.2.jfif',
+     imageOne: '/img/portfolios/pages/26/catalog_1.png',
+      imageTwo: '/img/portfolios/pages/26/catalog_2.png',
     },
     adaptive: {
       sectionName: 'portfolioList.26.adaptive.sectionName',
       title: 'portfolioList.26.adaptive.title',
       desc: 'portfolioList.26.adaptive.desc',
-      image: '/img/portfolios/adaptive-1.png',
+      image_laptop: '/img/portfolios/pages/26/image_laptop.png',
+      image_mob: '/img/portfolios/pages/26/image_mob.png',
     },
   },
   27: {
@@ -1260,15 +1264,15 @@ export const portfolioList = {
     results: {
       sectionName: 'portfolioList.27.results.sectionName',
       title: 'portfolioList.27.results.title',
-      image: '/img/portfolios/mainImage-1.png',
+      image: '/img/portfolios/pages/27/main_page.png',
       list: [
         {
           desc: 'portfolioList.27.results.list.1.desc',
-          image: '/img/portfolios/results-1.1.jfif',
+         image: '/img/portfolios/pages/27/result_1.png',
         },
         {
           desc: 'portfolioList.27.results.list.2.desc',
-          image: '/img/portfolios/results-1.2.jfif',
+          image: '/img/portfolios/pages/27/result_2.png',
         },
       ],
     },
@@ -1276,13 +1280,13 @@ export const portfolioList = {
       sectionName: 'portfolioList.27.projects.sectionName',
       title: 'portfolioList.27.projects.title',
       desc: 'portfolioList.27.projects.desc',
-      image: '/img/portfolios/projects-1.jfif',
+       image: '/img/portfolios/pages/27/project.png',
     },
     catalog: {
       sectionName: 'portfolioList.27.catalog.sectionName',
       desc: 'portfolioList.27.catalog.desc',
-      imageOne: '/img/portfolios/catalog-1.1.jfif',
-      imageTwo: '/img/portfolios/catalog-1.2.jfif',
+     imageOne: '/img/portfolios/pages/27/catalog_1.png',
+      imageTwo: '/img/portfolios/pages/27/catalog_2.png',
     },
   },
 };

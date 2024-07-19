@@ -6,7 +6,8 @@
   font-family: $main-font;
   gap: 40px;
   @include media(phone) {
-    grid-template-columns: 1fr;
+  padding: 40px 0;
+  grid-template-columns: 1fr;
   }
   &__content {
     height: 400px;
