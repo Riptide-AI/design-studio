@@ -101,6 +101,9 @@
     aspect-ratio: 600 / 392;
     overflow: hidden;
     z-index: 1;
+    @include media(phone) {
+      aspect-ratio: 600/400;
+    }
     img {
       height: 100% !important;
       width: 100%;

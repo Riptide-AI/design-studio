@@ -18,10 +18,10 @@
 .result {
   padding: 80px 0;
   font-family: $main-font;
-      @include media(phone) {
-        padding-bottom: 40px;
-      }
-        &__banner_image {
+  @include media(phone) {
+    padding-bottom: 40px;
+  }
+  &__banner_image {
     position: relative;
     aspect-ratio: 1124/633;
     width: 100%;
@@ -50,7 +50,7 @@
       @include media(phone) {
         font-size: 24px;
       }
-        &::after {
+      &::after {
         height: 34px;
         width: 1px;
         background-color: $bright-blue;
@@ -71,7 +71,8 @@
       color: $white;
       @include media(phone) {
         font-size: 18px;
-      }}
+      }
+    }
     &__list {
       display: grid;
       margin-top: 12px;
@@ -107,6 +108,9 @@
         border-radius: 12px;
         margin-top: 40px;
         display: flex;
+        @include media(phone) {
+          aspect-ratio: 600/400;
+        }
         img {
           height: auto !important ;
           width: 100%;

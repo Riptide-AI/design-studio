@@ -3,9 +3,10 @@ import styles from './style.module.scss';
 import Image from 'next/image';
 import arrow from 'public/img/icons/arrow-circle.svg';
 import { useTranslation } from 'react-i18next';
+import { ContentWrapper } from '@/components/ContentWrapper';
 
 export const InfoCards = ({ data,padding =100 }) => {
-  const {t}=useTranslation();
+  const {t,i18n}=useTranslation();
   const cardList = useRef();
 
  async function scrollToNext() {
@@ -25,11 +26,13 @@ export const InfoCards = ({ data,padding =100 }) => {
 
 
   return (
+    <ContentWrapper>
+
     <div className={styles.success}>
       <div className={styles.success__title}>{t(data.title)}</div>
       {t(data.desc) && <div className={styles.success__desc}>{t(data.desc)}</div>}
       <div ref={cardList} className={styles.success__list}
-      style={{padding:`0px ${padding}px`}}>
+      style={i18n.language !=='en'?{padding:`0px ${padding}px`}:{padding:`0px 0px`}}>
         {data.list.map((item, i) => (
           <div className={styles.success__card} key={`card-${i}`}>
             <div className={styles.success__card__title}>{t(item.title)}</div>
@@ -48,5 +51,6 @@ export const InfoCards = ({ data,padding =100 }) => {
         </div>
       </div>
     </div>
+    </ContentWrapper>
   );
 };

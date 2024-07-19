@@ -28,7 +28,7 @@ export default function Seo() {
       <SupportTypes data={approach} />
       <SeoSolution />
       <PriceList data={windowWidth > 1440 ? pricelist : pricelist_mob} />
-      <InfoCards data={windowWidth>1440?factors:factors_mob} />
+      <InfoCards data={windowWidth>1440?factors:factors_mob} padding={0} />
       <Reviews data={reviews} />
       <ContactUs />
     </>
