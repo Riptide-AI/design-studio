@@ -58,7 +58,7 @@ const generateSitemap = async () => {
   for (let lang of languages) {
     paths.forEach((path) => {
       const url = `${hostname}/${lang}${path.url}`; // Prefix each path with language code
-      smStream.write({ url, changefreq: 'yearly', priority: 1 });
+      smStream.write({ url, changefreq: 'monthly', priority: 1 });
     });
   }
 
